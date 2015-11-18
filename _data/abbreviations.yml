@@ -4,6 +4,7 @@ aandc-aadnc: Aboriginal Affairs and Northern Development Canada
 acoa-apeca: Atlantic Canada Opportunities Agency
 aecl-eacl: Atomic Energy of Canada Limited
 ahrc-pac: Assisted Human Reproduction Canada
+apa: Atlantic Pilotage Authority Canada
 apfc-fapc: Asia-Pacific Foundation of Canada
 atssc-scdata: Administrative Tribunals Support Service of Canada
 bc: Bank of Canada
@@ -21,6 +22,8 @@ cdev: Canada Development Investment Corporation
 cdic-sadc: Canada Deposit Insurance Corporation
 ceaa-acee: Canadian Environmental Assessment Agency
 ced-dec: Canada Economic Development for Quebec Regions
+ceifb-ofaec: Canada Employment Insurance Financing Board
+ceria-acire: Canada Emission Reduction Incentives Agency
 cfia-acia: Canadian Food Inspection Agency
 cgc-ccg: Canadian Grain Commission
 chrc-ccdp: Canadian Human Rights Commission
@@ -64,6 +67,7 @@ fntc-cfpn: First Nations Tax Commission
 fpcc-cpac: Farm Products Council of Canada
 glpa-apgl: Great Lakes Pilotage Authority Canada
 hc-sc: Health Canada
+hrtc-tdpc: Human Rights Tribunal of Canada
 ic: Industry Canada
 idrc-crdi: International Development Research Centre
 infc: Infrastructure Canada
@@ -78,6 +82,7 @@ mint-monnaie: Royal Canadian Mint
 mpa-apm: Montreal Port Authority
 mpcc-cppm: Military Police Complaints Commission of Canada
 nac-cna: National Arts Centre
+nbc-ccbn: The National Battlefields Commission
 ncc-ccn: National Capital Commission
 ndcfo-odnfc: National Defence and Canadian Forces Ombudsman
 neb-one: National Energy Board
@@ -93,6 +98,7 @@ ocol-clo: Office of the Commissioner of Official Languages
 oic-ci: Office of the Information Commissioner of Canada
 osfi-bsif: Office of the Superintendent of Financial Institutions Canada
 papa-appa: Port Alberni Port Authority
+pb: Port of Belledune
 pbc-clcc: Parole Board of Canada
 pc: Parks Canada
 pch: Canadian Heritage
@@ -104,17 +110,23 @@ ppsc-sppc: Public Prosecution Service of Canada
 pptc: Passport Canada
 ps-sp: Public Safety Canada
 psc-cfp: Public Service Commission of Canada
+psdptc-tpfdc: Public Servants Disclosure Protection Tribunal Canada
 pshcp-rssfp: Public Service Health Care Plan
 psi: Port of Sept-Iles
 psic-ispc: Office of the Public Sector Integrity Commissioner of Canada
 pslrb-crtfp: Public Service Labour Relations Board
 pspib-oirpsp: Public Sector Pension Investment Board
-ptr: Port of Trois-Rivières
+ptr: !binary |-
+  UG9ydCBvZiBUcm9pcy1SaXZpw6hyZXM=
 pwgsc-tpsgc: Public Works and Government Services Canada
 rcmp-grc: Royal Canadian Mounted Police
+ri: Revera Inc.
 scc-ccn: Standards Council of Canada
+sct-trp: Registry of the Specific Claims Tribunal of Canada
 sdtc-tddc: Sustainable Development Technology Canada
+sibc-cpivml: The Seaway International Bridge Corporation
 sirc-csars: Security Intelligence Review Committee
+spa-aps: Saguenay Port Authority
 ssc-spc: Shared Services Canada
 sshrc-crsh: Social Sciences and Humanities Research Council of Canada
 statcan: Statistics Canada
@@ -129,3 +141,4 @@ viarail: VIA Rail Canada Inc.
 vrab-tacra: Veterans Review and Appeal Board
 wd-deo: Western Economic Diversification Canada
 yesab-oeesy: Yukon Environmental and Socio-economic Assessment Board
+ysrb-odsy: Yukon Surface Rights Board
