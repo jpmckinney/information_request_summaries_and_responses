@@ -8,12 +8,11 @@ require 'safe_yaml'
 SafeYAML::OPTIONS[:default_mode] = :safe
 
 def client
-  @client ||= Pupa::Processor::Client.new(cache_dir: File.expand_path('_cache', Dir.pwd), expires_in: 86400)
+  @client ||= Pupa::Processor::Client.new(cache_dir: File.expand_path('_cache', Dir.pwd), expires_in: 604800) # 1 week
 end
 
 output_dir = File.expand_path('_data', Dir.pwd)
-
-URLS = YAML.load(File.read(File.join('_data', 'urls.yml')))
+URLS = YAML.load(File.read(File.join(output_dir, 'urls.yml')))
 
 def parse(url)
   document = client.get(url).body
@@ -29,9 +28,9 @@ def parse(url)
       end
     end
   end
+
   link = document.at_xpath('//li[@class="next"]//@href')
   if link
-    print '.'
     parse("http://open.canada.ca#{link.value}")
   end
 end
