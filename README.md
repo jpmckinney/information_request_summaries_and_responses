@@ -6,6 +6,6 @@ rake abbreviations > _data/abbreviations.yml
 rake emails:coordinators_page > _data/emails_coordinators_page.yml
 rake emails:search_page > _data/emails_search_page.yml
 rake emails:compare
-rake urls > _data/urls.yml
-ruby scraper.rb
+rake urls:get > _data/urls.yml
+rake urls:validate
 ```
