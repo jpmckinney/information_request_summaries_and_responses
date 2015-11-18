@@ -39,4 +39,5 @@ def parse(url)
   end
 end
 
-parse('http://open.canada.ca/en/search/ati')
+url = 'http://open.canada.ca/en/search/ati'
+parse(url)

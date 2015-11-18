@@ -229,6 +229,7 @@ task :urls do
   CSV.parse(client.get(url).body.force_encoding('utf-8'), headers: true) do |row|
     row_number += 1
 
+    # The informal request URLs don't make this correction.
     if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
       row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
     end
@@ -236,7 +237,7 @@ task :urls do
     assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
       row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
     }
-    assert("#{row_number}: expected '|' in Org: #{row['Org']}"){
+    assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
       row['Org'][/ [|-] /]
     }
 
