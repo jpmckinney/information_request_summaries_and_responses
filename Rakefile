@@ -153,7 +153,7 @@ namespace :emails do
     mismatches = {}
 
     CSV.open('_data/mismatches.csv', 'w') do |csv|
-      csv << ['Org id', 'Search page', 'Coordinators page']
+      csv << ['Org id', 'Org', 'Search page', 'Coordinators page']
 
       url = 'http://open.canada.ca/en/search/ati'
       client.get(url).body.xpath('//ul[@id="facetapi-facet-apachesolrsolr-0-block-ss-ati-organization-en"]//a').each do |a|
@@ -170,7 +170,7 @@ namespace :emails do
           expected = emails.fetch(id)
           actual = normalize_email(href.value.match(/email=([^&]+)/)[1])
           unless expected == actual
-            csv << [expected, actual]
+            csv << [id, name, expected, actual]
           end
         else
           $stderr.puts "expected #{a.xpath('./span[@class="badge"]').text} summaries at #{url}"
