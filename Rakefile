@@ -255,11 +255,14 @@ task :urls do
       if [:disp, :email, :org, :req_num].include?(key)
         "#{CGI.escape(key.to_s)}=#{value.to_s}"
       else
-        "#{CGI.escape(key.to_s)}=#{CGI.escape(CGI.escapeHTML(value.to_s).gsub('&#39;', '&#039;'))}".
+        value = value.to_s.gsub(/\r\n?/, "\n")
+        value = CGI.escapeHTML(value).
+          gsub('&#39;', '&#039;')
+        "#{CGI.escape(key.to_s)}=#{CGI.escape(value)}".
           gsub('+', '%20').
+          gsub('%07', '').
           gsub('%2F', '/').
-          gsub('%7E', '~').
-          gsub('%0D', '%0A')
+          gsub('%7E', '~')
       end
     end * '&'
 
