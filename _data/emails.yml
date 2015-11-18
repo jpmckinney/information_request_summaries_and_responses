@@ -1,9 +1,10 @@
 ---
 aafc-aac: atip-aiprp@agr.gc.ca
 aandc-aadnc: atip-aiprp@aadnc-aandc.gc.ca
-acoa-apeca: mailto:acoa.atip-aiprp.apeca@canada.ca
+acoa-apeca: acoa.atip-aiprp.apeca@canada.ca
 aecl-eacl: jboulais@aecl.ca
 ahrc-pac: amanda.wilson@hc-sc.gc.ca
+apa: pmacarthur@atlanticpilotage.com
 apfc-fapc: atip.coordinator@asiapacific.ca
 atssc-scdata: atip-aiprp@tribunal.gc.ca
 bc: atip-aiprp@bankofcanada.ca
@@ -21,6 +22,8 @@ cdev: atip-aiprp@cdev.gc.ca
 cdic-sadc: atip-aiprp@cdic.ca
 ceaa-acee: louise.guillemette@ceaa-acee.gc.ca
 ced-dec: nathalie.levesque@dec-ced.gc.ca
+ceifb-ofaec: phil.charko@ceifb-ofaec.ca
+ceria-acire: ecatip-ecaiprp@ec.gc.ca
 cfia-acia: atip-cfia-aiprp@inspection.gc.ca
 cgc-ccg: atip-aiprp@grainscanada.gc.ca
 chrc-ccdp: atip.aiprp@chrc-ccdp.gc.ca
@@ -28,7 +31,7 @@ cic: atip-aiprp@cic.gc.ca
 cirb-ccri: atip-aiprp@tribunal.gc.ca
 citt-tcce: atip-aiprp@tribunal.gc.ca
 clcl-sicl: gbarker@clc.ca
-cmc-mcc: mailto:chrissie.unterhoffer@museedelhistoire.ca
+cmc-mcc: chrissie.unterhoffer@museedelhistoire.ca
 cmhc-schl: atip-aiprp@cmhc-schl.gc.ca
 cmhr-mcdp: atip@museumforhumanrights.ca
 cmip-mciq: atip-aiprp@pier21.ca
@@ -64,6 +67,7 @@ fntc-cfpn: atip@fntc.ca
 fpcc-cpac: atip-aiprp@agr.gc.ca
 glpa-apgl: kpecore@glpa-apgl.com
 hc-sc: atip-aiprp@hc-sc.gc.ca
+hrtc-tdpc: atip-aiprp@tribunal.gc.ca
 ic: ic.atip-aiprp.ic@canada.ca
 idrc-crdi: atip-aiprp@idrc.ca
 infc: sylvie.plourde@infc.gc.ca
@@ -78,6 +82,7 @@ mint-monnaie: atip@mint.ca
 mpa-apm: wellsv@port-montreal.com
 mpcc-cppm: sylvain.roy@mpcc-cppm.gc.ca
 nac-cna: cmartin@nac-cna.ca
+nbc-ccbn: andre.beaudet@ccbn-nbc.gc.ca
 ncc-ccn: atip-aiprp@ncc-ccn.ca
 ndcfo-odnfc: ombudsman-atip-aiprp-dndcf@forces.gc.ca
 neb-one: atipoffice-bureauaiprp@neb-one.gc.ca
@@ -93,6 +98,7 @@ ocol-clo: atip-aiprp@ocol-clo.gc.ca
 oic-ci: atip-services-aiprp@ci-oic.gc.ca
 osfi-bsif: atip.aiprp@osfi-bsif.gc.ca
 papa-appa: dstubbs@alberniport.ca
+pb: doucett@portofbelledune.ca
 pbc-clcc: atip-aiprp@pbc-clcc.gc.ca
 pc: aiprp.atip@pc.gc.ca
 pch: aiprp.atip@pch.gc.ca
@@ -104,6 +110,7 @@ ppsc-sppc: atip-aiprp@ppsc-sppc.gc.ca
 pptc: atip-aiprp@cic.gc.ca
 ps-sp: atip-aiprp@ps-sp.gc.ca
 psc-cfp: cfp.aiprp-atip.psc@cfp-psc.gc.ca
+psdptc-tpfdc: atip-aiprp@tribunal.gc.ca
 pshcp-rssfp: atip-aiprp@pshcp.ca
 psi: pkeays@portsi.com
 psic-ispc: duquette.france@psic-ispc.gc.ca
@@ -112,9 +119,13 @@ pspib-oirpsp: info@investpsp.ca
 ptr: forcier@porttr.com
 pwgsc-tpsgc: aiprp.atip@tpsgc-pwgsc.gc.ca
 rcmp-grc: atipb@rcmp-grc.gc.ca
+ri: info@investpsp.ca
 scc-ccn: donna.graser@scc.ca
+sct-trp: atip-aiprp@tribunal.gc.ca
 sdtc-tddc: g.cartwright@sdtc.ca
+sibc-cpivml: jpigeon@federalbridge.ca
 sirc-csars: info@sirc-csars.gc.ca
+spa-aps: info@portsaguenay.ca
 ssc-spc: atip-aiprp@ssc-spc.gc.ca
 sshrc-crsh: atip-aiprp@sshrc-crsh.gc.ca
 statcan: atip-aiprp@statcan.gc.ca
@@ -129,3 +140,4 @@ viarail: jean-francois_legault@viarail.ca
 vrab-tacra: vrab-atip_tacra-aiprp@vrab-tacra.gc.ca
 wd-deo: atip-aiprp@wd-deo.gc.ca
 yesab-oeesy: yesab@yesab.ca
+ysrb-odsy: info@yukonsurfacerights.com
