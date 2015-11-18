@@ -25,7 +25,7 @@ def parse(url)
         expected = URLS.fetch("#{organization}-#{number}")
         actual = div.at_xpath('.//@href').value.sub(/(?<=email=)(.+)/){$1.downcase}
         unless actual == expected
-          puts "#{expected} expected, got\n#{actual}"
+          puts "#{expected.inspect} expected, got\n#{actual.inspect}"
         end
       rescue KeyError => e
         puts e
@@ -40,4 +40,5 @@ def parse(url)
 end
 
 url = 'http://open.canada.ca/en/search/ati'
+# url = 'http://open.canada.ca/en/search/ati?keyword=&page=2819'
 parse(url)

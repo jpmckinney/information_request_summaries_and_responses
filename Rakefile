@@ -260,21 +260,23 @@ task :urls do
 
     # The government has very creative URL escaping.
     query = params.map do |key,value|
+      value = value.to_s.
+        gsub(/\r\n?/, "\n").
+        gsub("\a", '') # alarm
+
       if [:disp, :email, :org, :req_num].include?(key)
-        "#{CGI.escape(key.to_s)}=#{value.to_s}"
+        "#{CGI.escape(key.to_s)}=#{value}"
       else
-        value = value.to_s.gsub(/\r\n?/, "\n")
         value = CGI.escapeHTML(value).
           gsub('&#39;', '&#039;')
         "#{CGI.escape(key.to_s)}=#{CGI.escape(value)}".
           gsub('+', '%20').
-          gsub('%07', '').
           gsub('%2F', '/').
           gsub('%7E', '~')
       end
     end * '&'
 
-    output["#{organization}-#{number}"] = "/forms/contact-ati-org?#{query}"
+    output["#{organization}-#{number.to_s.gsub(/\r\n?/, "\n")}"] = "/forms/contact-ati-org?#{query}"
   end
 
   puts YAML.dump(output)
