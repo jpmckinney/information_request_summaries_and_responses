@@ -13,7 +13,7 @@ def assert(message)
 end
 
 def client
-  @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 86400, level: 'WARN')
+  @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 604800, level: 'WARN') # 1 week
 end
 
 def load_yaml(basename)
@@ -250,11 +250,16 @@ task :urls do
       email: emails.fetch(row.fetch('Org id')),
     }
 
+    # The government has very creative URL escaping.
     query = params.map do |key,value|
-      if [:org, :disp, :email].include?(key)
-        "#{CGI.escape(key.to_s)}=#{value.to_s}".gsub('+', '%20')
+      if [:disp, :email, :org, :req_num].include?(key)
+        "#{CGI.escape(key.to_s)}=#{value.to_s}"
       else
-        "#{CGI.escape(key.to_s)}=#{CGI.escape(value.to_s).sub('%2F', '/')}".gsub('+', '%20')
+        "#{CGI.escape(key.to_s)}=#{CGI.escape(CGI.escapeHTML(value.to_s).gsub('&#39;', '&#039;'))}".
+          gsub('+', '%20').
+          gsub('%2F', '/').
+          gsub('%7E', '~').
+          gsub('%0D', '%0A')
       end
     end * '&'
 
