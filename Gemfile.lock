@@ -40,6 +40,7 @@ GEM
       oj (~> 2.1)
       pg (~> 0.17.0)
       sequel (~> 4.10.0)
+    safe_yaml (1.0.4)
     sequel (4.10.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -52,6 +53,7 @@ PLATFORMS
 DEPENDENCIES
   nokogiri
   pupa
+  safe_yaml
   unicode_utils
 
 BUNDLED WITH
