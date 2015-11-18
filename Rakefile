@@ -212,6 +212,12 @@ end
 
 desc 'Prints URLs to forms'
 task :urls do
+  corrections = {
+    # Web => CSV
+    'Canada Science and Technology Museums Corporation' => 'Canada Science and Technology Museum',
+    'Commission for Public Complaints Against the RCMP' => 'Civilian Review and Complaints Commission for the RCMP',
+  }
+
   output = {}
 
   dispositions = load_yaml('dispositions.yml')
@@ -235,6 +241,7 @@ task :urls do
     }
 
     organization = row.fetch('Org').split(/ [|-] /)[0]
+    organization = corrections.fetch(organization, organization)
     number = row.fetch('Request Number / Numero de la demande')
     pages = Integer(row['Number of Pages / Nombre de pages'])
 
