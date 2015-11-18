@@ -9,6 +9,12 @@ require 'unicode_utils/downcase'
 
 SafeYAML::OPTIONS[:default_mode] = :safe
 
+CORRECTIONS = {
+  # Web => CSV
+  'Canada Science and Technology Museum' => 'Canada Science and Technology Museums Corporation',
+  'Civilian Review and Complaints Commission for the RCMP' => 'Commission for Public Complaints Against the RCMP',
+}
+
 def assert(message)
   raise message unless yield
 end
@@ -146,11 +152,7 @@ namespace :emails do
 
   desc 'Print emails from the search page'
   task :search_page do
-    corrections = {
-      # Web => CSV
-      'Canada Science and Technology Museum' => 'Canada Science and Technology Museums Corporation',
-      'Civilian Review and Complaints Commission for the RCMP' => 'Commission for Public Complaints Against the RCMP',
-    }
+    corrections = CORRECTIONS
 
     output = {}
     xpath = '//a[@title="Contact this organization about this ATI Request."]/@href'
@@ -214,11 +216,7 @@ end
 namespace :urls do
   desc 'Prints URLs to forms'
   task :get do
-    corrections = {
-      # Web => CSV
-      'Canada Science and Technology Museums Corporation' => 'Canada Science and Technology Museum',
-      'Commission for Public Complaints Against the RCMP' => 'Civilian Review and Complaints Commission for the RCMP',
-    }
+    corrections = CORRECTIONS.invert
 
     output = {}
 
@@ -321,4 +319,34 @@ namespace :urls do
     # url = 'http://open.canada.ca/en/search/ati?keyword=&page=2819'
     parse(url)
   end
+end
+
+desc 'Prints histogram data'
+task :histogram do
+  counts = Hash.new(0)
+
+  url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
+  CSV.parse(client.get(url).body, headers: true) do |row|
+    if Integer(row['Number of Pages / Nombre de pages']).nonzero?
+      counts[row.fetch('Org id')] += 1
+    end
+  end
+
+  puts <<-END
+install.packages("ggplot2")
+library(ggplot2)
+dat <- data.frame(id = c(#{counts.keys.map{|k| %("#{k}")}.join(', ')}), count = c(#{counts.values.map(&:to_s).join(', ')}))
+head(dat)
+ggplot(dat, aes(x=count)) + geom_histogram(binwidth=50) + scale_y_sqrt()
+END
+
+  total = counts.size.to_f
+  values = counts.values
+  minimum = 0
+  [10, 25, 50, 100, 250, 500, 1_000, 1_000_000].each do |maximum,message|
+    count = values.count{|value| value > minimum && value <= maximum}
+    puts '%d (%d%%) %d-%d' % [count, (count / total * 100).round, minimum + 1, maximum]
+    minimum = maximum
+  end
+  puts total.to_i
 end

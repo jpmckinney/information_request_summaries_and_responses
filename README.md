@@ -8,4 +8,5 @@ rake emails:search_page > _data/emails_search_page.yml
 rake emails:compare
 rake urls:get > _data/urls.yml
 rake urls:validate
+rake histogram
 ```
