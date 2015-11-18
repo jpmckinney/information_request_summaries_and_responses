@@ -16,6 +16,10 @@ def client
   @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 86400, level: 'WARN')
 end
 
+def load_yaml(basename)
+  YAML.load(File.read(File.join('_data', basename)))
+end
+
 desc 'Prints Federal Identity Program names'
 task :federal_identity_program do
   output = {}
@@ -60,8 +64,8 @@ namespace :emails do
     string.gsub(/mailto:/, '').downcase
   end
 
-  desc 'Print emails'
-  task :get do
+  desc 'Print emails from the coordinators page'
+  task :coordinators_page do
     def normalize_name(string)
       UnicodeUtils.downcase(string).strip.
         sub(/\Aport of (.+)/, '\1 port authority'). # word order
@@ -80,7 +84,7 @@ namespace :emails do
       UnicodeUtils.downcase(string[/\((?:see)? *([^)]+)/, 1].to_s)
     end
 
-    corrections = YAML.load(File.read('_data/federal_identity_program.yml')).merge({
+    corrections = load_yaml('federal_identity_program.yml').merge({
       # Web => CSV
       'Civilian Review and Complaints Commission for the Royal Canadian Mounted Police' => 'Commission for Public Complaints Against the RCMP',
       'Federal Public Service Health Care Plan Administration Authority' => 'Public Service Health Care Plan',
@@ -99,8 +103,9 @@ namespace :emails do
     errors = {}
     mapping = {}
 
+    abbreviations = load_yaml('abbreviations.yml')
     names = {}
-    abbreviations = YAML.load(File.read('_data/abbreviations.yml'))
+
     abbreviations.each do |id,name|
       output[id] ||= nil # easier to see which are missing
       names[normalize_name(corrections.fetch(name, name))] = id
@@ -138,42 +143,67 @@ namespace :emails do
     puts YAML.dump(Hash[*output.sort_by(&:first).flatten])
   end
 
-  desc 'Validates emails'
-  task :validate do
+  desc 'Print emails from the search page'
+  task :search_page do
     corrections = {
       # Web => CSV
       'Canada Science and Technology Museum' => 'Canada Science and Technology Museums Corporation',
       'Civilian Review and Complaints Commission for the RCMP' => 'Commission for Public Complaints Against the RCMP',
     }
 
+    output = {}
     xpath = '//a[@title="Contact this organization about this ATI Request."]/@href'
 
-    names = YAML.load(File.read('_data/abbreviations.yml')).invert
-    emails = YAML.load(File.read('_data/emails.yml'))
-    mismatches = {}
+    abbreviations = load_yaml('abbreviations.yml')
+    names = abbreviations.invert
 
-    CSV.open('_data/mismatches.csv', 'w') do |csv|
-      csv << ['Org id', 'Org', 'Search page', 'Coordinators page']
+    abbreviations.each do |id,name|
+      output[id] ||= nil # easier to see which are missing
+    end
 
-      url = 'http://open.canada.ca/en/search/ati'
-      client.get(url).body.xpath('//ul[@id="facetapi-facet-apachesolrsolr-0-block-ss-ati-organization-en"]//a').each do |a|
-        url = "http://open.canada.ca#{a[:href]}"
-        document = client.get(url).body
-        href = document.at_xpath(xpath)
+    url = 'http://open.canada.ca/en/search/ati'
+    client.get(url).body.xpath('//ul[@id="facetapi-facet-apachesolrsolr-0-block-ss-ati-organization-en"]//a').each do |a|
+      url = "http://open.canada.ca#{a[:href]}"
+      document = client.get(url).body
+      href = document.at_xpath(xpath)
+
+      unless href
         link = document.at_xpath('//li[@class="next"]//@href')
-        if href.nil? && link
+        if link
           href = client.get("http://open.canada.ca#{link.value}").body.at_xpath(xpath)
         end
-        if href
-          name = a.xpath('./text()').text.strip
-          id = names.fetch(corrections.fetch(name, name))
-          expected = emails.fetch(id)
-          actual = normalize_email(href.value.match(/email=([^&]+)/)[1])
-          unless expected == actual
-            csv << [id, name, expected, actual]
-          end
+      end
+
+      if href
+        name = a.xpath('./text()').text.strip
+        id = names.fetch(corrections.fetch(name, name))
+        value = normalize_email(href.value.match(/email=([^&]+)/)[1])
+        if output[id]
+          assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
         else
-          $stderr.puts "expected #{a.xpath('./span[@class="badge"]').text} summaries at #{url}"
+          output[id] = value
+        end
+      else
+        $stderr.puts "expected #{a.xpath('./span[@class="badge"]').text} summaries at #{url}"
+      end
+    end
+
+    puts YAML.dump(output)
+  end
+
+  desc 'Compares emails from different sources'
+  task :compare do
+    abbreviations = load_yaml('abbreviations.yml')
+    coordinators_page = load_yaml('emails_coordinators_page.yml')
+    search_page = load_yaml('emails_search_page.yml')
+
+    CSV.open(File.join('_data', 'mismatches.csv'), 'w') do |csv|
+      csv << ['Org id', 'Org', 'Coordinators page', 'Search page']
+      coordinators_page.each do |id,email_coordinators_page|
+        name = abbreviations.fetch(id)
+        email_search_page = search_page.fetch(id)
+        unless email_search_page.nil? || email_coordinators_page == email_search_page
+          csv << [id, name, email_coordinators_page, email_search_page]
         end
       end
     end
