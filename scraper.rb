@@ -21,10 +21,14 @@ def parse(url)
     unless panel_heading.text == 'N/A'
       organization = div.at_xpath('./div[@class="panel-body"]//span').text
       number = panel_heading.at_xpath('.//span').text
-      expected = URLS.fetch("#{organization}-#{number}")
-      actual = div.at_xpath('.//@href').value.sub(/(?<=email=)(.+)/){$1.downcase}
-      unless actual == expected
-        puts "#{expected} expected, got\n#{actual}"
+      begin
+        expected = URLS.fetch("#{organization}-#{number}")
+        actual = div.at_xpath('.//@href').value.sub(/(?<=email=)(.+)/){$1.downcase}
+        unless actual == expected
+          puts "#{expected} expected, got\n#{actual}"
+        end
+      rescue KeyError => e
+        puts e
       end
     end
   end
