@@ -209,3 +209,57 @@ namespace :emails do
     end
   end
 end
+
+desc 'Prints URLs to forms'
+task :urls do
+  output = {}
+
+  dispositions = load_yaml('dispositions.yml')
+  re = "(?:#{dispositions.join('|')})"
+  emails = load_yaml('emails_search_page.yml')
+
+  row_number = 1
+  url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
+  CSV.parse(client.get(url).body.force_encoding('utf-8'), headers: true) do |row|
+    row_number += 1
+
+    if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
+      row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
+    end
+
+    assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
+      row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
+    }
+    assert("#{row_number}: expected '|' in Org: #{row['Org']}"){
+      row['Org'][/ [|-] /]
+    }
+
+    organization = row.fetch('Org').split(/ [|-] /)[0]
+    number = row.fetch('Request Number / Numero de la demande')
+    pages = Integer(row['Number of Pages / Nombre de pages'])
+
+    params = {
+      org: organization,
+      req_num: number,
+      disp: row.fetch('Disposition').to_s.split(%r{ / })[0],
+      year: Integer(row.fetch('Year / Année')),
+      month: Date.new(2000, Integer(row.fetch('Month / Mois (1-12)')), 1).strftime('%B'),
+      pages: pages,
+      req_sum: row.fetch('English Summary / Sommaire de la demande en anglais'),
+      req_pages: pages,
+      email: emails.fetch(row.fetch('Org id')),
+    }
+
+    query = params.map do |key,value|
+      if [:org, :disp, :email].include?(key)
+        "#{CGI.escape(key.to_s)}=#{value.to_s}".gsub('+', '%20')
+      else
+        "#{CGI.escape(key.to_s)}=#{CGI.escape(value.to_s).sub('%2F', '/')}".gsub('+', '%20')
+      end
+    end * '&'
+
+    output["#{organization}-#{number}"] = "/forms/contact-ati-org?#{query}"
+  end
+
+  puts YAML.dump(output)
+end
