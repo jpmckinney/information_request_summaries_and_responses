@@ -7,6 +7,5 @@ rake emails:coordinators_page > _data/emails_coordinators_page.yml
 rake emails:search_page > _data/emails_search_page.yml
 rake emails:compare
 rake urls > _data/urls.yml
-rm -f _data/urls.yml
 ruby scraper.rb
 ```
