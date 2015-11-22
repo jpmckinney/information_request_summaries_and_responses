@@ -24,7 +24,7 @@ def client
 end
 
 def load_yaml(basename)
-  YAML.load(File.read(File.join('_data', basename)))
+  YAML.load(File.read(File.join('data', basename)))
 end
 
 Dir['tasks/*.rake'].each { |r| import r }
