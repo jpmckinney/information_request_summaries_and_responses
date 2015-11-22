@@ -1,12 +1,47 @@
-```
-curl -O http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv
-curl -O http://open.canada.ca/vl/dataset/ati/resource/91a195c7-6985-4185-a357-b067b347333c/download/atinone.csv
-rake federal_identity_program > data/federal_identity_program.yml
-rake abbreviations > data/abbreviations.yml
-rake emails:coordinators_page > data/emails_coordinators_page.yml
-rake emails:search_page > data/emails_search_page.yml
-rake emails:compare
-rake urls:get > data/urls.yml
-rake urls:validate
-rake histogram
-```
+Get the alternate names of organizations to make corrections:
+
+    rake federal_identity_program > data/federal_identity_program.yml
+
+Get the abbreviations of organizations to match across datasets:
+
+    rake abbreviations > data/abbreviations.yml
+
+Get organizations' emails from the ATI coordinators page:
+
+    rake emails:coordinators_page > data/emails_coordinators_page.yml
+
+Get organizations' emails from the ATI summaries page:
+
+    rake emails:search_page > data/emails_search_page.yml
+
+Compare organizations' emails from different sources:
+
+    rake emails:compare
+
+Construct the URL of the web form of each request:
+
+    rake urls:get > data/urls.yml
+
+Compare the constructed URLs to the ATI summaries page's URLs:
+
+    rake urls:validate
+
+Build a histogram of number of requests per organization:
+
+    rake histogram
+
+Search for datasets across multiple catalogs with Namara.io:
+
+    query="access to information" rake datasets:search
+
+Download ATI summaries from catalogs:
+
+    rake datasets:download
+
+Download the metadata for ATI responses from BC:
+
+    ruby bc_scraper.rb
+
+Download the attachments for ATI responses from BC:
+
+    ruby bc_scraper.rb -a download
