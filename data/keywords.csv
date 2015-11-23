@@ -1,22 +1,22 @@
 keyword,division_id
-ATI
+ATI,
 ATIP,ocd-division/country:ca
-ATIPP
+ATIPP,
 ATIPPA,ocd-division/country:ca/province:nl
 CAI,ocd-division/country:ca/province:qc
-FIPPA
-FOI
+FIPPA,
+FOI,
 FOIP,ocd-division/country:ca/province:ab
 FOIPOP,ocd-division/country:ca/province:ns
-FOIPP
+FOIPP,
 FOIPPA,ocd-division/country:ca/province:bc
-IPC
+IPC,
 MFIPPA,ocd-division/country:ca/province:on
-OIPC
+OIPC,
 RTI,ocd-division/country:ca/province:nb
 RTIPP,ocd-division/country:ca/province:nb
 RTIPPA,ocd-division/country:ca/province:nb
-access to information
+access to information,
 accès aux documents,ocd-division/country:ca/province:qc
-freedom of information
+freedom of information,
 right to information,ocd-division/country:ca/province:nb
