@@ -132,7 +132,7 @@ namespace :emails do
     coordinators_page = load_yaml('emails_coordinators_page.yml')
     search_page = load_yaml('emails_search_page.yml')
 
-    CSV.open(File.join('data', 'mismatches.csv'), 'w') do |csv|
+    CSV.open(File.join('support', 'mismatches.csv'), 'w') do |csv|
       csv << ['Org id', 'Org', 'Coordinators page', 'Search page']
       coordinators_page.each do |id,email_coordinators_page|
         name = abbreviations.fetch(id)
