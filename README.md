@@ -1,3 +1,20 @@
+## Data
+
+<dl>
+<dt>[statutes.csv](/blob/master/data/statutes.csv)</dt>
+<dd>In Canada, the provinces and territoris have their own freedom of information and protection of privacy acts, and corresponding terms and acronyms.</dd>
+</dl>
+
+### Other Resources
+
+* [Centre for Law and Democracy's Canadan RTI Rating](http://www.law-democracy.org/live/global-rti-rating/canadian-rti-rating/) (federal, provincial, territorial)
+* [Newspapers Canada's FOI Audit](http://www.newspaperscanada.ca/FOI) (federal, provincial, territorial, municipal)
+* [Global Right to Information Rating](http://www.rti-rating.org/) (federal)
+
+## Scripts
+
+### Canada
+
 Get the alternate names of organizations to make corrections:
 
     rake federal_identity_program > support/federal_identity_program.yml
@@ -37,6 +54,8 @@ Search for datasets across multiple catalogs with Namara.io:
 Download ATI summaries from catalogs:
 
     rake datasets:download
+
+### British Columbia
 
 Download the metadata for ATI responses from BC:
 
