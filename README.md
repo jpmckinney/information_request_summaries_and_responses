@@ -1,17 +1,6 @@
-## Data
+# Information Request Summaries and Responses
 
-<dl>
-<dt><a href="/data/statutes.csv">statutes.csv</a></dt>
-<dd>The names and URLs of all current freedom of information statutes in Canada.</dd>
-<dt><a href="/data/keywords.csv">keywords.csv</a></dt>
-<dd>The keywords used to refer to freedom of information in Canada.</dd>
-</dl>
-
-### Resources
-
-* [Centre for Law and Democracy's Canadan RTI Rating](http://www.law-democracy.org/live/global-rti-rating/canadian-rti-rating/) (federal, provincial, territorial)
-* [Newspapers Canada's FOI Audit](http://www.newspaperscanada.ca/FOI) (federal, provincial, territorial, municipal)
-* [Global Right to Information Rating](http://www.rti-rating.org/) (federal)
+All government bodies in Canada are subject to some freedom of information statute. Some bodies publish summaries of completed information requests. Fewer publish responses to completed information requests. This repository contains scripts for aggregating what is available.
 
 ## Scripts
 
@@ -66,6 +55,21 @@ Download the metadata for responses from BC:
 Download the attachments for responses from BC:
 
     ruby bc_scraper.rb -a download
+
+## Reference
+
+<dl>
+<dt><a href="/data/statutes.csv">statutes.csv</a></dt>
+<dd>The names and URLs of all current freedom of information statutes in Canada.</dd>
+<dt><a href="/data/keywords.csv">keywords.csv</a></dt>
+<dd>The keywords used to refer to freedom of information in Canada.</dd>
+</dl>
+
+### Resources
+
+* [Centre for Law and Democracy's Canadan RTI Rating](http://www.law-democracy.org/live/global-rti-rating/canadian-rti-rating/) (federal, provincial, territorial)
+* [Newspapers Canada's FOI Audit](http://www.newspaperscanada.ca/FOI) (federal, provincial, territorial, municipal)
+* [Global Right to Information Rating](http://www.rti-rating.org/) (federal)
 
 ## Nomenclature
 
