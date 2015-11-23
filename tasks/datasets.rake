@@ -71,12 +71,12 @@ namespace :datasets do
       end
     end
 
-    # url = 'http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD'
-    # client.get(url).body.xpath('//div[@class="panel-body"]//@href').each do |href|
-    #   path = href.value
-    #   File.open(File.join(paths['ca_on_toronto'], File.basename(path)), 'w') do |f|
-    #     f.write(client.get("http://www1.toronto.ca#{URI.escape(path)}").body)
-    #   end
-    # end
+    url = 'http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD'
+    client.get(url).body.xpath('//div[@class="panel-body"]//@href').each do |href|
+      path = href.value
+      File.open(File.join(paths['ca_on_toronto'], File.basename(path)), 'w') do |f|
+        f.write(client.get("http://www1.toronto.ca#{URI.escape(path)}").body)
+      end
+    end
   end
 end
