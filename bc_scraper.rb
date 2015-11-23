@@ -1,9 +1,12 @@
 require 'nokogiri'
+require 'faraday-cookie_jar'
 require 'pupa'
 
 require_relative 'utils'
 
-class ATIResponse
+Mongo::Logger.logger.level = Logger::WARN
+
+class InformationResponse
   include Pupa::Model
   include Pupa::Concerns::Timestamps
 
@@ -11,7 +14,7 @@ class ATIResponse
   dump :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
 
   def fingerprint
-    identifier
+    to_h.slice(:identifier)
   end
 
   def to_s
@@ -48,15 +51,23 @@ class BC < Pupa::Processor
     required_headers = headers.values - ['Files']
 
     # Set cookie.
-    get('http://www.openinfo.gov.bc.ca/')
+    get('http://openinfo.gov.bc.ca/')
     base_url = 'http://www.openinfo.gov.bc.ca/ibc/search/results.page?config=ibc&P110=dc.subject:FOI%20Request&P110=high_level_subject:FOI%20Request&sortid=1&rc=1&as_ft=i&as_filetype=html'
 
     # Set the URLs to scrape.
     years = if options.key?('date')
       year, month = options['date'].split('-', 2)
-      urls = [
-        "#{base_url}&P110=month:#{month}&P110=year:#{year}&size=100",
-      ]
+      if month
+        month.sub!(/\A0/, '')
+        urls = [
+          "#{base_url}&P110=month:#{month}&P110=year:#{year}&size=100",
+        ]
+      else
+        url = "#{base_url}&date=30"
+        urls = get(url).xpath("//select[@id='monthSort']/option[position() > 1]/@value[contains(., 'year:#{year}')]").map do |value|
+          "http://www.openinfo.gov.bc.ca#{value}&size=100"
+        end
+      end
     else
       url = "#{base_url}&date=30"
       urls = get(url).xpath('//select[@id="monthSort"]/option[position() > 1]/@value').map do |value|
@@ -142,9 +153,9 @@ class BC < Pupa::Processor
               assert("#{expected} expected for #{property}, got\n#{actual}"){actual == expected}
             end
 
-            dispatch(ATIResponse.new(list_properties.merge(detail_properties)))
+            dispatch(InformationResponse.new(list_properties.merge(detail_properties)))
           rescue NoMethodError => e
-            error(e)
+            error("#{list_properties[:url]}: #{e}")
           end
         end
 
@@ -171,4 +182,4 @@ BC.add_scraping_task(:responses)
 
 runner = Pupa::Runner.new(BC)
 runner.add_action(name: 'download', description: 'Download responses')
-runner.run(ARGV, faraday_options: {follow_redirects: true})
+runner.run(ARGV, faraday_options: {follow_redirects: {limit: 5}})
