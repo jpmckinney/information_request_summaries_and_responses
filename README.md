@@ -2,10 +2,22 @@
 
 <dl>
 <dt><a href="/data/statutes.csv">statutes.csv</a></dt>
-<dd>In Canada, the provinces and territoris have their own freedom of information and protection of privacy acts, and corresponding terms and acronyms.</dd>
+<dd>The names and URLs of all current freedom of information statutes in Canada.</dd>
+<dt><a href="/data/keywords.csv">keywords.csv</a></dt>
+<dd>The keywords used to refer to freedom of information in Canada.</dd>
 </dl>
 
-### Other Resources
+In terms of the prevalence of FOI versus ATI:
+
+* 7 jurisdictions have a Freedom of Information and Protection of Privacy Act (AB, BC, MB, NS, ON, PE, SK)
+* 4 Access to Information and Protection of Privacy Act (NL, NT, NU, YT)
+* 1 Access to Information Act (Canada)
+* 1 Right to Information and Protection of Privacy Act (NB)
+* 1 An Act respecting Access to Documents Held by Public Bodies and the Protection of Personal Information (QC)
+
+In other words, use whatever term you prefer.
+
+### Resources
 
 * [Centre for Law and Democracy's Canadan RTI Rating](http://www.law-democracy.org/live/global-rti-rating/canadian-rti-rating/) (federal, provincial, territorial)
 * [Newspapers Canada's FOI Audit](http://www.newspaperscanada.ca/FOI) (federal, provincial, territorial, municipal)
