@@ -25,11 +25,11 @@ Get the abbreviations of organizations to match across datasets:
 
     rake abbreviations > support/abbreviations.yml
 
-Get organizations' emails from the ATI coordinators page:
+Get organizations' emails from the coordinators page:
 
     rake emails:coordinators_page > support/emails_coordinators_page.yml
 
-Get organizations' emails from the ATI summaries page:
+Get organizations' emails from the search page:
 
     rake emails:search_page > support/emails_search_page.yml
 
@@ -37,15 +37,15 @@ Compare organizations' emails from different sources:
 
     rake emails:compare
 
-Construct the URL of the web form of each request:
+Construct the URL of the web form of each summary:
 
     rake urls:get > support/urls.yml
 
-Compare the constructed URLs to the ATI summaries page's URLs:
+Compare the constructed URLs to the search page's URLs:
 
     rake urls:validate
 
-Build a histogram of number of requests per organization:
+Build a histogram of number of summaries per organization:
 
     rake histogram
 
@@ -53,17 +53,17 @@ Search for datasets across multiple catalogs with Namara.io:
 
     query="access to information" rake datasets:search
 
-Download ATI summaries from catalogs:
+Download summaries from catalogs:
 
     rake datasets:download
 
 ### British Columbia
 
-Download the metadata for ATI responses from BC:
+Download the metadata for responses from BC:
 
     ruby bc_scraper.rb
 
-Download the attachments for ATI responses from BC:
+Download the attachments for responses from BC:
 
     ruby bc_scraper.rb -a download
 
