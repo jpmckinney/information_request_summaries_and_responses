@@ -6,7 +6,7 @@ All government bodies in Canada are subject to some freedom of information statu
 
 Search for datasets across multiple catalogs with Namara.io:
 
-    query="access to information" rake datasets:search
+    query="freedom of information" rake datasets:search
 
 Download summaries from catalogs:
 
