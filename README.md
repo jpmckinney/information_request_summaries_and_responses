@@ -56,6 +56,22 @@ Download the attachments for responses from BC:
 
     ruby bc_scraper.rb -a download
 
+[openinfo.bc.ca](http://www.openinfo.gov.bc.ca) performs unusual redirects which interact badly with the cache. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to delete the `_cache` directory. To avoid losing a scrape due to a late error, it is best to scrape and import one month at a time.
+
+    ruby bc_scraper.rb -- date 2011
+    for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
+    ruby bc_scraper.rb -- date 2015
+
+### Toronto
+
+Convert the Excel files to CSV files:
+
+    rake ca_on_toronto:excel_to_csv
+
+Stack the CSV files:
+
+    rake ca_on_toronto:stack
+
 ## Reference
 
 <dl>
@@ -67,9 +83,16 @@ Download the attachments for responses from BC:
 
 ### Resources
 
+Ratings:
+
 * [Centre for Law and Democracy's Canadan RTI Rating](http://www.law-democracy.org/live/global-rti-rating/canadian-rti-rating/) (federal, provincial, territorial)
 * [Newspapers Canada's FOI Audit](http://www.newspaperscanada.ca/FOI) (federal, provincial, territorial, municipal)
 * [Global Right to Information Rating](http://www.rti-rating.org/) (federal)
+
+Policies:
+
+* [Criteria for posting summaries of completed access to information requests](http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?section=text&id=18310#appE)
+* [Best Practices for Posting Summaries of Completed Access to Information Requests](http://www.tbs-sct.gc.ca/atip-aiprp/tools/bppscair-pepsdaic-eng.asp)
 
 ## Nomenclature
 
