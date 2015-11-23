@@ -1,7 +1,7 @@
 ## Data
 
 <dl>
-<dt><a href="/blob/master/data/statutes.csv">statutes.csv</a></dt>
+<dt><a href="/data/statutes.csv">statutes.csv</a></dt>
 <dd>In Canada, the provinces and territoris have their own freedom of information and protection of privacy acts, and corresponding terms and acronyms.</dd>
 </dl>
 
