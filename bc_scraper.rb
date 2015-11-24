@@ -178,7 +178,11 @@ class BC < Pupa::Processor
           response[property].each do |file|
             path = File.join(response['id'], file['title'])
             unless store.exist?(path)
-              store.write(path, get(URI.escape(file['url'])))
+              begin
+                store.write(path, get(URI.escape(file['url'])))
+              rescue Faraday::ResourceNotFound
+                warn("404 #{file['url']}")
+              end
             end
           end
         end
