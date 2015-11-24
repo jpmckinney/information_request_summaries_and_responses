@@ -52,7 +52,7 @@ Download the metadata for responses from BC:
 
     ruby bc_scraper.rb
 
-[openinfo.bc.ca](http://www.openinfo.gov.bc.ca) performs unusual redirects which seem to interact badly with the request cache. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to delete the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
+[openinfo.bc.ca](http://www.openinfo.gov.bc.ca) sometimes redirects to another page then back to the original page which then returns 200. However, the cache has already stored a 302 response for the original page; the script therefore reaches a redirect limit. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to delete the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
 
     for month in {7..12}; do echo 2011-$month; ruby bc_scraper.rb -q -- date 2011-$month; done
     for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
