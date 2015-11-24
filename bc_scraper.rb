@@ -14,11 +14,11 @@ class InformationResponse
   dump :id, :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
 
   def fingerprint
-    to_h.slice(:identifier)
+    to_h.slice(:id)
   end
 
   def to_s
-    identifier
+    id
   end
 end
 
@@ -86,12 +86,12 @@ class BC < Pupa::Processor
 
           # Get the response's properties from the list page.
           title = tds[0].text
-          url = "http://www.openinfo.gov.bc.ca#{tds[0].at_xpath('.//@href').value.strip}"
+          detail_url = "http://www.openinfo.gov.bc.ca#{tds[0].at_xpath('.//@href').value.strip}"
           list_properties = {
-            id: url.match(/\brecorduid:([^&]+)/)[1],
+            id: detail_url.match(/\brecorduid:([^&]+)/)[1],
             title: title,
             identifier: get_identifier(title),
-            url: url,
+            url: detail_url,
             description: tds[1].text.chomp('...'),
             issued: get_date(tds[2].text),
             ministry: tds[3].text,
