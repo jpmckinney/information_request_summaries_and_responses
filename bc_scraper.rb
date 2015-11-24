@@ -114,7 +114,8 @@ class BC < Pupa::Processor
                   lis.each do |li|
                     a = li.at_xpath('./a')
 
-                    detail_properties[property] = {
+                    detail_properties[property] ||= []
+                    detail_properties[property] << {
                       title: a.text,
                       url: a[:href],
                       byte_size: li.text.match(/\(([0-9.]+MB)\)/)[1],
@@ -156,6 +157,9 @@ class BC < Pupa::Processor
             dispatch(InformationResponse.new(list_properties.merge(detail_properties)))
           rescue NoMethodError => e
             error("#{list_properties[:url]}: #{e}")
+            unless e.message == "undefined method `xpath' for nil:NilClass"
+              error(e.backtrace.join("\n"))
+            end
           end
         end
 
@@ -166,7 +170,7 @@ class BC < Pupa::Processor
 
   def download
     store = DownloadStore.new(File.expand_path('downloads', Dir.pwd))
-    connection.raw_connection['responses'].find.each do |response|
+    connection.raw_connection['information_responses'].find.each do |response|
       ['letters', 'files'].each do |property|
         response[property].each do |file|
           unless store.exist?(file['title'])
