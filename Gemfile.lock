@@ -1,3 +1,26 @@
+GIT
+  remote: https://github.com/jpmckinney/json-schema.git
+  revision: 84012d872b21d9be584aeba16a3e7fae6c0ff11d
+  branch: register_format_validator
+  specs:
+    json-schema (2.5.1)
+      addressable (~> 2.3.8)
+
+GIT
+  remote: https://github.com/jpmckinney/pupa-ruby.git
+  revision: 46f26ee7b96312b0728fc2233f2909462338870d
+  specs:
+    pupa (0.2.2)
+      activesupport (~> 4.0)
+      colored (~> 1.2)
+      faraday_middleware (~> 0.10.0)
+      json-schema (~> 2.3)
+      mail
+      mongo (~> 2.0)
+      oj (~> 2.1)
+      pg (~> 0.17.0)
+      sequel (~> 4.10.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -23,13 +46,11 @@ GEM
       domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
-    json-schema (2.5.1)
-      addressable (~> 2.3.7)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.6.2)
+    mime-types (2.99)
     mini_portile (0.6.2)
-    minitest (5.8.2)
+    minitest (5.8.3)
     mongo (2.1.2)
       bson (~> 3.0)
     multipart-post (2.0.0)
@@ -37,16 +58,6 @@ GEM
       mini_portile (~> 0.6.0)
     oj (2.13.1)
     pg (0.17.1)
-    pupa (0.2.2)
-      activesupport (~> 4.0)
-      colored (~> 1.2)
-      faraday_middleware (~> 0.10.0)
-      json-schema (~> 2.3)
-      mail
-      mongo (~> 2.0)
-      oj (~> 2.1)
-      pg (~> 0.17.0)
-      sequel (~> 4.10.0)
     rake (10.4.2)
     safe_yaml (1.0.4)
     sequel (4.10.0)
@@ -63,8 +74,9 @@ PLATFORMS
 
 DEPENDENCIES
   faraday-cookie_jar
+  json-schema!
   nokogiri
-  pupa
+  pupa!
   rake
   safe_yaml
   unicode_utils
