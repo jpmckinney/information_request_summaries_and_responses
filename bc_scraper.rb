@@ -10,8 +10,8 @@ class InformationResponse
   include Pupa::Model
   include Pupa::Concerns::Timestamps
 
-  attr_accessor :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
-  dump :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
+  attr_accessor :id, :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
+  dump :id, :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
 
   def fingerprint
     to_h.slice(:identifier)
@@ -48,14 +48,14 @@ class BC < Pupa::Processor
     }
     # e.g. http://www.openinfo.gov.bc.ca/ibc/search/detail.page?P110=recorduid%3A3032724&config=ibc&title=FOI+Request+-+FIN-2011-00184
     possible_headers = headers.values
-    required_headers = headers.values - ['Files']
+    required_headers = headers.values - ['Letters', 'Files']
 
     # Set cookie.
     get('http://openinfo.gov.bc.ca/')
     base_url = 'http://www.openinfo.gov.bc.ca/ibc/search/results.page?config=ibc&P110=dc.subject:FOI%20Request&P110=high_level_subject:FOI%20Request&sortid=1&rc=1&as_ft=i&as_filetype=html'
 
     # Set the URLs to scrape.
-    years = if options.key?('date')
+    if options.key?('date')
       year, month = options['date'].split('-', 2)
       if month
         month.sub!(/\A0/, '')
@@ -86,10 +86,12 @@ class BC < Pupa::Processor
 
           # Get the response's properties from the list page.
           title = tds[0].text
+          url = "http://www.openinfo.gov.bc.ca#{tds[0].at_xpath('.//@href').value.strip}"
           list_properties = {
+            id: url.match(/\brecorduid:([^&]+)/)[1],
             title: title,
             identifier: get_identifier(title),
-            url: "http://www.openinfo.gov.bc.ca#{tds[0].at_xpath('.//@href').value.strip}",
+            url: url,
             description: tds[1].text.chomp('...'),
             issued: get_date(tds[2].text),
             ministry: tds[3].text,
@@ -107,8 +109,8 @@ class BC < Pupa::Processor
             }
             headers.each do |property,label|
               b = div.at_xpath(".//b[contains(.,'#{label}')]")
-              unless property == :files && b.nil?
-                if [:letters, :files].include?(property)
+              if [:letters, :files].include?(property)
+                if b
                   lis = b.xpath('../following-sibling::ul/li')
 
                   lis.each do |li|
@@ -123,17 +125,17 @@ class BC < Pupa::Processor
                   end
 
                   assert("expected #{property}"){!lis.empty?} # Ensure XPath matches.
-                else
-                  text = b.at_xpath("./following-sibling::text()").text
+                end
+              else
+                text = b.at_xpath("./following-sibling::text()").text
 
-                  detail_properties[property] = case property
-                  when :fees_paid
-                    Float(text.sub!(/\A\$/, '')) && text
-                  when :issued
-                    get_date(text)
-                  else
-                    text
-                  end
+                detail_properties[property] = case property
+                when :fees_paid
+                  Float(text.sub!(/\A\$/, '')) && text
+                when :issued
+                  get_date(text)
+                else
+                  text
                 end
               end
             end
@@ -154,12 +156,12 @@ class BC < Pupa::Processor
               assert("#{expected} expected for #{property}, got\n#{actual}"){actual == expected}
             end
 
+            # Check that the response has some attachments.
+            assert("expected letters or files, got none"){detail_properties[:letters] || detail_properties[:files]}
+
             dispatch(InformationResponse.new(list_properties.merge(detail_properties)))
           rescue NoMethodError => e
-            error("#{list_properties[:url]}: #{e}")
-            unless e.message == "undefined method `xpath' for nil:NilClass"
-              error(e.backtrace.join("\n"))
-            end
+            error("#{list_properties[:url]}: #{e}\n#{e.backtrace.join("\n")}")
           end
         end
 
