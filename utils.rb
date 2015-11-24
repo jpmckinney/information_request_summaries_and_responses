@@ -26,6 +26,7 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
   # @param [String] name a key
   # @param [Hash,String] value a value
   def write(name, value)
+    FileUtils.mkdir_p(File.dirname(path(name)))
     File.open(path(name), 'w') do |f|
       f.write(value)
     end

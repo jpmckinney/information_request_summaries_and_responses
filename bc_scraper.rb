@@ -176,8 +176,9 @@ class BC < Pupa::Processor
       ['letters', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
-            unless store.exist?(file['title'])
-              store.write(file['title'], get(file['url']))
+            path = File.join(response['id'], file['title'])
+            unless store.exist?(path)
+              store.write(path, get(file['url']))
             end
           end
         end
