@@ -174,9 +174,11 @@ class BC < Pupa::Processor
     store = DownloadStore.new(File.expand_path('downloads', Dir.pwd))
     connection.raw_connection['information_responses'].find.each do |response|
       ['letters', 'files'].each do |property|
-        response[property].each do |file|
-          unless store.exist?(file['title'])
-            store.write(file['title'], get(file['url']))
+        if response[property]
+          response[property].each do |file|
+            unless store.exist?(file['title'])
+              store.write(file['title'], get(file['url']))
+            end
           end
         end
       end
