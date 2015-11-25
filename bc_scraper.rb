@@ -5,6 +5,8 @@ require 'faraday-cookie_jar'
 require_relative 'utils'
 
 class BC < Processor
+  DIVISION_ID = 'ocd-division/country:ca/province:bc'
+
   def get_identifier(text)
     text.match(/\AFOI Request - (\S+)\z/)[1]
   end
@@ -137,7 +139,9 @@ class BC < Processor
             # Check that the response has some attachments.
             assert("expected letters or files, got none"){detail_properties[:letters] || detail_properties[:files]}
 
-            dispatch(InformationResponse.new(list_properties.merge(detail_properties)))
+            dispatch(InformationResponse.new({
+              division_id: DIVISION_ID,
+            }.merge(list_properties.merge(detail_properties))))
           rescue NoMethodError => e
             error("#{list_properties[:url]}: #{e}\n#{e.backtrace.join("\n")}")
           end
@@ -149,8 +153,8 @@ class BC < Processor
   end
 
   def download
-    store = DownloadStore.new(File.expand_path('downloads', Dir.pwd))
-    connection.raw_connection['information_responses'].find.no_cursor_timeout.each do |response|
+    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
+    connection.raw_connection['information_responses'].find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       ['letters', 'files'].each do |property|
         if response[property]
           response[property].each do |file|

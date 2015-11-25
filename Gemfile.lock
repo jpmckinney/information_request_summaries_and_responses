@@ -11,9 +11,9 @@ GIT
 
 GIT
   remote: https://github.com/jpmckinney/pupa-ruby.git
-  revision: 83f6490dca631f70abac9e82e5a392e3c0517858
+  revision: c59712c906e682db615ae764ea6cadd08a5916f2
   specs:
-    pupa (0.2.2)
+    pupa (0.2.3)
       activesupport (~> 4.0)
       colored (~> 1.2)
       faraday_middleware (~> 0.10.0)

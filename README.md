@@ -52,7 +52,7 @@ Build a histogram of number of summaries per organization:
 
 ### British Columbia
 
-Download the metadata for responses from BC:
+Download the metadata for responses:
 
     ruby bc_scraper.rb
 
@@ -62,9 +62,19 @@ Download the metadata for responses from BC:
     for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
     for month in {1..11}; do echo 2015-$month; ruby bc_scraper.rb -q -- date 2015-$month; done
 
-Download the attachments for responses from BC (over 40 GB as of late 2015):
+Download the attachments for responses (over 40 GB as of late 2015):
 
-    ruby bc_scraper.rb -a download
+    ruby bc_scraper.rb -a download --no-cache
+
+### Newfoundland and Labrador
+
+Download the metadata for responses:
+
+    ruby nl_scraper.rb
+
+Download the attachments for responses:
+
+    ruby nl_scraper.rb -a download
 
 ### Toronto
 
