@@ -97,15 +97,12 @@ namespace :datasets do
         'date' => lambda{|data|
           year = JsonPointer.new(data, '/Year ~1 Année').value
           month = JsonPointer.new(data, '/Month ~1 Mois (1-12)').value
-          ['date', "#{year}-#{month.sub(/\A(?=\d\z)/, '0')}"]
+          ['date', Date.new(year, month, 1).strftime('%Y-%m')]
         },
         'abstract' => '/English Summary ~1 Sommaire de la demande en anglais',
         'decision' => '/Disposition',
         'organization' => '/Org',
-        'number_of_pages' => lambda{|data|
-          v = JsonPointer.new(data, '/Number of Pages ~1 Nombre de pages').value
-          ['number_of_pages', Integer(v)]
-        },
+        'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
       },
       'ca_nl' => {
         'identifier' => '/Request Number',
@@ -217,9 +214,17 @@ namespace :datasets do
         options[:encoding] = encodings[directory]
       end
 
+      # Get the CSV rows.
+      method = "normalize_#{directory}"
+      if defined?(method)
+        rows = send(method, File.read(filename))
+      else
+        rows = CSV.foreach(filename, options)
+      end
+
       # Normalize the records.
       records = []
-      CSV.foreach(filename, options).with_index do |row,index|
+      rows.each_with_index do |row,index|
         # ca_on_greater_sudbury has rows with only an OBJECTID.
         if row.to_h.except('OBJECTID').values.any?
           begin

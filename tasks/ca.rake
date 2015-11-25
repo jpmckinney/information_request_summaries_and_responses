@@ -24,7 +24,6 @@ namespace :ca do
       if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
         row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
       end
-
       assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
         row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
       }
@@ -37,7 +36,7 @@ namespace :ca do
 
       rows << {
         'Year / Année' => Integer(row.fetch('Year / Année')),
-        'Month / Mois (1-12)' => Date.new(2000, Integer(row.fetch('Month / Mois (1-12)')), 1).strftime('%B'),
+        'Month / Mois (1-12)' => Integer(row.fetch('Month / Mois (1-12)')),
         'Request Number / Numero de la demande' => row.fetch('Request Number / Numero de la demande'),
         'English Summary / Sommaire de la demande en anglais' => row.fetch('English Summary / Sommaire de la demande en anglais'),
         'French Summary / Sommaire de la demande en français' => row.fetch('French Summary / Sommaire de la demande en français'),
@@ -281,7 +280,7 @@ namespace :ca do
           req_num: number,
           disp: row.fetch('Disposition'),
           year: row.fetch('Year / Année'),
-          month: row.fetch('Month / Mois (1-12)'),
+          month: Date.new(2000, row.fetch('Month / Mois (1-12)'), 1).strftime('%B'),
           pages: pages,
           req_sum: row.fetch('English Summary / Sommaire de la demande en anglais'),
           req_pages: pages,
