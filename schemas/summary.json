@@ -13,7 +13,7 @@
       "type": "string",
       "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
     },
-    "summary": {
+    "abstract": {
       "description": "The summary of the request",
       "type": "string"
     },
@@ -37,10 +37,11 @@
         "personal"
       ]
     },
+    "url": {
+      "description": "The URL of the request",
+      "type": "string",
+      "format": "uri"
+    }
   },
-  "additionalProperties": false,
-  "required": [
-    "identifier",
-    "date"
-  ]
+  "additionalProperties": false
 }
