@@ -1,5 +1,5 @@
 namespace :datasets do
-  desc 'Search Namara.io for datasets'
+  desc 'Searches Namara.io for datasets'
   task :search do
     query = ENV['query']
 
@@ -33,7 +33,7 @@ namespace :datasets do
     end until response.body['data_sets'].empty?
   end
 
-  desc 'Download datasets'
+  desc 'Downloads datasets'
   task :download do
     # @see https://docs.google.com/spreadsheets/d/1WQ6kWL5hAEThi31ZQtTZRX5E8_Y9BwDeEWATiuDakTM/edit#gid=0
     datasets = {
@@ -78,7 +78,7 @@ namespace :datasets do
     end
   end
 
-  desc 'Normalize datasets'
+  desc 'Normalizes datasets'
   task :normalize do
     schema = JSON.load(File.read(File.join('schemas', 'summary.json')))
 
