@@ -123,6 +123,7 @@ namespace :datasets do
 
     templates = {
       'ca' => {
+        'division_id' => 'ocd-division/country:ca',
         'identifier' => '/Request Number ~1 Numero de la demande',
         'date' => lambda{|data|
           year = JsonPointer.new(data, '/Year ~1 Année').value
@@ -138,6 +139,7 @@ namespace :datasets do
         'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
       },
       'ca_nl' => {
+        'division_id' => 'ocd-division/country:ca/province:nl',
         'identifier' => '/Request Number',
         'date' => lambda{|data|
           year = JsonPointer.new(data, '/Year').value
@@ -161,6 +163,7 @@ namespace :datasets do
         },
       },
       'ca_on_burlington' => {
+        'division_id' => 'ocd-division/country:ca/province:on/csd:3524002',
         'identifier' => '/No.',
         'date' => '/Year',
         'decision' => lambda{|data|
@@ -181,6 +184,7 @@ namespace :datasets do
         },
       },
       'ca_on_greater_sudbury' => {
+        'division_id' => 'ocd-division/country:ca/province:on/csd:3553005',
         'identifier' => '/FILE_NUMBER',
         'date' => lambda{|data|
           v = JsonPointer.new(data, '/NOTICE_OF_DECISION_SENT').value
@@ -206,6 +210,7 @@ namespace :datasets do
         },
       },
       'ca_on_toronto' => {
+        'division_id' => 'ocd-division/country:ca/province:on/csd:3520005',
         'identifier' => '/Request_Number',
         'date' => lambda{|data|
           v = JsonPointer.new(data, '/Decision_Communicated').value

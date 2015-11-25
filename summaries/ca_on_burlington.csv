@@ -1,124 +1,124 @@
-identifier,date,decision,organization,classification
-1,2012,nothing disclosed,Building,general
-2,2012,all disclosed,Building,general
-3,2012,disclosed in part,Building,general
-4,2012,,Halton Region,general
-5,2012,disclosed in part,Animal Control,general
-6,2012,all disclosed,Various,general
-7,2012,disclosed in part,"Building, Fire",general
-8,2012,disclosed in part,Roads and Parks Maintenance,general
-9,2012,nothing disclosed,Engineering,general
-10,2012,disclosed in part,Building and By-law ,general
-12,2012,all disclosed,Building,general
-12,2012,all disclosed,Building,general
-13,2012,all disclosed,Building,general
-14,2012,all disclosed,Fire,general
-15,2012,disclosed in part,Fire,general
-16,2012,all disclosed,Fire,general
-17,2012,all disclosed,Building,general
-18,2012,all disclosed,Fire,general
-19,2012,disclosed in part,Fire,personal
-20,2012,all disclosed,Building,general
-21,2012,nothing disclosed,Fire,general
-22,2012,nothing disclosed,"Finance, Clerks",general
-23,2012,disclosed in part,Animal Control,general
-24,2012,disclosed in part,Animal Control,general
-25,2012,abandoned,Building,general
-26,2012,disclosed in part,Various,general
-27,2012,abandoned,Roads and Parks Maintenance,general
-28,2012,disclosed in part,Various,personal
-29,2012,abandoned,Planning Building Engineering,general
-30,2012,abandoned,Procurement ,general
-31,2012,nothing disclosed,Planning Building Engineering,general
-32,2012,disclosed in part,Building,general
-33,2012,nothing disclosed,Planning Building Engineering,general
-34,2012,all disclosed,Fire,general
-35,2012,all disclosed,Procurement ,general
-36,2012,all disclosed,Roads and Parks Maintenance,general
-37,2012,disclosed in part,Animal Control,general
-38,2012,disclosed in part,Animal Control,general
-39,2012,disclosed in part,Building,general
-40,2012,all disclosed,Building,general
-41,2012,abandoned,Halton Region,general
-42,2012,abandoned,Clerks,general
-43,2012,disclosed in part,By-law enforcement,general
-44,2012,nothing disclosed,Halton Region,general
-45,2012,nothing disclosed,Clerks - Council,general
-1,2013,all disclosed,AMANDA - Planning and Building,general
-2,2013,disclosed in part,Animal Control,general
-3,2013,all disclosed,Burlington Fire,general
-4,2013,abandoned,Burlington Fire,general
-5,2013,all disclosed,Animal Control,general
-6,2013,all disclosed,Burlington Fire,general
-7,2013,disclosed in part,"Building, Planning",general
-8,2013,all disclosed,Animal Control,general
-9,2013,disclosed in part,Animal Control,general
-,,,,
-,,,,
-10,2013,disclosed in part,Animal Control,general
-11,2013,disclosed in part,Burlington Fire,general
-12,2013,all disclosed,,general
-13,2013,disclosed in part,Animal Control,general
-14,2013,nothing disclosed,Animal Control,general
-15,2013,abandoned,Animal Control,general
-16,2013,disclosed in part,Animal Control,general
-17,2013,nothing disclosed,,general
-18,2013,all disclosed,By-law enforcement,general
-19,2013,nothing disclosed,,general
-20,2013,nothing disclosed,,general
-21,2013,abandoned,,general
-22,2013,disclosed in part,Procurement ,general
-23,2013,all disclosed,Building,general
-24,2013,nothing disclosed,Licensing and Permits,general
-25,2013,nothing disclosed,Clerks,general
-26,2013,disclosed in part,Animal Control,general
-27,2013,nothing disclosed,Engineering,general
-28,2013,abandoned,Engineering,general
-29,2013,all disclosed,"Transportation, Transit",general
-30,2013,abandoned,Animal Control,personal
-31,2013,disclosed in part,Fire,general
-32,2013,disclosed in part,"Building, Licensing",general
-33,2013,all disclosed,Fire,general
-34,2013,,"Clerks, HR",personal
-35,2013,all disclosed,Burlington Museums,general
-36,2013,all disclosed,Roads and Parks Maintenance,general
-37,2013,disclosed in part,Animal Control,general
-1,2014,,Animal Control,general
-2,2014,disclosed in part,Animal Control,personal
-3,2014,disclosed in part,"Building, Fire",general
-4,2014,disclosed in part,By-law enforcement,general
-5,2014,nothing disclosed,"Building, Licensing",general
-6,2014,nothing disclosed,Procurement,general
-7,2014,disclosed in part,Animal Control,general
-8,2014,all disclosed,Planning and Building,general
-9,2014,disclosed in part,Animal Control,general
-10,2014,disclosed in part,Building,general
-11,2014,abandoned,Building,general
-12,2014,,Planning,general
-13,2014,,Building,general
-14,2014,,Building,general
-15,2014,nothing disclosed,Building,general
-16,2014,disclosed in part,Procurement Services,general
-17,2014,all disclosed,"Building, Fire",general
-18,2014,all disclosed,Transportation,general
-19,2014,disclosed in part,Parks and Recreation,general
-20,2014,all disclosed,All,personal
-21,2014,all disclosed,Finance,general
-22,2014,all disclosed,"Finance, Clerks",general
-23,2014,,Building,general
-24,2014,disclosed in part,,general
-25,2014,,Halton Region,
-26,2014,disclosed in part,Building,general
-27,2014,nothing disclosed,Building,general
-28,2014,abandoned,Transportation,general
-29,2014,all disclosed,Clerks,general
-30,2014,nothing disclosed,"Planning and Building, Animal Control",personal
-31,2014,disclosed in part,Licensing,general
-32,2014,all disclosed,"Engineering, Finance",general
-33,2014,,"Parking, Transportation",general
-34,2014,all disclosed,Transit,personal
-35,2014,all disclosed,Transit,personal
-36,2014,nothing disclosed,Parks and Recreation,general
-37,2014,all disclosed,Building,general
-38,2014,disclosed in part,Roads and Parks Maintenance,general
-39,2014,all disclosed,Building,general
+division_id,identifier,date,decision,organization,classification
+ocd-division/country:ca/province:on/csd:3524002,1,2012,nothing disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,2,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,3,2012,disclosed in part,Building,general
+ocd-division/country:ca/province:on/csd:3524002,4,2012,,Halton Region,general
+ocd-division/country:ca/province:on/csd:3524002,5,2012,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,6,2012,all disclosed,Various,general
+ocd-division/country:ca/province:on/csd:3524002,7,2012,disclosed in part,"Building, Fire",general
+ocd-division/country:ca/province:on/csd:3524002,8,2012,disclosed in part,Roads and Parks Maintenance,general
+ocd-division/country:ca/province:on/csd:3524002,9,2012,nothing disclosed,Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,10,2012,disclosed in part,Building and By-law ,general
+ocd-division/country:ca/province:on/csd:3524002,12,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,12,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,13,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,14,2012,all disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,15,2012,disclosed in part,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,16,2012,all disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,17,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,18,2012,all disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,19,2012,disclosed in part,Fire,personal
+ocd-division/country:ca/province:on/csd:3524002,20,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,21,2012,nothing disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,22,2012,nothing disclosed,"Finance, Clerks",general
+ocd-division/country:ca/province:on/csd:3524002,23,2012,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,24,2012,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,25,2012,abandoned,Building,general
+ocd-division/country:ca/province:on/csd:3524002,26,2012,disclosed in part,Various,general
+ocd-division/country:ca/province:on/csd:3524002,27,2012,abandoned,Roads and Parks Maintenance,general
+ocd-division/country:ca/province:on/csd:3524002,28,2012,disclosed in part,Various,personal
+ocd-division/country:ca/province:on/csd:3524002,29,2012,abandoned,Planning Building Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,30,2012,abandoned,Procurement ,general
+ocd-division/country:ca/province:on/csd:3524002,31,2012,nothing disclosed,Planning Building Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,32,2012,disclosed in part,Building,general
+ocd-division/country:ca/province:on/csd:3524002,33,2012,nothing disclosed,Planning Building Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,34,2012,all disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,35,2012,all disclosed,Procurement ,general
+ocd-division/country:ca/province:on/csd:3524002,36,2012,all disclosed,Roads and Parks Maintenance,general
+ocd-division/country:ca/province:on/csd:3524002,37,2012,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,38,2012,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,39,2012,disclosed in part,Building,general
+ocd-division/country:ca/province:on/csd:3524002,40,2012,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,41,2012,abandoned,Halton Region,general
+ocd-division/country:ca/province:on/csd:3524002,42,2012,abandoned,Clerks,general
+ocd-division/country:ca/province:on/csd:3524002,43,2012,disclosed in part,By-law enforcement,general
+ocd-division/country:ca/province:on/csd:3524002,44,2012,nothing disclosed,Halton Region,general
+ocd-division/country:ca/province:on/csd:3524002,45,2012,nothing disclosed,Clerks - Council,general
+ocd-division/country:ca/province:on/csd:3524002,1,2013,all disclosed,AMANDA - Planning and Building,general
+ocd-division/country:ca/province:on/csd:3524002,2,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,3,2013,all disclosed,Burlington Fire,general
+ocd-division/country:ca/province:on/csd:3524002,4,2013,abandoned,Burlington Fire,general
+ocd-division/country:ca/province:on/csd:3524002,5,2013,all disclosed,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,6,2013,all disclosed,Burlington Fire,general
+ocd-division/country:ca/province:on/csd:3524002,7,2013,disclosed in part,"Building, Planning",general
+ocd-division/country:ca/province:on/csd:3524002,8,2013,all disclosed,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,9,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,,,,,
+ocd-division/country:ca/province:on/csd:3524002,,,,,
+ocd-division/country:ca/province:on/csd:3524002,10,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,11,2013,disclosed in part,Burlington Fire,general
+ocd-division/country:ca/province:on/csd:3524002,12,2013,all disclosed,,general
+ocd-division/country:ca/province:on/csd:3524002,13,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,14,2013,nothing disclosed,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,15,2013,abandoned,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,16,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,17,2013,nothing disclosed,,general
+ocd-division/country:ca/province:on/csd:3524002,18,2013,all disclosed,By-law enforcement,general
+ocd-division/country:ca/province:on/csd:3524002,19,2013,nothing disclosed,,general
+ocd-division/country:ca/province:on/csd:3524002,20,2013,nothing disclosed,,general
+ocd-division/country:ca/province:on/csd:3524002,21,2013,abandoned,,general
+ocd-division/country:ca/province:on/csd:3524002,22,2013,disclosed in part,Procurement ,general
+ocd-division/country:ca/province:on/csd:3524002,23,2013,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,24,2013,nothing disclosed,Licensing and Permits,general
+ocd-division/country:ca/province:on/csd:3524002,25,2013,nothing disclosed,Clerks,general
+ocd-division/country:ca/province:on/csd:3524002,26,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,27,2013,nothing disclosed,Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,28,2013,abandoned,Engineering,general
+ocd-division/country:ca/province:on/csd:3524002,29,2013,all disclosed,"Transportation, Transit",general
+ocd-division/country:ca/province:on/csd:3524002,30,2013,abandoned,Animal Control,personal
+ocd-division/country:ca/province:on/csd:3524002,31,2013,disclosed in part,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,32,2013,disclosed in part,"Building, Licensing",general
+ocd-division/country:ca/province:on/csd:3524002,33,2013,all disclosed,Fire,general
+ocd-division/country:ca/province:on/csd:3524002,34,2013,,"Clerks, HR",personal
+ocd-division/country:ca/province:on/csd:3524002,35,2013,all disclosed,Burlington Museums,general
+ocd-division/country:ca/province:on/csd:3524002,36,2013,all disclosed,Roads and Parks Maintenance,general
+ocd-division/country:ca/province:on/csd:3524002,37,2013,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,1,2014,,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,2,2014,disclosed in part,Animal Control,personal
+ocd-division/country:ca/province:on/csd:3524002,3,2014,disclosed in part,"Building, Fire",general
+ocd-division/country:ca/province:on/csd:3524002,4,2014,disclosed in part,By-law enforcement,general
+ocd-division/country:ca/province:on/csd:3524002,5,2014,nothing disclosed,"Building, Licensing",general
+ocd-division/country:ca/province:on/csd:3524002,6,2014,nothing disclosed,Procurement,general
+ocd-division/country:ca/province:on/csd:3524002,7,2014,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,8,2014,all disclosed,Planning and Building,general
+ocd-division/country:ca/province:on/csd:3524002,9,2014,disclosed in part,Animal Control,general
+ocd-division/country:ca/province:on/csd:3524002,10,2014,disclosed in part,Building,general
+ocd-division/country:ca/province:on/csd:3524002,11,2014,abandoned,Building,general
+ocd-division/country:ca/province:on/csd:3524002,12,2014,,Planning,general
+ocd-division/country:ca/province:on/csd:3524002,13,2014,,Building,general
+ocd-division/country:ca/province:on/csd:3524002,14,2014,,Building,general
+ocd-division/country:ca/province:on/csd:3524002,15,2014,nothing disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,16,2014,disclosed in part,Procurement Services,general
+ocd-division/country:ca/province:on/csd:3524002,17,2014,all disclosed,"Building, Fire",general
+ocd-division/country:ca/province:on/csd:3524002,18,2014,all disclosed,Transportation,general
+ocd-division/country:ca/province:on/csd:3524002,19,2014,disclosed in part,Parks and Recreation,general
+ocd-division/country:ca/province:on/csd:3524002,20,2014,all disclosed,All,personal
+ocd-division/country:ca/province:on/csd:3524002,21,2014,all disclosed,Finance,general
+ocd-division/country:ca/province:on/csd:3524002,22,2014,all disclosed,"Finance, Clerks",general
+ocd-division/country:ca/province:on/csd:3524002,23,2014,,Building,general
+ocd-division/country:ca/province:on/csd:3524002,24,2014,disclosed in part,,general
+ocd-division/country:ca/province:on/csd:3524002,25,2014,,Halton Region,
+ocd-division/country:ca/province:on/csd:3524002,26,2014,disclosed in part,Building,general
+ocd-division/country:ca/province:on/csd:3524002,27,2014,nothing disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,28,2014,abandoned,Transportation,general
+ocd-division/country:ca/province:on/csd:3524002,29,2014,all disclosed,Clerks,general
+ocd-division/country:ca/province:on/csd:3524002,30,2014,nothing disclosed,"Planning and Building, Animal Control",personal
+ocd-division/country:ca/province:on/csd:3524002,31,2014,disclosed in part,Licensing,general
+ocd-division/country:ca/province:on/csd:3524002,32,2014,all disclosed,"Engineering, Finance",general
+ocd-division/country:ca/province:on/csd:3524002,33,2014,,"Parking, Transportation",general
+ocd-division/country:ca/province:on/csd:3524002,34,2014,all disclosed,Transit,personal
+ocd-division/country:ca/province:on/csd:3524002,35,2014,all disclosed,Transit,personal
+ocd-division/country:ca/province:on/csd:3524002,36,2014,nothing disclosed,Parks and Recreation,general
+ocd-division/country:ca/province:on/csd:3524002,37,2014,all disclosed,Building,general
+ocd-division/country:ca/province:on/csd:3524002,38,2014,disclosed in part,Roads and Parks Maintenance,general
+ocd-division/country:ca/province:on/csd:3524002,39,2014,all disclosed,Building,general
