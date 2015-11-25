@@ -9,6 +9,48 @@ namespace :ca do
     string.gsub(/mailto:/, '').downcase
   end
 
+  def normalize_ca(data)
+    rows = []
+
+    corrections = CORRECTIONS.invert
+    dispositions = load_yaml('dispositions.yml')
+    re = "(?:#{dispositions.join('|')})"
+
+    row_number = 1
+    CSV.parse(data, headers: true) do |row|
+      row_number += 1
+
+      # The informal request URLs don't make this correction.
+      if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
+        row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
+      end
+
+      assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
+        row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
+      }
+      assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
+        row['Org'][/ [|-] /]
+      }
+
+      organization = row.fetch('Org').split(/ [|-] /)[0]
+      organization = corrections.fetch(organization, organization)
+
+      rows << {
+        'Year / Année' => Integer(row.fetch('Year / Année')),
+        'Month / Mois (1-12)' => Date.new(2000, Integer(row.fetch('Month / Mois (1-12)')), 1).strftime('%B'),
+        'Request Number / Numero de la demande' => row.fetch('Request Number / Numero de la demande'),
+        'English Summary / Sommaire de la demande en anglais' => row.fetch('English Summary / Sommaire de la demande en anglais'),
+        'French Summary / Sommaire de la demande en français' => row.fetch('French Summary / Sommaire de la demande en français'),
+        'Disposition' => row.fetch('Disposition').to_s.split(%r{ / })[0],
+        'Number of Pages / Nombre de pages' => Integer(row['Number of Pages / Nombre de pages']),
+        'Org id' => row.fetch('Org id'),
+        'Org' => organization,
+      }
+    end
+
+    rows
+  end
+
   desc 'Prints Federal Identity Program names'
   task :federal_identity_program do
     output = {}
@@ -224,42 +266,22 @@ namespace :ca do
   namespace :urls do
     desc 'Prints URLs to forms'
     task :get do
-      corrections = CORRECTIONS.invert
-
       output = {}
 
-      dispositions = load_yaml('dispositions.yml')
-      re = "(?:#{dispositions.join('|')})"
       emails = load_yaml('emails_search_page.yml')
 
-      row_number = 1
       url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
-      CSV.parse(client.get(url).body.force_encoding('utf-8'), headers: true) do |row|
-        row_number += 1
-
-        # The informal request URLs don't make this correction.
-        if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
-          row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
-        end
-
-        assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
-          row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
-        }
-        assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
-          row['Org'][/ [|-] /]
-        }
-
-        organization = row.fetch('Org').split(/ [|-] /)[0]
-        organization = corrections.fetch(organization, organization)
-        number = row.fetch('Request Number / Numero de la demande')
-        pages = Integer(row['Number of Pages / Nombre de pages'])
+      normalize_ca(client.get(url).body.force_encoding('utf-8')).each do |row|
+        organization = row.fetch('Org')
+        number = row['Request Number / Numero de la demande']
+        pages = row.fetch('Number of Pages / Nombre de pages')
 
         params = {
           org: organization,
           req_num: number,
-          disp: row.fetch('Disposition').to_s.split(%r{ / })[0],
-          year: Integer(row.fetch('Year / Année')),
-          month: Date.new(2000, Integer(row.fetch('Month / Mois (1-12)')), 1).strftime('%B'),
+          disp: row.fetch('Disposition'),
+          year: row.fetch('Year / Année'),
+          month: row.fetch('Month / Mois (1-12)'),
           pages: pages,
           req_sum: row.fetch('English Summary / Sommaire de la demande en anglais'),
           req_pages: pages,
