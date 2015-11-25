@@ -1,4 +1,34 @@
 namespace :datasets do
+  RE_PARENTHETICAL_CITATION = /\(.\)/.freeze
+  RE_PARENTHETICAL = /\([^)]+\)?/.freeze
+  RE_INVALID = /\A(?:|\d+|[a-z]{3} \d{1,2}|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
+  RE_DECISIONS = {
+    'abandoned' => /\b(?:abandon|withdrawn\b)/,
+    'correction' => /\bcorrection\b/,
+    'in progress' => /\bin (?:progress|treatment)\b/,
+    'treated informally' => /\binformal/,
+    'transferred' => /\btransferred\b/,
+    # This order matters.
+    'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
+    'nothing disclosed' => /\A(?:consult other institution|disregarded|dublicate request|nhq release refused|unable to process)\z|\Aex[ce]|\b(?:all? .*\b(ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public)/,
+    'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
+  }.freeze
+
+  def normalize_decision(text)
+    if text
+      text = text.downcase.
+        gsub(RE_PARENTHETICAL_CITATION, '').
+        gsub(RE_PARENTHETICAL, '').
+        gsub(/[\p{Punct}￼]/, ' '). # special character
+        gsub(/\p{Space}/, ' ').
+        squeeze(' ').strip
+
+      unless text[RE_INVALID]
+        RE_DECISIONS.find{|_,pattern| text[pattern]}.first
+      end
+    end
+  end
+
   desc 'Searches Namara.io for datasets'
   task :search do
     query = ENV['query']
@@ -100,7 +130,10 @@ namespace :datasets do
           ['date', Date.new(year, month, 1).strftime('%Y-%m')]
         },
         'abstract' => '/English Summary ~1 Sommaire de la demande en anglais',
-        'decision' => '/Disposition',
+        'decision' => lambda{|data|
+          v = JsonPointer.new(data, '/Disposition').value
+          ['decision', normalize_decision(v)]
+        },
         'organization' => '/Org',
         'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
       },
@@ -117,7 +150,10 @@ namespace :datasets do
           end
         },
         'abstract' => '/Summary of Request',
-        'decision' => '/Outcome of Request',
+        'decision' => lambda{|data|
+          v = JsonPointer.new(data, '/Outcome of Request').value
+          ['decision', normalize_decision(v)]
+        },
         'organization' => '/Department',
         'number_of_pages' => lambda{|data|
           v = JsonPointer.new(data, '/Number of Pages').value
@@ -127,7 +163,10 @@ namespace :datasets do
       'ca_on_burlington' => {
         'identifier' => '/No.',
         'date' => '/Year',
-        'decision' => '/Decision',
+        'decision' => lambda{|data|
+          v = JsonPointer.new(data, '/Decision').value
+          ['decision', normalize_decision(v)]
+        },
         'organization' => '/Dept Contact',
         'classification' => lambda{|data|
           v = JsonPointer.new(data, '/Request Type').value
@@ -158,7 +197,7 @@ namespace :datasets do
           ].find do |header|
             JsonPointer.new(data, "/#{header}").value
           end
-          ['decision', v]
+          ['decision', normalize_decision(v)]
         },
         'organization' => '/DEPARTMENT',
         'classification' => lambda{|data|
@@ -173,7 +212,10 @@ namespace :datasets do
           ['date', v && (Date.strptime(v, '%d-%m-%Y') rescue Date.strptime(v, '%Y-%m-%d')).strftime('%Y-%m-%d')]
         },
         'abstract' => '/Summary',
-        'decision' => '/Name',
+        'decision' => lambda{|data|
+          v = JsonPointer.new(data, '/Name').value
+          ['decision', normalize_decision(v)]
+        },
         'number_of_pages' => lambda{|data|
           v = JsonPointer.new(data, '/Number_of_Pages_Released').value
           ['number_of_pages', v && Integer(v.sub(/\.0\z/, ''))]
@@ -216,9 +258,9 @@ namespace :datasets do
 
       # Get the CSV rows.
       method = "normalize_#{directory}"
-      if defined?(method)
+      begin
         rows = send(method, File.read(filename))
-      else
+      rescue NoMethodError
         rows = CSV.foreach(filename, options)
       end
 

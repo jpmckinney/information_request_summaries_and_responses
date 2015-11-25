@@ -62,7 +62,7 @@ Download the metadata for responses from BC:
     for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
     for month in {1..11}; do echo 2015-$month; ruby bc_scraper.rb -q -- date 2015-$month; done
 
-Download the attachments for responses from BC (over 35 GB as of late 2015):
+Download the attachments for responses from BC (over 40 GB as of late 2015):
 
     ruby bc_scraper.rb -a download
 
