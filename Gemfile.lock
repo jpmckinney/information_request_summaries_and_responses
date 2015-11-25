@@ -1,14 +1,6 @@
 GIT
-  remote: https://github.com/jpmckinney/json-schema.git
-  revision: 84012d872b21d9be584aeba16a3e7fae6c0ff11d
-  branch: register_format_validator
-  specs:
-    json-schema (2.5.1)
-      addressable (~> 2.3.8)
-
-GIT
   remote: https://github.com/jpmckinney/pupa-ruby.git
-  revision: 46f26ee7b96312b0728fc2233f2909462338870d
+  revision: 83f6490dca631f70abac9e82e5a392e3c0517858
   specs:
     pupa (0.2.2)
       activesupport (~> 4.0)
@@ -46,6 +38,8 @@ GEM
       domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
+    json-schema (2.5.2)
+      addressable (~> 2.3.8)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99)
@@ -74,7 +68,6 @@ PLATFORMS
 
 DEPENDENCIES
   faraday-cookie_jar
-  json-schema!
   nokogiri
   pupa!
   rake
