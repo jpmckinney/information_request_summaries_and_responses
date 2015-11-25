@@ -1,34 +1,10 @@
 require 'bundler/setup'
 
-require 'nokogiri'
 require 'faraday-cookie_jar'
-require 'pupa'
 
 require_relative 'utils'
 
-Mongo::Logger.logger.level = Logger::WARN
-
-class InformationResponse
-  include Pupa::Model
-  include Pupa::Concerns::Timestamps
-
-  attr_accessor :id, :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
-  dump :id, :title, :identifier, :url, :description, :issued, :ministry, :applicant_type, :fees_paid, :letters, :files
-
-  def fingerprint
-    to_h.slice(:id)
-  end
-
-  def to_s
-    id
-  end
-end
-
-class BC < Pupa::Processor
-  def assert(message)
-    error(message) unless yield
-  end
-
+class BC < Processor
   def get_identifier(text)
     text.match(/\AFOI Request - (\S+)\z/)[1]
   end
@@ -42,9 +18,9 @@ class BC < Pupa::Processor
 
     headers = {
       applicant_type: 'Applicant Type',
-      ministry: 'Ministry',
+      organization: 'Ministry',
       fees_paid: 'Fees paid by applicant',
-      issued: 'Publication Date',
+      date: 'Publication Date',
       letters: 'Letters',
       files: 'Files',
     }
@@ -94,9 +70,9 @@ class BC < Pupa::Processor
             title: title,
             identifier: get_identifier(title),
             url: detail_url,
-            description: tds[1].text.chomp('...'),
-            issued: get_date(tds[2].text),
-            ministry: tds[3].text,
+            abstract: tds[1].text.chomp('...'),
+            date: get_date(tds[2].text),
+            organization: tds[3].text,
           }
 
           begin
@@ -107,7 +83,7 @@ class BC < Pupa::Processor
             detail_properties = {
               title: title,
               identifier: get_identifier(title),
-              description: div.xpath('./p[1]/following-sibling::p | ./p[1]/following-sibling::h4').slice_before{|e| e.name == 'h4'}.first.map(&:text).join("\n\n"),
+              abstract: div.xpath('./p[1]/following-sibling::p | ./p[1]/following-sibling::h4').slice_before{|e| e.name == 'h4'}.first.map(&:text).join("\n\n"),
             }
             headers.each do |property,label|
               b = div.at_xpath(".//b[contains(.,'#{label}')]")
@@ -134,7 +110,7 @@ class BC < Pupa::Processor
                 detail_properties[property] = case property
                 when :fees_paid
                   Float(text.sub!(/\A\$/, '')) && text
-                when :issued
+                when :date
                   get_date(text)
                 else
                   text
@@ -146,13 +122,13 @@ class BC < Pupa::Processor
             actual = div.xpath('.//b').map{|b| b.text.strip.chomp(':')}
             assert("unexpected: #{(actual - possible_headers).join(', ')}\nmissing: #{(required_headers - actual).join(', ')}"){(required_headers - actual).empty?}
 
-            # Check the consistency of descriptions.
-            expected = list_properties[:description]
-            actual = detail_properties[:description]
+            # Check the consistency of abstracts.
+            expected = list_properties[:abstract]
+            actual = detail_properties[:abstract]
             assert("#{expected} expected to be part of\n#{actual}"){actual[expected]}
 
             # Check the consistency of other properties from the list page.
-            [:title, :identifier, :issued, :ministry].each do |property|
+            [:title, :identifier, :date, :organization].each do |property|
               expected = list_properties[property]
               actual = detail_properties[property]
               assert("#{expected} expected for #{property}, got\n#{actual}"){actual == expected}

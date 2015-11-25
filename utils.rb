@@ -1,3 +1,30 @@
+require 'nokogiri'
+require 'pupa'
+
+Mongo::Logger.logger.level = Logger::WARN
+
+class InformationResponse
+  include Pupa::Model
+  include Pupa::Concerns::Timestamps
+
+  attr_accessor :id, :title, :identifier, :url, :abstract, :date, :organization, :applicant_type, :fees_paid, :letters, :files
+  dump :id, :title, :identifier, :url, :abstract, :date, :organization, :applicant_type, :fees_paid, :letters, :files
+
+  def fingerprint
+    to_h.slice(:id)
+  end
+
+  def to_s
+    id
+  end
+end
+
+class Processor < Pupa::Processor
+  def assert(message)
+    error(message) unless yield
+  end
+end
+
 # Stores data downloads on disk.
 #
 # @see ActiveSupport::Cache::FileStore
