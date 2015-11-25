@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Information Request",
+  "description": "A request for information under a freedom of information law",
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "description": "The number or identifier of the request",
+      "type": "string"
+    },
+    "date": {
+      "description": "The date of decision or the date of publication of the request",
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
+    },
+    "summary": {
+      "description": "The summary of the request",
+      "type": "string"
+    },
+    "decision": {
+      "description": "The decision as to whether or not to disclose the record or the part thereof",
+      "type": "string"
+    },
+    "organization": {
+      "description": "The organization to which the request was sent",
+      "type": "string"
+    },
+    "number_of_pages": {
+      "description": "The number of pages disclosed",
+      "type": "number"
+    },
+    "classification": {
+      "description": "The classification of the request",
+      "type": "string",
+      "enum": [
+        "general",
+        "personal"
+      ]
+    },
+  },
+  "additionalProperties": false,
+  "required": [
+    "identifier",
+    "date"
+  ]
+}
