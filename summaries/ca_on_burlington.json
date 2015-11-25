@@ -1,0 +1,838 @@
+[
+  {
+    "identifier": "1",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "2",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "3",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "4",
+    "date": "2012",
+    "organization": "Halton Region",
+    "classification": "general"
+  },
+  {
+    "identifier": "5",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "6",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Various",
+    "classification": "general"
+  },
+  {
+    "identifier": "7",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building, Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "8",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Roads and Parks Maintenance",
+    "classification": "general"
+  },
+  {
+    "identifier": "9",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "10",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building and By-law ",
+    "classification": "general"
+  },
+  {
+    "identifier": "12",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "12",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "13",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "14",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "15",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "16",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "17",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "18",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "19",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Fire",
+    "classification": "personal"
+  },
+  {
+    "identifier": "20",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "21",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "22",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Finance, Clerks",
+    "classification": "general"
+  },
+  {
+    "identifier": "23",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "24",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "25",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "26",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Various",
+    "classification": "general"
+  },
+  {
+    "identifier": "27",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Roads and Parks Maintenance",
+    "classification": "general"
+  },
+  {
+    "identifier": "28",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Various",
+    "classification": "personal"
+  },
+  {
+    "identifier": "29",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Planning Building Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "30",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Procurement ",
+    "classification": "general"
+  },
+  {
+    "identifier": "31",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Planning Building Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "32",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "33",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Planning Building Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "34",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "35",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Procurement ",
+    "classification": "general"
+  },
+  {
+    "identifier": "36",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Roads and Parks Maintenance",
+    "classification": "general"
+  },
+  {
+    "identifier": "37",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "38",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "39",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "40",
+    "date": "2012",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "41",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Halton Region",
+    "classification": "general"
+  },
+  {
+    "identifier": "42",
+    "date": "2012",
+    "decision": "Request withdrawn",
+    "organization": "Clerks",
+    "classification": "general"
+  },
+  {
+    "identifier": "43",
+    "date": "2012",
+    "decision": "Information Disclosed in Part",
+    "organization": "By-law enforcement",
+    "classification": "general"
+  },
+  {
+    "identifier": "44",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Halton Region",
+    "classification": "general"
+  },
+  {
+    "identifier": "45",
+    "date": "2012",
+    "decision": "No Records Exist",
+    "organization": "Clerks - Council",
+    "classification": "general"
+  },
+  {
+    "identifier": "1",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "AMANDA - Planning and Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "2",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "3",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Burlington Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "4",
+    "date": "2013",
+    "decision": "Request withdrawn",
+    "organization": "Burlington Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "5",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "6",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Burlington Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "7",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building, Planning",
+    "classification": "general"
+  },
+  {
+    "identifier": "8",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "9",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+  },
+  {
+  },
+  {
+    "identifier": "10",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "11",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Burlington Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "12",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "classification": "general"
+  },
+  {
+    "identifier": "13",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "14",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "15",
+    "date": "2013",
+    "decision": "Request withdrawn",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "16",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "17",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "classification": "general"
+  },
+  {
+    "identifier": "18",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "By-law enforcement",
+    "classification": "general"
+  },
+  {
+    "identifier": "19",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "classification": "general"
+  },
+  {
+    "identifier": "20",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "classification": "general"
+  },
+  {
+    "identifier": "21",
+    "date": "2013",
+    "decision": "Request withdrawn",
+    "classification": "general"
+  },
+  {
+    "identifier": "22",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Procurement ",
+    "classification": "general"
+  },
+  {
+    "identifier": "23",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "24",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "organization": "Licensing and Permits",
+    "classification": "general"
+  },
+  {
+    "identifier": "25",
+    "date": "2013",
+    "decision": "No Information Disclosed",
+    "organization": "Clerks",
+    "classification": "general"
+  },
+  {
+    "identifier": "26",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "27",
+    "date": "2013",
+    "decision": "No Records Exist",
+    "organization": "Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "28",
+    "date": "2013",
+    "decision": "Request withdrawn",
+    "organization": "Engineering",
+    "classification": "general"
+  },
+  {
+    "identifier": "29",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Transportation, Transit",
+    "classification": "general"
+  },
+  {
+    "identifier": "30",
+    "date": "2013",
+    "decision": "Request withdrawn",
+    "organization": "Animal Control",
+    "classification": "personal"
+  },
+  {
+    "identifier": "31",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "32",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building, Licensing",
+    "classification": "general"
+  },
+  {
+    "identifier": "33",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "34",
+    "date": "2013",
+    "organization": "Clerks, HR",
+    "classification": "personal"
+  },
+  {
+    "identifier": "35",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Burlington Museums",
+    "classification": "general"
+  },
+  {
+    "identifier": "36",
+    "date": "2013",
+    "decision": "All Information Disclosed",
+    "organization": "Roads and Parks Maintenance",
+    "classification": "general"
+  },
+  {
+    "identifier": "37",
+    "date": "2013",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "1",
+    "date": "2014",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "2",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "personal"
+  },
+  {
+    "identifier": "3",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building, Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "4",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "By-law enforcement",
+    "classification": "general"
+  },
+  {
+    "identifier": "5",
+    "date": "2014",
+    "decision": "No Records Exist",
+    "organization": "Building, Licensing",
+    "classification": "general"
+  },
+  {
+    "identifier": "6",
+    "date": "2014",
+    "decision": "No Information Disclosed",
+    "organization": "Procurement",
+    "classification": "general"
+  },
+  {
+    "identifier": "7",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "8",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Planning and Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "9",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Animal Control",
+    "classification": "general"
+  },
+  {
+    "identifier": "10",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "11",
+    "date": "2014",
+    "decision": "Request withdrawn",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "12",
+    "date": "2014",
+    "decision": "41723",
+    "organization": "Planning",
+    "classification": "general"
+  },
+  {
+    "identifier": "13",
+    "date": "2014",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "14",
+    "date": "2014",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "15",
+    "date": "2014",
+    "decision": "No Records Exist",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "16",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Procurement Services",
+    "classification": "general"
+  },
+  {
+    "identifier": "17",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Building, Fire",
+    "classification": "general"
+  },
+  {
+    "identifier": "18",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Transportation",
+    "classification": "general"
+  },
+  {
+    "identifier": "19",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Parks and Recreation",
+    "classification": "general"
+  },
+  {
+    "identifier": "20",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "All",
+    "classification": "personal"
+  },
+  {
+    "identifier": "21",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Finance",
+    "classification": "general"
+  },
+  {
+    "identifier": "22",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Finance, Clerks",
+    "classification": "general"
+  },
+  {
+    "identifier": "23",
+    "date": "2014",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "24",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "classification": "general"
+  },
+  {
+    "identifier": "25",
+    "date": "2014",
+    "organization": "Halton Region"
+  },
+  {
+    "identifier": "26",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "27",
+    "date": "2014",
+    "decision": "No Records Exist",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "28",
+    "date": "2014",
+    "decision": "Request withdrawn",
+    "organization": "Transportation",
+    "classification": "general"
+  },
+  {
+    "identifier": "29",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Clerks",
+    "classification": "general"
+  },
+  {
+    "identifier": "30",
+    "date": "2014",
+    "decision": "No Records Exist",
+    "organization": "Planning and Building, Animal Control",
+    "classification": "personal"
+  },
+  {
+    "identifier": "31",
+    "date": "2014",
+    "decision": "Information Disclosed in Part",
+    "organization": "Licensing",
+    "classification": "general"
+  },
+  {
+    "identifier": "32",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Engineering, Finance",
+    "classification": "general"
+  },
+  {
+    "identifier": "33",
+    "date": "2014",
+    "organization": "Parking, Transportation",
+    "classification": "general"
+  },
+  {
+    "identifier": "34",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Transit",
+    "classification": "personal"
+  },
+  {
+    "identifier": "35",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Transit",
+    "classification": "personal"
+  },
+  {
+    "identifier": "36",
+    "date": "2014",
+    "decision": "Refusal to confirm or deny",
+    "organization": "Parks and Recreation",
+    "classification": "general"
+  },
+  {
+    "identifier": "37",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  },
+  {
+    "identifier": "38",
+    "date": "2014",
+    "decision": "Information disclosed in part",
+    "organization": "Roads and Parks Maintenance",
+    "classification": "general"
+  },
+  {
+    "identifier": "39",
+    "date": "2014",
+    "decision": "All Information Disclosed",
+    "organization": "Building",
+    "classification": "general"
+  }
+]

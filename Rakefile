@@ -1,3 +1,5 @@
+require 'bundler/setup'
+
 require 'csv'
 require 'erb'
 require 'open-uri'
@@ -6,6 +8,7 @@ require 'nokogiri'
 require 'pupa'
 require 'safe_yaml'
 require 'unicode_utils/downcase'
+require 'whos_got_dirt'
 
 SafeYAML::OPTIONS[:default_mode] = :safe
 

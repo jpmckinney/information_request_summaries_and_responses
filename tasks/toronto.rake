@@ -2,7 +2,7 @@ require 'shellwords'
 
 namespace :ca_on_toronto do
   def glob(pattern)
-    Dir[File.join('summaries', 'ca_on_toronto', pattern)]
+    Dir[File.join('wip', 'ca_on_toronto', pattern)]
   end
 
   desc 'Convert Excel to CSV'
@@ -19,7 +19,7 @@ namespace :ca_on_toronto do
 
   desc 'Stack CSV files'
   task :stack do
-    inputs = glob('*.csv').reject{|path| path['output.csv']}.map{|path| Shellwords.escape(path)}.join(' ')
-    `csvstack #{inputs} > #{File.join('summaries', 'ca_on_toronto', 'output.csv')}`
+    inputs = glob('*.csv').reject{|path| path['data.csv']}.map{|path| Shellwords.escape(path)}.join(' ')
+    `csvstack #{inputs} > #{File.join('wip', 'ca_on_toronto', 'data.csv')}`
   end
 end
