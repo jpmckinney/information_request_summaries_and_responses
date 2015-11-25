@@ -2,7 +2,7 @@ identifier,date,decision,organization,classification
 1,2012,No Records Exist,Building,general
 2,2012,All Information Disclosed,Building,general
 3,2012,Information Disclosed in Part,Building,general
-4,2012,Halton Region,general
+4,2012,,Halton Region,general
 5,2012,Information Disclosed in Part,Animal Control,general
 6,2012,All Information Disclosed,Various,general
 7,2012,Information Disclosed in Part,"Building, Fire",general
@@ -53,20 +53,20 @@ identifier,date,decision,organization,classification
 7,2013,Information Disclosed in Part,"Building, Planning",general
 8,2013,All Information Disclosed,Animal Control,general
 9,2013,Information Disclosed in Part,Animal Control,general
-
-
+,,,,
+,,,,
 10,2013,Information Disclosed in Part,Animal Control,general
 11,2013,Information Disclosed in Part,Burlington Fire,general
-12,2013,All Information Disclosed,general
+12,2013,All Information Disclosed,,general
 13,2013,Information Disclosed in Part,Animal Control,general
 14,2013,No Records Exist,Animal Control,general
 15,2013,Request withdrawn,Animal Control,general
 16,2013,Information Disclosed in Part,Animal Control,general
-17,2013,No Records Exist,general
+17,2013,No Records Exist,,general
 18,2013,All Information Disclosed,By-law enforcement,general
-19,2013,No Records Exist,general
-20,2013,No Records Exist,general
-21,2013,Request withdrawn,general
+19,2013,No Records Exist,,general
+20,2013,No Records Exist,,general
+21,2013,Request withdrawn,,general
 22,2013,Information Disclosed in Part,Procurement ,general
 23,2013,All Information Disclosed,Building,general
 24,2013,No Records Exist,Licensing and Permits,general
@@ -79,11 +79,11 @@ identifier,date,decision,organization,classification
 31,2013,Information Disclosed in Part,Fire,general
 32,2013,Information Disclosed in Part,"Building, Licensing",general
 33,2013,All Information Disclosed,Fire,general
-34,2013,"Clerks, HR",personal
+34,2013,,"Clerks, HR",personal
 35,2013,All Information Disclosed,Burlington Museums,general
 36,2013,All Information Disclosed,Roads and Parks Maintenance,general
 37,2013,Information Disclosed in Part,Animal Control,general
-1,2014,Animal Control,general
+1,2014,,Animal Control,general
 2,2014,Information Disclosed in Part,Animal Control,personal
 3,2014,Information Disclosed in Part,"Building, Fire",general
 4,2014,Information Disclosed in Part,By-law enforcement,general
@@ -95,8 +95,8 @@ identifier,date,decision,organization,classification
 10,2014,Information Disclosed in Part,Building,general
 11,2014,Request withdrawn,Building,general
 12,2014,41723,Planning,general
-13,2014,Building,general
-14,2014,Building,general
+13,2014,,Building,general
+14,2014,,Building,general
 15,2014,No Records Exist,Building,general
 16,2014,Information Disclosed in Part,Procurement Services,general
 17,2014,All Information Disclosed,"Building, Fire",general
@@ -105,9 +105,9 @@ identifier,date,decision,organization,classification
 20,2014,All Information Disclosed,All,personal
 21,2014,All Information Disclosed,Finance,general
 22,2014,All Information Disclosed,"Finance, Clerks",general
-23,2014,Building,general
-24,2014,Information Disclosed in Part,general
-25,2014,Halton Region
+23,2014,,Building,general
+24,2014,Information Disclosed in Part,,general
+25,2014,,Halton Region,
 26,2014,Information Disclosed in Part,Building,general
 27,2014,No Records Exist,Building,general
 28,2014,Request withdrawn,Transportation,general
@@ -115,7 +115,7 @@ identifier,date,decision,organization,classification
 30,2014,No Records Exist,"Planning and Building, Animal Control",personal
 31,2014,Information Disclosed in Part,Licensing,general
 32,2014,All Information Disclosed,"Engineering, Finance",general
-33,2014,"Parking, Transportation",general
+33,2014,,"Parking, Transportation",general
 34,2014,All Information Disclosed,Transit,personal
 35,2014,All Information Disclosed,Transit,personal
 36,2014,Refusal to confirm or deny,Parks and Recreation,general
