@@ -1,3 +1,5 @@
+require 'bundler/setup'
+
 require 'nokogiri'
 require 'faraday-cookie_jar'
 require 'pupa'
@@ -111,7 +113,7 @@ class BC < Pupa::Processor
               b = div.at_xpath(".//b[contains(.,'#{label}')]")
               if [:letters, :files].include?(property)
                 if b
-                  lis = b.xpath('../following-sibling::ul/li')
+                  lis = b.xpath('../following-sibling::ul[1]/li')
 
                   lis.each do |li|
                     a = li.at_xpath('./a')
