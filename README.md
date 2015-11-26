@@ -58,13 +58,13 @@ Build a histogram of number of summaries per organization:
 
 Download the metadata for responses:
 
-    ruby bc_scraper.rb
+    ruby ca_bc_scraper.rb
 
 [openinfo.bc.ca](http://www.openinfo.gov.bc.ca) sometimes redirects to another page then back to the original page which then returns HTTP 200. However, the cache has already stored a HTTP 302 response for the original page; the script therefore reaches a redirect limit. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to temporarily move the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
 
-    for month in {7..12}; do echo 2011-$month; ruby bc_scraper.rb -q -- date 2011-$month; done
-    for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
-    for month in {1..11}; do echo 2015-$month; ruby bc_scraper.rb -q -- date 2015-$month; done
+    for month in {7..12}; do echo 2011-$month; ruby ca_bc_scraper.rb -q -- date 2011-$month; done
+    for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby ca_bc_scraper.rb -q -- date $year-$month; done; done
+    for month in {1..11}; do echo 2015-$month; ruby ca_bc_scraper.rb -q -- date 2015-$month; done
 
 Download the attachments for responses (over 40 GB as of late 2015):
 

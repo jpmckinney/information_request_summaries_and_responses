@@ -25,11 +25,12 @@ class BC < Processor
       fees_paid: 'Fees paid by applicant',
       date: 'Publication Date',
       letters: 'Letters',
+      notes: 'Notes',
       files: 'Files',
     }
     # e.g. http://www.openinfo.gov.bc.ca/ibc/search/detail.page?P110=recorduid%3A3032724&config=ibc&title=FOI+Request+-+FIN-2011-00184
     possible_headers = headers.values
-    required_headers = headers.values - ['Letters', 'Files']
+    required_headers = headers.values - ['Letters', 'Notes', 'Files']
 
     # Set cookie.
     get('http://openinfo.gov.bc.ca/')
@@ -90,7 +91,7 @@ class BC < Processor
             }
             headers.each do |property,label|
               b = div.at_xpath(".//b[contains(.,'#{label}')]")
-              if [:letters, :files].include?(property)
+              if [:letters, :notes, :files].include?(property)
                 if b
                   lis = b.xpath('../following-sibling::ul[1]/li')
 
@@ -138,11 +139,16 @@ class BC < Processor
             end
 
             # Check that the response has some attachments.
-            assert("expected letters or files, got none"){detail_properties[:letters] || detail_properties[:files]}
+            assert("expected letters, notes or files, got none"){detail_properties.slice(:letters, :notes, :files).any?}
 
-            dispatch(InformationResponse.new({
+            properties = {
               division_id: DIVISION_ID,
-            }.merge(list_properties.merge(detail_properties))))
+            }.merge(list_properties.merge(detail_properties))
+            dispatch(InformationResponse.new(properties))
+
+            if properties[:notes]
+              p properties
+            end
           rescue NoMethodError => e
             error("#{list_properties[:url]}: #{e}\n#{e.backtrace.join("\n")}")
           end
@@ -156,10 +162,14 @@ class BC < Processor
   def download
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
     connection.raw_connection['information_responses'].find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      ['letters', 'files'].each do |property|
+      date = Date.parse(response['date'])
+      year = date.strftime('%Y')
+      month = date.strftime('%m')
+
+      ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
-            path = File.join(response['id'], file['title'])
+            path = File.join(year, month, response['id'], file['title'])
             unless store.exist?(path)
               begin
                 store.write(path, get(URI.escape(file['url'])))
@@ -179,7 +189,7 @@ class BC < Processor
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       response['number_of_pages'] = 0
 
-      ['letters', 'files'].each do |property|
+      ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
             path = File.join(response['id'], file['title'])
@@ -188,7 +198,7 @@ class BC < Processor
                 if wait_thr.value.success?
                   file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
                   # The response is sometimes in the incorrect section on the website.
-                  if file['title'][/pac[ka]{2}ge|records/i] # /letter|email/ for letters
+                  if file['title'][/pac[ka]{2}ge|records/i] # /letter|email/ for letters, /note/ for notes
                     response['number_of_pages'] += file['number_of_pages']
                   end
                 else
