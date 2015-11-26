@@ -1,6 +1,6 @@
 require 'bundler/setup'
 
-require_relative 'utils'
+require_relative 'lib/utils'
 
 class NL < Processor
   DIVISION_ID = 'ocd-division/country:ca/province:nl'

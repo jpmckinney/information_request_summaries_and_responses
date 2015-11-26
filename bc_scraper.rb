@@ -2,7 +2,7 @@ require 'bundler/setup'
 
 require 'faraday-cookie_jar'
 
-require_relative 'utils'
+require_relative 'lib/utils'
 
 class BC < Processor
   DIVISION_ID = 'ocd-division/country:ca/province:bc'
