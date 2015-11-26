@@ -1,3 +1,6 @@
+require 'csv'
+require 'open3'
+
 require 'nokogiri'
 require 'pupa'
 

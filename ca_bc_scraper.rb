@@ -1,6 +1,5 @@
 require 'bundler/setup'
 
-require 'open3'
 require 'faraday-cookie_jar'
 
 require_relative 'lib/utils'
