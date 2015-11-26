@@ -179,6 +179,7 @@ class NL < Processor
     end
 
     records = []
+    unreconciled_from_scraped_data = []
     collection.find(division_id: DIVISION_ID).each do |expected|
       begin
         expected_identifier = expected['identifier']
@@ -214,14 +215,18 @@ class NL < Processor
         end
       rescue KeyError => e
         warn(e)
-        # The scraped data has some records not in the open data.
-        records << expected.slice(*keys)
+        # The scraped data has some records not in the open data. In some cases,
+        # this is because the scraped data merges requests, e.g. "EC/6/2015-EC/7/2015".
+        unreconciled_from_scraped_data << expected.slice(*keys)
       end
     end
 
     # The open data has some records not in the scraped data.
-    info("Adding #{csv.values.size} unreconciled records from CSV")
+    unreconciled_from_open_data = csv.values
+    info("Adding #{unreconciled_from_open_data.size} unreconciled records from open data")
     records += csv.values.flatten
+    info("Adding #{unreconciled_from_scraped_data.size} unreconciled records from scraped data")
+    records += unreconciled_from_scraped_data.flatten
 
     records.sort_by!{|record| record['identifier']}
 
