@@ -47,7 +47,7 @@ class NL < Processor
 
   def download
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
-    connection.raw_connection['information_responses'].find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       http_response = client.get(response.fetch('download_url'))
       media_type = http_response.headers.fetch('content-type')
       extension = case media_type
@@ -67,10 +67,62 @@ class NL < Processor
       end
     end
   end
+
+  def reconcile
+    summaries = File.expand_path(File.join('summaries'), Dir.pwd)
+
+    csv = {}
+    JSON.load(File.read(File.join(summaries, 'ca_nl.json'))).each do |response|
+      csv[response['identifier']] ||= []
+      csv[response['identifier']] << response
+    end
+
+    records = []
+    collection.find(division_id: DIVISION_ID).each do |expected|
+      expected_date = Date.parse(expected['date'])
+
+      response = csv.fetch(expected['identifier']).find do |actual|
+        actual_date = Date.parse(actual['date'])
+
+        actual['abstract'] == expected['abstract'] &&
+        actual['organization'] == expected['organization'] &&
+        actual_date.year == expected_date.year &&
+        actual_date.month == expected_date.month
+      end
+
+      if response
+        records << expected['decision'].merge(response.slice('decision', 'number_of_pages'))
+      else
+        assert("#{expected.inspect} expected to match one of #{actuals.inspect}"){response}
+      end
+    end
+
+    # Write the records.
+    keys = [
+      'id',
+      'division_id',
+      'identifier',
+      'date',
+      'abstract',
+      'decision',
+      'organization',
+      'number_of_pages',
+    ]
+    File.open(File.join(summaries, 'ca_nl.json'), 'w') do |f|
+      f << JSON.pretty_generate(records)
+    end
+    CSV.open(File.join(summaries, 'ca_nl.csv'), 'w') do |csv|
+      csv << template.keys
+      records.each do |record|
+        csv << template.keys.map{|key| record[key]}
+      end
+    end
+  end
 end
 
 NL.add_scraping_task(:responses)
 
 runner = Pupa::Runner.new(NL)
 runner.add_action(name: 'download', description: 'Download responses')
+runner.add_action(name: 'reconcile', description: 'Merge CSV data')
 runner.run(ARGV)

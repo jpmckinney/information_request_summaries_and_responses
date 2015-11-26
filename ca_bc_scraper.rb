@@ -156,7 +156,7 @@ class BC < Processor
 
   def download
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
-    connection.raw_connection['information_responses'].find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       date = Date.parse(response['date'])
       year = date.strftime('%Y')
       month = date.strftime('%m')
@@ -180,14 +180,16 @@ class BC < Processor
 
   def number_of_pages
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
-    collection = connection.raw_connection['information_responses']
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      response['number_of_pages'] = 0
+      date = Date.parse(response['date'])
+      year = date.strftime('%Y')
+      month = date.strftime('%m')
 
+      response['number_of_pages'] = 0
       ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
-            path = File.join(response['id'], file['title'])
+            path = File.join(year, month, response['id'], file['title'])
             if File.extname(path).downcase == '.pdf' && store.exist?(path)
               Open3.popen3("pdfinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
                 if wait_thr.value.success?

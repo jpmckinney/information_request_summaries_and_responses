@@ -27,6 +27,10 @@ class Processor < Pupa::Processor
   def assert(message)
     error(message) unless yield
   end
+
+  def collection
+    connection.raw_connection['information_responses']
+  end
 end
 
 # Stores data downloads on disk.

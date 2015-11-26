@@ -20,6 +20,10 @@ Normalize one jurisdiction:
 
     jurisdiction=ca rake datasets:normalize
 
+Reconcile NL's scraped data with its open data:
+
+    ruby ca_nl_scraper.rb -a reconcile
+
 ### Canada
 
 Get the alternate names of organizations to make corrections:

@@ -61,5 +61,18 @@
       "format": "uri"
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "required": [
+    "division_id"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "identifier"
+      ],
+      "required": [
+        "date"
+      ]
+    }
+  ]
 }
