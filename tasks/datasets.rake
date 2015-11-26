@@ -310,6 +310,10 @@ namespace :datasets do
         end
       end
 
+      if directory == 'ca_nl'
+        records.sort_by!{|record| record['identifier']}
+      end
+
       # Write the records.
       FileUtils.mkdir_p('summaries')
       File.open(File.join('summaries', "#{directory}.json"), 'w') do |f|
