@@ -10,6 +10,7 @@ require 'safe_yaml'
 require 'unicode_utils/downcase'
 require 'whos_got_dirt'
 
+Mongo::Logger.logger.level = Logger::WARN
 SafeYAML::OPTIONS[:default_mode] = :safe
 
 def assert(message)
