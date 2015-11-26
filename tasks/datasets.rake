@@ -127,7 +127,7 @@ namespace :datasets do
     ]
 
     encodings = {
-      'ca_nl' => 'iso-8859-1',
+      'ca_nl' => 'windows-1252:utf-8',
     }
 
     templates = {
