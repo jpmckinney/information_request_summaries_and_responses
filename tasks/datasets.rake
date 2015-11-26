@@ -260,8 +260,8 @@ namespace :datasets do
       },
     }
 
-    if ENV['division_id']
-      templates = templates.slice(ENV['division_id'])
+    if ENV['jurisdiction']
+      templates = templates.slice(ENV['jurisdiction'])
     end
 
     templates.each do |directory,template|

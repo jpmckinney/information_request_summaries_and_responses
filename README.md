@@ -16,6 +16,10 @@ Normalize summaries:
 
     rake datasets:normalize
 
+Normalize one jurisdiction:
+
+jurisdiction=ca rake datasets:normalize
+
 ### Canada
 
 Get the alternate names of organizations to make corrections:
