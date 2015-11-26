@@ -64,17 +64,17 @@ Download the metadata for responses:
 
 Download the attachments for responses (over 40 GB as of late 2015):
 
-    ruby bc_scraper.rb -a download --no-cache
+    ruby ca_bc_scraper.rb -a download --no-cache
 
 ### Newfoundland and Labrador
 
 Download the metadata for responses:
 
-    ruby nl_scraper.rb
+    ruby ca_nl_scraper.rb
 
 Download the attachments for responses:
 
-    ruby nl_scraper.rb -a download
+    ruby ca_nl_scraper.rb -a download
 
 ### Ontario
 
