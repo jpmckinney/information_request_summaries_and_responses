@@ -154,6 +154,7 @@ namespace :datasets do
         'date' => '/date',
         'abstract' => '/abstract',
         'organization' => '/organization',
+        'number_of_pages' => '/number_of_pages',
         'url' => lambda{|data|
           v = JsonPointer.new(data, '/url').value
           ['url', URI.escape(v)]

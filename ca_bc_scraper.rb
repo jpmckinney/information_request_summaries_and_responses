@@ -1,5 +1,6 @@
 require 'bundler/setup'
 
+require 'open3'
 require 'faraday-cookie_jar'
 
 require_relative 'lib/utils'
@@ -171,10 +172,42 @@ class BC < Processor
       end
     end
   end
+
+  def number_of_pages
+    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
+    collection = connection.raw_connection['information_responses']
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+      response['number_of_pages'] = 0
+
+      ['letters', 'files'].each do |property|
+        if response[property]
+          response[property].each do |file|
+            path = File.join(response['id'], file['title'])
+            if File.extname(path).downcase == '.pdf' && store.exist?(path)
+              Open3.popen3("pdfinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+                if wait_thr.value.success?
+                  file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
+                  # The response is sometimes in the incorrect section on the website.
+                  if file['title'][/pac[ka]{2}ge|records/i] # /letter|email/ for letters
+                    response['number_of_pages'] += file['number_of_pages']
+                  end
+                else
+                  error("#{path}: #{stderr.read}")
+                end
+              end
+            end
+          end
+        end
+      end
+
+      collection.update_one({_id: response['_id']}, response)
+    end
+  end
 end
 
 BC.add_scraping_task(:responses)
 
 runner = Pupa::Runner.new(BC)
 runner.add_action(name: 'download', description: 'Download responses')
+runner.add_action(name: 'number_of_pages', description: 'Calculate the number of pages disclosed')
 runner.run(ARGV, faraday_options: {follow_redirects: {limit: 5}})

@@ -18,7 +18,7 @@ Normalize summaries:
 
 Normalize one jurisdiction:
 
-jurisdiction=ca rake datasets:normalize
+    jurisdiction=ca rake datasets:normalize
 
 ### Canada
 
@@ -69,6 +69,10 @@ Download the metadata for responses:
 Download the attachments for responses (over 40 GB as of late 2015):
 
     ruby ca_bc_scraper.rb -a download --no-cache
+
+Calculate the number of pages disclosed:
+
+    ruby ca_bc_scraper.rb -a number_of_pages
 
 ### Newfoundland and Labrador
 
