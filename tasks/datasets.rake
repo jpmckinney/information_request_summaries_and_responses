@@ -14,6 +14,11 @@ namespace :datasets do
     'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
   }.freeze
 
+  def normalize_ca_bc
+    connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
+    connection['information_responses'].find(division_id: 'ocd-division/country:ca/province:bc')
+  end
+
   def normalize_decision(text)
     if text
       text = text.downcase.
@@ -117,6 +122,10 @@ namespace :datasets do
       parse_data: false,
     })
 
+    scraped = [
+      'ca_bc',
+    ]
+
     encodings = {
       'ca_nl' => 'iso-8859-1',
     }
@@ -137,6 +146,18 @@ namespace :datasets do
         },
         'organization' => '/Org',
         'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
+      },
+      'ca_bc' => {
+        'division_id' => '/division_id',
+        'id' => '/id',
+        'identifier' => '/identifier',
+        'date' => '/date',
+        'abstract' => '/abstract',
+        'organization' => '/organization',
+        'url' => lambda{|data|
+          v = JsonPointer.new(data, '/url').value
+          ['url', URI.escape(v)]
+        },
       },
       'ca_nl' => {
         'division_id' => 'ocd-division/country:ca/province:nl',
@@ -239,34 +260,36 @@ namespace :datasets do
       },
     }
 
-    if ENV['directory']
-      templates = templates.slice(ENV['directory'])
+    if ENV['division_id']
+      templates = templates.slice(ENV['division_id'])
     end
 
     templates.each do |directory,template|
-      wip = File.join('wip', directory)
-      filename = File.join(wip, 'data.csv')
       renderer = WhosGotDirt::Renderer.new(template)
-
-      # Find the CSV to normalize.
-      unless File.exist?(filename)
-        filenames = Dir[File.join(wip, '*.csv')]
-        filename = filenames[0]
-        assert("#{directory}: can't determine CSV file"){filenames.one?}
-      end
-
-      # Set the CSV options.
-      options = {headers: true}
-      if encodings.key?(directory)
-        options[:encoding] = encodings[directory]
-      end
-
-      # Get the CSV rows.
       method = "normalize_#{directory}"
-      begin
-        rows = send(method, File.read(filename))
-      rescue NoMethodError
-        rows = CSV.foreach(filename, options)
+
+      if scraped.include?(directory)
+        rows = send(method)
+      else
+        # Find the CSV to normalize.
+        wip = File.join('wip', directory)
+        filename = File.join(wip, 'data.csv')
+        unless File.exist?(filename)
+          filenames = Dir[File.join(wip, '*.csv')]
+          filename = filenames[0]
+          assert("#{directory}: can't determine CSV file"){filenames.one?}
+        end
+
+        # Get the rows from the CSV.
+        begin
+          rows = send(method, File.read(filename))
+        rescue NoMethodError
+          options = {headers: true}
+          if encodings.key?(directory)
+            options[:encoding] = encodings[directory]
+          end
+          rows = CSV.foreach(filename, options)
+        end
       end
 
       # Normalize the records.
