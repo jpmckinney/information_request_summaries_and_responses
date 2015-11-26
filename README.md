@@ -1,6 +1,6 @@
 # Information Request Summaries and Responses
 
-All government bodies in Canada are subject to some freedom of information statute. Some bodies publish summaries of completed information requests. Fewer publish responses to completed information requests. This repository contains scripts for aggregating what is available.
+All government bodies in Canada are subject to some freedom of information statutes. Some bodies publish summaries of completed information requests. Fewer publish responses to completed information requests. This repository contains scripts for aggregating what is available.
 
 ## Scripts
 
@@ -56,7 +56,7 @@ Download the metadata for responses:
 
     ruby bc_scraper.rb
 
-[openinfo.bc.ca](http://www.openinfo.gov.bc.ca) sometimes redirects to another page then back to the original page which then returns 200. However, the cache has already stored a 302 response for the original page; the script therefore reaches a redirect limit. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to move the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
+[openinfo.bc.ca](http://www.openinfo.gov.bc.ca) sometimes redirects to another page then back to the original page which then returns HTTP 200. However, the cache has already stored a HTTP 302 response for the original page; the script therefore reaches a redirect limit. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to temporarily move the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
 
     for month in {7..12}; do echo 2011-$month; ruby bc_scraper.rb -q -- date 2011-$month; done
     for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby bc_scraper.rb -q -- date $year-$month; done; done
@@ -76,7 +76,9 @@ Download the attachments for responses:
 
     ruby nl_scraper.rb -a download
 
-### Toronto
+### Ontario
+
+#### Toronto
 
 Convert the Excel files to CSV files:
 
