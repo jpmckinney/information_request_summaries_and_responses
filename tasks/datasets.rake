@@ -305,7 +305,7 @@ namespace :datasets do
             validator.validate
             records << record
           rescue => e
-            error("#{directory} #{index + 2}: #{e}")
+            puts "#{directory} #{index + 2}: #{e}\n  #{record}"
           end
         end
       end
