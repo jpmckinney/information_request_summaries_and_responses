@@ -141,14 +141,9 @@ class BC < Processor
             # Check that the response has some attachments.
             assert("expected letters, notes or files, got none"){detail_properties.slice(:letters, :notes, :files).any?}
 
-            properties = {
+            dispatch(InformationResponse.new({
               division_id: DIVISION_ID,
-            }.merge(list_properties.merge(detail_properties))
-            dispatch(InformationResponse.new(properties))
-
-            if properties[:notes]
-              p properties
-            end
+            }.merge(list_properties.merge(detail_properties))))
           rescue NoMethodError => e
             error("#{list_properties[:url]}: #{e}\n#{e.backtrace.join("\n")}")
           end
