@@ -3,29 +3,33 @@ namespace :ca do
     # Web => CSV
     'Canada Science and Technology Museum' => 'Canada Science and Technology Museums Corporation',
     'Civilian Review and Complaints Commission for the RCMP' => 'Commission for Public Complaints Against the RCMP',
-  }
+  }.freeze
+
+  DISPOSITIONS = Set.new(load_yaml('dispositions.yml')).freeze
 
   def normalize_email(string)
     string.gsub(/mailto:/, '').downcase
+  end
+
+  def disposition?(text)
+    DISPOSITIONS.include?(text.downcase.squeeze(' ').strip)
   end
 
   def normalize_ca(data)
     rows = []
 
     corrections = CORRECTIONS.invert
-    dispositions = load_yaml('dispositions.yml')
-    re = "(?:#{dispositions.join('|')})"
 
     row_number = 1
     CSV.parse(data, headers: true) do |row|
       row_number += 1
 
       # The informal request URLs don't make this correction.
-      if row['French Summary / Sommaire de la demande en français'] && row['French Summary / Sommaire de la demande en français'][/\A#{re}/i]
+      if row['French Summary / Sommaire de la demande en français'] && disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[1])
         row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
       end
       assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
-        row['Disposition'].nil? || row['Disposition'][/\A#{re}\z/i] || row['Disposition'][%r{ ?/ ?}]
+        row['Disposition'].nil? || row['Disposition']['/'] || disposition?(row['Disposition'])
       }
       assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
         row['Org'][/ [|-] /]
