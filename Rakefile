@@ -25,4 +25,6 @@ def load_yaml(basename)
   YAML.load(File.read(File.join('support', basename)))
 end
 
+require_relative 'lib/constants'
+
 Dir['tasks/*.rake'].each { |r| import r }

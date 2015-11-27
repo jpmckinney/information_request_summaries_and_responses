@@ -1,13 +1,13 @@
 require 'shellwords'
 
 namespace :ca_on_toronto do
-  def glob(pattern)
+  def ca_on_toronto_glob(pattern)
     Dir[File.join('wip', 'ca_on_toronto', pattern)]
   end
 
   desc 'Convert Excel to CSV'
   task :excel_to_csv do
-    glob('*.xls*').each do |input|
+    ca_on_toronto_glob('*.xls*').each do |input|
       unless input['_Readme.xls']
         output = input.sub(/\.xlsx?\z/, '.csv')
         # The files from 2011 contain two extra columns.
@@ -19,7 +19,7 @@ namespace :ca_on_toronto do
 
   desc 'Stack CSV files'
   task :stack do
-    inputs = glob('*.csv').reject{|path| path['data.csv']}.map{|path| Shellwords.escape(path)}.join(' ')
+    inputs = ca_on_toronto_glob('*.csv').reject{|path| path['data.csv']}.map{|path| Shellwords.escape(path)}.join(' ')
     `csvstack #{inputs} > #{File.join('wip', 'ca_on_toronto', 'data.csv')}`
   end
 end

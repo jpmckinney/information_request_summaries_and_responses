@@ -1,35 +1,41 @@
 namespace :ca do
-  CORRECTIONS = {
-    # Web => CSV
-    'Canada Science and Technology Museum' => 'Canada Science and Technology Museums Corporation',
-    'Civilian Review and Complaints Commission for the RCMP' => 'Commission for Public Complaints Against the RCMP',
-  }.freeze
-
-  DISPOSITIONS = Set.new(load_yaml('dispositions.yml')).freeze
-
-  def normalize_email(string)
+  def ca_normalize_email(string)
     string.gsub(/mailto:/, '').downcase
   end
 
-  def disposition?(text)
-    DISPOSITIONS.include?(text.downcase.squeeze(' ').strip)
+  def ca_normalize_name(string)
+    UnicodeUtils.downcase(string).strip.
+      sub(/\Aport of (.+)/, '\1 port authority'). # word order
+      sub(' commissionner ', ' commissioner '). # typo
+      sub(' transaction ', ' transactions '). # typo
+      sub('î', 'i'). # typo
+      sub(/ \(.+/, ''). # parentheses
+      sub(/\A(?:canadian|(?:office of )?the) /, ''). # prefixes
+      gsub(/\band (?:employment )?/, ''). # infixes
+      sub(/, ltd\.\z/, ''). # suffixes
+      sub(/(?: agency| company| corporation| inc\.|, the)\z/, ''). # suffixes
+      sub(/(?: of)? canada\z/, '') # suffixes
   end
 
-  def normalize_ca(data)
+  def ca_disposition?(text)
+    CA_DISPOSITIONS.include?(text.downcase.squeeze(' ').strip)
+  end
+
+  def ca_normalize(data)
     rows = []
 
-    corrections = CORRECTIONS.invert
+    corrections = CA_CORRECTIONS.invert
 
     row_number = 1
     CSV.parse(data, headers: true) do |row|
       row_number += 1
 
       # The informal request URLs don't make this correction.
-      if row['French Summary / Sommaire de la demande en français'] && disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[1])
+      if row['French Summary / Sommaire de la demande en français'] && ca_disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[1])
         row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
       end
       assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
-        row['Disposition'].nil? || row['Disposition']['/'] || disposition?(row['Disposition'])
+        row['Disposition'].nil? || row['Disposition']['/'] || ca_disposition?(row['Disposition'])
       }
       assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
         row['Org'][/ [|-] /]
@@ -126,20 +132,6 @@ namespace :ca do
   namespace :emails do
     desc 'Print emails from the coordinators page'
     task :coordinators_page do
-      def normalize_name(string)
-        UnicodeUtils.downcase(string).strip.
-          sub(/\Aport of (.+)/, '\1 port authority'). # word order
-          sub(' commissionner ', ' commissioner '). # typo
-          sub(' transaction ', ' transactions '). # typo
-          sub('î', 'i'). # typo
-          sub(/ \(.+/, ''). # parentheses
-          sub(/\A(?:canadian|(?:office of )?the) /, ''). # prefixes
-          gsub(/\band (?:employment )?/, ''). # infixes
-          sub(/, ltd\.\z/, ''). # suffixes
-          sub(/(?: agency| company| corporation| inc\.|, the)\z/, ''). # suffixes
-          sub(/(?: of)? canada\z/, '') # suffixes
-      end
-
       def parent(string)
         UnicodeUtils.downcase(string[/\((?:see)? *([^)]+)/, 1].to_s)
       end
@@ -168,15 +160,15 @@ namespace :ca do
 
       abbreviations.each do |id,name|
         output[id] ||= nil # easier to see which are missing
-        names[normalize_name(corrections.fetch(name, name))] = id
+        names[ca_normalize_name(corrections.fetch(name, name))] = id
       end
 
       url = 'http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp'
       client.get(url).body.xpath('//@href[starts-with(.,"mailto:")]').each do |href|
         name = href.xpath('../../strong').text.gsub(/\p{Space}+/, ' ').strip
-        normalized = normalize_name(corrections.fetch(name, name))
-        backup = normalize_name(parent(name))
-        value = normalize_email(href.value)
+        normalized = ca_normalize_name(corrections.fetch(name, name))
+        backup = ca_normalize_name(parent(name))
+        value = ca_normalize_email(href.value)
         if names.key?(normalized) || names.key?(backup)
           id = names[normalized] || names[backup]
           if output[id]
@@ -205,7 +197,7 @@ namespace :ca do
 
     desc 'Print emails from the search page'
     task :search_page do
-      corrections = CORRECTIONS
+      corrections = CA_CORRECTIONS
 
       output = {}
       xpath = '//a[@title="Contact this organization about this ATI Request."]/@href'
@@ -233,7 +225,7 @@ namespace :ca do
         if href
           name = a.xpath('./text()').text.strip
           id = names.fetch(corrections.fetch(name, name))
-          value = normalize_email(href.value.match(/email=([^&]+)/)[1])
+          value = ca_normalize_email(href.value.match(/email=([^&]+)/)[1])
           if output[id]
             assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
           else
@@ -274,7 +266,7 @@ namespace :ca do
       emails = load_yaml('emails_search_page.yml')
 
       url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
-      normalize_ca(client.get(url).body.force_encoding('utf-8')).each do |row|
+      ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
         organization = row.fetch('Org')
         number = row['Request Number / Numero de la demande']
         pages = row.fetch('Number of Pages / Nombre de pages')
