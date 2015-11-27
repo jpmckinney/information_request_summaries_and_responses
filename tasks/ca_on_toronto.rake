@@ -1,6 +1,7 @@
 require 'shellwords'
 
 namespace :ca_on_toronto do
+  # ca_on_toronto:excel_to_csv ca_on_toronto:stack
   def ca_on_toronto_glob(pattern)
     Dir[File.join('wip', 'ca_on_toronto', pattern)]
   end

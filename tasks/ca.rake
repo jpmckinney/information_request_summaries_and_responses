@@ -1,22 +1,10 @@
 namespace :ca do
+  # ca:emails:coordinators_page ca:emails:search_page
   def ca_normalize_email(string)
     string.gsub(/mailto:/, '').downcase
   end
 
-  def ca_normalize_name(string)
-    UnicodeUtils.downcase(string).strip.
-      sub(/\Aport of (.+)/, '\1 port authority'). # word order
-      sub(' commissionner ', ' commissioner '). # typo
-      sub(' transaction ', ' transactions '). # typo
-      sub('î', 'i'). # typo
-      sub(/ \(.+/, ''). # parentheses
-      sub(/\A(?:canadian|(?:office of )?the) /, ''). # prefixes
-      gsub(/\band (?:employment )?/, ''). # infixes
-      sub(/, ltd\.\z/, ''). # suffixes
-      sub(/(?: agency| company| corporation| inc\.|, the)\z/, ''). # suffixes
-      sub(/(?: of)? canada\z/, '') # suffixes
-  end
-
+  # #ca_normalize
   def ca_disposition?(text)
     CA_DISPOSITIONS.include?(text.downcase.squeeze(' ').strip)
   end
@@ -132,6 +120,20 @@ namespace :ca do
   namespace :emails do
     desc 'Print emails from the coordinators page'
     task :coordinators_page do
+      def normalize_name(string)
+        UnicodeUtils.downcase(string).strip.
+          sub(/\Aport of (.+)/, '\1 port authority'). # word order
+          sub(' commissionner ', ' commissioner '). # typo
+          sub(' transaction ', ' transactions '). # typo
+          sub('î', 'i'). # typo
+          sub(/ \(.+/, ''). # parentheses
+          sub(/\A(?:canadian|(?:office of )?the) /, ''). # prefixes
+          gsub(/\band (?:employment )?/, ''). # infixes
+          sub(/, ltd\.\z/, ''). # suffixes
+          sub(/(?: agency| company| corporation| inc\.|, the)\z/, ''). # suffixes
+          sub(/(?: of)? canada\z/, '') # suffixes
+      end
+
       def parent(string)
         UnicodeUtils.downcase(string[/\((?:see)? *([^)]+)/, 1].to_s)
       end
@@ -160,14 +162,14 @@ namespace :ca do
 
       abbreviations.each do |id,name|
         output[id] ||= nil # easier to see which are missing
-        names[ca_normalize_name(corrections.fetch(name, name))] = id
+        names[normalize(corrections.fetch(name, name))] = id
       end
 
       url = 'http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp'
       client.get(url).body.xpath('//@href[starts-with(.,"mailto:")]').each do |href|
         name = href.xpath('../../strong').text.gsub(/\p{Space}+/, ' ').strip
-        normalized = ca_normalize_name(corrections.fetch(name, name))
-        backup = ca_normalize_name(parent(name))
+        normalized = normalize(corrections.fetch(name, name))
+        backup = normalize(parent(name))
         value = ca_normalize_email(href.value)
         if names.key?(normalized) || names.key?(backup)
           id = names[normalized] || names[backup]
