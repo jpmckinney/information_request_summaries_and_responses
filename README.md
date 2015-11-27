@@ -24,6 +24,10 @@ Reconcile NL's scraped data with its open data:
 
     ruby ca_nl_scraper.rb -a reconcile
 
+Validate that the decision and the number of pages agree:
+
+    rake datasets:validate
+
 ### Canada
 
 Get the alternate names of organizations to make corrections:
