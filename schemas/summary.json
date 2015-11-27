@@ -14,7 +14,10 @@
     },
     "identifier": {
       "description": "The number or identifier of the request",
-      "type": "string"
+      "type": [
+        "integer",
+        "string"
+      ]
     },
     "date": {
       "description": "The date of decision or the date of publication of the request",
@@ -45,7 +48,7 @@
     },
     "number_of_pages": {
       "description": "The number of pages disclosed",
-      "type": "number"
+      "type": "integer"
     },
     "classification": {
       "description": "The classification of the request",
@@ -68,12 +71,20 @@
   "anyOf": [
     {
       "required": [
-        "identifier"
+        "identifier",
+        "date"
       ]
     },
     {
       "required": [
-        "date"
+        "identifier",
+        "abstract"
+      ]
+    },
+    {
+      "required": [
+        "date",
+        "abstract"
       ]
     }
   ]
