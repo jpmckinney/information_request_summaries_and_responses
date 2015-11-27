@@ -1,7 +1,7 @@
 [
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "1",
+    "identifier": 1,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Building",
@@ -9,7 +9,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "2",
+    "identifier": 2,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -17,7 +17,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "3",
+    "identifier": 3,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Building",
@@ -25,14 +25,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "4",
+    "identifier": 4,
     "date": "2012",
     "organization": "Halton Region",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "5",
+    "identifier": 5,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -40,7 +40,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "6",
+    "identifier": 6,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Various",
@@ -48,7 +48,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "7",
+    "identifier": 7,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Building, Fire",
@@ -56,7 +56,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "8",
+    "identifier": 8,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Roads and Parks Maintenance",
@@ -64,7 +64,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "9",
+    "identifier": 9,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Engineering",
@@ -72,7 +72,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "10",
+    "identifier": 10,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Building and By-law ",
@@ -80,7 +80,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "12",
+    "identifier": 12,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -88,7 +88,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "12",
+    "identifier": 12,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -96,7 +96,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "13",
+    "identifier": 13,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -104,7 +104,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "14",
+    "identifier": 14,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Fire",
@@ -112,7 +112,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "15",
+    "identifier": 15,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Fire",
@@ -120,7 +120,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "16",
+    "identifier": 16,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Fire",
@@ -128,7 +128,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "17",
+    "identifier": 17,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -136,7 +136,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "18",
+    "identifier": 18,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Fire",
@@ -144,7 +144,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "19",
+    "identifier": 19,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Fire",
@@ -152,7 +152,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "20",
+    "identifier": 20,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -160,7 +160,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "21",
+    "identifier": 21,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Fire",
@@ -168,7 +168,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "22",
+    "identifier": 22,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Finance, Clerks",
@@ -176,7 +176,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "23",
+    "identifier": 23,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -184,7 +184,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "24",
+    "identifier": 24,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -192,7 +192,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "25",
+    "identifier": 25,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Building",
@@ -200,7 +200,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "26",
+    "identifier": 26,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Various",
@@ -208,7 +208,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "27",
+    "identifier": 27,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Roads and Parks Maintenance",
@@ -216,7 +216,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "28",
+    "identifier": 28,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Various",
@@ -224,7 +224,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "29",
+    "identifier": 29,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Planning Building Engineering",
@@ -232,7 +232,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "30",
+    "identifier": 30,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Procurement ",
@@ -240,7 +240,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "31",
+    "identifier": 31,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Planning Building Engineering",
@@ -248,7 +248,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "32",
+    "identifier": 32,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Building",
@@ -256,7 +256,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "33",
+    "identifier": 33,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Planning Building Engineering",
@@ -264,7 +264,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "34",
+    "identifier": 34,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Fire",
@@ -272,7 +272,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "35",
+    "identifier": 35,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Procurement ",
@@ -280,7 +280,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "36",
+    "identifier": 36,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Roads and Parks Maintenance",
@@ -288,7 +288,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "37",
+    "identifier": 37,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -296,7 +296,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "38",
+    "identifier": 38,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -304,7 +304,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "39",
+    "identifier": 39,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "Building",
@@ -312,7 +312,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "40",
+    "identifier": 40,
     "date": "2012",
     "decision": "all disclosed",
     "organization": "Building",
@@ -320,7 +320,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "41",
+    "identifier": 41,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Halton Region",
@@ -328,7 +328,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "42",
+    "identifier": 42,
     "date": "2012",
     "decision": "abandoned",
     "organization": "Clerks",
@@ -336,7 +336,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "43",
+    "identifier": 43,
     "date": "2012",
     "decision": "disclosed in part",
     "organization": "By-law enforcement",
@@ -344,7 +344,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "44",
+    "identifier": 44,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Halton Region",
@@ -352,7 +352,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "45",
+    "identifier": 45,
     "date": "2012",
     "decision": "nothing disclosed",
     "organization": "Clerks - Council",
@@ -360,7 +360,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "1",
+    "identifier": 1,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "AMANDA - Planning and Building",
@@ -368,7 +368,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "2",
+    "identifier": 2,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -376,7 +376,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "3",
+    "identifier": 3,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Burlington Fire",
@@ -384,7 +384,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "4",
+    "identifier": 4,
     "date": "2013",
     "decision": "abandoned",
     "organization": "Burlington Fire",
@@ -392,7 +392,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "5",
+    "identifier": 5,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Animal Control",
@@ -400,7 +400,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "6",
+    "identifier": 6,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Burlington Fire",
@@ -408,7 +408,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "7",
+    "identifier": 7,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Building, Planning",
@@ -416,7 +416,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "8",
+    "identifier": 8,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Animal Control",
@@ -424,7 +424,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "9",
+    "identifier": 9,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -432,7 +432,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "10",
+    "identifier": 10,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -440,7 +440,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "11",
+    "identifier": 11,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Burlington Fire",
@@ -448,14 +448,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "12",
+    "identifier": 12,
     "date": "2013",
     "decision": "all disclosed",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "13",
+    "identifier": 13,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -463,7 +463,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "14",
+    "identifier": 14,
     "date": "2013",
     "decision": "nothing disclosed",
     "organization": "Animal Control",
@@ -471,7 +471,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "15",
+    "identifier": 15,
     "date": "2013",
     "decision": "abandoned",
     "organization": "Animal Control",
@@ -479,7 +479,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "16",
+    "identifier": 16,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -487,14 +487,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "17",
+    "identifier": 17,
     "date": "2013",
     "decision": "nothing disclosed",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "18",
+    "identifier": 18,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "By-law enforcement",
@@ -502,28 +502,28 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "19",
+    "identifier": 19,
     "date": "2013",
     "decision": "nothing disclosed",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "20",
+    "identifier": 20,
     "date": "2013",
     "decision": "nothing disclosed",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "21",
+    "identifier": 21,
     "date": "2013",
     "decision": "abandoned",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "22",
+    "identifier": 22,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Procurement ",
@@ -531,7 +531,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "23",
+    "identifier": 23,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Building",
@@ -539,7 +539,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "24",
+    "identifier": 24,
     "date": "2013",
     "decision": "nothing disclosed",
     "organization": "Licensing and Permits",
@@ -547,7 +547,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "25",
+    "identifier": 25,
     "date": "2013",
     "decision": "nothing disclosed",
     "organization": "Clerks",
@@ -555,7 +555,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "26",
+    "identifier": 26,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -563,7 +563,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "27",
+    "identifier": 27,
     "date": "2013",
     "decision": "nothing disclosed",
     "organization": "Engineering",
@@ -571,7 +571,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "28",
+    "identifier": 28,
     "date": "2013",
     "decision": "abandoned",
     "organization": "Engineering",
@@ -579,7 +579,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "29",
+    "identifier": 29,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Transportation, Transit",
@@ -587,7 +587,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "30",
+    "identifier": 30,
     "date": "2013",
     "decision": "abandoned",
     "organization": "Animal Control",
@@ -595,7 +595,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "31",
+    "identifier": 31,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Fire",
@@ -603,7 +603,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "32",
+    "identifier": 32,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Building, Licensing",
@@ -611,7 +611,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "33",
+    "identifier": 33,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Fire",
@@ -619,14 +619,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "34",
+    "identifier": 34,
     "date": "2013",
     "organization": "Clerks, HR",
     "classification": "personal"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "35",
+    "identifier": 35,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Burlington Museums",
@@ -634,7 +634,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "36",
+    "identifier": 36,
     "date": "2013",
     "decision": "all disclosed",
     "organization": "Roads and Parks Maintenance",
@@ -642,7 +642,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "37",
+    "identifier": 37,
     "date": "2013",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -650,14 +650,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "1",
+    "identifier": 1,
     "date": "2014",
     "organization": "Animal Control",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "2",
+    "identifier": 2,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -665,7 +665,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "3",
+    "identifier": 3,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Building, Fire",
@@ -673,7 +673,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "4",
+    "identifier": 4,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "By-law enforcement",
@@ -681,7 +681,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "5",
+    "identifier": 5,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Building, Licensing",
@@ -689,7 +689,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "6",
+    "identifier": 6,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Procurement",
@@ -697,7 +697,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "7",
+    "identifier": 7,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -705,7 +705,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "8",
+    "identifier": 8,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Planning and Building",
@@ -713,7 +713,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "9",
+    "identifier": 9,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Animal Control",
@@ -721,7 +721,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "10",
+    "identifier": 10,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Building",
@@ -729,7 +729,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "11",
+    "identifier": 11,
     "date": "2014",
     "decision": "abandoned",
     "organization": "Building",
@@ -737,28 +737,28 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "12",
+    "identifier": 12,
     "date": "2014",
     "organization": "Planning",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "13",
+    "identifier": 13,
     "date": "2014",
     "organization": "Building",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "14",
+    "identifier": 14,
     "date": "2014",
     "organization": "Building",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "15",
+    "identifier": 15,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Building",
@@ -766,7 +766,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "16",
+    "identifier": 16,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Procurement Services",
@@ -774,7 +774,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "17",
+    "identifier": 17,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Building, Fire",
@@ -782,7 +782,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "18",
+    "identifier": 18,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Transportation",
@@ -790,7 +790,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "19",
+    "identifier": 19,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Parks and Recreation",
@@ -798,7 +798,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "20",
+    "identifier": 20,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "All",
@@ -806,7 +806,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "21",
+    "identifier": 21,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Finance",
@@ -814,7 +814,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "22",
+    "identifier": 22,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Finance, Clerks",
@@ -822,27 +822,27 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "23",
+    "identifier": 23,
     "date": "2014",
     "organization": "Building",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "24",
+    "identifier": 24,
     "date": "2014",
     "decision": "disclosed in part",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "25",
+    "identifier": 25,
     "date": "2014",
     "organization": "Halton Region"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "26",
+    "identifier": 26,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Building",
@@ -850,7 +850,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "27",
+    "identifier": 27,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Building",
@@ -858,7 +858,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "28",
+    "identifier": 28,
     "date": "2014",
     "decision": "abandoned",
     "organization": "Transportation",
@@ -866,7 +866,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "29",
+    "identifier": 29,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Clerks",
@@ -874,7 +874,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "30",
+    "identifier": 30,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Planning and Building, Animal Control",
@@ -882,7 +882,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "31",
+    "identifier": 31,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Licensing",
@@ -890,7 +890,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "32",
+    "identifier": 32,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Engineering, Finance",
@@ -898,14 +898,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "33",
+    "identifier": 33,
     "date": "2014",
     "organization": "Parking, Transportation",
     "classification": "general"
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "34",
+    "identifier": 34,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Transit",
@@ -913,7 +913,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "35",
+    "identifier": 35,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Transit",
@@ -921,7 +921,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "36",
+    "identifier": 36,
     "date": "2014",
     "decision": "nothing disclosed",
     "organization": "Parks and Recreation",
@@ -929,7 +929,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "37",
+    "identifier": 37,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Building",
@@ -937,7 +937,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "38",
+    "identifier": 38,
     "date": "2014",
     "decision": "disclosed in part",
     "organization": "Roads and Parks Maintenance",
@@ -945,7 +945,7 @@
   },
   {
     "division_id": "ocd-division/country:ca/province:on/csd:3524002",
-    "identifier": "39",
+    "identifier": 39,
     "date": "2014",
     "decision": "all disclosed",
     "organization": "Building",
