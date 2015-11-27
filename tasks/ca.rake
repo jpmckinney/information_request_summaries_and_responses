@@ -31,7 +31,7 @@ namespace :ca do
       row_number += 1
 
       # The informal request URLs don't make this correction.
-      if row['French Summary / Sommaire de la demande en français'] && ca_disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[1])
+      if row['French Summary / Sommaire de la demande en français'] && ca_disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[0])
         row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
       end
       assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
