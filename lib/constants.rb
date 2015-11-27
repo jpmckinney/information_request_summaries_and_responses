@@ -41,7 +41,11 @@ TEMPLATES = {
       month = JsonPointer.new(data, '/Month ~1 Mois (1-12)').value
       ['date', Date.new(year, month, 1).strftime('%Y-%m')]
     },
-    'abstract' => '/English Summary ~1 Sommaire de la demande en anglais',
+    'abstract' => lambda{|data|
+      en = JsonPointer.new(data, '/English Summary ~1 Sommaire de la demande en anglais').value
+      fr = JsonPointer.new(data, '/French Summary ~1 Sommaire de la demande en français').value
+      ['abstract', en || fr]
+    },
     'decision' => '/Disposition',
     'organization' => '/Org',
     'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
@@ -82,7 +86,10 @@ TEMPLATES = {
   },
   'ca_on_burlington' => {
     'division_id' => 'ocd-division/country:ca/province:on/csd:3524002',
-    'identifier' => '/No.',
+    'identifier' => lambda{|data|
+      v = JsonPointer.new(data, '/No.').value
+      ['identifier', v && Integer(v)]
+    },
     'date' => '/Year',
     'decision' => '/Decision',
     'organization' => '/Dept Contact',
@@ -99,8 +106,12 @@ TEMPLATES = {
     },
   },
   'ca_on_greater_sudbury' => {
+    'id' => '/FILE_NUMBER',
     'division_id' => 'ocd-division/country:ca/province:on/csd:3553005',
-    'identifier' => '/FILE_NUMBER',
+    'identifier' => lambda{|data|
+      v = JsonPointer.new(data, '/FILE_NUMBER').value
+      ['identifier', Integer(v.strip.match(/\AFOI ?\d{4}-(\d{1,4})\z/)[1])]
+    },
     'date' => lambda{|data|
       v = JsonPointer.new(data, '/NOTICE_OF_DECISION_SENT').value
       ['date', v && (Date.strptime(v, '%m/%d/%Y') rescue Date.strptime(v, '%d/%m/%Y')).strftime('%Y-%m-%d')]
