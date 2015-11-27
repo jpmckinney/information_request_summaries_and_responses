@@ -11,7 +11,8 @@ CA_DISPOSITIONS = Set.new(load_yaml('dispositions.yml')).freeze
 # #normalize_decision
 RE_PARENTHETICAL_CITATION = /\(.\)/.freeze
 RE_PARENTHETICAL = /\([^)]+\)?/.freeze
-RE_INVALID = /\A(?:|\d+|[a-z]{3} \d{1,2}|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
+# Empty string, number, date, or exact string.
+RE_INVALID = /\A(?:|\d+|[a-z]{3} \d{1,2}|consult other institution|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
 RE_DECISIONS = {
   'abandoned' => /\b(?:abandon|withdrawn\b)/,
   'correction' => /\bcorrection\b/,
@@ -20,7 +21,7 @@ RE_DECISIONS = {
   'transferred' => /\btransferred\b/,
   # This order matters.
   'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
-  'nothing disclosed' => /\A(?:consult other institution|disregarded|dublicate request|nhq release refused|unable to process)\z|\Aex[ce]|\b(?:all? .*\b(ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public)/,
+  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused|unable to process)\z|\Aex[ce]|\b(?:all? .*\b(ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public)/,
   'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
 }.freeze
 
@@ -41,10 +42,7 @@ TEMPLATES = {
       ['date', Date.new(year, month, 1).strftime('%Y-%m')]
     },
     'abstract' => '/English Summary ~1 Sommaire de la demande en anglais',
-    'decision' => lambda{|data|
-      v = JsonPointer.new(data, '/Disposition').value
-      ['decision', normalize_decision(v)]
-    },
+    'decision' => '/Disposition',
     'organization' => '/Org',
     'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
   },
@@ -75,10 +73,7 @@ TEMPLATES = {
       end
     },
     'abstract' => '/Summary of Request',
-    'decision' => lambda{|data|
-      v = JsonPointer.new(data, '/Outcome of Request').value
-      ['decision', normalize_decision(v)]
-    },
+    'decision' => '/Outcome of Request',
     'organization' => '/Department',
     'number_of_pages' => lambda{|data|
       v = JsonPointer.new(data, '/Number of Pages').value
@@ -89,10 +84,7 @@ TEMPLATES = {
     'division_id' => 'ocd-division/country:ca/province:on/csd:3524002',
     'identifier' => '/No.',
     'date' => '/Year',
-    'decision' => lambda{|data|
-      v = JsonPointer.new(data, '/Decision').value
-      ['decision', normalize_decision(v)]
-    },
+    'decision' => '/Decision',
     'organization' => '/Dept Contact',
     'classification' => lambda{|data|
       v = JsonPointer.new(data, '/Request Type').value
@@ -121,10 +113,11 @@ TEMPLATES = {
         '3_NO_INFORMATION_DISCLOSED',
         '4_NO_RESPONSIVE_RECORD_EXIST',
         '5_REQUEST_WITHDRAWN,_ABANDONED_OR_NON-JURISDICTIONAL',
-      ].find do |header|
+      ].select do |header|
         JsonPointer.new(data, "/#{header}").value
       end
-      ['decision', normalize_decision(v)]
+      assert("expected a single decision: #{v}"){v.size < 2}
+      ['decision', v[0]]
     },
     'organization' => '/DEPARTMENT',
     'classification' => lambda{|data|
@@ -140,10 +133,7 @@ TEMPLATES = {
       ['date', v && (Date.strptime(v, '%d-%m-%Y') rescue Date.strptime(v, '%Y-%m-%d')).strftime('%Y-%m-%d')]
     },
     'abstract' => '/Summary',
-    'decision' => lambda{|data|
-      v = JsonPointer.new(data, '/Name').value
-      ['decision', normalize_decision(v)]
-    },
+    'decision' => '/Name',
     'number_of_pages' => lambda{|data|
       v = JsonPointer.new(data, '/Number_of_Pages_Released').value
       ['number_of_pages', v && Integer(v.sub(/\.0\z/, ''))]
