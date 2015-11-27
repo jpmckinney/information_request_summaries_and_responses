@@ -209,14 +209,13 @@ namespace :datasets do
       directory = File.basename(path, '.json')
       records = records_from_source(directory, TEMPLATES[directory], normalize: false, validate: false)
       counts_by_decision = {}
+      examples_by_decision = {}
 
       JSON.load(File.read(path)).each do |record|
         if record['number_of_pages'] && record['decision'] && record['decision'] != 'correction'
           if record['number_of_pages'] > 0 && no_pages.include?(record['decision']) || record['number_of_pages'] == 0 && !no_pages.include?(record['decision'])
             # NL publishes letters of 6 pages or less if nothing disclosed.
             unless record['division_id'] == 'ocd-division/country:ca/province:nl' && record['number_of_pages'] <= 6 && record['decision'] == 'nothing disclosed'
-              values = record.slice('division_id', 'id', 'identifier', 'number_of_pages').values
-
               decisions = records.select do |r|
                 if record['id']
                   r['id'] == record['id']
@@ -230,9 +229,10 @@ namespace :datasets do
               decisions.each do |decision|
                 counts_by_decision[record['decision']] ||= Hash.new(0)
                 counts_by_decision[record['decision']][decision] += 1
-              end
 
-              # puts "#{values.join(' ')}: #{decisions.map(&:inspect).join(' ')}"
+                examples_by_decision[decision] ||= []
+                examples_by_decision[decision] << record.slice('id', 'identifier', 'organization').values
+              end
             end
           end
         end
@@ -246,6 +246,9 @@ namespace :datasets do
             puts "    #{decision}"
             counts.sort_by{|_,v| -v}.each do |text,count|
               puts '      %2d %s' % [count, text]
+              examples_by_decision[text].each do |example|
+                puts "         #{example.join(' ')}"
+              end
             end
           end
         end
