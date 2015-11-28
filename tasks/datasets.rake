@@ -12,8 +12,7 @@ namespace :datasets do
         gsub(RE_PARENTHETICAL_CITATION, '').
         gsub(RE_PARENTHETICAL, '').
         gsub(/[\p{Punct}￼]/, ' '). # special character
-        gsub(/\p{Space}/, ' ').
-        squeeze(' ').strip
+        gsub(/\p{Space}+/, ' ').strip
 
       unless text[RE_INVALID]
         RE_DECISIONS.find{|_,pattern| text[pattern]}.first
