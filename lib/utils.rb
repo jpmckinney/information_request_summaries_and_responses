@@ -1,8 +1,11 @@
 require 'csv'
+require 'digest/sha1'
 require 'open3'
 
 require 'nokogiri'
 require 'pupa'
+
+require_relative 'sort'
 
 Mongo::Logger.logger.level = Logger::WARN
 
@@ -83,5 +86,9 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
   # @return [Integer] the file size in bytes
   def size(name)
     File.size(path(name))
+  end
+
+  def sha1(name)
+    Digest::SHA1.file(path(name))
   end
 end
