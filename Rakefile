@@ -26,5 +26,6 @@ def load_yaml(basename)
 end
 
 require_relative 'lib/constants'
+require_relative 'lib/sort'
 
 Dir['tasks/*.rake'].each { |r| import r }

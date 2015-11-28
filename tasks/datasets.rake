@@ -173,24 +173,8 @@ namespace :datasets do
       templates = TEMPLATES
     end
 
-    def compare(a, b, key)
-      if a[key] && a[key] != b[key]
-        a[key] <=> b[key]
-      end
-    end
-
     templates.each do |directory,template|
-      records = records_from_source(directory, template).sort do |a,b|
-        compare(a, b, 'date') ||
-        compare(a, b, 'identifier') ||
-        compare(a, b, 'organization') ||
-        compare(a, b, 'classification') ||
-        compare(a, b, 'decision') ||
-        compare(b, a, 'number_of_pages') ||
-        compare(a, b, 'abstract') ||
-        compare(a, b, 'id') ||
-        0
-      end
+      records = sort_records(records_from_source(directory, template))
 
       # Write the records.
       FileUtils.mkdir_p('summaries')
