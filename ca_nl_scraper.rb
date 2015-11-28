@@ -7,8 +7,17 @@ class NL < Processor
 
   COLUMN_WIDTH = 100
 
+  WEB_DUPLICATES = [
+    # Duplicates 380 including PDF (should be about Line 3.1.04.10 as in CSV).
+    '648',
+  ]
+  WEB_BAD_ABSTRACTS = [
+    'BTCRD/10/2015', # BTCRD/8/2015
+    'TW/21/2015', # EDU/11/2015
+  ]
+
   ORGANIZATIONS_MAP = {
-    # Scraped data => Open data
+    # Web => CSV
     'The Office of the Premier' => "Premier's Office",
     'Intergovernmental and Aboriginal Affairs' => 'Intergovernmental and Aboriginal Affairs Secretariat',
     # Old name => New name
@@ -16,14 +25,39 @@ class NL < Processor
     'Justice' => 'Justice and Public Safety',
   }
 
+  WEB_ABSTRACTS_MAP = {
+    # Quotation mark (can Levenshtein).
+    "A copy of the entire consultants report produced in 2014 on the commercial viability of seal meat, as paid for by the department. The executive summary was provided in early October 2014, but a copy of the full report is requested" =>
+    "A copy of the entire consultant's report produced in 2014 on the commercial viability of seal meat, as paid for by the department. The executive summary was provided in early October 2014, but a copy of the full report is requested",
+    # Question mark (can Levenshtein).
+    "Any documents relating to the following amendments made under sections 8 and 9 of An Act to Amend the Workers? Compensation Act, S.N. 1992, c.29: (a) The addition of section 44.1 of the Workplace Health, Safety and Compensation Commission Act, RSNL 1990, W-11 (the \"WHSC Act\"); and (b) The substitution of section 45 of the WHSC Act. Any documents relating to the following amendment made under section 7 of An Act to Amend the Workers? Compensation Act, S.N. 1994, c/ 12: (a) The addition of section 44.1(2) of the WHSC Act" =>
+    "Any documents relating to the following amendments made under sections 8 and 9 of An Act to Amend the Workers' Compensation Act, S.N. 1992, c.29: (a) The addition of section 44.1 of the Workplace Health, Safety and Compensation Commission Act, RSNL 1990, W-11 (the \"WHSC Act\"); and (b) The substitution of section 45 of the WHSC Act. Any documents relating to the following amendment made under section 7 of An Act to Amend the Workers' Compensation Act, S.N. 1994, c/ 12: (a) The addition of section 44.1(2) of the WHSC Act",
+    # Semi-colon (can Levenshtein).
+    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time" =>
+    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time",
+    # Repetition.
+    "Request the following from April 2012 to present date: The number of ATIPP requests received by the Department of Finance. The number of ATIPP requests received by the Department of Finance. Copies of all Form 1s for each individual request" =>
+    "Request the following from April 2012 to present date: The number of ATIPP requests received by the Department of Finance Copies of all Form 1s for each individual request",
+    # Update.
+    "The names, salaries, and positions of all government appointees to boards and agencies since September 9, 2013. Update 2/10/2015 Remuneration levels for 2 entries have been corrected" =>
+    "The names, salaries, and positions of all government appointees to boards and agencies since September 9, 2013",
+  }
+  CSV_ABSTRACTS_MAP = {
+    # Combined.
+    "A copy of any and all emails, memos, correspondence, letters related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) for security IDs, office moves, changes to insurance policies to allow any of the above noted people to drive government vehicles as well as details of any costs related to the change in insurance policies" =>
+    "Records related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) including a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts), security IDs, and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes",
+    "A copy of any and all emails, memos, correspondence, letters related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) This should also include a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts) and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes" =>
+    "Records related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) including a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts), security IDs, and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes",
+  }
+
   def normalize_abstract(text)
-    # The scraped data is generally lower quality than the open data:
+    # Web is generally lower quality than CSV:
     #
     # * uses hyphen instead of n-dash
     # * omits unicode bullets
     # * omits trailing parenthesis
     #
-    # The open data has some quality issues:
+    # CSV has some quality issues:
     #
     # * adds trailing numbers
     # * uses incorrect curly quotes
@@ -33,7 +67,7 @@ class NL < Processor
     # * omits semi-colons
     #
     # Neither uses curly quotes consistently.
-    text.gsub(/\p{Space}/, ' ').squeeze(' ').strip.
+    text.gsub(/\p{Space}+/, ' ').strip.
       # Curly quotes.
       gsub('’', "'").gsub(/[“”]/, '"').
 
@@ -92,7 +126,7 @@ class NL < Processor
         assert("no comments found in #{text}"){!comments.empty?}
       end
 
-      # The scraped data is generally lower quality than the open data:
+      # Web is generally lower quality than CSV:
       #
       # * adds trailing question marks
       # * "?" or simple quotation mark instead of curly quotation mark
@@ -101,7 +135,7 @@ class NL < Processor
       # * no space after a semi-colon
       # * inconsistent ampersands
 
-      abstract = tds[1].text.squeeze(' ').strip.
+      abstract = tds[1].text.gsub(/\p{Space}+/, ' ').strip.
         # Trailing question marks.
         gsub(/ *\?{2,}\z/, '').
         # Curly quotes.
@@ -154,13 +188,14 @@ class NL < Processor
   end
 
   def reconcile
-    # The open data has the date of decision. The scraped data has the date of
-    # publication. We retain the date of publication during reconciliation.
+    # Identifiers may change year from one system to another, and not always in
+    # the same direction. It's unclear which is correct.
 
     keys = [
       'id',
       'division_id',
       'identifier',
+      'alternate_identifier',
       'date',
       'abstract',
       'decision',
@@ -168,67 +203,102 @@ class NL < Processor
       'number_of_pages',
     ]
 
-    format_string = "%-#{COLUMN_WIDTH}s  %s"
-
+    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
     summaries = File.expand_path(File.join('summaries'), Dir.pwd)
 
-    csv = {}
-    JSON.load(File.read(File.join(summaries, 'ca_nl.json'))).each do |response|
-      csv[response['identifier']] ||= []
-      csv[response['identifier']] << response
+    web = {}
+    duplicates = 0
+    collection.find(division_id: DIVISION_ID).each do |response|
+      if WEB_DUPLICATES.include?(response['id'])
+        duplicates += 1
+      else
+        response = response.except('_id', '_type', 'created_at', 'updated_at')
+        identifiers = response['identifier'].strip.scan(%r{[A-Z]{2,5}/\d{1,2}/\d{4}})
+
+        identifiers.each do |identifier|
+          key = identifier[0..-2]
+          web[key] ||= []
+
+          other = web[key].find do |other|
+            # Web has duplicates, the only difference being the download URL.
+            other.except('id', 'download_url') == response.except('id', 'download_url')
+          end
+
+          if other && store.sha1("#{other['id']}.pdf") == store.sha1("#{response['id']}.pdf")
+            duplicates += 1
+          else
+            web[key] << response.merge('identifier' => identifier)
+          end
+        end
+
+        assert("unrecognized identifier: #{response['identifier']}"){identifiers.any?}
+      end
     end
 
     records = []
-    unreconciled_from_scraped_data = []
-    collection.find(division_id: DIVISION_ID).each do |expected|
-      begin
-        expected_identifier = expected['identifier']
-        actuals = csv.fetch(expected_identifier)
-        response = actuals.find do |actual|
-          normalize_abstract(actual.fetch('abstract')) == normalize_abstract(expected.fetch('abstract')) &&
-          normalize_organization(actual.fetch('organization')) == normalize_organization(expected.fetch('organization'))
+    unreconciled_from_csv = []
+    JSON.load(File.read(File.join(summaries, 'ca_nl.json'))).each do |csv_response|
+      key = csv_response['identifier'].strip[0..-2].
+        # Typo in CSV.
+        sub(/\ABTCTD/, 'BTCRD')
+
+      web_response = nil
+      web_responses = web[key]
+
+      if web_responses
+        web_response = web_responses.find do |web_response|
+          web_abstract = normalize_abstract(web_response.fetch('abstract'))
+          csv_abstract = normalize_abstract(csv_response.fetch('abstract'))
+          WEB_ABSTRACTS_MAP.fetch(web_abstract, web_abstract) == CSV_ABSTRACTS_MAP.fetch(csv_abstract, csv_abstract) &&
+          normalize_organization(web_response.fetch('organization')) == normalize_organization(csv_response.fetch('organization')) ||
+          WEB_BAD_ABSTRACTS.include?(web_response['identifier']) && web_response['identifier'] == csv_response['identifier']
         end
+      end
 
-        if response
-          records << expected.merge(actuals.delete(response).slice('decision', 'number_of_pages')).slice(*keys)
+      if web_response
+        web_responses.delete(web_response)
+        web.delete(key) if web_responses.empty?
 
-          if actuals.empty?
-            csv.delete(expected_identifier)
-          end
-        else
+        # CSV has the date of decision. Web has the date of publication.
+        record = csv_response
+        record['id'] = web_response['id']
+        record['date'] = web_response['date']
+        # Identifiers are sometimes inconsistent across systems.
+        unless csv_response['identifier'] == web_response['identifier']
+          record['alternate_identifier'] = web_response['identifier']
+        end
+      else
+        if web_responses
           message = []
 
           # Unreconciled records will be unchanged.
-          formatted = format_response(expected)
-          actuals.each do |actual|
-            format_response(actual).each_with_index do |actual_value,index|
-              expected_value = formatted[index]
-              unless actual_value == expected_value
-                [actual_value.size, expected_value.size].max.times do |n|
-                  message << format_string % [expected_value[n], actual_value[n]]
+          formatted = format_response(csv_response)
+          web_responses.each_with_index do |web_response,i|
+            format_response(web_response).each_with_index do |web_value,j|
+              csv_value = formatted[j]
+              unless web_value == csv_value
+                csv_value_to_print = i.zero? ? csv_value : []
+                [web_value.size, csv_value_to_print.size].max.times do |n|
+                  message << "%-#{COLUMN_WIDTH}s  %s" % [csv_value_to_print[n], web_value[n]]
                 end
               end
             end
           end
 
-          error("#{expected['id']}\n#{message.join("\n")}")
+          warn("#{csv_response['identifier']}\n#{message.join("\n")}")
         end
-      rescue KeyError => e
-        warn(e)
-        # The scraped data has some records not in the open data. In some cases,
-        # this is because the scraped data merges requests, e.g. "EC/6/2015-EC/7/2015".
-        unreconciled_from_scraped_data << expected.slice(*keys)
+
+        record = csv_response
+        unreconciled_from_csv << record
       end
+
+      records << record.slice(*keys)
     end
 
-    # The open data has some records not in the scraped data.
-    unreconciled_from_open_data = csv.values
-    info("Adding #{unreconciled_from_open_data.size} unreconciled records from open data")
-    records += csv.values.flatten
-    info("Adding #{unreconciled_from_scraped_data.size} unreconciled records from scraped data")
-    records += unreconciled_from_scraped_data.flatten
-
-    records.sort_by!{|record| record['identifier']}
+    # CSV has some records not on web and vice versa.
+    unreconciled_from_web = web.values.flatten
+    records += unreconciled_from_web.map{|response| response.slice(*keys)}
+    records = sort_records(records)
 
     # Write the records.
     File.open(File.join(summaries, 'ca_nl.json'), 'w') do |f|
@@ -240,6 +310,14 @@ class NL < Processor
         csv << keys.map{|key| record[key]}
       end
     end
+
+    recent, old = unreconciled_from_web.partition{|response| response['date'] > Time.now.strftime('%Y-%m')}
+    nothing, something = unreconciled_from_csv.partition{|response| response['decision'] == 'nothing disclosed'}
+    info("Ignored #{duplicates} duplicates")
+    info("Added #{unreconciled_from_web.size} unreconciled records from web (#{recent.size} recent, #{old.size} old)")
+    debug(JSON.pretty_generate(old)) if old.any?
+    info("Added #{unreconciled_from_csv.size} unreconciled records from CSV (#{nothing.size} not disclosed, #{something.size} disclosed)")
+    debug(JSON.pretty_generate(something)) if something.any?
   end
 end
 
