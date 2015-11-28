@@ -1,4 +1,27 @@
 namespace :datasets do
+  # #records_from_source
+  def ca_bc_normalize
+    connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
+    connection['information_responses'].find(division_id: 'ocd-division/country:ca/province:bc')
+  end
+
+  # #records_from_source
+  def normalize_decision(text)
+    if text
+      text = text.downcase.
+        gsub(RE_PARENTHETICAL_CITATION, '').
+        gsub(RE_PARENTHETICAL, '').
+        gsub(/[\p{Punct}￼]/, ' '). # special character
+        gsub(/\p{Space}/, ' ').
+        squeeze(' ').strip
+
+      unless text[RE_INVALID]
+        RE_DECISIONS.find{|_,pattern| text[pattern]}.first
+      end
+    end
+  end
+
+  # #records_from_source
   def validator
     @validator ||= JSON::Validator.new(JSON.load(File.read(File.join('schemas', 'summary.json'))), {}, {
       clear_cache: false,
@@ -61,26 +84,6 @@ namespace :datasets do
     end
 
     records
-  end
-
-  def ca_bc_normalize
-    connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
-    connection['information_responses'].find(division_id: 'ocd-division/country:ca/province:bc')
-  end
-
-  def normalize_decision(text)
-    if text
-      text = text.downcase.
-        gsub(RE_PARENTHETICAL_CITATION, '').
-        gsub(RE_PARENTHETICAL, '').
-        gsub(/[\p{Punct}￼]/, ' '). # special character
-        gsub(/\p{Space}/, ' ').
-        squeeze(' ').strip
-
-      unless text[RE_INVALID]
-        RE_DECISIONS.find{|_,pattern| text[pattern]}.first
-      end
-    end
   end
 
   desc 'Searches Namara.io for datasets'
@@ -170,11 +173,23 @@ namespace :datasets do
       templates = TEMPLATES
     end
 
-    templates.each do |directory,template|
-      records = records_from_source(directory, template)
+    def compare(a, b, key)
+      if a[key] && a[key] != b[key]
+        a[key] <=> b[key]
+      end
+    end
 
-      if directory == 'ca_nl' # TODO
-        records.sort_by!{|record| record['identifier']}
+    templates.each do |directory,template|
+      records = records_from_source(directory, template).sort do |a,b|
+        compare(a, b, 'date') ||
+        compare(a, b, 'identifier') ||
+        compare(a, b, 'organization') ||
+        compare(a, b, 'classification') ||
+        compare(a, b, 'decision') ||
+        compare(b, a, 'number_of_pages') ||
+        compare(a, b, 'abstract') ||
+        compare(a, b, 'id') ||
+        0
       end
 
       # Write the records.
