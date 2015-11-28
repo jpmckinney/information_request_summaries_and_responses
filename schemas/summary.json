@@ -19,6 +19,13 @@
         "string"
       ]
     },
+    "alternate_identifier": {
+      "description": "Another number or identifier of the request",
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
     "date": {
       "description": "The date of decision or the date of publication of the request",
       "type": "string",
