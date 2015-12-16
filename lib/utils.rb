@@ -89,6 +89,6 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
   end
 
   def sha1(name)
-    Digest::SHA1.file(path(name))
+    Digest::SHA1.file(path(name)).hexdigest
   end
 end
