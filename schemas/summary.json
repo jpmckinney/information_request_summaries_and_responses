@@ -53,8 +53,21 @@
       "description": "The organization to which the request was sent",
       "type": "string"
     },
+    "media_type": {
+      "description": "The media type of the records disclosed",
+      "type": "string",
+      "enum": [
+        "application/pdf",
+        "application/vnd.ms-excel",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      ]
+    },
     "number_of_pages": {
       "description": "The number of pages disclosed",
+      "type": "integer"
+    },
+    "number_of_rows": {
+      "description": "The number of rows in the records disclosed",
       "type": "integer"
     },
     "classification": {
