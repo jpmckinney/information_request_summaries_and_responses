@@ -181,6 +181,9 @@ class NL < Processor
         else
           error("unrecognized media type: #{media_type}")
         end
+        collection.update_one({_id: response['_id']}, '$set' => {
+          media_type: media_type,
+        })
       end
     end
   end
