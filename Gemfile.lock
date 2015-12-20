@@ -36,6 +36,9 @@ GEM
     addressable (2.3.8)
     bson (3.2.6)
     colored (1.2)
+    creek (1.1.1)
+      nokogiri (~> 1.6.0)
+      rubyzip (>= 1.0.0)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
     faraday (0.9.2)
@@ -67,9 +70,6 @@ GEM
     pg (0.17.1)
     rake (10.4.2)
     ruby-ole (1.2.11.8)
-    rubyXL (3.3.15)
-      nokogiri (>= 1.4.4)
-      rubyzip (>= 1.1.6)
     rubyzip (1.1.7)
     safe_yaml (1.0.4)
     sequel (4.10.0)
@@ -87,11 +87,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  creek
   faraday-cookie_jar
   nokogiri
   pupa!
   rake
-  rubyXL
   safe_yaml
   spreadsheet
   unicode_utils

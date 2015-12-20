@@ -2,8 +2,10 @@ require 'csv'
 require 'digest/sha1'
 require 'open3'
 
+require 'creek'
 require 'nokogiri'
 require 'pupa'
+require 'spreadsheet'
 
 require_relative 'sort'
 

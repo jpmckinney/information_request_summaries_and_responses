@@ -161,7 +161,9 @@ class BC < Processor
       month = date.strftime('%m')
 
       response['number_of_pages'] = 0
+      response['number_of_rows'] = 0
       response['duration'] = 0
+
       ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
@@ -180,7 +182,7 @@ class BC < Processor
               file['media_type'] = match.first
 
               # Avoid running commands if unnecessary.
-              unless file.key?('number_of_pages') || file.key?('duration')
+              unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
                 if store.exist?(path)
                   case file['media_type']
                   when 'application/pdf'
@@ -204,6 +206,16 @@ class BC < Processor
                         error("#{path}: #{stderr.read}")
                       end
                     end
+                  when 'application/vnd.ms-excel'
+                    file['number_of_rows'] = Spreadsheet.open(store.path(path)).worksheets.reduce(0) do |memo,sheet|
+                      memo + sheet.rows.count{|row| !row.empty?}
+                    end
+                  when 'application/vnd.ms-excel.sheet.macroEnabled.12', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                    file['number_of_rows'] = Creek::Book.new(store.path(path)).sheets.reduce(0) do |memo,sheet|
+                      memo + sheet.rows.to_a.size
+                    end
+                  when 'text/csv'
+                    file['number_of_rows'] = CSV.read(store.path(path)).size
                   when 'audio/mpeg', 'audio/wav', 'video/mp4'
                     Open3.popen3("mediainfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
                       if wait_thr.value.success?
@@ -218,14 +230,18 @@ class BC < Processor
                 end
               end
 
-              if file['number_of_pages']
-                # The response is sometimes in the incorrect section on the
-                # website, so we find responses by filename instead.
-                if file['title'][/pac[ka]{2}ge|records/i]
+              # The response is sometimes in the incorrect section on the
+              # website, so we find responses by filename instead.
+              if file['title'][/pac[ka]{2}ge|records/i]
+                if file['number_of_pages']
                   response['number_of_pages'] += file['number_of_pages']
-                elsif !file['title'][/letter|email|note/i]
-                  error("#{path} not recognized as letter, note or file")
+                elsif file['number_of_rows']
+                  response['number_of_rows'] += file['number_of_rows']
+                elsif file['duration']
+                  response['duration'] += file['duration']
                 end
+              elsif !file['title'][/letter|email|note/i]
+                error("#{path} not recognized as letter, note or file")
               end
             else
               error("#{path}: unrecognized media type")

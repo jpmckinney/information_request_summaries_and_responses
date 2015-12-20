@@ -2,6 +2,11 @@
 
 All government bodies in Canada are subject to some freedom of information statutes. Some bodies publish summaries of completed information requests. Fewer publish responses to completed information requests. This repository contains scripts for aggregating what is available.
 
+## Dependencies
+
+    brew install media-info libtiff poppler
+    sudo PIP_REQUIRE_VIRTUALENV=false pip install csvkit
+
 ## Scripts
 
 Search for new datasets across multiple catalogs with Namara.io:
@@ -11,6 +16,8 @@ Search for new datasets across multiple catalogs with Namara.io:
 Download summaries:
 
     rake datasets:download
+
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax) and [Toronto](#toronto) scripts.
 
 Normalize summaries:
 
@@ -30,7 +37,7 @@ Validate that the decision and the number of pages agree:
 
 ### Canada
 
-The following scripts are only relevant to automating informal requests for disclosed records from Canada.
+*The following scripts are only relevant to automating informal requests for disclosed records from Canada.*
 
 Get the alternate names of organizations to make corrections:
 
@@ -79,10 +86,6 @@ Download the metadata for responses:
 Download the attachments for responses (over 40 GB as of late 2015):
 
     ruby ca_bc_scraper.rb -a download --no-cache
-
-Calculate the number of pages disclosed:
-
-    ruby ca_bc_scraper.rb -a number_of_pages
 
 ### Newfoundland and Labrador
 
