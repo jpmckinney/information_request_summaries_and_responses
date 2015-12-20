@@ -73,9 +73,9 @@ namespace :ca do
       'http://open.canada.ca/vl/dataset/ati/resource/91a195c7-6985-4185-a357-b067b347333c/download/atinone.csv',
     ]
     urls.each do |url|
-      CSV.parse(client.get(url).body, headers: true) do |row|
+      CSV.parse(client.get(url).body.force_encoding('utf-8'), headers: true) do |row|
         id = row.fetch('Org id')
-        value = row.fetch('Org').split(/ [|-] /)[0]
+        value = row.fetch('Org').split(/ [|-] /)[0].strip
         if output.key?(id)
           assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
         else
@@ -120,7 +120,7 @@ namespace :ca do
   namespace :emails do
     desc 'Print emails from the coordinators page'
     task :coordinators_page do
-      def normalize_name(string)
+      def normalize(string)
         UnicodeUtils.downcase(string).strip.
           sub(/\Aport of (.+)/, '\1 port authority'). # word order
           sub(' commissionner ', ' commissioner '). # typo
@@ -135,7 +135,15 @@ namespace :ca do
       end
 
       def parent(string)
-        UnicodeUtils.downcase(string[/\((?:see)? *([^)]+)/, 1].to_s)
+        # If the contact point is the different for the child and the parent.
+        if string['Indian Residential Schools Resolution Canada']
+          ''
+        # If the contact point is the same for the child and the parent.
+        else
+          { 'Canada Employment Insurance Commission' => 'Employment and Social Development Canada',
+            'International Centre for Human Rights and Democratic Development (see Foreign Affairs and International Trade)' => 'Foreign Affairs, Trade and Development Canada',
+          }.fetch(string, string[/\((?:formerly|[Ss]ee)? *([^)]+)/, 1].to_s)
+        end
       end
 
       corrections = load_yaml('federal_identity_program.yml').merge({
@@ -143,26 +151,29 @@ namespace :ca do
         'Civilian Review and Complaints Commission for the Royal Canadian Mounted Police' => 'Commission for Public Complaints Against the RCMP',
         'Federal Public Service Health Care Plan Administration Authority' => 'Public Service Health Care Plan',
         'National Defence and the Canadian Armed Forces' => 'National Defence',
+        'Office of the Administrator of the Ship-source Oil Pollution Fund' => 'Ship-source Oil Pollution Fund',
         'Office of the Ombudsman National Defence and Canadian Forces' => 'National Defence and Canadian Forces Ombudsman',
+        'Port Metro Vancouver' => 'Vancouver Fraser Port Authority',
       })
 
-      output = {
-        # 1. Open http://open.canada.ca/en/search/ati
-        # 2. Filter by the organization
-        # 3. Click "Make an informal request for: ..."
-        # 4. Get the email address from the URL
-        'ahrc-pac' => 'amanda.wilson@hc-sc.gc.ca',
-        'vfpa-apvf' => 'AccesstoInformation@portmetrovancouver.com',
-      }
-      errors = {}
+      output = {}
+      # The names of organizations in `abbreviations.yml` to match against.
+      names = {}
+      # Organizations from the coordinators page match no organizations in `abbreviations.yml`.
+      unmatched = {}
+      # A list of organizations that are expected to have no match in `abbreviations.yml`.
+      missing = {}
+      # A list of non-exact organization name matches.
       mapping = {}
 
       abbreviations = load_yaml('abbreviations.yml')
-      names = {}
-
       abbreviations.each do |id,name|
         output[id] ||= nil # easier to see which are missing
         names[normalize(corrections.fetch(name, name))] = id
+      end
+
+      CSV.foreach(File.join('support', 'missing.csv'), headers: true) do |row|
+        missing[row['email']] = row
       end
 
       url = 'http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp'
@@ -170,29 +181,54 @@ namespace :ca do
         name = href.xpath('../../strong').text.gsub(/\p{Space}+/, ' ').strip
         normalized = normalize(corrections.fetch(name, name))
         backup = normalize(parent(name))
-        value = ca_normalize_email(href.value)
+        email = ca_normalize_email(href.value)
+
         if names.key?(normalized) || names.key?(backup)
           id = names[normalized] || names[backup]
           if output[id]
-            assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
+            assert("#{output[id]} expected for #{id}, got\n#{email}"){output[id] == email}
           else
-            output[id] = value
+            output[id] = email
             mapping[name] = abbreviations[names[normalized] || names[backup]]
           end
         else
-          errors[value] ||= []
-          errors[value] << name
+          unmatched[email] ||= []
+          unmatched[email] << name
         end
       end
 
-      $stderr.puts YAML.dump(errors)
-      $stderr.puts errors.size
-
-      mapping.reject!{|to,from| from == to}
-      mapping.each do |to,from|
-        $stderr.puts '%-60s %s' % [from, to]
+      # Only report new unmatched organizations.
+      unmatched.reject! do |email,names|
+        if missing.key?(email)
+          row = missing.delete(email)
+          assert("#{names} expected to include #{row['name']}"){names.map{|name| name.sub(/ \(.+/, '')}.include?(row['name'])}
+          true
+        end
       end
-      $stderr.puts mapping.size
+
+      # Report any rows to delete from `missing.csv`.
+      if missing.any?
+        $stderr.puts "Unneeded rows:"
+        $stderr.puts missing.values
+        $stderr.puts missing.size
+      end
+
+      # Report any organizations from the coordinators page match no organizations in `abbreviations.yml`.
+      if unmatched.any?
+        $stderr.puts "Unmatched organizations:"
+        $stderr.puts YAML.dump(unmatched)
+        $stderr.puts unmatched.size
+      end
+
+      # Report non-exact organization name matches for review.
+      mapping.reject!{|to,from| from == to}
+      if mapping.any?
+        $stderr.puts 'Name matches (for review):'
+        mapping.each do |to,from|
+          $stderr.puts '%-60s %s' % [from, to]
+        end
+        $stderr.puts mapping.size
+      end
 
       puts YAML.dump(Hash[*output.sort_by(&:first).flatten])
     end
