@@ -136,8 +136,6 @@ namespace :datasets do
       'ca_on_burlington' => 'http://cob.burlington.opendata.arcgis.com/datasets/ee3ccd488aef46c7b1dca1fc1062f3e5_0.csv',
       # http://opendata.greatersudbury.ca/datasets/5a7bb9da5c7d4284a9f7ea5f6e8e9364_0
       'ca_on_greater_sudbury' => 'http://opendata.greatersudbury.ca/datasets/5a7bb9da5c7d4284a9f7ea5f6e8e9364_0.csv',
-      # http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
-      'ca_on_toronto' => nil,
     }
 
     paths = {
@@ -157,14 +155,6 @@ namespace :datasets do
         File.open(File.join(paths[directory], basename), 'w') do |f|
           f.write(client.get(url).body)
         end
-      end
-    end
-
-    url = 'http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD'
-    client.get(url).body.xpath('//div[@class="panel-body"]//@href').each do |href|
-      path = href.value
-      File.open(File.join(paths['ca_on_toronto'], File.basename(path)), 'w') do |f|
-        f.write(client.get("http://www1.toronto.ca#{URI.escape(path)}").body)
       end
     end
   end

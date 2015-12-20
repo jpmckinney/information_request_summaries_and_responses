@@ -106,6 +106,10 @@ Download summaries:
 
 #### Toronto
 
+Download the Excel files:
+
+    rake ca_on_toronto:download
+
 Convert the Excel files to CSV files:
 
     rake ca_on_toronto:excel_to_csv
