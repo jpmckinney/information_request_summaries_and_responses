@@ -66,8 +66,16 @@ GEM
     oj (2.13.1)
     pg (0.17.1)
     rake (10.4.2)
+    roo (1.13.2)
+      nokogiri
+      rubyzip
+      spreadsheet (> 0.6.4)
+    ruby-ole (1.2.11.8)
+    rubyzip (1.1.6)
     safe_yaml (1.0.4)
     sequel (4.10.0)
+    spreadsheet (0.9.7)
+      ruby-ole (>= 1.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -84,6 +92,7 @@ DEPENDENCIES
   nokogiri
   pupa!
   rake
+  roo
   safe_yaml
   unicode_utils
   whos_got_dirt!
