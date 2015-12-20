@@ -283,14 +283,12 @@ namespace :ca do
       coordinators_page = load_yaml('emails_coordinators_page.yml')
       search_page = load_yaml('emails_search_page.yml')
 
-      CSV.open(File.join('support', 'mismatches.csv'), 'w') do |csv|
-        csv << ['Org id', 'Org', 'Coordinators page', 'Search page']
-        coordinators_page.each do |id,email_coordinators_page|
-          name = abbreviations.fetch(id)
-          email_search_page = search_page.fetch(id)
-          unless email_search_page.nil? || email_coordinators_page == email_search_page
-            csv << [id, name, email_coordinators_page, email_search_page]
-          end
+      puts CSV.generate_line(['Org id', 'Org', 'Coordinators page', 'Search page'])
+      coordinators_page.each do |id,email_coordinators_page|
+        name = abbreviations.fetch(id)
+        email_search_page = search_page.fetch(id)
+        unless email_search_page.nil? || email_coordinators_page == email_search_page
+          puts CSV.generate_line([id, name, email_coordinators_page, email_search_page])
         end
       end
     end
