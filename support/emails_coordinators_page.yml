@@ -3,7 +3,6 @@ aafc-aac: atip-aiprp@agr.gc.ca
 aandc-aadnc: atip-aiprp@aadnc-aandc.gc.ca
 acoa-apeca: acoa.atip-aiprp.apeca@canada.ca
 aecl-eacl: jboulais@aecl.ca
-ahrc-pac: amanda.wilson@hc-sc.gc.ca
 apa: pmacarthur@atlanticpilotage.com
 apfc-fapc: atip.coordinator@asiapacific.ca
 atssc-scdata: atip-aiprp@tribunal.gc.ca
@@ -16,12 +15,11 @@ cbc-radio-canada: atip@cbc.ca
 cbsa-asfc: atip-aiprp@cbsa-asfc.gc.ca
 cca-cac: atip-airprp@canadacouncil.ca
 ccc: trybkin@ccc.ca
-ccperb-cceebc: atip-aiprp@tribunal.gc.ca
 cdc-ccl: danie.cousineau@cdc-ccl.gc.ca
 cdev: atip-aiprp@cdev.gc.ca
 cdic-sadc: atip-aiprp@cdic.ca
 ceaa-acee: louise.guillemette@ceaa-acee.gc.ca
-ced-dec: nathalie.levesque@dec-ced.gc.ca
+ced-dec: dec.aiprp-atip.ced@canada.ca
 ceifb-ofaec: phil.charko@ceifb-ofaec.ca
 ceria-acire: ecatip-ecaiprp@ec.gc.ca
 cfia-acia: atip-cfia-aiprp@inspection.gc.ca
@@ -47,7 +45,7 @@ csec-cstc: atip-aiprp@cse-cst.gc.ca
 csis-scrs: atip-aiprp@smtp.gc.ca
 csps-efpc: atip-aiprp@csps-efpc.gc.ca
 cstm-mstc: atip-aiprp@technomuses.ca
-cta-otc: aiprp-atip@otc-cta.gc.ca
+cta-otc: otc.aiprp-atip@otc-cta.gc.ca
 ctc-cct: atip-aiprp@ctc-cct.ca
 dcc-cdc: alison.lawford@dcc-cdc.gc.ca
 dfatd-maecd: dcp@international.gc.ca
@@ -81,7 +79,6 @@ mgerc-ceegm: atip-aiprp@mgerc-ceegm.gc.ca
 mint-monnaie: atip@mint.ca
 mpa-apm: wellsv@port-montreal.com
 mpcc-cppm: sylvain.roy@mpcc-cppm.gc.ca
-nac-cna: cmartin@nac-cna.ca
 nbc-ccbn: andre.beaudet@ccbn-nbc.gc.ca
 ncc-ccn: atip-aiprp@ncc-ccn.ca
 ndcfo-odnfc: ombudsman-atip-aiprp-dndcf@forces.gc.ca
@@ -108,7 +105,6 @@ petf-fpet: comtois@fondationtrudeau.ca
 phac-aspc: atip-aiprp@hc-sc.gc.ca
 pmprb-cepmb: guillaume.couillard@pmprb-cepmb.gc.ca
 ppsc-sppc: atip-aiprp@ppsc-sppc.gc.ca
-pptc: atip-aiprp@cic.gc.ca
 ps-sp: atip-aiprp@ps-sp.gc.ca
 psc-cfp: cfp.aiprp-atip.psc@cfp-psc.gc.ca
 psdptc-tpfdc: atip-aiprp@tribunal.gc.ca
@@ -126,6 +122,7 @@ sct-trp: atip-aiprp@tribunal.gc.ca
 sdtc-tddc: g.cartwright@sdtc.ca
 sibc-cpivml: jpigeon@federalbridge.ca
 sirc-csars: info@sirc-csars.gc.ca
+sopf: info@ssopf.gc.ca
 spa-aps: info@portsaguenay.ca
 ssc-spc: atip-aiprp@ssc-spc.gc.ca
 sshrc-crsh: atip-aiprp@sshrc-crsh.gc.ca
@@ -136,9 +133,9 @@ tc: atip/aiprp@tc.gc.ca
 tf: atip-aiprp@telefilm.ca
 tsb-bst: atip.aiprp@bst-tsb.gc.ca
 vac-acc: atip-aiprp@vac-acc.gc.ca
-vfpa-apvf: AccesstoInformation@portmetrovancouver.com
+vfpa-apvf: accesstoinformation@portmetrovancouver.com
 viarail: jean-francois_legault@viarail.ca
-vrab-tacra: vrab-atip_tacra-aiprp@vrab-tacra.gc.ca
+vrab-tacra: vrab.vrabatip-tacraaiprp.tacra@vrab-tacra.gc.ca
 wd-deo: atip-aiprp@wd-deo.gc.ca
 yesab-oeesy: yesab@yesab.ca
 ysrb-odsy: info@yukonsurfacerights.com
