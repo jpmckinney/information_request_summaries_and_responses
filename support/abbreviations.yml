@@ -3,7 +3,6 @@ aafc-aac: Agriculture and Agri-Food Canada
 aandc-aadnc: Aboriginal Affairs and Northern Development Canada
 acoa-apeca: Atlantic Canada Opportunities Agency
 aecl-eacl: Atomic Energy of Canada Limited
-ahrc-pac: Assisted Human Reproduction Canada
 apa: Atlantic Pilotage Authority Canada
 apfc-fapc: Asia-Pacific Foundation of Canada
 atssc-scdata: Administrative Tribunals Support Service of Canada
@@ -16,7 +15,6 @@ cbc-radio-canada: Canadian Broadcasting Company
 cbsa-asfc: Canada Border Services Agency
 cca-cac: Canada Council for the Arts
 ccc: Canadian Commercial Corporation
-ccperb-cceebc: Canadian Cultural Property Export Review Board
 cdc-ccl: Canadian Dairy Commission
 cdev: Canada Development Investment Corporation
 cdic-sadc: Canada Deposit Insurance Corporation
@@ -81,7 +79,6 @@ mgerc-ceegm: Military Grievances External Review Committee
 mint-monnaie: Royal Canadian Mint
 mpa-apm: Montreal Port Authority
 mpcc-cppm: Military Police Complaints Commission of Canada
-nac-cna: National Arts Centre
 nbc-ccbn: The National Battlefields Commission
 ncc-ccn: National Capital Commission
 ndcfo-odnfc: National Defence and Canadian Forces Ombudsman
@@ -108,7 +105,6 @@ petf-fpet: Pierre Elliott Trudeau Foundation
 phac-aspc: Public Health Agency of Canada
 pmprb-cepmb: Patented Medicine Prices Review Board Canada
 ppsc-sppc: Public Prosecution Service of Canada
-pptc: Passport Canada
 ps-sp: Public Safety Canada
 psc-cfp: Public Service Commission of Canada
 psdptc-tpfdc: Public Servants Disclosure Protection Tribunal Canada
@@ -117,8 +113,7 @@ psi: Port of Sept-Iles
 psic-ispc: Office of the Public Sector Integrity Commissioner of Canada
 pslrb-crtfp: Public Service Labour Relations Board
 pspib-oirpsp: Public Sector Pension Investment Board
-ptr: !binary |-
-  UG9ydCBvZiBUcm9pcy1SaXZpw6hyZXM=
+ptr: Port of Trois-Rivières
 pwgsc-tpsgc: Public Works and Government Services Canada
 rcmp-grc: Royal Canadian Mounted Police
 ri: Revera Inc.
@@ -127,6 +122,7 @@ sct-trp: Registry of the Specific Claims Tribunal of Canada
 sdtc-tddc: Sustainable Development Technology Canada
 sibc-cpivml: The Seaway International Bridge Corporation
 sirc-csars: Security Intelligence Review Committee
+sopf: Ship-source Oil Pollution Fund
 spa-aps: Saguenay Port Authority
 ssc-spc: Shared Services Canada
 sshrc-crsh: Social Sciences and Humanities Research Council of Canada
