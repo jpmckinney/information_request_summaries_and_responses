@@ -13,19 +13,19 @@ class InformationResponse
   include Pupa::Model
   include Pupa::Concerns::Timestamps
 
-  attr_accessor :division_id, :id, :title, :identifier, :url, :abstract, :date,
-    :organization, :applicant_type, :fees_paid, :letters, :notes, :files,
-    :download_url, :comments
-  dump :division_id, :id, :title, :identifier, :url, :abstract, :date,
-    :organization, :applicant_type, :fees_paid, :letters, :notes, :files,
-    :download_url, :comments
+  attr_accessor :division_id, :id, :title, :identifier, :url, :abstract,
+    :decision, :date, :number_of_pages, :organization, :applicant_type,
+    :fees_paid, :letters, :notes, :files, :download_url, :comments
+  dump :division_id, :id, :title, :identifier, :url, :abstract, :decision,
+    :date, :number_of_pages, :organization, :applicant_type, :fees_paid,
+    :letters, :notes, :files, :download_url, :comments
 
   def fingerprint
     to_h.slice(:division_id, :id)
   end
 
   def to_s
-    id
+    id || identifier
   end
 end
 

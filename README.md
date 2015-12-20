@@ -92,6 +92,14 @@ Download the attachments for responses:
 
     ruby ca_nl_scraper.rb -a download
 
+### Nova Scotia
+
+#### Halifax
+
+Download summaries:
+
+    ruby ca_ns_halifax_scraper.rb
+
 ### Ontario
 
 #### Toronto

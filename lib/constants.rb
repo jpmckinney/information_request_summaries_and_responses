@@ -84,8 +84,16 @@ TEMPLATES = {
       ['number_of_pages', v == 'EXCEL' ? nil : Integer(v)]
     },
   },
+  'ca_ns_halifax' => {
+    'division_id' => '/division_id',
+    'identifier' => '/identifier',
+    'date' => '/date',
+    'abstract' => '/abstract',
+    'decision' => '/decision',
+    'number_of_pages' => '/number_of_pages',
+  },
   'ca_on_burlington' => {
-    'division_id' => 'ocd-division/country:ca/province:on/csd:3524002',
+    'division_id' => 'ocd-division/country:ca/csd:3524002',
     'identifier' => lambda{|data|
       v = JsonPointer.new(data, '/No.').value
       ['identifier', v && Integer(v)]
@@ -107,7 +115,7 @@ TEMPLATES = {
   },
   'ca_on_greater_sudbury' => {
     'id' => '/FILE_NUMBER',
-    'division_id' => 'ocd-division/country:ca/province:on/csd:3553005',
+    'division_id' => 'ocd-division/country:ca/csd:3553005',
     'identifier' => lambda{|data|
       v = JsonPointer.new(data, '/FILE_NUMBER').value
       ['identifier', Integer(v.strip.match(/\AFOI ?\d{4}-(\d{1,4})\z/)[1])]
@@ -137,7 +145,7 @@ TEMPLATES = {
     },
   },
   'ca_on_toronto' => {
-    'division_id' => 'ocd-division/country:ca/province:on/csd:3520005',
+    'division_id' => 'ocd-division/country:ca/csd:3520005',
     'identifier' => '/Request_Number',
     'date' => lambda{|data|
       v = JsonPointer.new(data, '/Decision_Communicated').value

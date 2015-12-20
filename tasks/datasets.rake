@@ -5,6 +5,11 @@ namespace :datasets do
     connection['information_responses'].find(division_id: 'ocd-division/country:ca/province:bc')
   end
 
+  def ca_ns_halifax_normalize
+    connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
+    connection['information_responses'].find(division_id: 'ocd-division/country:ca/csd:1209034')
+  end
+
   # #records_from_source
   def normalize_decision(text)
     if text
