@@ -165,24 +165,22 @@ class NL < Processor
   end
 
   def download
+    media_types = {
+      'application/pdf' => '.pdf',
+      'application/vnd.ms-excel' => '.xls',
+      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' => '.xlsx',
+    }
+
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      http_response = client.get(response.fetch('download_url'))
-      media_type = http_response.headers.fetch('content-type')
-      extension = case media_type
-      when 'application/pdf'
-        '.pdf'
-      when 'application/vnd.ms-excel'
-        '.xls'
-      when 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        '.xlsx'
-      else
-        error("unrecognized media type: #{media_type}")
-        nil
-      end
-      if extension
-        path = "#{response.fetch('id')}#{extension}"
-        store.write(path, http_response.body)
+      if media_types.values.none?{|extension| store.exist?("#{response.fetch('id')}#{extension}")}
+        http_response = client.get(response.fetch('download_url'))
+        media_type = http_response.headers.fetch('content-type')
+        if media_types.key?(media_type)
+          store.write("#{response.fetch('id')}#{media_types[media_type]}", http_response.body)
+        else
+          error("unrecognized media type: #{media_type}")
+        end
       end
     end
   end
