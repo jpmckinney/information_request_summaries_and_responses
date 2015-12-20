@@ -161,6 +161,7 @@ class BC < Processor
       month = date.strftime('%m')
 
       response['number_of_pages'] = 0
+      response['duration'] = 0
       ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
@@ -179,7 +180,7 @@ class BC < Processor
               file['media_type'] = match.first
 
               # Avoid running commands if unnecessary.
-              unless file.key?('number_of_pages')
+              unless file.key?('number_of_pages') || file.key?('duration')
                 if store.exist?(path)
                   case file['media_type']
                   when 'application/pdf'
@@ -195,9 +196,19 @@ class BC < Processor
                       if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
                         output = stdout.read
                         if output['Subfile Type: multi-page document']
-                          file['number_of_pages'] = Integer(output.scan(/Page Number: (\d+)/).flatten.last) + 1
+                          file['number_of_pages'] = Integer(output.scan(/\bPage Number: (\d+)/).flatten.last) + 1
                         else
                           file['number_of_pages'] = 1
+                        end
+                      else
+                        error("#{path}: #{stderr.read}")
+                      end
+                    end
+                  when 'audio/mpeg', 'audio/wav', 'video/mp4'
+                    Open3.popen3("mediainfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+                      if wait_thr.value.success?
+                        file['duration'] = stdout.read.match(/^Duration +: (.+)$/)[1].scan(/(\d+)(\w+)/).reduce(0) do |memo,(value,unit)|
+                          memo + Integer(value) * DURATION_UNITS.fetch(unit)
                         end
                       else
                         error("#{path}: #{stderr.read}")

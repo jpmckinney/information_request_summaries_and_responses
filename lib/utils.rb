@@ -42,6 +42,13 @@ class Processor < Pupa::Processor
     'video/mp4' => '.mp4',
   }.freeze
 
+  DURATION_UNITS = {
+    'h' => 3600,
+    'mn' => 60,
+    's' => 1,
+    'ms' => 0.001,
+  }.freeze
+
   def assert(message)
     error(message) unless yield
   end
