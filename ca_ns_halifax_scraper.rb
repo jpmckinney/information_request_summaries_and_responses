@@ -8,9 +8,11 @@ class Halifax < Processor
     get(url).xpath('//table[@width=611]').each do |table|
       tds = table.xpath('./tr[2]/td')
 
-      number_of_pages = tds[3].text
-      unless number_of_pages['Excel file']
-        number_of_pages = Integer(number_of_pages)
+      text = tds[3].text
+      if text['Excel file']
+        properties = {}
+      else
+        properties = {number_of_pages: Integer(text)}
       end
 
       dispatch(InformationResponse.new({
@@ -20,8 +22,7 @@ class Halifax < Processor
         date: DateTime.strptime("#{tds[1].text} #{tds[2].text}", '%Y %B').strftime('%Y-%m'),
         abstract: table.xpath('./tr[3]').text.sub('Request Summary:', '').strip,
         decision: tds[4].text.downcase,
-        number_of_pages: number_of_pages,
-      }))
+      }.merge(properties)))
     end
   end
 end
