@@ -4,7 +4,7 @@ All government bodies in Canada are subject to some freedom of information statu
 
 ## Scripts
 
-Search for datasets across multiple catalogs with Namara.io:
+Search for new datasets across multiple catalogs with Namara.io:
 
     query="freedom of information" rake datasets:search
 
@@ -16,7 +16,7 @@ Normalize summaries:
 
     rake datasets:normalize
 
-Normalize one jurisdiction:
+Or, normalize one jurisdiction:
 
     jurisdiction=ca rake datasets:normalize
 
@@ -30,6 +30,8 @@ Validate that the decision and the number of pages agree:
 
 ### Canada
 
+The following scripts are only relevant to automating informal requests for disclosed records from Canada.
+
 Get the alternate names of organizations to make corrections:
 
     rake ca:federal_identity_program > support/federal_identity_program.yml
@@ -38,17 +40,17 @@ Get the abbreviations of organizations to match across datasets:
 
     rake ca:abbreviations > support/abbreviations.yml
 
-Get organizations' emails from the coordinators page:
+Get organizations' emails from the [coordinators page](http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp):
 
     rake ca:emails:coordinators_page > support/emails_coordinators_page.yml
 
-Get organizations' emails from the search page:
+Get organizations' emails from the [search page](http://open.canada.ca/en/search/ati):
 
     rake ca:emails:search_page > support/emails_search_page.yml
 
 Compare organizations' emails from different sources:
 
-    rake ca:emails:compare
+    rake ca:emails:compare > support/mismatches.csv
 
 Construct the URL of the web form of each summary:
 
