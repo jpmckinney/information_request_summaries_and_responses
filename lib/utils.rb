@@ -33,7 +33,13 @@ class Processor < Pupa::Processor
   MEDIA_TYPES = {
     'application/pdf' => '.pdf',
     'application/vnd.ms-excel' => '.xls',
+    'application/vnd.ms-excel.sheet.macroEnabled.12' => '.xlsm',
     'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' => '.xlsx',
+    'audio/mpeg' => '.mp3',
+    'audio/wav' => '.wav',
+    'image/tiff' => '.tif',
+    'text/csv' => '.csv',
+    'video/mp4' => '.mp4',
   }.freeze
 
   def assert(message)

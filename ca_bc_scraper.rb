@@ -160,10 +160,12 @@ class BC < Processor
       year = date.strftime('%Y')
       month = date.strftime('%m')
 
+      response['number_of_pages'] = 0
       ['letters', 'notes', 'files'].each do |property|
         if response[property]
           response[property].each do |file|
             path = File.join(year, month, response['id'], file['title'])
+
             unless store.exist?(path)
               begin
                 store.write(path, get(URI.escape(file['url'])))
@@ -171,36 +173,51 @@ class BC < Processor
                 warn("404 #{file['url']}")
               end
             end
-          end
-        end
-      end
-    end
-  end
 
-  def number_of_pages
-    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
-    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      date = Date.parse(response['date'])
-      year = date.strftime('%Y')
-      month = date.strftime('%m')
+            match = MEDIA_TYPES.find{|_,extension| File.extname(file['title']).downcase == extension}
+            if match
+              file['media_type'] = match.first
 
-      response['number_of_pages'] = 0
-      ['letters', 'notes', 'files'].each do |property|
-        if response[property]
-          response[property].each do |file|
-            path = File.join(year, month, response['id'], file['title'])
-            if File.extname(path).downcase == '.pdf' && store.exist?(path)
-              Open3.popen3("pdfinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
-                if wait_thr.value.success?
-                  file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
-                  # The response is sometimes in the incorrect section on the website.
-                  if file['title'][/pac[ka]{2}ge|records/i] # /letter|email/ for letters, /note/ for notes
-                    response['number_of_pages'] += file['number_of_pages']
+              # Avoid running commands if unnecessary.
+              unless file.key?('number_of_pages')
+                if store.exist?(path)
+                  case file['media_type']
+                  when 'application/pdf'
+                    Open3.popen3("pdfinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+                      if wait_thr.value.success?
+                        file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
+                      else
+                        error("#{path}: #{stderr.read}")
+                      end
+                    end
+                  when 'image/tiff'
+                    Open3.popen3("tiffinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+                      if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
+                        output = stdout.read
+                        if output['Subfile Type: multi-page document']
+                          file['number_of_pages'] = Integer(output.scan(/Page Number: (\d+)/).flatten.last) + 1
+                        else
+                          file['number_of_pages'] = 1
+                        end
+                      else
+                        error("#{path}: #{stderr.read}")
+                      end
+                    end
                   end
-                else
-                  error("#{path}: #{stderr.read}")
                 end
               end
+
+              if file['number_of_pages']
+                # The response is sometimes in the incorrect section on the
+                # website, so we find responses by filename instead.
+                if file['title'][/pac[ka]{2}ge|records/i]
+                  response['number_of_pages'] += file['number_of_pages']
+                elsif !file['title'][/letter|email|note/i]
+                  error("#{path} not recognized as letter, note or file")
+                end
+              end
+            else
+              error("#{path}: unrecognized media type")
             end
           end
         end
