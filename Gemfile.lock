@@ -36,9 +36,6 @@ GEM
     addressable (2.3.8)
     bson (3.2.6)
     colored (1.2)
-    creek (1.1.1)
-      nokogiri (~> 1.6.0)
-      rubyzip (>= 1.0.0)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
     faraday (0.9.2)
@@ -67,6 +64,10 @@ GEM
       mini_portile (~> 0.6.0)
     nori (2.6.0)
     oj (2.13.1)
+    ox (2.2.1)
+    oxcelix (0.4.1)
+      ox (>= 2.1.7)
+      rubyzip (>= 1.1.0)
     pg (0.17.1)
     rake (10.4.2)
     ruby-ole (1.2.11.8)
@@ -87,9 +88,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  creek
   faraday-cookie_jar
   nokogiri
+  oxcelix
   pupa!
   rake
   safe_yaml

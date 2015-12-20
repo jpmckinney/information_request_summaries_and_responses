@@ -2,8 +2,8 @@ require 'csv'
 require 'digest/sha1'
 require 'open3'
 
-require 'creek'
 require 'nokogiri'
+require 'oxcelix'
 require 'pupa'
 require 'spreadsheet'
 

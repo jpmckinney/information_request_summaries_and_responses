@@ -211,8 +211,12 @@ class BC < Processor
                       memo + sheet.rows.count{|row| !row.empty?}
                     end
                   when 'application/vnd.ms-excel.sheet.macroEnabled.12', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-                    file['number_of_rows'] = Creek::Book.new(store.path(path)).sheets.reduce(0) do |memo,sheet|
-                      memo + sheet.rows.to_a.size
+                    file['number_of_rows'] = Oxcelix::Workbook.new(store.path(path)).sheets.reduce(0) do |memo,sheet|
+                      if Hash === sheet # empty sheet?
+                        memo
+                      else
+                        memo + sheet.row_size
+                      end
                     end
                   when 'text/csv'
                     file['number_of_rows'] = CSV.read(store.path(path)).size
