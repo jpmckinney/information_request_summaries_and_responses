@@ -270,7 +270,7 @@ namespace :ca do
             output[id] = value
           end
         else
-          $stderr.puts "expected #{a.xpath('./span[@class="badge"]').text} summaries at #{url}"
+          $stderr.puts "expected an email from #{a.xpath('./span[@class="badge"]').text} summaries at #{url}"
         end
       end
 
