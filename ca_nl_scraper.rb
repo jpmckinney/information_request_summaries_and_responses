@@ -173,7 +173,11 @@ class NL < Processor
 
     store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      if media_types.values.none?{|extension| store.exist?("#{response.fetch('id')}#{extension}")}
+      match = media_types.find{|_,extension| store.exist?("#{response.fetch('id')}#{extension}")}
+
+      if match
+        media_type = match.first
+      else
         http_response = client.get(response.fetch('download_url'))
         media_type = http_response.headers.fetch('content-type')
         if media_types.key?(media_type)
@@ -181,10 +185,11 @@ class NL < Processor
         else
           error("unrecognized media type: #{media_type}")
         end
-        collection.update_one({_id: response['_id']}, '$set' => {
-          media_type: media_type,
-        })
       end
+
+      collection.update_one({_id: response['_id']}, '$set' => {
+        media_type: media_type,
+      })
     end
   end
 
