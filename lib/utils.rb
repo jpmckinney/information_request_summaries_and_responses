@@ -54,7 +54,7 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
   # @return [Array<String>] all keys in the store
   def entries
     Dir.chdir(@output_dir) do
-      Dir['*']
+      Dir['**/*']
     end
   end
 
