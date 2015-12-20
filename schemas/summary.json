@@ -70,6 +70,10 @@
       "description": "The number of rows in the records disclosed",
       "type": "integer"
     },
+    "duration": {
+      "description": "The duration in seconds of the audio or video",
+      "type": "number"
+    },
     "classification": {
       "description": "The classification of the request",
       "type": "string",
