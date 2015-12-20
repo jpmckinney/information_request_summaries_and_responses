@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'axlsx'
 gem 'faraday-cookie_jar'
 gem 'nokogiri'
 gem 'pupa', git: 'https://github.com/jpmckinney/pupa-ruby.git'
 gem 'rake'
+gem 'rubyXL'
 gem 'safe_yaml'
 gem 'spreadsheet'
 gem 'unicode_utils'

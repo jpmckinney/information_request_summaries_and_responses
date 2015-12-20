@@ -34,10 +34,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    axlsx (2.0.1)
-      htmlentities (~> 4.3.1)
-      nokogiri (>= 1.4.1)
-      rubyzip (~> 1.0.0)
     bson (3.2.6)
     colored (1.2)
     domain_name (0.5.25)
@@ -49,7 +45,6 @@ GEM
       http-cookie (~> 1.0.0)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    htmlentities (4.3.4)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     i18n (0.7.0)
@@ -72,7 +67,10 @@ GEM
     pg (0.17.1)
     rake (10.4.2)
     ruby-ole (1.2.11.8)
-    rubyzip (1.0.0)
+    rubyXL (3.3.15)
+      nokogiri (>= 1.4.4)
+      rubyzip (>= 1.1.6)
+    rubyzip (1.1.7)
     safe_yaml (1.0.4)
     sequel (4.10.0)
     spreadsheet (1.1.0)
@@ -89,11 +87,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  axlsx
   faraday-cookie_jar
   nokogiri
   pupa!
   rake
+  rubyXL
   safe_yaml
   spreadsheet
   unicode_utils
