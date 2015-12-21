@@ -7,6 +7,11 @@ require_relative 'lib/utils'
 class BC < Processor
   DIVISION_ID = 'ocd-division/country:ca/province:bc'
 
+  def initialize(*args)
+    super
+    @download_store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
+  end
+
   def get_identifier(text)
     text.match(/\AFOI Request - (\S+)\z/)[1]
   end
@@ -154,7 +159,6 @@ class BC < Processor
   end
 
   def download
-    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       date = Date.parse(response['date'])
       year = date.strftime('%Y')
@@ -169,9 +173,9 @@ class BC < Processor
           response[property].each do |file|
             path = File.join(year, month, response['id'], file['title'])
 
-            unless store.exist?(path)
+            unless download_store.exist?(path)
               begin
-                store.write(path, get(URI.escape(file['url'])))
+                download_store.write(path, get(URI.escape(file['url'])))
               rescue Faraday::ResourceNotFound
                 warn("404 #{file['url']}")
               end

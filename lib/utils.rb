@@ -51,6 +51,8 @@ class Processor < Pupa::Processor
     'ms' => 0.001,
   }.freeze
 
+  attr_reader :download_store
+
   def assert(message)
     error(message) unless yield
   end
@@ -60,16 +62,17 @@ class Processor < Pupa::Processor
   end
 
   def calculate_document_size(file, path)
-    match = MEDIA_TYPES.find{|_,extension| File.extname(path).downcase == extension}
-    if match
-      file['media_type'] = match.first
+    media_type, _ = MEDIA_TYPES.find{|_,extension| File.extname(path).downcase == extension}
+    if media_type
+      file['media_type'] = media_type
 
       # Avoid running commands if unnecessary.
       unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
-        if store.exist?(path)
+        if download_store.exist?(path)
+          info("calculating length of #{store.path(path)}")
           case file['media_type']
           when 'application/pdf'
-            Open3.popen3("pdfinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+            Open3.popen3("pdfinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
               if wait_thr.value.success?
                 file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
               else
@@ -77,7 +80,7 @@ class Processor < Pupa::Processor
               end
             end
           when 'image/tiff'
-            Open3.popen3("tiffinfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+            Open3.popen3("tiffinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
               if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
                 output = stdout.read
                 if output['Subfile Type: multi-page document']
@@ -90,11 +93,11 @@ class Processor < Pupa::Processor
               end
             end
           when 'application/vnd.ms-excel'
-            file['number_of_rows'] = Spreadsheet.open(store.path(path)).worksheets.reduce(0) do |memo,sheet|
+            file['number_of_rows'] = Spreadsheet.open(download_store.path(path)).worksheets.reduce(0) do |memo,sheet|
               memo + sheet.rows.count{|row| !row.empty?}
             end
           when 'application/vnd.ms-excel.sheet.macroEnabled.12', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            file['number_of_rows'] = Oxcelix::Workbook.new(store.path(path)).sheets.reduce(0) do |memo,sheet|
+            file['number_of_rows'] = Oxcelix::Workbook.new(download_store.path(path)).sheets.reduce(0) do |memo,sheet|
               if Hash === sheet # empty sheet?
                 memo
               else
@@ -102,9 +105,9 @@ class Processor < Pupa::Processor
               end
             end
           when 'text/csv'
-            file['number_of_rows'] = CSV.read(store.path(path)).size
+            file['number_of_rows'] = CSV.read(download_store.path(path)).size
           when 'audio/mpeg', 'audio/wav', 'video/mp4'
-            Open3.popen3("mediainfo #{Shellwords.escape(store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+            Open3.popen3("mediainfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
               if wait_thr.value.success?
                 file['duration'] = stdout.read.match(/^Duration +: (.+)$/)[1].scan(/(\d+)(\w+)/).reduce(0) do |memo,(value,unit)|
                   memo + Integer(value) * DURATION_UNITS.fetch(unit)
