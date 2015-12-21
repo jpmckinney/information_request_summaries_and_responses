@@ -62,6 +62,10 @@
         "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       ]
     },
+    "byte_size": {
+      "description": "The file size in bytes",
+      "type": "integer"
+    },
     "number_of_pages": {
       "description": "The number of pages disclosed",
       "type": "integer"
