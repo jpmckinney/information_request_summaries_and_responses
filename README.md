@@ -95,7 +95,7 @@ Download the metadata for responses:
 
 Download the attachments for responses:
 
-    ruby ca_nl_scraper.rb -a download
+    ruby ca_nl_scraper.rb -a download --no-cache
 
 ### Nova Scotia
 

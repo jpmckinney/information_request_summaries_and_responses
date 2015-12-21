@@ -50,6 +50,11 @@ class NL < Processor
     "Records related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) including a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts), security IDs, and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes",
   }
 
+  def initialize(*args)
+    super
+    @download_store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
+  end
+
   def normalize_abstract(text)
     # Web is generally lower quality than CSV:
     #
@@ -165,25 +170,24 @@ class NL < Processor
   end
 
   def download
-    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      match = MEDIA_TYPES.find{|_,extension| store.exist?("#{response.fetch('id')}#{extension}")}
-
-      if match
-        media_type = match.first
+      if response['media_type']
+        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
       else
         http_response = client.get(response.fetch('download_url'))
-        media_type = http_response.headers.fetch('content-type')
+        response['media_type'] = http_response.headers.fetch('content-type')
+        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+
         if MEDIA_TYPES.key?(media_type)
-          store.write("#{response.fetch('id')}#{MEDIA_TYPES[media_type]}", http_response.body)
+          download_store.write(path, http_response.body)
         else
           error("unrecognized media type: #{media_type}")
         end
       end
 
-      collection.update_one({_id: response['_id']}, '$set' => {
-        media_type: media_type,
-      })
+      calculate_document_size(response, path)
+
+      collection.update_one({_id: response['_id']}, response)
     end
   end
 
@@ -203,7 +207,6 @@ class NL < Processor
       'number_of_pages',
     ]
 
-    store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
     summaries = File.expand_path(File.join('summaries'), Dir.pwd)
 
     web = {}
@@ -224,7 +227,7 @@ class NL < Processor
             other.except('id', 'download_url') == response.except('id', 'download_url')
           end
 
-          if other && store.sha1("#{other['id']}.pdf") == store.sha1("#{response['id']}.pdf")
+          if other && download_store.sha1("#{other['id']}.pdf") == download_store.sha1("#{response['id']}.pdf")
             duplicates += 1
           else
             web[key] << response.merge('identifier' => identifier)

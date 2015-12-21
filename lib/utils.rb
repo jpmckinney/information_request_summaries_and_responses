@@ -69,7 +69,7 @@ class Processor < Pupa::Processor
       # Avoid running commands if unnecessary.
       unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
         if download_store.exist?(path)
-          info("calculating length of #{store.path(path)}")
+          info("#{path}: calculating length")
           case file['media_type']
           when 'application/pdf'
             Open3.popen3("pdfinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
