@@ -22,8 +22,8 @@ namespace :ca do
       if row['French Summary / Sommaire de la demande en français'] && ca_disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[0])
         row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
       end
-      assert("#{row_number}: expected '/' in Disposition: #{row['Disposition']}"){
-        row['Disposition'].nil? || row['Disposition']['/'] || ca_disposition?(row['Disposition'])
+      assert("#{row_number}: expected '/' or '|' in Disposition: #{row['Disposition']}"){
+        row['Disposition'].nil? || row['Disposition'][/\A=(?:F\d+)?\z/] || row['Disposition'][%r{[/|]}] || ca_disposition?(row['Disposition'])
       }
       assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
         row['Org'][/ [|-] /]

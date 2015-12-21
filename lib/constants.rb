@@ -12,7 +12,7 @@ CA_DISPOSITIONS = Set.new(load_yaml('dispositions.yml')).freeze
 RE_PARENTHETICAL_CITATION = /\(.\)/.freeze
 RE_PARENTHETICAL = /\([^)]+\)?/.freeze
 # Empty string, number, date, or exact string.
-RE_INVALID = /\A(?:|\d+|[a-z]{3} \d{1,2}|consult other institution|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
+RE_INVALID = /\A(?:|=(?:f\d+)?|\d+|[a-z]{3} \d{1,2}|consult other institution|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
 RE_DECISIONS = {
   'abandoned' => /\b(?:abandon|withdrawn\b)/,
   'correction' => /\bcorrection\b/,
@@ -21,13 +21,14 @@ RE_DECISIONS = {
   'transferred' => /\btransferred\b/,
   # This order matters.
   'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
-  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused|unable to process)\z|\Aex[ce]|\b(?:all? .*\b(ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public)/,
+  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public|unable to process)/,
   'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
 }.freeze
 
 # #records_from_source
 NON_CSV_SOURCES = Set.new([
   'ca_bc',
+  'ca_ns_halifax',
 ]).freeze
 CSV_ENCODINGS = {
   'ca_nl' => 'windows-1252:utf-8',

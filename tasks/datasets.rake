@@ -20,7 +20,11 @@ namespace :datasets do
         gsub(/\p{Space}+/, ' ').strip
 
       unless text[RE_INVALID]
-        RE_DECISIONS.find{|_,pattern| text[pattern]}.first
+        decision, _ = RE_DECISIONS.find{|_,pattern| text[pattern]}
+        unless decision
+          raise "unrecognized decision '#{decision}'"
+        end
+        decision
       end
     end
   end
@@ -81,7 +85,7 @@ namespace :datasets do
             validator.validate
           end
           records << record
-        rescue => e
+        rescue JSON::Schema::ValidationError => e
           puts "#{directory} #{index + 2}: #{e}\n  #{record}"
         end
       end
