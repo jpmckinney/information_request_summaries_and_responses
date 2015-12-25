@@ -9,21 +9,6 @@ GIT
       nokogiri
       nori
 
-GIT
-  remote: https://github.com/jpmckinney/pupa-ruby.git
-  revision: c59712c906e682db615ae764ea6cadd08a5916f2
-  specs:
-    pupa (0.2.3)
-      activesupport (~> 4.0)
-      colored (~> 1.2)
-      faraday_middleware (~> 0.10.0)
-      json-schema (~> 2.3)
-      mail
-      mongo (~> 2.0)
-      oj (~> 2.1)
-      pg (~> 0.17.0)
-      sequel (~> 4.10.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -69,6 +54,16 @@ GEM
       ox (>= 2.1.7)
       rubyzip (>= 1.1.0)
     pg (0.17.1)
+    pupa (0.2.4)
+      activesupport (~> 4.0)
+      colored (~> 1.2)
+      faraday_middleware (~> 0.10.0)
+      json-schema (~> 2.3)
+      mail
+      mongo (~> 2.0)
+      oj (~> 2.1)
+      pg (~> 0.17.0)
+      sequel (~> 4.10.0)
     rake (10.4.2)
     ruby-ole (1.2.11.8)
     rubyzip (1.1.7)
@@ -91,7 +86,7 @@ DEPENDENCIES
   faraday-cookie_jar
   nokogiri
   oxcelix
-  pupa!
+  pupa
   rake
   safe_yaml
   spreadsheet
