@@ -67,7 +67,7 @@ class Processor < Pupa::Processor
       file['media_type'] = media_type
 
       if download_store.exist?(path)
-        file['byte_size'] = File.size(download_store.path(path))
+        file['byte_size'] = download_store.size(path)
 
         # Avoid running commands if unnecessary.
         unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
@@ -168,6 +168,16 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
     end
   end
 
+  # Returns files names matching the pattern in the storage directory.
+  #
+  # @param [String] pattern a pattern
+  # @return [Array<String>] matching keys in the store
+  def glob(pattern)
+    Dir.chdir(@output_dir) do
+      Dir[pattern]
+    end
+  end
+
   # Returns the byte size of the file.
   #
   # @param [String] name a key
@@ -176,6 +186,10 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
     File.size(path(name))
   end
 
+  # Returns the SHA1 hexidecimal digest of the file.
+  #
+  # @param [String] name a key
+  # @return [Integer] the SHA1 hexidecimal digest of the file
   def sha1(name)
     Digest::SHA1.file(path(name)).hexdigest
   end
