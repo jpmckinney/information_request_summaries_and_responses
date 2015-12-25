@@ -7,10 +7,12 @@ class NL < Processor
 
   COLUMN_WIDTH = 100
 
+  # The website has duplicates.
   WEB_DUPLICATES = [
     # Duplicates 380 including PDF (should be about Line 3.1.04.10 as in CSV).
     '648',
   ]
+  # The website has incorrect abstracts which should be ignored.
   WEB_BAD_ABSTRACTS = [
     'BTCRD/10/2015', # BTCRD/8/2015
     'TW/21/2015', # EDU/11/2015
@@ -25,6 +27,7 @@ class NL < Processor
     'Justice' => 'Justice and Public Safety',
   }
 
+  # Map the unpreferred abstract to the preferred abstract.
   WEB_ABSTRACTS_MAP = {
     # Quotation mark (can Levenshtein).
     "A copy of the entire consultants report produced in 2014 on the commercial viability of seal meat, as paid for by the department. The executive summary was provided in early October 2014, but a copy of the full report is requested" =>
@@ -34,9 +37,6 @@ class NL < Processor
     "Any documents relating to the following amendments made under sections 8 and 9 of An Act to Amend the Workers' Compensation Act, S.N. 1992, c.29: (a) The addition of section 44.1 of the Workplace Health, Safety and Compensation Commission Act, RSNL 1990, W-11 (the \"WHSC Act\"); and (b) The substitution of section 45 of the WHSC Act. Any documents relating to the following amendment made under section 7 of An Act to Amend the Workers' Compensation Act, S.N. 1994, c/ 12: (a) The addition of section 44.1(2) of the WHSC Act",
     "Number of cheques that the Department of Finance issues per month. Brief description of process required from the time a request for a cheque comes from a lawyer in the Civil Division of the Department of Justice until the cheque is printed and forwarded to that lawyer. Whether or not there is any target timeline for the process outlined in #2 above. 4. If the answer to #3 is yes, what is the target timeline' 5. If the answer to #3 is yes, what are the repercussion for missing the target timeline?" =>
     "Number of cheques that the Department of Finance issues per month. Brief description of process required from the time a request for a cheque comes from a lawyer in the Civil Division of the Department of Justice until the cheque is printed and forwarded to that lawyer. Whether or not there is any target timeline for the process outlined in #2 above. 4. If the answer to #3 is yes, what is the target timeline? 5. If the answer to #3 is yes, what are the repercussion for missing the target timeline?",
-    # Semi-colon (can Levenshtein).
-    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time" =>
-    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time",
     # Repetition.
     "Request the following from April 2012 to present date: The number of ATIPP requests received by the Department of Finance. The number of ATIPP requests received by the Department of Finance. Copies of all Form 1s for each individual request" =>
     "Request the following from April 2012 to present date: The number of ATIPP requests received by the Department of Finance Copies of all Form 1s for each individual request",
@@ -45,6 +45,9 @@ class NL < Processor
     "The names, salaries, and positions of all government appointees to boards and agencies since September 9, 2013",
   }
   CSV_ABSTRACTS_MAP = {
+    # Semi-colon (can Levenshtein).
+    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time" =>
+    "Please provide a breakdown by trade and by block The percentage of students from each block exam held between September 2011 and December 2012 (including December 2012) who passed; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the second time; The percentage of those writing each exam between September 2011 and December 2012 (including December 2012) who were writing the exam for the third time",
     # Combined.
     "A copy of any and all emails, memos, correspondence, letters related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) for security IDs, office moves, changes to insurance policies to allow any of the above noted people to drive government vehicles as well as details of any costs related to the change in insurance policies" =>
     "Records related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) including a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts), security IDs, and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes",
@@ -173,19 +176,23 @@ class NL < Processor
 
   def download
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      if response['media_type']
-        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
-      else
-        http_response = client.get(response.fetch('download_url'))
-        response['media_type'] = http_response.headers.fetch('content-type')
-        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
-
-        if MEDIA_TYPES.key?(media_type)
-          download_store.write(path, http_response.body)
+      unless response['media_type']
+        if !download_store.glob("#{response.fetch('id')}.*").empty?
+          response['media_type'] = client.head(response.fetch('download_url')).headers.fetch('content-type')
         else
-          error("unrecognized media type: #{media_type}")
+          http_response = client.get(response.fetch('download_url'))
+
+          response['media_type'] = http_response.headers.fetch('content-type')
+
+          if MEDIA_TYPES.key?(response['media_type'])
+            download_store.write(path, http_response.body)
+          else
+            error("unrecognized media type: #{response['media_type']}")
+          end
         end
       end
+
+      path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
 
       calculate_document_size(response, path)
 
@@ -217,7 +224,8 @@ class NL < Processor
       if WEB_DUPLICATES.include?(response['id'])
         duplicates += 1
       else
-        response = response.except('_id', '_type', 'created_at', 'updated_at')
+        # Ignore calculated attributes.
+        response = response.except('_id', '_type', 'created_at', 'updated_at', 'media_type', 'byte_size', 'number_of_pages')
         identifiers = response['identifier'].strip.scan(%r{[A-Z]{2,5}/\d{1,2}/\d{4}})
 
         identifiers.each do |identifier|
@@ -316,9 +324,11 @@ class NL < Processor
       end
     end
 
-    recent, old = unreconciled_from_web.partition{|response| response['date'] > Time.now.strftime('%Y-%m')}
-    nothing, something = unreconciled_from_csv.partition{|response| response['decision'] == 'nothing disclosed'}
+
     info("Ignored #{duplicates} duplicates")
+    timestamp = (Time.now - 45 * 86400).strftime('%Y-%m-%d')
+    recent, old = unreconciled_from_web.partition{|response| response['date'] > timestamp}
+    nothing, something = unreconciled_from_csv.partition{|response| response['decision'] == 'nothing disclosed'}
     info("Added #{unreconciled_from_web.size} unreconciled records from web (#{recent.size} recent, #{old.size} old)")
     debug(JSON.pretty_generate(old)) if old.any?
     info("Added #{unreconciled_from_csv.size} unreconciled records from CSV (#{nothing.size} not disclosed, #{something.size} disclosed)")
