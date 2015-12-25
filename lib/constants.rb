@@ -38,8 +38,8 @@ TEMPLATES = {
     'division_id' => 'ocd-division/country:ca',
     'identifier' => '/Request Number ~1 Numero de la demande',
     'date' => lambda{|data|
-      year = JsonPointer.new(data, '/Year ~1 Année').value
-      month = JsonPointer.new(data, '/Month ~1 Mois (1-12)').value
+      year = Integer(JsonPointer.new(data, '/Year ~1 Année').value)
+      month = Integer(JsonPointer.new(data, '/Month ~1 Mois (1-12)').value)
       ['date', Date.new(year, month, 1).strftime('%Y-%m')]
     },
     'abstract' => lambda{|data|
@@ -49,7 +49,10 @@ TEMPLATES = {
     },
     'decision' => '/Disposition',
     'organization' => '/Org',
-    'number_of_pages' => '/Number of Pages ~1 Nombre de pages',
+    'number_of_pages' => lambda{|data|
+      v = JsonPointer.new(data, '/Number of Pages ~1 Nombre de pages').value
+      ['number_of_pages', v && Integer(v)]
+    },
   },
   'ca_bc' => {
     'division_id' => '/division_id',
