@@ -21,7 +21,7 @@ RE_DECISIONS = {
   'transferred' => /\btransferred\b/,
   # This order matters.
   'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
-  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|no(?:\b|ne\b|t)|public|unable to process)/,
+  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|inexistant\b|no(?:\b|ne\b|t)|public|unable to process\b)/,
   'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
 }.freeze
 
