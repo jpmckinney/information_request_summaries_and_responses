@@ -22,7 +22,7 @@ namespace :datasets do
       unless text[RE_INVALID]
         decision, _ = RE_DECISIONS.find{|_,pattern| text[pattern]}
         unless decision
-          raise "unrecognized decision '#{decision}'"
+          raise "unrecognized decision #{text.inspect}"
         end
         decision
       end
