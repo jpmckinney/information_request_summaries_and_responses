@@ -11,9 +11,9 @@ namespace :datasets do
   end
 
   # #records_from_source
-  def normalize_decision(text)
-    if text
-      text = text.downcase.
+  def normalize_decision(original)
+    if original
+      text = original.downcase.
         gsub(RE_PARENTHETICAL_CITATION, '').
         gsub(RE_PARENTHETICAL, '').
         gsub(/[\p{Punct}￼]/, ' '). # special character
@@ -22,7 +22,7 @@ namespace :datasets do
       unless text[RE_INVALID]
         decision, _ = RE_DECISIONS.find{|_,pattern| text[pattern]}
         unless decision
-          raise "unrecognized decision #{text.inspect}"
+          raise "unrecognized decision #{original.inspect}"
         end
         decision
       end
@@ -55,12 +55,16 @@ namespace :datasets do
 
       begin
         rows = send(method, File.read(filename))
-      rescue NoMethodError
-        csv_options = {headers: true}
-        if CSV_ENCODINGS.key?(directory)
-          csv_options[:encoding] = CSV_ENCODINGS[directory]
+      rescue NoMethodError => e
+        if e.message[method]
+          csv_options = {headers: true}
+          if CSV_ENCODINGS.key?(directory)
+            csv_options[:encoding] = CSV_ENCODINGS[directory]
+          end
+          rows = CSV.foreach(filename, csv_options)
+        else
+          raise
         end
-        rows = CSV.foreach(filename, csv_options)
       end
     end
 
@@ -68,27 +72,31 @@ namespace :datasets do
     validate = options.fetch(:validate, true)
     renderer = WhosGotDirt::Renderer.new(template)
 
-    rows.each_with_index do |row,index|
-      # ca_on_greater_sudbury has rows with only an OBJECTID.
-      if row.to_h.except('OBJECTID').values.any?
-        begin
-          record = renderer.result(row.to_h)
+    begin
+      rows.each_with_index do |row,index|
+        # ca_on_greater_sudbury has rows with only an OBJECTID.
+        if row.to_h.except('OBJECTID').values.any?
+          begin
+            record = renderer.result(row.to_h)
 
-          if normalize
-            record['decision'] = normalize_decision(record['decision'])
-            record.delete('decision') unless record['decision']
-          end
+            if normalize
+              record['decision'] = normalize_decision(record['decision'])
+              record.delete('decision') unless record['decision']
+            end
 
-          if validate
-            validator.instance_variable_set('@errors', [])
-            validator.instance_variable_set('@data', record)
-            validator.validate
+            if validate
+              validator.instance_variable_set('@errors', [])
+              validator.instance_variable_set('@data', record)
+              validator.validate
+            end
+            records << record
+          rescue JSON::Schema::ValidationError => e
+            puts "#{directory} #{index + 2}: #{e}\n  #{record}"
           end
-          records << record
-        rescue JSON::Schema::ValidationError => e
-          puts "#{directory} #{index + 2}: #{e}\n  #{record}"
         end
       end
+    rescue CSV::MalformedCSVError => e
+      puts "#{directory}: #{e.message}"
     end
 
     records
