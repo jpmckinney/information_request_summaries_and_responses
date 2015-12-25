@@ -176,23 +176,23 @@ class NL < Processor
 
   def download
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      unless response['media_type']
-        if !download_store.glob("#{response.fetch('id')}.*").empty?
-          response['media_type'] = client.head(response.fetch('download_url')).headers.fetch('content-type')
+      if response['media_type']
+        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+      elsif !download_store.glob("#{response.fetch('id')}.*").empty?
+        http_response = client.head(response.fetch('download_url'))
+        response['media_type'] = http_response.headers.fetch('content-type')
+        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+      else
+        http_response = client.get(response.fetch('download_url'))
+        response['media_type'] = http_response.headers.fetch('content-type')
+        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+
+        if MEDIA_TYPES.key?(response['media_type'])
+          download_store.write(path, http_response.body)
         else
-          http_response = client.get(response.fetch('download_url'))
-
-          response['media_type'] = http_response.headers.fetch('content-type')
-
-          if MEDIA_TYPES.key?(response['media_type'])
-            download_store.write(path, http_response.body)
-          else
-            error("unrecognized media type: #{response['media_type']}")
-          end
+          error("unrecognized media type: #{response['media_type']}")
         end
       end
-
-      path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
 
       calculate_document_size(response, path)
 
@@ -225,7 +225,7 @@ class NL < Processor
         duplicates += 1
       else
         # Ignore calculated attributes.
-        response = response.except('_id', '_type', 'created_at', 'updated_at', 'media_type', 'byte_size', 'number_of_pages')
+        response = response.except('_id', '_type', 'created_at', 'updated_at')
         identifiers = response['identifier'].strip.scan(%r{[A-Z]{2,5}/\d{1,2}/\d{4}})
 
         identifiers.each do |identifier|
@@ -233,8 +233,8 @@ class NL < Processor
           web[key] ||= []
 
           other = web[key].find do |other|
-            # Web has duplicates, the only difference being the download URL.
-            other.except('id', 'download_url') == response.except('id', 'download_url')
+            # Web has duplicates, the only difference being the download URL. Ignore calculated attributes.
+            other.except('id', 'download_url', 'media_type', 'byte_size', 'number_of_pages') == response.except('id', 'download_url', 'media_type', 'byte_size', 'number_of_pages')
           end
 
           if other && download_store.sha1("#{other['id']}.pdf") == download_store.sha1("#{response['id']}.pdf")
@@ -276,6 +276,7 @@ class NL < Processor
         record = csv_response
         record['id'] = web_response['id']
         record['date'] = web_response['date']
+        record['number_of_pages'] = web_response['number_of_pages']
         # Identifiers are sometimes inconsistent across systems.
         unless csv_response['identifier'] == web_response['identifier']
           record['alternate_identifier'] = web_response['identifier']
