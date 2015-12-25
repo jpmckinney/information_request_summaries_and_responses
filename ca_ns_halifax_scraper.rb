@@ -20,7 +20,7 @@ class Halifax < Processor
         id: tds[0].text,
         identifier: tds[0].text,
         date: DateTime.strptime("#{tds[1].text} #{tds[2].text}", '%Y %B').strftime('%Y-%m'),
-        abstract: table.xpath('./tr[3]').text.sub('Request Summary:', '').strip,
+        abstract: table.xpath('./tr[3]').text.sub('Request Summary:', '').gsub(/\p{Space}+/, ' ').strip,
         decision: tds[4].text.downcase,
       }.merge(properties)))
     end
