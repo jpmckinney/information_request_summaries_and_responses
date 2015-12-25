@@ -69,7 +69,10 @@ TEMPLATES = {
   },
   'ca_nl' => {
     'division_id' => 'ocd-division/country:ca/province:nl',
-    'identifier' => '/Request Number',
+    'identifier' => lambda{|data|
+      v = JsonPointer.new(data, '/Request Number').value
+      ['identifier', v.strip]
+    },
     'date' => lambda{|data|
       year = JsonPointer.new(data, '/Year').value
       month = JsonPointer.new(data, '/Month').value
