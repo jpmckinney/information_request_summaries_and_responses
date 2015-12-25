@@ -510,7 +510,7 @@
     "number_of_pages": 4
   },
   {
-    "id": "164",
+    "id": "168",
     "division_id": "ocd-division/country:ca/province:nl",
     "identifier": "SNL/2/2013",
     "date": "2013-04-23",
@@ -1050,7 +1050,7 @@
     "number_of_pages": 16
   },
   {
-    "id": "643",
+    "id": "331",
     "division_id": "ocd-division/country:ca/province:nl",
     "identifier": "AES/25/2012",
     "date": "2013-05-28",
@@ -3788,7 +3788,7 @@
     "number_of_pages": 53
   },
   {
-    "id": "170",
+    "id": "166",
     "division_id": "ocd-division/country:ca/province:nl",
     "identifier": "FA/8/2014",
     "date": "2014-06-02",
@@ -10193,5 +10193,23 @@
     "abstract": "Your Ref : TW/26/2014 : Dated Dec 14,2014 Star Realty's Mechanic's lien against the Crown and Eastern School Board , please provide book of documents and factum, to date, if possible.",
     "organization": "Justice and Public Safety",
     "number_of_pages": 39
+  },
+  {
+    "id": "1821",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "MIGA/78/2015",
+    "date": "2015-12-21",
+    "abstract": "Municipal capital works projects related to MIGA/68/2015 and the town of Portugal Cove St. Philips.",
+    "organization": "Municipal and Intergovernmental Affairs",
+    "number_of_pages": 2
+  },
+  {
+    "id": "1841",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "FIN/41/2015",
+    "date": "2015-12-22",
+    "abstract": "Information relating to debt servicing costs over the past two fiscal years (2013-14 and 2014-15).",
+    "organization": "Finance",
+    "number_of_pages": 5
   }
 ]
