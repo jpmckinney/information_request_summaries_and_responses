@@ -55,8 +55,8 @@ TEMPLATES = {
     },
   },
   'ca_bc' => {
-    'division_id' => '/division_id',
     'id' => '/id',
+    'division_id' => '/division_id',
     'identifier' => '/identifier',
     'date' => '/date',
     'abstract' => '/abstract',
