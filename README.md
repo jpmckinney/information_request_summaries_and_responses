@@ -73,6 +73,8 @@ Build a histogram of number of summaries per organization:
 
 ### British Columbia
 
+**Note:** British Columbia sometimes publishes an incorrect file size. We therefore calculate the correct value.
+
 Download the metadata for responses:
 
     ruby ca_bc_scraper.rb
@@ -88,6 +90,8 @@ Download the attachments for responses (over 40 GB as of late 2015):
     ruby ca_bc_scraper.rb -a download --no-cache
 
 ### Newfoundland and Labrador
+
+**Note:** Newfoundland and Labrador publishes an incorrect number of pages for about one in ten files. We therefore calculate the correct value.
 
 Download the metadata for responses:
 
