@@ -164,6 +164,7 @@ class BC < Processor
       year = date.strftime('%Y')
       month = date.strftime('%m')
 
+      response['byte_size'] = 0
       response['number_of_pages'] = 0
       response['number_of_rows'] = 0
       response['duration'] = 0
@@ -186,6 +187,9 @@ class BC < Processor
             # The response is sometimes in the incorrect section on the
             # website, so we find responses by filename instead.
             if file['title'][/pac[ka]{2}ge|records/i]
+              if Integer === file['byte_size']
+                response['byte_size'] += file['byte_size']
+              end
               if file['number_of_pages']
                 response['number_of_pages'] += file['number_of_pages']
               elsif file['number_of_rows']

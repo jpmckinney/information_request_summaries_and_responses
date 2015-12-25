@@ -66,10 +66,12 @@ class Processor < Pupa::Processor
     if media_type
       file['media_type'] = media_type
 
-      # Avoid running commands if unnecessary.
-      unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
-        if download_store.exist?(path)
-          info("#{path}: calculating length")
+      if download_store.exist?(path)
+        file['byte_size'] = File.size(download_store.path(path))
+
+        # Avoid running commands if unnecessary.
+        unless file.key?('number_of_pages') || file.key?('number_of_rows') || file.key?('duration')
+          info("get length of #{path}")
           case file['media_type']
           when 'application/pdf'
             Open3.popen3("pdfinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
