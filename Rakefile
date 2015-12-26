@@ -4,6 +4,7 @@ require 'csv'
 require 'erb'
 require 'open-uri'
 
+require 'fog'
 require 'nokogiri'
 require 'pupa'
 require 'safe_yaml'
