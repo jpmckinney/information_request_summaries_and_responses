@@ -310,6 +310,23 @@
     "classification": "general"
   },
   {
+    "id": "FOI2015-39",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 39,
+    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
+    "decision": "abandoned",
+    "organization": "HR, IT",
+    "classification": "general"
+  },
+  {
+    "id": "FOI2015-42",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 42,
+    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
+    "decision": "abandoned",
+    "classification": "general"
+  },
+  {
     "id": "FOI2015-44",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 44,
@@ -360,6 +377,16 @@
     "classification": "general"
   },
   {
+    "id": "FOI2015-59",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 59,
+    "date": "2015-04-01",
+    "abstract": "Employee File",
+    "decision": "abandoned",
+    "organization": "HR",
+    "classification": "personal"
+  },
+  {
     "id": "FOI2015-43",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 43,
@@ -389,19 +416,30 @@
     "classification": "general"
   },
   {
-    "id": "FOI2015-39",
+    "id": "FOI2015-53",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 39,
-    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
+    "identifier": 53,
+    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
     "decision": "abandoned",
-    "organization": "HR, IT",
+    "organization": "Mayors office, IT",
     "classification": "general"
   },
   {
-    "id": "FOI2015-42",
+    "id": "FOI2015-62",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 42,
-    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
+    "identifier": 62,
+    "date": "2015-04-08",
+    "abstract": "Complete copy of an individuals file with the Greater Sudbury Housing Corporation. ",
+    "decision": "nothing disclosed",
+    "organization": "Transferred to Greater Sudbury Housing Corporation",
+    "classification": "personal"
+  },
+  {
+    "id": "FOI2015-64",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 64,
+    "date": "2015-04-09",
+    "abstract": "Details related to the $15,912.89 spent by a mayoral campaign on phone and Internet expenses during the 2014 municipal election campaign, as reported in the expenses section of his financial statement. Information on which company or companies received the money, details on what the money was spent on and the time period over which it was disbursed. ",
     "decision": "abandoned",
     "classification": "general"
   },
@@ -452,44 +490,6 @@
     "abstract": "Fire inspection report at a specified property for 2005.",
     "decision": "disclosed in part",
     "organization": "Fire Services",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-53",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 53,
-    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
-    "decision": "abandoned",
-    "organization": "Mayors office, IT",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-59",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 59,
-    "date": "2015-04-01",
-    "abstract": "Employee File",
-    "decision": "abandoned",
-    "organization": "HR",
-    "classification": "personal"
-  },
-  {
-    "id": "FOI2015-62",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 62,
-    "date": "2015-04-08",
-    "abstract": "Complete copy of an individuals file with the Greater Sudbury Housing Corporation. ",
-    "decision": "nothing disclosed",
-    "organization": "Transferred to Greater Sudbury Housing Corporation",
-    "classification": "personal"
-  },
-  {
-    "id": "FOI2015-64",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 64,
-    "date": "2015-04-09",
-    "abstract": "Details related to the $15,912.89 spent by a mayoral campaign on phone and Internet expenses during the 2014 municipal election campaign, as reported in the expenses section of his financial statement. Information on which company or companies received the money, details on what the money was spent on and the time period over which it was disbursed. ",
-    "decision": "abandoned",
     "classification": "general"
   },
   {
@@ -812,6 +812,14 @@
     "classification": "general"
   },
   {
+    "id": "FOI2015-88",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 88,
+    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
+    "decision": "abandoned",
+    "classification": "general"
+  },
+  {
     "id": "FOI2015-90",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 90,
@@ -899,14 +907,6 @@
     "abstract": "Regarding a specified lot (1) Past and/or present activities carried out including the activities of two specified corporations and held by the City of Sudbury; (2) Copies of any available information on the quantity, quality or concentration of contaminants that are emitted, issued or discharged in respect of this Lot; (3) All permits, authorizations, certificates or authorization, rehabilitation plans, reports, studies, analyses, notices of non-compliance, administrative sanctions, notices or statements of offence and complaints with respect to this Lot and/or sent to the two Corporations, and held by the City of Sudbury.",
     "decision": "disclosed in part",
     "organization": "Building Services, By-Law, Developmental Engineering, Engineering, Environmental Services",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-88",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 88,
-    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
-    "decision": "abandoned",
     "classification": "general"
   },
   {
@@ -1188,16 +1188,6 @@
     "classification": "general"
   },
   {
-    "id": "FOI2015-128",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 128,
-    "date": "2015-08-12",
-    "abstract": "Any and all records held by the Greater Sudbury Fire Services, including but not limited to, any accident reports, fire personnel notes, witness or third party notes/statements, investigator notes/records/reports, photos, video, internal and inter-departmental radio or electronic communications from a specified evening at a specified location or any transcripts, observations, time lines of events, computer generated/assisted data, dispatch records, and any other audio, video, electronic , or other medium records related to two specified individuals, and the events of that evening.  ",
-    "decision": "disclosed in part",
-    "organization": "EMS, Fire Services",
-    "classification": "general"
-  },
-  {
     "id": "FOI2015-129",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 129,
@@ -1223,6 +1213,16 @@
     "abstract": "All information regarding the renovation project of a specified address that has been communicated (including e-mail, faxes, phone calls, memos, notes, and/or any communication of any kind) between any City of Greater Sudbury official, including but not limited to the Chief Building Inspector, by-law officers, complainant(s)and the Greater Sudbury Police Services.  Copies of every inspection that was conducted on the renovation project of the specified address since January 1, 2009.",
     "decision": "disclosed in part",
     "organization": "Building Services, By-law",
+    "classification": "general"
+  },
+  {
+    "id": "FOI2015-128",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 128,
+    "date": "2015-08-12",
+    "abstract": "Any and all records held by the Greater Sudbury Fire Services, including but not limited to, any accident reports, fire personnel notes, witness or third party notes/statements, investigator notes/records/reports, photos, video, internal and inter-departmental radio or electronic communications from a specified evening at a specified location or any transcripts, observations, time lines of events, computer generated/assisted data, dispatch records, and any other audio, video, electronic , or other medium records related to two specified individuals, and the events of that evening.  ",
+    "decision": "disclosed in part",
+    "organization": "EMS, Fire Services",
     "classification": "general"
   },
   {
@@ -2044,6 +2044,45 @@
     "classification": "general"
   },
   {
+    "id": "FOI2015-212",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 212,
+    "date": "2015-12-17",
+    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. Including correspondence as well as revenue and expense reports for the arena, audits, and auditor?s reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages ",
+    "organization": "Finance, Legal, Human Resources",
+    "classification": "general"
+  },
+  {
+    "id": "FOI2015-214",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 214,
+    "date": "2015-12-21",
+    "abstract": "I am requesting copies of all photos brought forward at the Standards Committee meeting, held on September 30, 2015, at 5�p.m., at City Hall. Some of these photos may have been submitted by a specified individual. Others may have been submitted by the City of Greater Sudbury By-Law Department Committee. Since a petition was filed during this meeting, I am also requesting copies from you. Could you also include the name of those who submitted the photos? For example, what person or which City employee took the photo? Please give their full name, such as Stephen Holt, Tina Romanysyn (who now goes by a different name since her recent marriage), Melissa Laalo, among others.",
+    "decision": "disclosed in part",
+    "organization": "Planning, By-law",
+    "classification": "general"
+  },
+  {
+    "id": "FOI2015-221",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 221,
+    "date": "2015-12-21",
+    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
+    "decision": "disclosed in part",
+    "organization": "Building Serivces",
+    "classification": "general"
+  },
+  {
+    "id": "FOI2015-218",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 218,
+    "date": "2015-12-23",
+    "abstract": "Require all info in regards to a specified property.",
+    "decision": "disclosed in part",
+    "organization": "By-law, Tax",
+    "classification": "general"
+  },
+  {
     "id": "FOI2015-72",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 72,
@@ -2062,43 +2101,11 @@
     "classification": "general"
   },
   {
-    "id": "FOI2015-212",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 212,
-    "date": "2015-12-17",
-    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. Including correspondence as well as revenue and expense reports for the arena, audits, and auditor?s reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages ",
-    "organization": "Finance, Legal, Human Resources",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-214",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 214,
-    "abstract": "I am requesting copies of all photos brought forward at the Standards Committee meeting, held on September 30, 2015, at 5�p.m., at City Hall. Some of these photos may have been submitted by a specified individual. Others may have been submitted by the City of Greater Sudbury By-Law Department Committee. Since a petition was filed during this meeting, I am also requesting copies from you. Could you also include the name of those who submitted the photos? For example, what person or which City employee took the photo? Please give their full name, such as Stephen Holt, Tina Romanysyn (who now goes by a different name since her recent marriage), Melissa Laalo, among others.",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-218",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 218,
-    "abstract": "Require all info in regards to a specified property.",
-    "organization": "By-law, Tax",
-    "classification": "general"
-  },
-  {
     "id": "FOI2015-219",
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": 219,
     "abstract": "I would like access to all correspondence sent and received between Mayor Brian Bigger, Melissa Zanette and Chief Trevor Bain regarding the fire services department.  This could include emails, reports, notes and any other written documentation.  I would like to see all correspondence going back to May 2015.",
     "organization": "Mayors Office, Fire Services",
-    "classification": "general"
-  },
-  {
-    "id": "FOI2015-221",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 221,
-    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
-    "organization": "Building Serivces",
     "classification": "general"
   },
   {
@@ -2131,6 +2138,22 @@
     "identifier": 228,
     "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property including, but not limited to the particulars of the loss of about February 23, 2015 (Period requested March 2015 ? March 2015)",
     "organization": "Construction Services, Engineering Services, Water/Wastewater",
+    "classification": "general"
+  },
+  {
+    "id": "FOI 2015-229",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 229,
+    "abstract": "Fire Report for a specified property",
+    "organization": "Fire Services",
+    "classification": "general"
+  },
+  {
+    "id": "FOI 2015-230",
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": 230,
+    "abstract": "Complete file records with respect to a specified property",
+    "organization": "Building Services",
     "classification": "general"
   }
 ]
