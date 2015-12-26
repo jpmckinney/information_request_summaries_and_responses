@@ -196,7 +196,10 @@ TEMPLATES = {
     'decision' => '/Decision',
   },
   'ca_on_greater_sudbury' => {
-    'id' => '/FILE_NUMBER',
+    'id' => lambda{|data|
+      v = JsonPointer.new(data, '/FILE_NUMBER').value
+      ['id', v.gsub(' ', '')]
+    },
     'division_id' => 'ocd-division/country:ca/csd:3553005',
     'identifier' => lambda{|data|
       v = JsonPointer.new(data, '/FILE_NUMBER').value
