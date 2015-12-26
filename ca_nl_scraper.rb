@@ -257,9 +257,8 @@ class NL < Processor
     records = []
     unreconciled_from_csv = []
     JSON.load(File.read(File.join(summaries, 'ca_nl.json'))).each do |csv_response|
-      key = csv_response['identifier'].strip[0..-2].
-        # Typo in CSV.
-        sub(/\ABTCTD/, 'BTCRD')
+      csv_response['identifier'].sub!(/\ABTCTD/, 'BTCRD') # typo
+      key = csv_response['identifier'].strip[0..-2]
 
       web_response = nil
       web_responses = web[key]
