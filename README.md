@@ -31,9 +31,9 @@ Reconcile NL's scraped data with its open data:
 
     ruby ca_nl_scraper.rb -v -a reconcile
 
-Validate the format of identifiers:
+Validate values according to jurisdiction-specific rules:
 
-    rake datasets:validate:identifiers
+    rake datasets:validate:values
 
 Validate that the decision and the number of pages agree:
 
