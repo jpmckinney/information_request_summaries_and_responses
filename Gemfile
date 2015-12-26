@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'faraday-cookie_jar'
 gem 'nokogiri'
+gem 'fog'
 gem 'oxcelix'
 gem 'pupa'
 gem 'rake'
