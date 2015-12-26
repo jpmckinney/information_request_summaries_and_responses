@@ -33,6 +33,33 @@ NON_CSV_SOURCES = Set.new([
 CSV_ENCODINGS = {
   'ca_nl' => 'windows-1252:utf-8',
 }.freeze
+
+def date_formatter(property, path, patterns)
+  return lambda{|data|
+    v = JsonPointer.new(data, path).value
+    pattern = patterns.find do |pattern|
+      Date.strptime(v, pattern) rescue false
+    end
+    [property, v && Date.strptime(v, pattern).strftime('%Y-%m-%d')]
+  }
+end
+
+def integer_formatter(property, path)
+  return lambda{|data|
+    v = JsonPointer.new(data, path).value
+    # ca_nl: number_of_pages is "EXCEL" if an Excel file is disclosed.
+    # ca_on_toronto: number_of_pages has a decimal.
+    [property, Integer === v ? v : v == 'EXCEL' ? nil : v && Integer(v.sub(/\.0\z/, ''))]
+  }
+end
+
+def mapping_formatter(property, path, map)
+  return lambda{|data|
+    v = JsonPointer.new(data, path).value
+    [property, v && map.fetch(v.strip)]
+  }
+end
+
 TEMPLATES = {
   'ca' => {
     'division_id' => 'ocd-division/country:ca',
@@ -49,10 +76,7 @@ TEMPLATES = {
       ['abstract', en || fr]
     },
     'decision' => '/Disposition',
-    'number_of_pages' => lambda{|data|
-      v = JsonPointer.new(data, '/Number of Pages ~1 Nombre de pages').value
-      ['number_of_pages', v && Integer(v)]
-    },
+    'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages ~1 Nombre de pages'),
   },
   'ca_bc' => {
     'id' => '/id',
@@ -86,10 +110,7 @@ TEMPLATES = {
       end
     },
     'decision' => '/Outcome of Request',
-    'number_of_pages' => lambda{|data|
-      v = JsonPointer.new(data, '/Number of Pages').value
-      ['number_of_pages', v == 'EXCEL' ? nil : Integer(v)]
-    },
+    'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages'),
   },
   'ca_ns_halifax' => {
     'division_id' => '/division_id',
@@ -101,22 +122,12 @@ TEMPLATES = {
   },
   'ca_on_burlington' => {
     'division_id' => 'ocd-division/country:ca/csd:3524002',
-    'identifier' => lambda{|data|
-      v = JsonPointer.new(data, '/No.').value
-      ['identifier', v && Integer(v)]
-    },
+    'identifier' => integer_formatter('identifier', '/No.'),
     'organization' => '/Dept Contact',
-    'classification' => lambda{|data|
-      v = JsonPointer.new(data, '/Request Type').value
-      case v
-      when 'General Records'
-        ['classification', 'general']
-      when 'Personal Information'
-        ['classification', 'personal']
-      else
-        raise "unrecognized classification: #{v}" if v
-      end
-    },
+    'classification' => mapping_formatter('classification', '/Request Type', {
+      'General Records' => 'general',
+      'Personal Information' => 'personal',
+    }),
     'date' => '/Year',
     'decision' => '/Decision',
   },
@@ -129,14 +140,11 @@ TEMPLATES = {
     },
     'abstract' => '/PUBLIC_DESCRIPTION',
     'organization' => '/DEPARTMENT',
-    'classification' => lambda{|data|
-      v = JsonPointer.new(data, '/PERSONAL_OR_GENERAL').value
-      ['classification', v.downcase.strip]
-    },
-    'date' => lambda{|data|
-      v = JsonPointer.new(data, '/NOTICE_OF_DECISION_SENT').value
-      ['date', v && (Date.strptime(v, '%m/%d/%Y') rescue Date.strptime(v, '%d/%m/%Y')).strftime('%Y-%m-%d')]
-    },
+    'classification' => mapping_formatter('classification', '/PERSONAL_OR_GENERAL', {
+      'General' => 'general',
+      'Personal' => 'personal',
+    }),
+    'date' => date_formatter('date', '/NOTICE_OF_DECISION_SENT', ['%m/%d/%Y', '%d/%m/%Y']),
     'decision' => lambda{|data|
       v = [
         '1_ALL_INFORMATION_DISCLOSED',
@@ -157,25 +165,14 @@ TEMPLATES = {
     'division_id' => 'ocd-division/country:ca/csd:3520005',
     'identifier' => '/Request_Number',
     'abstract' => '/Summary',
-    'classification' => lambda{|data|
-      v = JsonPointer.new(data, '/Request_Type').value
-      case v
-      when 'General Records'
-        ['classification', 'general']
-      when 'Personal Information', 'Personal Health Information', 'Correction of Personal Information'
-        ['classification', 'personal']
-      else
-        raise "unrecognized classification: #{v}"
-      end
-    },
-    'date' => lambda{|data|
-      v = JsonPointer.new(data, '/Decision_Communicated').value
-      ['date', v && (Date.strptime(v, '%d-%m-%Y') rescue Date.strptime(v, '%Y-%m-%d')).strftime('%Y-%m-%d')]
-    },
+    'classification' => mapping_formatter('classification', '/Request_Type', {
+      'General Records' => 'general',
+      'Personal Information' => 'personal',
+      'Personal Health Information' => 'personal',
+      'Correction of Personal Information' => 'personal',
+    }),
+    'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d']),
     'decision' => '/Name',
-    'number_of_pages' => lambda{|data|
-      v = JsonPointer.new(data, '/Number_of_Pages_Released').value
-      ['number_of_pages', v && Integer(v.sub(/\.0\z/, ''))]
-    },
+    'number_of_pages' => integer_formatter('number_of_pages', '/Number_of_Pages_Released'),
   },
 }.freeze
