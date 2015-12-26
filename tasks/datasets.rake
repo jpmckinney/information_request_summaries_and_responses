@@ -211,7 +211,7 @@ namespace :datasets do
       end
 
       identifier_patterns = {
-        'ca_bc' => ['identifier', /\A(?:[A-Z]{3})-\d{4}-\d{5}\z/],
+        'ca_bc' => ['identifier', /\A[A-Z]{3}-\d{4}-\d{5}\z/],
         'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,2}/\d{4}\z}],
         'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
         'ca_on_burlington' => ['identifier', /\A\d{1,2}\z/],
