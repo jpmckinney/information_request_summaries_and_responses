@@ -204,6 +204,7 @@ class NL < Processor
     # Identifiers may change year from one system to another, and not always in
     # the same direction. It's unclear which is correct.
 
+    # The order of the keys should be the same as in the schema.
     keys = [
       'id',
       'division_id',
@@ -218,6 +219,7 @@ class NL < Processor
       'byte_size',
       'number_of_pages',
       'number_of_rows',
+      'documents',
     ]
 
     summaries = File.expand_path(File.join('summaries'), Dir.pwd)
@@ -276,22 +278,35 @@ class NL < Processor
         web_responses.delete(web_response)
         web.delete(key) if web_responses.empty?
 
+        document = {
+          'type' => 'disclosure',
+          'media_type' => web_response['media_type'],
+          'byte_size' => web_response['byte_size'],
+        }
+
         record = csv_response
+        # The CSV doesn't have `id`.
         record['id'] = web_response['id']
-        record['byte_size'] = web_response['byte_size']
-        if web_response['number_of_rows']
-          record['number_of_rows'] = web_response['number_of_rows']
-        end
-        # CSV has the date of decision. Web has the date of publication.
-        record['date'] = web_response['date']
-        # The number of pages is incorrect for about one in ten rows in the CSV.
-        if web_response['number_of_pages']
-          record['number_of_pages'] = web_response['number_of_pages']
-        end
         # Identifiers are sometimes inconsistent across systems.
         unless csv_response['identifier'] == web_response['identifier']
           record['alternate_identifier'] = web_response['identifier']
         end
+        # CSV has the date of decision. Web has the date of publication.
+        record['date'] = web_response['date']
+        # The CSV doesn't have `byte_size`.
+        record['byte_size'] = web_response['byte_size']
+        # The number of pages is incorrect for about one in ten rows in the CSV.
+        if web_response['number_of_pages']
+          record['number_of_pages'] = web_response['number_of_pages']
+          document['number_of_pages'] = web_response['number_of_pages']
+        end
+        # The CSV doesn't have `number_of_rows`.
+        if web_response['number_of_rows']
+          record['number_of_rows'] = web_response['number_of_rows']
+          document['number_of_rows'] = web_response['number_of_rows']
+        end
+
+        record['documents'] = [document]
       else
         if web_responses
           message = []
