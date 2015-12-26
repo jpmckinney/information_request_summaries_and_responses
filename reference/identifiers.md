@@ -4,13 +4,13 @@
 
 `<ORG>-<YYYY>-<XXXXX>`
 
-See [ca_bc-organization_identifiers.csv](/reference/ca_bc-organization_identifiers.csv).
+See [ca_bc-organization_identifiers.csv](/reference/ca_bc-organization_identifiers.csv)
 
 ## Newfoundland and Labrador
 
 `<ORG>/<X…>/<YYYY>`
 
-See [ca_nl-organization_identifiers.csv](/reference/ca_nl-organization_identifiers.csv).
+See [ca_nl-organization_identifiers.csv](/reference/ca_nl-organization_identifiers.csv)
 
 ## Nova Scotia
 
