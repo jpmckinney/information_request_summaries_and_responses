@@ -36,6 +36,11 @@ CSV_ENCODINGS = {
 # Assume a 1900 epoch.
 # @see https://support.microsoft.com/en-us/kb/180162
 EPOCH_1900 = Date.new(1900, 1, 1)
+BC_DOCUMENT_TYPES = {
+  'letters' => 'letter',
+  'notes' => 'note',
+  'files' => 'disclosure',
+}.freeze
 
 def date_formatter(property, path, patterns)
   return lambda{|data|
@@ -126,6 +131,20 @@ TEMPLATES = {
     'number_of_pages' => '/number_of_pages',
     'number_of_rows' => '/number_of_rows',
     'duration' => '/duration',
+    'documents' => lambda{|data|
+      documents = []
+      ['letters', 'notes', 'files'].each do |property|
+        if data[property]
+          data[property].each do |file|
+            documents << {
+              'type' => BC_DOCUMENT_TYPES.fetch(property),
+              'download_url' => URI.escape(file.delete('url')),
+            }.merge(file.slice('media_type', 'byte_size', 'number_of_pages', 'number_of_rows', 'duration'))
+          end
+        end
+      end
+      ['documents', documents]
+    },
   },
   'ca_nl' => {
     'division_id' => 'ocd-division/country:ca/province:nl',

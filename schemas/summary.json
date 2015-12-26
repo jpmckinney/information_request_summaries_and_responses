@@ -103,15 +103,6 @@
       "type": "string",
       "format": "uri"
     },
-    "media_type": {
-      "description": "The media type of the records disclosed",
-      "type": "string",
-      "enum": [
-        "application/pdf",
-        "application/vnd.ms-excel",
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      ]
-    },
     "byte_size": {
       "description": "The file size in bytes of the records disclosed",
       "type": "integer"
@@ -127,6 +118,68 @@
     "duration": {
       "description": "The duration in seconds of the audio and video records disclosed",
       "type": "number"
+    },
+    "documents": {
+      "description": "The documents of the response",
+      "type": "array",
+      "items": {
+        "description": "A document",
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The document's type",
+            "type": "string",
+            "enum": [
+              "disclosure",
+              "letter",
+              "note"
+            ]
+          },
+          "download_url": {
+            "description": "The document's URL",
+            "type": "string",
+            "format": "uri"
+          },
+          "media_type": {
+            "description": "The document's media type",
+            "type": "string",
+            "enum": [
+              "application/pdf",
+              "application/vnd.ms-excel",
+              "application/vnd.ms-excel.sheet.macroEnabled.12",
+              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "audio/mpeg",
+              "audio/wav",
+              "image/tiff",
+              "text/csv",
+              "video/mp4"
+            ]
+          },
+          "byte_size": {
+            "description": "The document's file size in bytes",
+            "type": "integer"
+          },
+          "number_of_pages": {
+            "description": "The number of pages in the document",
+            "type": "integer"
+          },
+          "number_of_rows": {
+            "description": "The number of rows in the document",
+            "type": "integer"
+          },
+          "duration": {
+            "description": "The duration in seconds of the document",
+            "type": "number"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "download_url",
+          "media_type",
+          "byte_size"
+        ]
+      }
     }
   },
   "additionalProperties": false,
