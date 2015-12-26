@@ -352,7 +352,6 @@ class NL < Processor
       end
     end
 
-
     info("Ignored #{duplicates} duplicates")
     timestamp = (Time.now - 45 * 86400).strftime('%Y-%m-%d')
     recent, old = unreconciled_from_web.partition{|response| response['date'] > timestamp}
