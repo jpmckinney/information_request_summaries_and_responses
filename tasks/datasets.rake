@@ -81,7 +81,9 @@ namespace :datasets do
 
             if normalize
               record['decision'] = normalize_decision(record['decision'])
-              record.delete('decision') unless record['decision']
+              unless record['decision']
+                record.delete('decision')
+              end
             end
 
             if validate
