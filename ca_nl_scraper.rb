@@ -209,13 +209,15 @@ class NL < Processor
       'division_id',
       'identifier',
       'alternate_identifier',
-      'date',
       'abstract',
-      'decision',
       'organization',
-      'number_of_pages',
       'application_fee',
       'processing_fee',
+      'date',
+      'decision',
+      'byte_size',
+      'number_of_pages',
+      'number_of_rows',
     ]
 
     summaries = File.expand_path(File.join('summaries'), Dir.pwd)
@@ -276,10 +278,16 @@ class NL < Processor
 
         record = csv_response
         record['id'] = web_response['id']
+        record['byte_size'] = web_response['byte_size']
+        if web_response['number_of_rows']
+          record['number_of_rows'] = web_response['number_of_rows']
+        end
         # CSV has the date of decision. Web has the date of publication.
         record['date'] = web_response['date']
         # The number of pages is incorrect for about one in ten rows in the CSV.
-        record['number_of_pages'] = web_response['number_of_pages']
+        if web_response['number_of_pages']
+          record['number_of_pages'] = web_response['number_of_pages']
+        end
         # Identifiers are sometimes inconsistent across systems.
         unless csv_response['identifier'] == web_response['identifier']
           record['alternate_identifier'] = web_response['identifier']

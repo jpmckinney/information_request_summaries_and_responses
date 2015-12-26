@@ -122,7 +122,10 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/url').value
       ['url', URI.escape(v)]
     },
+    'byte_size' => '/byte_size',
     'number_of_pages' => '/number_of_pages',
+    'number_of_rows' => '/number_of_rows',
+    'duration' => '/duration',
   },
   'ca_nl' => {
     'division_id' => 'ocd-division/country:ca/province:nl',
