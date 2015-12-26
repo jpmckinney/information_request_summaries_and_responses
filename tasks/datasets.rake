@@ -193,10 +193,11 @@ namespace :datasets do
       File.open(File.join('summaries', "#{directory}.json"), 'w') do |f|
         f << JSON.pretty_generate(records)
       end
+      keys = template.keys - ['documents']
       CSV.open(File.join('summaries', "#{directory}.csv"), 'w') do |csv|
-        csv << template.keys
+        csv << keys
         records.each do |record|
-          csv << template.keys.map{|key| record[key]}
+          csv << keys.map{|key| record[key]}
         end
       end
     end

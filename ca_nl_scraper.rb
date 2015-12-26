@@ -344,6 +344,7 @@ class NL < Processor
     File.open(File.join(summaries, 'ca_nl.json'), 'w') do |f|
       f << JSON.pretty_generate(records)
     end
+    keys -= ['documents']
     CSV.open(File.join(summaries, 'ca_nl.csv'), 'w') do |csv|
       csv << keys
       records.each do |record|
