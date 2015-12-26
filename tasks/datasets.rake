@@ -150,6 +150,10 @@ namespace :datasets do
       'ca_on_greater_sudbury' => 'http://opendata.greatersudbury.ca/datasets/5a7bb9da5c7d4284a9f7ea5f6e8e9364_0.csv',
     }
 
+    if ENV['jurisdiction']
+      datasets = datasets.slice(ENV['jurisdiction'])
+    end
+
     paths = {
       'wip' => 'wip',
     }
