@@ -42,6 +42,11 @@
         "personal"
       ]
     },
+    "date_accepted": {
+      "description": "The date of reception",
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[0-9]{2}){2}$"
+    },
     "application_fee": {
       "description": "The application fee",
       "type": "string",

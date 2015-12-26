@@ -33,14 +33,27 @@ NON_CSV_SOURCES = Set.new([
 CSV_ENCODINGS = {
   'ca_nl' => 'windows-1252:utf-8',
 }.freeze
+# Assume a 1900 epoch.
+# @see https://support.microsoft.com/en-us/kb/180162
+EPOCH_1900 = Date.new(1900, 1, 1)
 
 def date_formatter(property, path, patterns)
   return lambda{|data|
     v = JsonPointer.new(data, path).value
-    pattern = patterns.find do |pattern|
-      Date.strptime(v, pattern) rescue false
+    # ca_on_toronto: the 2011-Q4 file has serial numbers.
+    if v.nil? || v.strip.empty?
+      [property, nil]
+    elsif v[/\A\d+\.0\z/]
+      [property, (EPOCH_1900 + Integer(v.sub(/\.0\z/, ''))).strftime('%Y-%m-%d')]
+    else
+      pattern = patterns.find do |pattern|
+        Date.strptime(v, pattern) rescue false
+      end
+      if pattern.nil?
+        puts "expected #{v.inspect} to match one of #{patterns}"
+      end
+      [property, Date.strptime(v, pattern).strftime('%Y-%m-%d')]
     end
-    [property, v && Date.strptime(v, pattern).strftime('%Y-%m-%d')]
   }
 end
 
@@ -155,6 +168,7 @@ TEMPLATES = {
       'General' => 'general',
       'Personal' => 'personal',
     }),
+    'date_accepted' => date_formatter('date_accepted', '/DATE_RECEIVED', ['%m/%d/%Y']),
     'application_fee' => decimal_formatter('application_fee', '/APPLICATION_FEES_COLLECTED'),
     'processing_fee' => decimal_formatter('processing_fee', '/ADDITION_FEES_COLLECTED'),
     'waived_fees' => decimal_formatter('waived_fees', "/TOTAL_AMOUNT\n_OF_FEES_WAIVED"),
@@ -186,6 +200,7 @@ TEMPLATES = {
       'Personal Health Information' => 'personal',
       'Correction of Personal Information' => 'personal',
     }),
+    'date_accepted' => date_formatter('date_accepted', '/Date_Complete_Received', ['%Y-%m-%d']),
     'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d']),
     'decision' => '/Name',
     'number_of_pages' => integer_formatter('number_of_pages', '/Number_of_Pages_Released'),
