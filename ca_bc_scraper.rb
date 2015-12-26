@@ -26,7 +26,7 @@ class BC < Processor
     headers = {
       applicant_type: 'Applicant Type',
       organization: 'Ministry',
-      fees_paid: 'Fees paid by applicant',
+      processing_fee: 'Fees paid by applicant',
       date: 'Publication Date',
       letters: 'Letters',
       notes: 'Notes',
@@ -116,7 +116,7 @@ class BC < Processor
                 text = b.at_xpath("./following-sibling::text()").text
 
                 detail_properties[property] = case property
-                when :fees_paid
+                when :processing_fee
                   Float(text.sub!(/\A\$/, '')) && text
                 when :date
                   get_date(text)

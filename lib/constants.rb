@@ -44,6 +44,14 @@ def date_formatter(property, path, patterns)
   }
 end
 
+def decimal_formatter(property, path)
+  return lambda{|data|
+    v = JsonPointer.new(data, path).value
+    # ca_on_greater_sudbury: value may be " $-   ".
+    [property, v == ' $-   ' ? nil : v && '%.2f' % Float(v.strip.sub(/\A\$/, ''))]
+  }
+end
+
 def integer_formatter(property, path)
   return lambda{|data|
     v = JsonPointer.new(data, path).value
@@ -84,6 +92,7 @@ TEMPLATES = {
     'identifier' => '/identifier',
     'abstract' => '/abstract',
     'organization' => '/organization',
+    'processing_fee' => '/processing_fee',
     'date' => '/date',
     'url' => lambda{|data|
       v = JsonPointer.new(data, '/url').value
@@ -99,6 +108,8 @@ TEMPLATES = {
     },
     'abstract' => '/Summary of Request',
     'organization' => '/Department',
+    'application_fee' => decimal_formatter('application_fee', '/$5 Application Fees Paid'),
+    'processing_fee' => decimal_formatter('processing_fee', '/Processing Fees Paid'),
     'date' => lambda{|data|
       year = JsonPointer.new(data, '/Year').value
       month = JsonPointer.new(data, '/Month').value
@@ -144,6 +155,10 @@ TEMPLATES = {
       'General' => 'general',
       'Personal' => 'personal',
     }),
+    'application_fee' => decimal_formatter('application_fee', '/APPLICATION_FEES_COLLECTED'),
+    'processing_fee' => decimal_formatter('processing_fee', '/ADDITION_FEES_COLLECTED'),
+    'waived_fees' => decimal_formatter('waived_fees', "/TOTAL_AMOUNT\n_OF_FEES_WAIVED"),
+    'unpaid_fees' => decimal_formatter('unpaid_fees', '/ FEES_AMOUNT_NOT_PAID '),
     'date' => date_formatter('date', '/NOTICE_OF_DECISION_SENT', ['%m/%d/%Y', '%d/%m/%Y']),
     'decision' => lambda{|data|
       v = [

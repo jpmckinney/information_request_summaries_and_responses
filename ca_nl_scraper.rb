@@ -214,6 +214,8 @@ class NL < Processor
       'decision',
       'organization',
       'number_of_pages',
+      'application_fee',
+      'processing_fee',
     ]
 
     summaries = File.expand_path(File.join('summaries'), Dir.pwd)
@@ -272,10 +274,11 @@ class NL < Processor
         web_responses.delete(web_response)
         web.delete(key) if web_responses.empty?
 
-        # CSV has the date of decision. Web has the date of publication.
         record = csv_response
         record['id'] = web_response['id']
+        # CSV has the date of decision. Web has the date of publication.
         record['date'] = web_response['date']
+        # The number of pages is incorrect for about one in ten rows in the CSV.
         record['number_of_pages'] = web_response['number_of_pages']
         # Identifiers are sometimes inconsistent across systems.
         unless csv_response['identifier'] == web_response['identifier']

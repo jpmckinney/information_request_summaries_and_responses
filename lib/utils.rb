@@ -16,10 +16,10 @@ class InformationResponse
   include Pupa::Concerns::Timestamps
 
   attr_accessor :id, :division_id, :title, :identifier, :abstract, :organization,
-    :applicant_type, :fees_paid, :date, :decision, :url, :number_of_pages,
+    :applicant_type, :processing_fee, :date, :decision, :url, :number_of_pages,
     :download_url, :letters, :notes, :files, :comments
   dump :id, :division_id, :title, :identifier, :abstract, :organization,
-    :applicant_type, :fees_paid, :date, :decision, :url, :number_of_pages,
+    :applicant_type, :processing_fee, :date, :decision, :url, :number_of_pages,
     :download_url, :letters, :notes, :files, :comments
 
   def fingerprint

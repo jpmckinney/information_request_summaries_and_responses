@@ -42,6 +42,26 @@
         "personal"
       ]
     },
+    "application_fee": {
+      "description": "The application fee",
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]{2}$"
+    },
+    "processing_fee": {
+      "description": "The processing fee",
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]{2}$"
+    },
+    "waived_fees": {
+      "description": "Any waived fees",
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]{2}$"
+    },
+    "unpaid_fees": {
+      "description": "Any unpaid fees",
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]{2}$"
+    },
     "date": {
       "description": "The date of decision or the date of publication of the request",
       "type": "string",
