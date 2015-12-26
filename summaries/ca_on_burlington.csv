@@ -1,4 +1,4 @@
-division_id,identifier,organization,classification,applicant_type,date,decision
+division_id,position,organization,classification,applicant_type,date,decision
 ocd-division/country:ca/csd:3524002,1,Building,general,public,2012,nothing disclosed
 ocd-division/country:ca/csd:3524002,2,Building,general,public,2012,all disclosed
 ocd-division/country:ca/csd:3524002,3,Building,general,public,2012,disclosed in part

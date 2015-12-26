@@ -1,8 +1,8 @@
 [
   {
-    "id": "FOI2015-6",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 6,
+    "identifier": "FOI2015-6",
+    "position": 6,
     "abstract": "All documents related to watermain repairs for 2010-2014. Documents could include, contracts -audits - reports (repairs, costs, etc) - operating costs (personnel materials, labour, etc.) ",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -14,9 +14,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-51",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 51,
+    "identifier": "FOI2015-51",
+    "position": 51,
     "abstract": "Property line and easement records of a specified property.",
     "organization": "Engineering, Planning",
     "classification": "general",
@@ -27,9 +27,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-2",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 2,
+    "identifier": "FOI2015-2",
+    "position": 2,
     "abstract": "Copies of any records on file for a specified property, that are of environmental concern (i.e. complaints, spills, etc.) ",
     "organization": "Transferred to Development Approvals",
     "classification": "general",
@@ -40,9 +40,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-3",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 3,
+    "identifier": "FOI2015-3",
+    "position": 3,
     "abstract": "Copies of any records on file for a specified property that are of environmental concern (i.e. complaints, spills, etc.) ",
     "organization": "Transferred to Development Approvals",
     "classification": "general",
@@ -53,9 +53,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-1",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 1,
+    "identifier": "FOI2015-1",
+    "position": 1,
     "abstract": "All records related to the fire that occurred at a specified property, including witness statements, electronic records and photographic records.",
     "organization": "Fire Services",
     "classification": "general",
@@ -67,9 +67,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-4",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 4,
+    "identifier": "FOI2015-4",
+    "position": 4,
     "abstract": "Copy of the administrative directive which allows the city By-law enforcement staff to exempt enforcement of By-law 2011-219 under certain circumstances. ",
     "organization": "By-law",
     "classification": "general",
@@ -80,9 +80,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-8",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 8,
+    "identifier": "FOI2015-8",
+    "position": 8,
     "abstract": "All copies of paper work detailing landlord & tenant problems at a specified property. ",
     "organization": "By-law",
     "classification": "general",
@@ -94,9 +94,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-10",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 10,
+    "identifier": "FOI2015-10",
+    "position": 10,
     "abstract": "Building permit for a specified  property from 2007 to 2013. ",
     "organization": "Building Services",
     "classification": "general",
@@ -108,9 +108,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-11",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 11,
+    "identifier": "FOI2015-11",
+    "position": 11,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -122,9 +122,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-12",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 12,
+    "identifier": "FOI2015-12",
+    "position": 12,
     "abstract": "Lasalle Blvd & Notre Dame Ave and Hwy 69N intersection, Sudbury - Confirmation that traffic lights have advanced green, date advanced green was installed.",
     "organization": "Roads & Transportation",
     "classification": "general",
@@ -135,9 +135,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-7",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 7,
+    "identifier": "FOI2015-7",
+    "position": 7,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -148,9 +148,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-13",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 13,
+    "identifier": "FOI2015-13",
+    "position": 13,
     "abstract": "Order to comply issued to a specified property and any permits from 2011 to present.",
     "organization": "Building Services, By-law",
     "classification": "general",
@@ -162,9 +162,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-14",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 14,
+    "identifier": "FOI2015-14",
+    "position": 14,
     "abstract": "All correspondence to two individuals and any and all information and documentation that the City of Greater Sudbury has with regard to the non-payment of taxes on a specified property between March 2009 and October 2014. ",
     "organization": "Tax",
     "classification": "general",
@@ -176,9 +176,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-15",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 15,
+    "identifier": "FOI2015-15",
+    "position": 15,
     "abstract": "Fire Marshals report for a specified building.",
     "organization": "Fire Services",
     "classification": "general",
@@ -190,9 +190,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-16",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 16,
+    "identifier": "FOI2015-16",
+    "position": 16,
     "abstract": "Information proving the City of Sudbury have the right to take part of a specified property - the part at the front when they widened the road and made the extra lane.",
     "organization": "Engineering, Real Estate",
     "classification": "general",
@@ -204,9 +204,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-17",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 17,
+    "identifier": "FOI2015-17",
+    "position": 17,
     "abstract": "Any permits issued of any matter to a specified property. Any previous water/septic/frozen pipe/ heating/ electrical/structural inside/outside house property damage of any kind. ",
     "organization": "Building Services, Water/Wastewater",
     "classification": "general",
@@ -218,9 +218,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-18",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 18,
+    "identifier": "FOI2015-18",
+    "position": 18,
     "abstract": "All by-law files and documentation on a specified property.",
     "organization": "By-law",
     "classification": "general",
@@ -232,9 +232,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-21",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 21,
+    "identifier": "FOI2015-21",
+    "position": 21,
     "abstract": "Fire prevention inspection including phone call and anything related after the fact - calls letters, etc.",
     "organization": "Fire Services, 311",
     "classification": "general",
@@ -246,23 +246,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-5",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 5,
-    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. The documentation could include correspondence as well as revenue and expense reports for the arena, audits and auditors reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages.",
-    "organization": "Leisure, Human Resources",
-    "classification": "general",
-    "applicant_type": "media",
-    "date_accepted": "2015-01-08",
-    "application_fee": "5.00",
-    "unpaid_fees": "119.60",
-    "date": "2015-03-09",
-    "decision": "disclosed in part"
-  },
-  {
-    "id": "FOI2015-23",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 23,
+    "identifier": "FOI2015-23",
+    "position": 23,
     "abstract": "City repair orders, all orders from by-law office, health department, and city orders dating back from April 2014 for a specified property.",
     "organization": "Building Services, By-law",
     "classification": "general",
@@ -274,9 +260,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-24",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 24,
+    "identifier": "FOI2015-24",
+    "position": 24,
     "abstract": "Requesting fire report.",
     "organization": "Fire Services",
     "classification": "general",
@@ -288,9 +274,23 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-22",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 22,
+    "identifier": "FOI2015-5",
+    "position": 5,
+    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. The documentation could include correspondence as well as revenue and expense reports for the arena, audits and auditors reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages.",
+    "organization": "Leisure, Human Resources",
+    "classification": "general",
+    "applicant_type": "media",
+    "date_accepted": "2015-01-08",
+    "application_fee": "5.00",
+    "unpaid_fees": "119.60",
+    "date": "2015-03-09",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-22",
+    "position": 22,
     "abstract": "Fire Departments call report in relation to the motor vehicle collision.",
     "organization": "Fire Services",
     "classification": "general",
@@ -302,9 +302,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-20",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 20,
+    "identifier": "FOI2015-20",
+    "position": 20,
     "abstract": "Employee File",
     "organization": "Human Resources",
     "classification": "personal",
@@ -315,9 +315,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-26",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 26,
+    "identifier": "FOI2015-26",
+    "position": 26,
     "abstract": "Employee file",
     "organization": "Human Resources",
     "classification": "personal",
@@ -328,9 +328,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-27",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 27,
+    "identifier": "FOI2015-27",
+    "position": 27,
     "abstract": "All 311 calls I have made to the City of Sudbury regarding personal property flooding and numerous watermain breaks",
     "organization": "311",
     "classification": "general",
@@ -342,9 +342,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-28",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 28,
+    "identifier": "FOI2015-28",
+    "position": 28,
     "abstract": "All records for fire dept. records for a specified property for the period of 2012 to current date. Building inspection records for the period of 2012 to current date. ",
     "organization": "Fire Services",
     "classification": "general",
@@ -356,9 +356,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-25",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 25,
+    "identifier": "FOI2015-25",
+    "position": 25,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -370,9 +370,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-34",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 34,
+    "identifier": "FOI2015-34",
+    "position": 34,
     "abstract": "Employee file & copy of the video captured by the City of Greater Sudbury Transit Vehicle on a date and specified time.",
     "organization": "Transit",
     "classification": "personal",
@@ -383,9 +383,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-29",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 29,
+    "identifier": "FOI2015-29",
+    "position": 29,
     "abstract": "All information, and especially of any notes of a By-law Enforcement Officer before, during and after their visit to a specified property on a specified date and their other visits. Include all information/ communication by or for the By-law Enforcement Officer with their superiors, colleagues, other departments, as well as all communication with the City lawyers, and with the complainants.",
     "organization": "By-law, Legal, Mayors office",
     "classification": "general",
@@ -397,9 +397,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-31",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 31,
+    "identifier": "FOI2015-31",
+    "position": 31,
     "abstract": "All information, and notes by a By-law Enforcement Officer from the By-law Department before, during and after their visit to a specified property and their other visits. Include all information/communication by or for a By-law Enforcement Officer with their superiors, colleagues, other departments, communication with the City lawyers, and with the complainants.  And other times that a by-law officer has visited the specified property and who urged them to come.",
     "organization": "By-law, Legal, Mayors office",
     "classification": "general",
@@ -411,9 +411,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-35",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 35,
+    "identifier": "FOI2015-35",
+    "position": 35,
     "abstract": "All information, and especially of any notes handwritten by a By-law Enforcement Officer before, during and after their visit to a specified property with who and their other visits. Include all information or communication by or for the By-law Enforcement Officer with their superiors, colleagues, other departments, City lawyers, with the complainants. Any other times that they visited the specified property and, especially, who urged them to come.",
     "organization": "By-law, Legal, Mayors office",
     "classification": "general",
@@ -425,30 +425,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-39",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 39,
-    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
-    "organization": "HR, IT",
-    "classification": "general",
-    "applicant_type": "business",
-    "date_accepted": "2015-03-04",
-    "decision": "abandoned"
-  },
-  {
-    "id": "FOI2015-42",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 42,
-    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-03-03",
-    "decision": "abandoned"
-  },
-  {
-    "id": "FOI2015-44",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 44,
+    "identifier": "FOI2015-44",
+    "position": 44,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -460,9 +439,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-33",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 33,
+    "identifier": "FOI2015-33",
+    "position": 33,
     "abstract": "A copy of your complete file in relation to a motor vehicle accident, including but not limited to copies of reports from the Fire Department and any written notes.  ",
     "organization": "Fire Services",
     "classification": "general",
@@ -474,9 +453,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-50",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 50,
+    "identifier": "FOI2015-50",
+    "position": 50,
     "abstract": "All documents, emails, correspondence and files related to an employee, for the period from 2011 to 2014, that would have been forwarded to the Human Resources department. I would like access to any emails between the Mayors Chief of Staff and the mayor, which pertain to that employee. I would also like a list of the employees who worked in the mayors office between 2010-2014. ",
     "organization": "HR, IT, Mayors Office",
     "classification": "general",
@@ -488,9 +467,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-40",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 40,
+    "identifier": "FOI2015-40",
+    "position": 40,
     "abstract": "Copy any records, notes, complaints, responses or any other information pertaining to a specified property from March 1, 2008 forward.",
     "organization": "By-Law, Housing",
     "classification": "general",
@@ -502,9 +481,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-37",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 37,
+    "identifier": "FOI2015-37",
+    "position": 37,
     "abstract": "Copy of any protocol agreement or understanding between EMS and any police agencies whereby members of your agency will advise/ instruct/ suggest/ compel individuals involved in accidents to await the arrival of the police. ",
     "organization": "EMS/Fire",
     "classification": "general",
@@ -516,9 +495,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-59",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 59,
+    "identifier": "FOI2015-59",
+    "position": 59,
     "abstract": "Employee File",
     "organization": "HR",
     "classification": "personal",
@@ -529,9 +508,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-43",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 43,
+    "identifier": "FOI2015-43",
+    "position": 43,
     "abstract": "All documents, reports and records pertaining to an identifiable individual and the missing Sudbury transit money. All relevant documents pertaining to disciplinary action in the aftermath, including names of person(s) who may have been disciplined, as well as how they were disciplined.  Access to the forensic audit that was completed in relation to this topic. ",
     "classification": "general",
     "applicant_type": "media",
@@ -542,9 +521,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-36",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 36,
+    "identifier": "FOI2015-36",
+    "position": 36,
     "abstract": "Affidavits for 2 specified employees dated April 4, 2010.",
     "organization": "Building Services",
     "classification": "general",
@@ -555,9 +534,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-38",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 38,
+    "identifier": "FOI2015-38",
+    "position": 38,
     "abstract": "Documents relating to flood event and possible solutions to flooding in Flour Mill neighbourhood. Time frame: July 26, 2009 to Sept. 1, 2009 ; Jan. 10, 2011 to Mar. 10, 2011, and Feb. 1, 2015 to April 1, 2015. Should include communications by Drainage Engineer, CAO, past and present GM of Infrastructure Services.",
     "organization": "CAO, Drainage, Engineering, Water/Wastewater",
     "classification": "general",
@@ -569,21 +548,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-53",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 53,
-    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
-    "organization": "Mayors office, IT",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-03-26",
-    "application_fee": "5.00",
-    "decision": "abandoned"
-  },
-  {
-    "id": "FOI2015-62",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 62,
+    "identifier": "FOI2015-62",
+    "position": 62,
     "abstract": "Complete copy of an individuals file with the Greater Sudbury Housing Corporation. ",
     "organization": "Transferred to Greater Sudbury Housing Corporation",
     "classification": "personal",
@@ -594,9 +561,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-64",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 64,
+    "identifier": "FOI2015-64",
+    "position": 64,
     "abstract": "Details related to the $15,912.89 spent by a mayoral campaign on phone and Internet expenses during the 2014 municipal election campaign, as reported in the expenses section of his financial statement. Information on which company or companies received the money, details on what the money was spent on and the time period over which it was disbursed. ",
     "classification": "general",
     "applicant_type": "media",
@@ -606,9 +573,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-45",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 45,
+    "identifier": "FOI2015-45",
+    "position": 45,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -620,9 +587,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-48",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 48,
+    "identifier": "FOI2015-48",
+    "position": 48,
     "abstract": "House plans (construction drawings) for a specified  property.",
     "organization": "Building Services",
     "classification": "general",
@@ -634,9 +601,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-52",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 52,
+    "identifier": "FOI2015-52",
+    "position": 52,
     "abstract": "(1) Maintenance service guidelines (2) Engineering reports regarding all and any work performed on sanitary sewer line on St. Michel Street (3) Any and all correspondence from any City employee & agent regarding the sanitary sewer backup and any work performed  (4) information on what caused this blockage (5) Records from all employees regarding this backup  (6) Records between the City and the adjuster regarding the sewer backup ",
     "classification": "general",
     "applicant_type": "public",
@@ -647,9 +614,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-46",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 46,
+    "identifier": "FOI2015-46",
+    "position": 46,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -660,9 +627,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-47",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 47,
+    "identifier": "FOI2015-47",
+    "position": 47,
     "abstract": "Fire inspection report at a specified property for 2005.",
     "organization": "Fire Services",
     "classification": "general",
@@ -674,9 +641,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-55",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 55,
+    "identifier": "FOI2015-55",
+    "position": 55,
     "abstract": "Requesting a video off a City transit bus resulting from an impact. ",
     "organization": "POA",
     "classification": "general",
@@ -688,9 +655,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-54",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 54,
+    "identifier": "FOI2015-54",
+    "position": 54,
     "abstract": "All copies of files from Sudbury Registry \nand Sudbury Housing.  Copies of all correspondence that stated the condition of a specified individual or any personal information and whos authorization was signed.",
     "organization": "Housing",
     "classification": "personal",
@@ -702,9 +669,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-56",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 56,
+    "identifier": "FOI2015-56",
+    "position": 56,
     "abstract": "Copy of an existing retro-fit certificate for a specified property in 1999 by the previous owner. ",
     "organization": "Fire",
     "classification": "general",
@@ -716,9 +683,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-57",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 57,
+    "identifier": "FOI2015-57",
+    "position": 57,
     "abstract": "Records pertaining to a specified property from 2005 to present. Also records pertaining to two neighboring properties. Specifically: (1) Any notices to leave taps running during the winter months. (2) Copy of water billing structure that uses a flat rate during winter months (3) Records showing the property had had issues with frozen pipes  (4) Records showing pipes have frozen at the specified property three years in a row, and if so, which years. From 2005 to present.",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -730,9 +697,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-60",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 60,
+    "identifier": "FOI2015-60",
+    "position": 60,
     "abstract": "I request a copy of the sewer service box tie-in cord or as built plans for a specified property.",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -744,9 +711,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-68",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 68,
+    "identifier": "FOI2015-68",
+    "position": 68,
     "abstract": "Requesting a copy of the surveillance video from Pioneer Manor on a specified date. ",
     "organization": "Corporate Security",
     "classification": "general",
@@ -758,9 +725,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-69",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 69,
+    "identifier": "FOI2015-69",
+    "position": 69,
     "abstract": "All information by a By-law Enforcement Officer before, during and after their visit to a specified property and after if there were other visits; their other visits. Include all information/communication by or for a by-law enforcement officer  with their superiors, colleagues, other departments, the City lawyers, and with the complainants among others; can you also find other times that the By-law officer has visited the specified property, especially, who urged them to come.",
     "organization": "By-law, Legal, Mayors office",
     "classification": "general",
@@ -771,9 +738,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-32",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 32,
+    "identifier": "FOI2015-32",
+    "position": 32,
     "abstract": "All Records relevant to the City of Greater Sudburys involvement in the EMS-TIF Working Group regarding the simultaneous notification pilot project offered to the City of Greater Sudbury in March of 2013. This request includes any and all records surrounding the Greater Sudbury Fire Service and EMS services communications surrounding the simultaneous notification (EMS-TIF) project including all personal notes and electronic mail from CAO, Director of HR&OD, Chief of Fire and Paramedic Services, Executive Deputy Chief, the two Deputies, Fire Chief, and Deputy Chief. ",
     "organization": "CAO, Fire, HR , EMS",
     "classification": "general",
@@ -785,9 +752,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-41",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 41,
+    "identifier": "FOI2015-41",
+    "position": 41,
     "abstract": "I am requesting all documents, letters, notes, complaints, in their entirety pertaining to a specified property since 2003 from all departments including but not limited to 311 department and By-law office. ",
     "organization": "311, By-law",
     "classification": "general",
@@ -798,9 +765,9 @@
     "date": "2015-04-29"
   },
   {
-    "id": "FOI2015-61",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 61,
+    "identifier": "FOI2015-61",
+    "position": 61,
     "abstract": "Property or any Property adjacent has ever been used for the purpose of a waste disposal site and whether there are any other known environmental hazards which would affect the current use of a specified property. ",
     "organization": "Building Services, Solid Waste",
     "classification": "general",
@@ -811,9 +778,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-66",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 66,
+    "identifier": "FOI2015-66",
+    "position": 66,
     "abstract": "Building permits for a specified property and/or any open/active building records in relation to this property.",
     "organization": "Building Services",
     "classification": "general",
@@ -825,9 +792,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-70",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 70,
+    "identifier": "FOI2015-70",
+    "position": 70,
     "abstract": "How many mobile sign permits were issued in 2014?  How many were 6 month permits?  How many were 12 month permits?  How many were issued to sign companies and how many to private businesses? ",
     "organization": "By-law",
     "classification": "general",
@@ -839,9 +806,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-63",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 63,
+    "identifier": "FOI2015-63",
+    "position": 63,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -853,9 +820,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-71",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 71,
+    "identifier": "FOI2015-71",
+    "position": 71,
     "abstract": "List of all monetary settlements to civil lawsuits against the City between January 1, 2010 and December 31, 2014. Should include both court awarded and out of court settlements. List should also include case number and /or name of plaintiff. ",
     "organization": "Legal, Risk",
     "classification": "general",
@@ -866,9 +833,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-77",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 77,
+    "identifier": "FOI2015-77",
+    "position": 77,
     "abstract": "Property tax assessment information from 2011 and 2012 for a specified property.",
     "organization": "Tax",
     "classification": "general",
@@ -880,9 +847,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-19",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 19,
+    "identifier": "FOI2015-19",
+    "position": 19,
     "abstract": "City water main burst causing backup. Please provide copy of maintenance and service reports.  ",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -894,9 +861,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-49",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 49,
+    "identifier": "FOI2015-49",
+    "position": 49,
     "abstract": "All information pertaining to a planning file.",
     "organization": "Planning ",
     "classification": "general",
@@ -908,9 +875,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-30",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 30,
+    "identifier": "FOI2015-30",
+    "position": 30,
     "abstract": "All of information from complaints from a specified property for the last 5 years - Emails, phone calls, pictures, reports and visit reports.  By-law and Health Unit and Building Control and other departments including Police. ",
     "organization": "By-law, Building Services, 311 ",
     "classification": "general",
@@ -922,9 +889,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-67",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 67,
+    "identifier": "FOI2015-67",
+    "position": 67,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -936,9 +903,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-74",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 74,
+    "identifier": "FOI2015-74",
+    "position": 74,
     "abstract": "Number of Dog Tags issued in each calendar year 2012, 2013, 2014 & 2015.                                  Amount of impound fees collected and number of Animal Control infractions with and without leading to fines under the Parts identified and in each calendar year 2012, 2013, 2014 & 2015.",
     "organization": "By-Law",
     "classification": "general",
@@ -950,9 +917,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-78",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 78,
+    "identifier": "FOI2015-78",
+    "position": 78,
     "abstract": "Documentation regarding vehicle owned by an identifiable individual, specifically receipts for payment on a specified date in the amount of $343.20 and $686.40",
     "organization": "By-Law",
     "classification": "general",
@@ -963,9 +930,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-82",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 82,
+    "identifier": "FOI2015-82",
+    "position": 82,
     "abstract": "All records relating to deck a specified property that was certified last June - permit, drawings, cert.",
     "organization": "Building Services ",
     "classification": "general",
@@ -977,9 +944,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-81",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 81,
+    "identifier": "FOI2015-81",
+    "position": 81,
     "abstract": "Records of the number of water pipes (frozen) breaking and the depths for the months of November, December, January, February and March for the years 2008, 2009, 2010, 2011, 2012, 2013, 2014 and 2015.  ",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -991,9 +958,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-84",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 84,
+    "identifier": "FOI2015-84",
+    "position": 84,
     "abstract": "Copy of plan or footprint of square footage calculation for a specified property.",
     "organization": "Building Services",
     "classification": "general",
@@ -1005,9 +972,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-95",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 95,
+    "identifier": "FOI2015-95",
+    "position": 95,
     "abstract": "All documents, emails, correspondence and files related to a certain employee, for the year 2014, that were forwarded to the human resources department.",
     "organization": "N/A",
     "classification": "general",
@@ -1018,9 +985,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-73",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 73,
+    "identifier": "FOI2015-73",
+    "position": 73,
     "abstract": "Ontario Works File",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -1032,9 +999,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-85",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 85,
+    "identifier": "FOI2015-85",
+    "position": 85,
     "abstract": "Survey for a specified building.",
     "organization": "Building Services",
     "classification": "general",
@@ -1045,9 +1012,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-86",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 86,
+    "identifier": "FOI2015-86",
+    "position": 86,
     "abstract": "Copies of any and all information with respect to call placed and fire department dispatch on a specified date at a specified time ",
     "organization": "Fire Services",
     "classification": "general",
@@ -1059,9 +1026,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-87",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 87,
+    "identifier": "FOI2015-87",
+    "position": 87,
     "abstract": "Copies of a By-law Enforcement Officers written reports on the roof repair work and electrical repair work that was done at a specified property.",
     "organization": "By-Law",
     "classification": "general",
@@ -1073,9 +1040,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-89",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 89,
+    "identifier": "FOI2015-89",
+    "position": 89,
     "abstract": "Copy of Fire Incident Report",
     "organization": "Fire Services",
     "classification": "general",
@@ -1087,9 +1054,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-76",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 76,
+    "identifier": "FOI2015-76",
+    "position": 76,
     "abstract": "Keast Drive Proposal \n1. Environmental Impact Study \n2. Traffic Study \n3. Soil Study \n4. Geotechnical Study",
     "organization": "Planning ",
     "classification": "general",
@@ -1100,9 +1067,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-79",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 79,
+    "identifier": "FOI2015-79",
+    "position": 79,
     "abstract": "A statement for the property tax account for a specified property from the date of death of the individual to the current date. Also any particulars for any payments received since the date of death, including the payer/source of such payments. ",
     "organization": "Tax",
     "classification": "general",
@@ -1114,19 +1081,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-88",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 88,
-    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
-    "classification": "general",
-    "applicant_type": "media",
-    "date_accepted": "2015-05-14",
-    "decision": "abandoned"
-  },
-  {
-    "id": "FOI2015-90",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 90,
+    "identifier": "FOI2015-90",
+    "position": 90,
     "abstract": "(1) Complaint to City from a specified individual for sauna located at a specified property.  (2) Permit to replace sauna and erect wood shed at the specified address.  (3) Permit issued to the address to close road and dig trench for water line and etc. (2007-2008?)",
     "organization": "311, Building Services, By-Law, Engineering",
     "classification": "general",
@@ -1138,9 +1095,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-91",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 91,
+    "identifier": "FOI2015-91",
+    "position": 91,
     "abstract": "Fire reports for a specified property.",
     "organization": "Fire Services",
     "classification": "general",
@@ -1152,65 +1109,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-92",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 92,
-    "abstract": "(1) Copies of all rental or lease agreements entered into by the City for use of the parking lot located off Energy Court; (2) A summary of the number of monthly parking passes sold by month since construction of the lot until the present time; (3) the total amount of revenue, broken down by use that the City  received for all uses of the parking lot; (4) A summary of the costs per year to adapt the use of the lot for rental or lease agreements; (5) Copies of the current costs of hydro, snow plowing and maintenance",
-    "organization": "By-Law, Finance, 311",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-26",
-    "application_fee": "5.00",
-    "processing_fee": "120.40",
-    "date": "2015-06-23",
-    "decision": "all disclosed"
-  },
-  {
-    "id": "FOI2015-94",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 94,
-    "abstract": "Any existing drawings for the building & site for the property for a specified property",
-    "organization": "Building Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-27",
-    "application_fee": "5.00",
-    "processing_fee": "79.40",
-    "date": "2015-06-23",
-    "decision": "all disclosed"
-  },
-  {
-    "id": "FOI2015-97",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 97,
-    "abstract": "Snow removal logs and records from March 15, 2015 through to and including March 30, 2015 for MR 35 (Elm Street) between Sudbury and Azilda",
-    "organization": "Roads",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-29",
-    "application_fee": "5.00",
-    "unpaid_fees": "77.00",
-    "date": "2015-06-23",
-    "decision": "disclosed in part"
-  },
-  {
-    "id": "FOI2015-98",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 98,
-    "abstract": "Survey of a property and house at a specified address",
-    "organization": "Building Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-06-01",
-    "application_fee": "5.00",
-    "unpaid_fees": "10.40",
-    "date": "2015-06-23",
-    "decision": "all disclosed"
-  },
-  {
-    "id": "FOI2015-100",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 100,
+    "identifier": "FOI2015-100",
+    "position": 100,
     "abstract": "Copy of House Plans, Building Permits, City sign-offs on Building Permits, Inspections and sign-offs for a specified address",
     "organization": "Building Services",
     "classification": "personal",
@@ -1222,9 +1123,65 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-96",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 96,
+    "identifier": "FOI2015-92",
+    "position": 92,
+    "abstract": "(1) Copies of all rental or lease agreements entered into by the City for use of the parking lot located off Energy Court; (2) A summary of the number of monthly parking passes sold by month since construction of the lot until the present time; (3) the total amount of revenue, broken down by use that the City  received for all uses of the parking lot; (4) A summary of the costs per year to adapt the use of the lot for rental or lease agreements; (5) Copies of the current costs of hydro, snow plowing and maintenance",
+    "organization": "By-Law, Finance, 311",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-26",
+    "application_fee": "5.00",
+    "processing_fee": "120.40",
+    "date": "2015-06-23",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-94",
+    "position": 94,
+    "abstract": "Any existing drawings for the building & site for the property for a specified property",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-27",
+    "application_fee": "5.00",
+    "processing_fee": "79.40",
+    "date": "2015-06-23",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-97",
+    "position": 97,
+    "abstract": "Snow removal logs and records from March 15, 2015 through to and including March 30, 2015 for MR 35 (Elm Street) between Sudbury and Azilda",
+    "organization": "Roads",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-29",
+    "application_fee": "5.00",
+    "unpaid_fees": "77.00",
+    "date": "2015-06-23",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-98",
+    "position": 98,
+    "abstract": "Survey of a property and house at a specified address",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-06-01",
+    "application_fee": "5.00",
+    "unpaid_fees": "10.40",
+    "date": "2015-06-23",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-96",
+    "position": 96,
     "abstract": "(1) The identities of the members of the Board of Directors of a daycare; (2)  Employees of a day care; (3) Details of any complaints made by anyone against a Daycare and any remedies administered; (4) academic requirements and qualifications for all the Daycare employees and the licensing stipulations with respect to the ages of children permitted to attend; (5) Any infractions of the Daycare from part 4 of the request; (6) Details of the procedure(s) and/or policies in place to determine the current ages of children seeking admission; (7) Any feigned or fabricated qualifications of any of the Daycare employees; (8) Details of any financial impropriety found or uncovered; (9) A copy of the Licence granted to the Daycare",
     "organization": "Housing",
     "classification": "general",
@@ -1236,9 +1193,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-80",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 80,
+    "identifier": "FOI2015-80",
+    "position": 80,
     "abstract": "Regarding a specified lot (1) Past and/or present activities carried out including the activities of two specified corporations and held by the City of Sudbury; (2) Copies of any available information on the quantity, quality or concentration of contaminants that are emitted, issued or discharged in respect of this Lot; (3) All permits, authorizations, certificates or authorization, rehabilitation plans, reports, studies, analyses, notices of non-compliance, administrative sanctions, notices or statements of offence and complaints with respect to this Lot and/or sent to the two Corporations, and held by the City of Sudbury.",
     "organization": "Building Services, By-Law, Developmental Engineering, Engineering, Environmental Services",
     "classification": "general",
@@ -1250,9 +1207,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-103",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 103,
+    "identifier": "FOI2015-103",
+    "position": 103,
     "abstract": "Property boundaries map and owners surrounding a specified Lot.",
     "organization": "Planning ",
     "classification": "personal",
@@ -1264,9 +1221,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-104",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 104,
+    "identifier": "FOI2015-104",
+    "position": 104,
     "abstract": "Records of all employee discipline a the City of Greater Sudbury including but not limited to suspension and termination, showing number and type of discipline, reason for discipline as well, by department, but excluding identifiable information for the calendar years 2013 and 2014.",
     "classification": "general",
     "applicant_type": "media",
@@ -1276,9 +1233,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-105",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 105,
+    "identifier": "FOI2015-105",
+    "position": 105,
     "abstract": "Records showing grievances by City of Greater Sudbury employees for 2013 and 2014 by department and showing outcome of the grievance procedure in each case.  Should also include general nature of the grievance, but exclude all personal information.",
     "organization": "Legal/Risk",
     "classification": "general",
@@ -1289,9 +1246,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-131",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 131,
+    "identifier": "FOI2015-131",
+    "position": 131,
     "abstract": "List of all monetary settlements to civil lawsuits against the City between January 1, 2010 and December 31, 2014. Should include both court awarded and out of court settlements. Should exclude all personal and private information not normally disclosed in public court documents, but include file numbers of all cases.",
     "organization": "Legal, Risk",
     "classification": "general",
@@ -1302,9 +1259,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-189",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 189,
+    "identifier": "FOI2015-189",
+    "position": 189,
     "abstract": "Two police reports from specified dates.  ",
     "organization": "Transferred to Police Services",
     "classification": "general",
@@ -1315,9 +1272,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-102",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 102,
+    "identifier": "FOI2015-102",
+    "position": 102,
     "abstract": "Regarding a specified address: Any landfills within 1km, any storm or sanitary (septic) sewer issues on the property, any other municipal records or complaints/concerns related to potential environmental issues at the site or surrounding areas.",
     "organization": "Environmental Services/Solid Waste, Environmental Services, Engineering, Drainage",
     "classification": "personal",
@@ -1328,9 +1285,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-108",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 108,
+    "identifier": "FOI2015-108",
+    "position": 108,
     "abstract": "A complete chronological list of all direct and indirect access by a specified employee, has accessed our files, personal information, for any reason, in every form, in every departmental form for both personal and professional reasons from 2004-present.  I am seeking dates, times, reasons, number of occurrences.",
     "organization": "IT, Citizen Service Centre",
     "classification": "general",
@@ -1341,9 +1298,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-109",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 109,
+    "identifier": "FOI2015-109",
+    "position": 109,
     "abstract": "Building permit and associated documents for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -1355,9 +1312,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-111",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 111,
+    "identifier": "FOI2015-111",
+    "position": 111,
     "abstract": "Building Records and Inspectors notes related to Building Permit for the construction of a front addition at a specified address.  ",
     "organization": "Building Services",
     "classification": "general",
@@ -1368,23 +1325,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-99",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 99,
-    "abstract": "Ontario Works file",
-    "organization": "Ontario Works",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date_accepted": "2015-06-01",
-    "application_fee": "5.00",
-    "processing_fee": "14.40",
-    "date": "2015-07-17",
-    "decision": "disclosed in part"
-  },
-  {
-    "id": "FOI2015-107",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 107,
+    "identifier": "FOI2015-107",
+    "position": 107,
     "abstract": "Structural/Architectural Drawings for a specified address Built in 2008 - \"Looking for the load bearing of the house.\"",
     "organization": "Building Services",
     "classification": "general",
@@ -1396,9 +1339,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-110",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 110,
+    "identifier": "FOI2015-110",
+    "position": 110,
     "abstract": "Copy of the entire Building Services file for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -1410,9 +1353,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-113",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 113,
+    "identifier": "FOI2015-113",
+    "position": 113,
     "abstract": "Retro-fit for a specified address.",
     "organization": "Fire Services",
     "classification": "general",
@@ -1424,9 +1367,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-114",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 114,
+    "identifier": "FOI2015-114",
+    "position": 114,
     "abstract": "Request for release of noise complaints for tenant for a specified unit against tenant from a specified unit for a specified address.",
     "organization": "By-Law",
     "classification": "general",
@@ -1438,9 +1381,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-116",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 116,
+    "identifier": "FOI2015-116",
+    "position": 116,
     "abstract": "Request for any records regarding housing standards for a specified address.",
     "organization": "Building Services, By-Law",
     "classification": "general",
@@ -1452,9 +1395,23 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-112",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 112,
+    "identifier": "FOI2015-99",
+    "position": 99,
+    "abstract": "Ontario Works file",
+    "organization": "Ontario Works",
+    "classification": "personal",
+    "applicant_type": "public",
+    "date_accepted": "2015-06-01",
+    "application_fee": "5.00",
+    "processing_fee": "14.40",
+    "date": "2015-07-17",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-112",
+    "position": 112,
     "abstract": "Any files, documentation, emails, internal memos, log books, etc. related to named individuals and/or a specified address from January 1, 2014 to present.",
     "organization": "Planning, Building Services, Finance, Mayors Office",
     "classification": "general",
@@ -1466,9 +1423,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-115",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 115,
+    "identifier": "FOI2015-115",
+    "position": 115,
     "abstract": "Documents relating to building and modification of double detached garage at a specified address (Building permit, design drawings, inspection report, special reports).",
     "organization": "Building Services",
     "classification": "general",
@@ -1480,9 +1437,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-117",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 117,
+    "identifier": "FOI2015-117",
+    "position": 117,
     "abstract": "Request for any records regarding a specified address re: fire and order (2013-present).",
     "organization": "Fire Services",
     "classification": "general",
@@ -1494,9 +1451,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-118",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 118,
+    "identifier": "FOI2015-118",
+    "position": 118,
     "abstract": "Architectural/Building plans for the house at a specified address;  Anything relating to the foundation or deck; Any information or plans relating water intake from the lake or water system. ",
     "organization": "Building Services",
     "classification": "general",
@@ -1508,9 +1465,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-120",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 120,
+    "identifier": "FOI2015-120",
+    "position": 120,
     "abstract": "Looking for complaint of any patch work to a specified Street or asphalt put on road paid by tax payers or paid by a specified property owner between 2006-2010 or complaint for grass destroyed.",
     "organization": "By-Law",
     "classification": "general",
@@ -1522,9 +1479,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-121",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 121,
+    "identifier": "FOI2015-121",
+    "position": 121,
     "abstract": "All Information in regards to permits such as, Building, Electrical, plumbing, demolition, interior/ exterior work, insulation regards to a property.",
     "organization": "Building ",
     "classification": "general",
@@ -1536,9 +1493,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-122",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 122,
+    "identifier": "FOI2015-122",
+    "position": 122,
     "abstract": "Any and All reports pertaining to a property and Buchannan Street dealing with possible leaks in storm sewer, water lines and sewer system since June 4, 2015. ",
     "organization": "Water/Wastewater, Drainage",
     "classification": "general",
@@ -1550,9 +1507,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-119",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 119,
+    "identifier": "FOI2015-119",
+    "position": 119,
     "abstract": "Building Code violation complaint regarding a specified address.",
     "organization": "Building Services, By-Law",
     "classification": "general",
@@ -1564,9 +1521,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-123",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 123,
+    "identifier": "FOI2015-123",
+    "position": 123,
     "abstract": "A copy of all air quality test results that were performed at the Fleet Services Building located at 1160 Lorne Street, Sudbury between Sept. 1, 2014 and June 29, 2015.",
     "organization": "Fleet, Building Maintenance",
     "classification": "general",
@@ -1578,9 +1535,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-124",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 124,
+    "identifier": "FOI2015-124",
+    "position": 124,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -1592,9 +1549,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-125",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 125,
+    "identifier": "FOI2015-125",
+    "position": 125,
     "abstract": "Building Control file for stairs at a specified address and engineers report (OBC requirements for stairs).",
     "organization": "Building",
     "classification": "general",
@@ -1606,9 +1563,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-126",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 126,
+    "identifier": "FOI2015-126",
+    "position": 126,
     "abstract": "Specified Fire Report.",
     "organization": "Fire Services",
     "classification": "general",
@@ -1620,9 +1577,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-127",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 127,
+    "identifier": "FOI2015-127",
+    "position": 127,
     "abstract": "Greater Sudbury public health inspection records and/or other related documents for two specified addresses in Sudbury pertaining to the Health Protection and Promotion Act Regulation 565 (Public Pools) and 428-05 (Public Spas) filed from January 1, 2008-June 18, 2015.  ",
     "organization": "Transferred to Sudbury and District Health Unit",
     "classification": "general",
@@ -1632,9 +1589,9 @@
     "decision": "abandoned"
   },
   {
-    "id": "FOI2015-129",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 129,
+    "identifier": "FOI2015-129",
+    "position": 129,
     "abstract": "All records of expenses paid out for a specified address (legal, all reports, professional fees, demolition, remediation cost and amount of taxes lost)  As well as Documents of Sale and amount sold for.  All that it cost City to deal with.  ",
     "organization": "Building Services, Finance, Legal, Construction Services, Engineering, Real Estate, Tax",
     "classification": "general",
@@ -1643,9 +1600,9 @@
     "application_fee": "5.00"
   },
   {
-    "id": "FOI2015-130",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 130,
+    "identifier": "FOI2015-130",
+    "position": 130,
     "abstract": "Any information of Ella Lake (Capreol) aka Capreol Lake pertaining to the Ella Lake Boat Launch area.  Specifically, the parking area at the public boat launch and the docks that are in the water at the boat launch area.  Please include pre- and post-amalgamation documents.  ",
     "organization": "Legal, Leisure Services, By-Law, Real Estate, Parks",
     "classification": "general",
@@ -1657,9 +1614,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-132",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 132,
+    "identifier": "FOI2015-132",
+    "position": 132,
     "abstract": "All information regarding the renovation project of a specified address that has been communicated (including e-mail, faxes, phone calls, memos, notes, and/or any communication of any kind) between any City of Greater Sudbury official, including but not limited to the Chief Building Inspector, by-law officers, complainant(s)and the Greater Sudbury Police Services.  Copies of every inspection that was conducted on the renovation project of the specified address since January 1, 2009.",
     "organization": "Building Services, By-law",
     "classification": "general",
@@ -1671,9 +1628,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-128",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 128,
+    "identifier": "FOI2015-128",
+    "position": 128,
     "abstract": "Any and all records held by the Greater Sudbury Fire Services, including but not limited to, any accident reports, fire personnel notes, witness or third party notes/statements, investigator notes/records/reports, photos, video, internal and inter-departmental radio or electronic communications from a specified evening at a specified location or any transcripts, observations, time lines of events, computer generated/assisted data, dispatch records, and any other audio, video, electronic , or other medium records related to two specified individuals, and the events of that evening.  ",
     "organization": "EMS, Fire Services",
     "classification": "general",
@@ -1685,9 +1642,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-133",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 133,
+    "identifier": "FOI2015-133",
+    "position": 133,
     "abstract": "Any correspondence addressed to a specified employee, re: the Sudbury transit ticket scandal, including emails, letters, notes, audits and all other documentation up to and following his departure.  ",
     "organization": "CAO, Transit, Legal, IT",
     "classification": "general",
@@ -1699,9 +1656,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-134",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 134,
+    "identifier": "FOI2015-134",
+    "position": 134,
     "abstract": "A specified employees most recent contract and any relevant appendices or updates.  ",
     "organization": "HR, Legal",
     "classification": "general",
@@ -1713,9 +1670,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-135",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 135,
+    "identifier": "FOI2015-135",
+    "position": 135,
     "abstract": "Request records from a specified by-law officer concerning landlord obstructing officer and entering premises at a specified address in approximately June of 2012.",
     "organization": "By-law",
     "classification": "general",
@@ -1727,9 +1684,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-136",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 136,
+    "identifier": "FOI2015-136",
+    "position": 136,
     "abstract": "Please disclose current employment contracts of specified employees.  Please disclose expenses reimbursed by a specified employee.  ",
     "organization": "HR, Legal",
     "classification": "general",
@@ -1741,9 +1698,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-137",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 137,
+    "identifier": "FOI2015-137",
+    "position": 137,
     "abstract": "Records/Evaluations of an application for Handi-Transit that may have been made to Sudbury Transit regarding a specified person from July 1, 2010 to the present date.",
     "organization": "Transit",
     "classification": "general",
@@ -1755,9 +1712,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-140",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 140,
+    "identifier": "FOI2015-140",
+    "position": 140,
     "abstract": "Copy of a specified legal opinion requested. ",
     "organization": "Legal ",
     "classification": "general",
@@ -1768,9 +1725,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-141",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 141,
+    "identifier": "FOI2015-141",
+    "position": 141,
     "abstract": "I would like a list of all residential and commercial property-holders who are in property tax arrears in excess of $100,000.  I would like their names, the properties and the arrear amount.",
     "organization": "Tax",
     "classification": "general",
@@ -1782,9 +1739,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-142",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 142,
+    "identifier": "FOI2015-142",
+    "position": 142,
     "abstract": "Retaining wall at SW corner of a specified property.  Looking for geotechnical report for wall and rock bolts, which I understand were installed and then re-installed one year later (ca. 2011/2012).  Also require any letters/reports pertaining to the rock mass. ",
     "organization": "Engineering, Construction Services, ",
     "classification": "general",
@@ -1796,9 +1753,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-138",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 138,
+    "identifier": "FOI2015-138",
+    "position": 138,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -1809,9 +1766,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-139",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 139,
+    "identifier": "FOI2015-139",
+    "position": 139,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -1823,9 +1780,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-143",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 143,
+    "identifier": "FOI2015-143",
+    "position": 143,
     "abstract": "Specified Fire Services Report.  All related information regarding dispatch of fire services to a specified address on a specified date.",
     "organization": "Fire Services",
     "classification": "general",
@@ -1837,9 +1794,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-144",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 144,
+    "identifier": "FOI2015-144",
+    "position": 144,
     "abstract": "Building Permits for a specified property.",
     "organization": "Building Services",
     "classification": "general",
@@ -1851,9 +1808,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-147",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 147,
+    "identifier": "FOI2015-147",
+    "position": 147,
     "abstract": "Please advise the following relating to a specified individuals election signs reported to be in contravention of the City?s by-law election signs removal requirement from specified locations:  1- The number of signs reported in contravention of the by-law; 2 -  the total monetary amount of fines levied against a specified individual pertaining to the subject signs only; 3- the total monetary amount of fines paid by a specified individual pertaining to the subject signs only.  ",
     "organization": "By-Law",
     "classification": "general",
@@ -1865,9 +1822,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-148",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 148,
+    "identifier": "FOI2015-148",
+    "position": 148,
     "abstract": "By-law paperwork for the property at a specified address.",
     "organization": "By-Law",
     "classification": "general",
@@ -1879,9 +1836,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-149",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 149,
+    "identifier": "FOI2015-149",
+    "position": 149,
     "abstract": "Part I - List of City funded museums; indicate whether non-profit or city-run/owned;  Part II - Total annual budget for City funded museums (2104);  Part III ? Amount of municipal operating funding for museums (2014);  Part IV ? Amount of municipal capital funding for museums (2014);  Part V ? Number of visitors in 2014 for city-funded museum; Part VI ? Number of full-time and part-time staff in city-funded museums.  ",
     "organization": "Finance, Libraries & Heritage Resources",
     "classification": "general",
@@ -1893,9 +1850,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-146",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 146,
+    "identifier": "FOI2015-146",
+    "position": 146,
     "abstract": "Regarding a specified address sewer failure on a specified date.  Part I ? notes, records & reports relating to the relevant sewer(s) for the period three years prior to a specified date;  Part II ? notes, records & reports relating to the sewer failure and the City?s involvement at the property with respect to its investigation of the sewer failure;  Part III ? copy of inspection records for the subject sewer(s) for the period of three years prior to the ?date of loss?; Part IV ? copy of the relevant by-laws, policies and procedures in place at the time the sewer back-up occurred regarding maintenance, servicing, inspections, repairs and replacement of sewers; Part V ? copies of any and all TV lateral tapes/video recordings and photographs that were taken in connection with the servicing, inspections and maintenance of the sewer(s) for the period of three years prior to the ?date of loss?; Part VI ? statements taken from witnesses with respect to the water main failure; Part VII ? copy do notes, records & reports relating to the lift station, including information regarding what the issue was, how it affected the sewer(s), and the City?s involvement with respect to its investigation of the issue at the lift station; Part VIII ? copy of the City?s inspection records for the subject lift station for the period three years prior to the ?date of loss?; Part IX ? copy of the relevant by-laws, policies, procedures in place at the time the issue at the lift station occurred regarding maintenance, servicing, inspections and repairs. ",
     "organization": "Water/Wastewater, Drainage",
     "classification": "general",
@@ -1908,9 +1865,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-150",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 150,
+    "identifier": "FOI2015-150",
+    "position": 150,
     "abstract": "Emails or written correspondence or copies of notes from personal meetings or telephone conversations or any other documentation from January 1, 2015 through to July 30, 2015  a) between a specified Councillor and specified individuals; b) between a specified Councillor and all other members of Council pertaining to a specified rezoning application.",
     "organization": "Council, Mayors Office",
     "classification": "general",
@@ -1921,9 +1878,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-152",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 152,
+    "identifier": "FOI2015-152",
+    "position": 152,
     "abstract": "Copies of email, correspondence (in writing), notes from personal conversations or phone calls and other documents exchanged/received a) between a specified Councillor and a specified Manager; b) between  a specified Councillor and a specified individual c) between a specified manager and a specified individual pertaining to a specified event.  Correspondence/documentation between January 1, 2015 and July 30, 2015.",
     "organization": "Council, Transit",
     "classification": "general",
@@ -1935,9 +1892,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-151",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 151,
+    "identifier": "FOI2015-151",
+    "position": 151,
     "abstract": "Copies of emails or other written correspondence or notes made as a result of personal meetings or telephone conversations and any other documents in the control of the City?s 13 municipal Council members from/pertaining to a specified business and/or to principals including a specified individual between January 1, 2015 and July 15, 2015.  This request limited to Council members only. ",
     "organization": "Council, Mayors Office",
     "classification": "general",
@@ -1949,9 +1906,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-162",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 162,
+    "identifier": "FOI2015-162",
+    "position": 162,
     "abstract": "All municipal documents related to the Sudbury episode of the Amazing Race Canada.  This could include emails, faxes, letters, budgets, pitch ideas, plans, etc.  I would also like access to agreements between the City and its Amazing Race Partners (those who helped bring the show to Sudbury), as well as contracts with the show?s producers.  \n",
     "organization": "Mayors office, GSDC, Leisure Services, Finance",
     "classification": "general",
@@ -1961,9 +1918,9 @@
     "date": "2015-09-09"
   },
   {
-    "id": "FOI2015-155",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 155,
+    "identifier": "FOI2015-155",
+    "position": 155,
     "abstract": "Complaint registered against a specified person and/or a specified address.  This is in regards to a gate and driveway on the specified property.",
     "organization": "By-Law",
     "classification": "general",
@@ -1975,9 +1932,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-145",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 145,
+    "identifier": "FOI2015-145",
+    "position": 145,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -1989,9 +1946,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-157",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 157,
+    "identifier": "FOI2015-157",
+    "position": 157,
     "abstract": "Any records and correspondence for a specified address.  Do not require crew cards.",
     "organization": "Water/Wastewater, Engineering",
     "classification": "general",
@@ -2003,9 +1960,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-158",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 158,
+    "identifier": "FOI2015-158",
+    "position": 158,
     "abstract": "Copy of the 2000 Letter of Compliance on the retrofit done at a specified address.",
     "organization": "Fire Services",
     "classification": "general",
@@ -2017,9 +1974,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-159",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 159,
+    "identifier": "FOI2015-159",
+    "position": 159,
     "abstract": "House plans for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2031,9 +1988,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-156",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 156,
+    "identifier": "FOI2015-156",
+    "position": 156,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2044,9 +2001,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-169",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 169,
+    "identifier": "FOI2015-169",
+    "position": 169,
     "abstract": "All building permits and all drawings for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2057,9 +2014,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-161",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 161,
+    "identifier": "FOI2015-161",
+    "position": 161,
     "abstract": "The history of how a specified address has been taxed and the number of units on record (example: 1 unit, 2 units, 3 units,?)  MPACs assessment is for a three-unit building.  Requestor would like to know how many units being taxed for and how long the property has been taxed at that number of units.   ",
     "organization": "Tax Department",
     "classification": "general",
@@ -2071,9 +2028,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-170",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 170,
+    "identifier": "FOI2015-170",
+    "position": 170,
     "abstract": "Building Inspection reports and By-law records for a specified address, specifically for August 27, 2015.  ",
     "organization": "Building Services",
     "classification": "general",
@@ -2085,9 +2042,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-164",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 164,
+    "identifier": "FOI2015-164",
+    "position": 164,
     "abstract": "On March 18, 2015 a specified By-law Officer came to my apartment and took pictures. On April 1, 2015, the same officer came back to my apartment and took more pictures. I would like to see the pictures and find out if something will be done. I would like to have a copy of these reports for a probable court action.",
     "organization": "By-Law",
     "classification": "general",
@@ -2099,9 +2056,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-165",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 165,
+    "identifier": "FOI2015-165",
+    "position": 165,
     "abstract": "Architectural drawings for a specified address. ",
     "organization": "Building Services",
     "classification": "general",
@@ -2113,9 +2070,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-167",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 167,
+    "identifier": "FOI2015-167",
+    "position": 167,
     "abstract": "Permit Drawings related to a specified building permit for the installation of a patio door and deck (rear yard).",
     "organization": "Building Services",
     "classification": "general",
@@ -2127,9 +2084,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-163",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 163,
+    "identifier": "FOI2015-163",
+    "position": 163,
     "abstract": "City records regarding the maintenance/ construction/ work orders/ flush records/ city water report related to & around a specified address. Including but not limited to the particulars of loss of about April 15, 2014. The period of request: May 2012 to May 2014.",
     "organization": "Water/Wastewater, Engineering, Construction Services",
     "classification": "general",
@@ -2141,9 +2098,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-168",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 168,
+    "identifier": "FOI2015-168",
+    "position": 168,
     "abstract": "All permits for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2155,9 +2112,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-171",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 171,
+    "identifier": "FOI2015-171",
+    "position": 171,
     "abstract": "Any reports and/or complaints of sewer back losses reported on or about November 13, 2012 and in the Bancroft Drive area from Levesque Street to Moonlight Avenue, Sudbury.  ",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -2169,9 +2126,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-172",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 172,
+    "identifier": "FOI2015-172",
+    "position": 172,
     "abstract": "Regarding a specified address.  Part I ? notes, records & reports relating to the relevant sewer(s) for the period three years prior to a specified date;  \nPart II ? notes, records & reports relating to the sewer/storm drain failure and the City?s involvement at the property with respect to its investigation of the sewer backup and/or frozen storm drain;  \nPart III ? copy of inspection records for the subject sewer(s) and storm drains for the period of three years prior to a specified date; \nPart IV ? copy do the relevant by-laws, policies and procedures in place at the time the sewer back-up and frozen storm drain occurred regarding maintenance, servicing, inspections, repairs and replacement of sewers and storm drains; \nPart V ? copies of any and all TV lateral tapes/video recordings and photographs that were taken in connection with the servicing, inspections and maintenance of the sewer(s) and storm drains for the period of three years prior to a specified date; \nPart VI ? copies of any and all TV lateral tapes/video recordings and photographs that were used by the City in its investigation to determine the cause and origin of the backup and frozen storm drain(s);\nPart VIII - statements taken from witnesses with respect to the sewer backup and frozen storm drain(s).\n",
     "organization": "Water/Wastewater",
     "classification": "general",
@@ -2183,9 +2140,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-160",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 160,
+    "identifier": "FOI2015-160",
+    "position": 160,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2197,9 +2154,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-174",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 174,
+    "identifier": "FOI2015-174",
+    "position": 174,
     "abstract": "Ontario Works file.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2211,9 +2168,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-175",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 175,
+    "identifier": "FOI2015-175",
+    "position": 175,
     "abstract": "Letter re: Swale/Grading of a specified property.",
     "organization": "Engineering",
     "classification": "general",
@@ -2225,9 +2182,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-179",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 179,
+    "identifier": "FOI2015-179",
+    "position": 179,
     "abstract": "All court transcripts/documents relating to case against a specified person.",
     "organization": "Court Services",
     "classification": "general",
@@ -2238,9 +2195,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-173",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 173,
+    "identifier": "FOI2015-173",
+    "position": 173,
     "abstract": "Complete building file (including property maps, plans, building permits) for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2252,9 +2209,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-176",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 176,
+    "identifier": "FOI2015-176",
+    "position": 176,
     "abstract": "Building Services file and Retrofit information in its entirety for a specified address. ",
     "organization": "Building Services, Fire Services",
     "classification": "general",
@@ -2266,9 +2223,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-177",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 177,
+    "identifier": "FOI2015-177",
+    "position": 177,
     "abstract": "Building Services file and Retrofit information in its entirety for a specified address. ",
     "organization": "Building Services, Fire Services",
     "classification": "general",
@@ -2280,9 +2237,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-180",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 180,
+    "identifier": "FOI2015-180",
+    "position": 180,
     "abstract": "Fire Services responded to a fire at a specified location.  Please provide information regarding the cause of the event.  ",
     "organization": "Fire Services",
     "classification": "general",
@@ -2294,9 +2251,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-181",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 181,
+    "identifier": "FOI2015-181",
+    "position": 181,
     "abstract": "Tax notices for the sale of a specified property, Sudbury that were sent to a specified person and the residence (and any other documents notifying of the tax sale of that property).",
     "organization": "Tax Department",
     "classification": "general",
@@ -2308,9 +2265,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-182",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 182,
+    "identifier": "FOI2015-182",
+    "position": 182,
     "abstract": "Building permit, inspections to date, any notices/information that has been given, plot plan/site plan for a specified address. ",
     "organization": "Building Services",
     "classification": "general",
@@ -2323,9 +2280,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-183",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 183,
+    "identifier": "FOI2015-183",
+    "position": 183,
     "abstract": "Fire records for a specified address.  ",
     "organization": "Fire Services",
     "classification": "general",
@@ -2337,9 +2294,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-178",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 178,
+    "identifier": "FOI2015-178",
+    "position": 178,
     "abstract": "Ontario Works file.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2350,9 +2307,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-186",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 186,
+    "identifier": "FOI2015-186",
+    "position": 186,
     "abstract": "Unresolved Fire Code Violations for building at a specified address.",
     "organization": "Fire Services",
     "classification": "general",
@@ -2364,9 +2321,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-197",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 197,
+    "identifier": "FOI2015-197",
+    "position": 197,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2377,9 +2334,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-184",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 184,
+    "identifier": "FOI2015-184",
+    "position": 184,
     "abstract": "Permit drawings issued to a specified address.  Specified Permit # and specified Permit #.  Also, any inspection reports related to the noted permits.  ",
     "organization": "Building Services",
     "classification": "general",
@@ -2390,9 +2347,9 @@
     "date": "2015-10-29"
   },
   {
-    "id": "FOI2015-185",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 185,
+    "identifier": "FOI2015-185",
+    "position": 185,
     "abstract": "Permit drawings for a specified address.  Specified Permit # and specified Permit #.  Also, any inspection notes related to the referenced permits.  ",
     "organization": "Building Services",
     "classification": "general",
@@ -2404,9 +2361,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-190",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 190,
+    "identifier": "FOI2015-190",
+    "position": 190,
     "abstract": "City Contractor records/invoice for frozen water service thaw on or about a specified date and 311 call records for frozen water service/leaking from frozen water service at a specified address and any other records in relation to the frozen water service for a specified address. ",
     "organization": "311, Water Wastewater, Engineering",
     "classification": "general",
@@ -2418,9 +2375,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-193",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 193,
+    "identifier": "FOI2015-193",
+    "position": 193,
     "abstract": "Any fire inspection reports including any attached photographs, documentation and any orders to remedy from January 2015 to present for a specified property.  ",
     "organization": "Fire Services, By-law",
     "classification": "general",
@@ -2432,9 +2389,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-187",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 187,
+    "identifier": "FOI2015-187",
+    "position": 187,
     "abstract": "Copies of all proposals submitted in response to a specified contract, Request for Proposal for the specified contract.  Copy of the contract signed with the winning proposer.  ",
     "organization": "Purchasing",
     "classification": "general",
@@ -2445,9 +2402,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-188",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 188,
+    "identifier": "FOI2015-188",
+    "position": 188,
     "abstract": "Minutes of the April, May, June and September monthly meetings, and the complete report which is the Operations Review done in August 2015 for a specified location. ",
     "organization": "Housing Services",
     "classification": "general",
@@ -2459,9 +2416,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-191",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 191,
+    "identifier": "FOI2015-191",
+    "position": 191,
     "abstract": "All information on a specified property.  Inspections done, passed or rejected.  Outstanding Work Orders or Orders to Comply.",
     "organization": "Building Services, Tax, By-Law",
     "classification": "general",
@@ -2473,9 +2430,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-192",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 192,
+    "identifier": "FOI2015-192",
+    "position": 192,
     "abstract": "Latest version of the survey for a specified property, a calculation of the area for that property and building including the percentage of the property the building covers, and copy of floor plans showing the areas included in the square footage footprint of the house. ",
     "organization": "Building Services ",
     "classification": "general",
@@ -2487,9 +2444,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-196",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 196,
+    "identifier": "FOI2015-196",
+    "position": 196,
     "abstract": "Tax receipt for a specified amount on a specified property.  ",
     "organization": "Tax Department",
     "classification": "general",
@@ -2501,9 +2458,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-198",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 198,
+    "identifier": "FOI2015-198",
+    "position": 198,
     "abstract": "Name of Builder of a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2515,9 +2472,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-201",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 201,
+    "identifier": "FOI2015-201",
+    "position": 201,
     "abstract": "Copy of notes and reports from Fire Services with respect to a motor vehicle accident. ",
     "organization": "Fire Services",
     "classification": "general",
@@ -2529,9 +2486,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-194",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 194,
+    "identifier": "FOI2015-194",
+    "position": 194,
     "abstract": "Surveyor plans / documentation on permits that were not closed and documentation on plans that were not approved for a specified property. ",
     "organization": "Building Services ",
     "classification": "general",
@@ -2543,9 +2500,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-199",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 199,
+    "identifier": "FOI2015-199",
+    "position": 199,
     "abstract": "Copy of Ontario Works File ",
     "organization": "Ontario Works ",
     "classification": "personal",
@@ -2556,9 +2513,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-195",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 195,
+    "identifier": "FOI2015-195",
+    "position": 195,
     "abstract": "I need a copy of specified affidavits by specified individuals as provided to a specified organization.  ",
     "organization": "Legal Services",
     "classification": "general",
@@ -2569,9 +2526,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-211",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 211,
+    "identifier": "FOI2015-211",
+    "position": 211,
     "abstract": "Copies of any outside legal opinion requested by the Auditor General?s office in 2012 related to Greater Sudbury?s Healthy Community Initiative Funds ",
     "organization": "Legal ",
     "classification": "general",
@@ -2582,9 +2539,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-205",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 205,
+    "identifier": "FOI2015-205",
+    "position": 205,
     "abstract": "Copy of Ontario Works File. ",
     "organization": "Ontario Works ",
     "classification": "personal",
@@ -2595,9 +2552,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-202",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 202,
+    "identifier": "FOI2015-202",
+    "position": 202,
     "abstract": "List of new fleet acquisition, and any GPS (Global Positioning System) software, that will be added to fleet from your capital budget.",
     "organization": "Fleet",
     "classification": "general",
@@ -2609,9 +2566,9 @@
     "decision": "all disclosed"
   },
   {
-    "id": "FOI2015-209",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 209,
+    "identifier": "FOI2015-209",
+    "position": 209,
     "abstract": "Information going back six years (2009) on any official complaints made in regards to noise or any other neighbor disputes against the owner or resident of a specified address. ",
     "organization": "By-Law Enforcement ",
     "classification": "general",
@@ -2623,9 +2580,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-203",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 203,
+    "identifier": "FOI2015-203",
+    "position": 203,
     "abstract": "Building services file including and not limited to foundation / weeping tile inspections, footing inspections, framing inspections, HVAC inspections and the name of the inspector(s) for a speciifed property",
     "organization": "Building Services",
     "classification": "general",
@@ -2637,9 +2594,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-200",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 200,
+    "identifier": "FOI2015-200",
+    "position": 200,
     "abstract": "Looking to obtain copies of all permits, inspections and documents relating to the addition constructed in 2011-2012 on a specified address.  Please include any and all documents/drawings from 2011 onwards to present date.",
     "organization": "Building Services",
     "classification": "general",
@@ -2651,9 +2608,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-207",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 207,
+    "identifier": "FOI2015-207",
+    "position": 207,
     "abstract": "Regarding a specified address: looking for site assessment, environmental assessment and concerns about any chemicals used in December 2014 Fire.",
     "organization": "Fire Services",
     "classification": "general",
@@ -2665,9 +2622,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-210",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 210,
+    "identifier": "FOI2015-210",
+    "position": 210,
     "abstract": "Information of inspection report for a specified address conducted by a By-law Enforcement Officer in November 2015.",
     "organization": "By-Law Enforcement ",
     "classification": "general",
@@ -2679,9 +2636,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-217",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 217,
+    "identifier": "FOI2015-217",
+    "position": 217,
     "abstract": "By-law notes re: issues with a specified individual concerning noise, specifically meeting with By-law Officer on a specified date",
     "organization": "By-law ",
     "classification": "general",
@@ -2692,9 +2649,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-213",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 213,
+    "identifier": "FOI2015-213",
+    "position": 213,
     "abstract": "Unresolved fire code violations as of a specified date and a list of any deficiencies on file with Fire Services for a specified property.",
     "organization": "Fire Services",
     "classification": "general",
@@ -2706,9 +2663,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-215",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 215,
+    "identifier": "FOI2015-215",
+    "position": 215,
     "abstract": "Records of any complaints from citizens from 1990 ? 2015, regarding pollutants in Nolin Creek, or pollutants/contaminated soil near the Sudbury Catholic District School Board property located at 199 Travers Street.  ",
     "organization": "Communications, Environmental Services, Water/Wastewater, 3-1-1, Engineering",
     "classification": "general",
@@ -2720,9 +2677,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-166",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 166,
+    "identifier": "FOI2015-166",
+    "position": 166,
     "abstract": "Ontario Works File.",
     "organization": "Ontario Works",
     "classification": "personal",
@@ -2734,9 +2691,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-216",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 216,
+    "identifier": "FOI2015-216",
+    "position": 216,
     "abstract": "History of a specified property ex. Building permits, plans, inspections",
     "organization": "building services",
     "classification": "general",
@@ -2748,9 +2705,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-208",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 208,
+    "identifier": "FOI2015-208",
+    "position": 208,
     "abstract": "All information accessible for a specified address.",
     "organization": "Building Services",
     "classification": "general",
@@ -2762,9 +2719,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-222",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 222,
+    "identifier": "FOI2015-222",
+    "position": 222,
     "abstract": "Retrofit information going back to the year 2000 for a specified address",
     "organization": "Fire Services",
     "classification": "general",
@@ -2775,9 +2732,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-223",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 223,
+    "identifier": "FOI2015-223",
+    "position": 223,
     "abstract": "Retrofit information going back to the year 2000 for a specified address",
     "organization": "Fire Services",
     "classification": "general",
@@ -2788,9 +2745,9 @@
     "decision": "nothing disclosed"
   },
   {
-    "id": "FOI2015-224",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 224,
+    "identifier": "FOI2015-224",
+    "position": 224,
     "abstract": "Retrofit information going back to the year 2000 for a specified address",
     "organization": "Fire Services",
     "classification": "general",
@@ -2802,9 +2759,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-204",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 204,
+    "identifier": "FOI2015-204",
+    "position": 204,
     "abstract": "Complete file of dog bite incident relating to a specified individual.",
     "organization": "By-law",
     "classification": "general",
@@ -2816,9 +2773,19 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-212",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 212,
+    "identifier": "FOI2015-206",
+    "position": 206,
+    "abstract": "Environmental Assessment for a specified address.",
+    "organization": "Environmental Assessment",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-11-12"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-212",
+    "position": 212,
     "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. Including correspondence as well as revenue and expense reports for the arena, audits, and auditor?s reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages ",
     "organization": "Finance, Legal, Human Resources",
     "classification": "general",
@@ -2829,9 +2796,9 @@
     "date": "2015-12-17"
   },
   {
-    "id": "FOI2015-214",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 214,
+    "identifier": "FOI2015-214",
+    "position": 214,
     "abstract": "I am requesting copies of all photos brought forward at the Standards Committee meeting, held on September 30, 2015, at 5�p.m., at City Hall. Some of these photos may have been submitted by a specified individual. Others may have been submitted by the City of Greater Sudbury By-Law Department Committee. Since a petition was filed during this meeting, I am also requesting copies from you. Could you also include the name of those who submitted the photos? For example, what person or which City employee took the photo? Please give their full name, such as Stephen Holt, Tina Romanysyn (who now goes by a different name since her recent marriage), Melissa Laalo, among others.",
     "organization": "Planning, By-law",
     "classification": "general",
@@ -2843,22 +2810,9 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-221",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 221,
-    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
-    "organization": "Building Serivces",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-02",
-    "unpaid_fees": "40.90",
-    "date": "2015-12-21",
-    "decision": "disclosed in part"
-  },
-  {
-    "id": "FOI2015-218",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 218,
+    "identifier": "FOI2015-218",
+    "position": 218,
     "abstract": "Require all info in regards to a specified property.",
     "organization": "By-law, Tax",
     "classification": "general",
@@ -2870,9 +2824,133 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-72",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 72,
+    "identifier": "FOI2015-219",
+    "position": 219,
+    "abstract": "I would like access to all correspondence sent and received between Mayor Brian Bigger, Melissa Zanette and Chief Trevor Bain regarding the fire services department.  This could include emails, reports, notes and any other written documentation.  I would like to see all correspondence going back to May 2015.",
+    "organization": "Mayors Office, Fire Services",
+    "classification": "general",
+    "applicant_type": "media",
+    "date_accepted": "2015-11-30",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-221",
+    "position": 221,
+    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
+    "organization": "Building Serivces",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-02",
+    "unpaid_fees": "40.90",
+    "date": "2015-12-21",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-225",
+    "position": 225,
+    "abstract": "1970-1978 Tax Billing copies or amounts for each year for a specified property",
+    "organization": "Tax",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-09",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-226",
+    "position": 226,
+    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property, including, but not limited to the particulars of the loss of about April 14th, 2014 (Period requested April 2009- May 2014).",
+    "organization": "Construction Services, Engineering Services, Water/Wastewater",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-08",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-227",
+    "position": 227,
+    "abstract": "Incident report from an injury at the Raymond Plourde Arena in Val Caron on December 4, 2015. ",
+    "organization": "Legal Services, Leisure",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-14",
+    "application_fee": "5.00",
+    "unpaid_fees": "16.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-228",
+    "position": 228,
+    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property including, but not limited to the particulars of the loss of about February 23, 2015 (Period requested March 2015 ? March 2015)",
+    "organization": "Construction Services, Engineering Services, Water/Wastewater",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-15",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-229",
+    "position": 229,
+    "abstract": "Fire Report for a specified property",
+    "organization": "Fire Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-21",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-230",
+    "position": 230,
+    "abstract": "Complete file records with respect to a specified property",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-23",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-39",
+    "position": 39,
+    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
+    "organization": "HR, IT",
+    "classification": "general",
+    "applicant_type": "business",
+    "date_accepted": "2015-03-04",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-42",
+    "position": 42,
+    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-03-03",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-53",
+    "position": 53,
+    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
+    "organization": "Mayors office, IT",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-03-26",
+    "application_fee": "5.00",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-72",
+    "position": 72,
     "abstract": "Looking for details of the owners of two specified properties and/or building permits.\n",
     "organization": "Building",
     "classification": "general",
@@ -2884,91 +2962,13 @@
     "decision": "disclosed in part"
   },
   {
-    "id": "FOI2015-206",
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 206,
-    "abstract": "Environmental Assessment for a specified address.",
-    "organization": "Environmental Assessment",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-11-12"
-  },
-  {
-    "id": "FOI2015-219",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 219,
-    "abstract": "I would like access to all correspondence sent and received between Mayor Brian Bigger, Melissa Zanette and Chief Trevor Bain regarding the fire services department.  This could include emails, reports, notes and any other written documentation.  I would like to see all correspondence going back to May 2015.",
-    "organization": "Mayors Office, Fire Services",
+    "identifier": "FOI2015-88",
+    "position": 88,
+    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
     "classification": "general",
     "applicant_type": "media",
-    "date_accepted": "2015-11-30",
-    "application_fee": "5.00"
-  },
-  {
-    "id": "FOI2015-225",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 225,
-    "abstract": "1970-1978 Tax Billing copies or amounts for each year for a specified property",
-    "organization": "Tax",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-09",
-    "application_fee": "5.00"
-  },
-  {
-    "id": "FOI2015-226",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 226,
-    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property, including, but not limited to the particulars of the loss of about April 14th, 2014 (Period requested April 2009- May 2014).",
-    "organization": "Construction Services, Engineering Services, Water/Wastewater",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-08",
-    "application_fee": "5.00"
-  },
-  {
-    "id": "FOI2015-227",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 227,
-    "abstract": "Incident report from an injury at the Raymond Plourde Arena in Val Caron on December 4, 2015. ",
-    "organization": "Legal Services, Leisure",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-14",
-    "application_fee": "5.00",
-    "unpaid_fees": "16.00"
-  },
-  {
-    "id": "FOI2015-228",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 228,
-    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property including, but not limited to the particulars of the loss of about February 23, 2015 (Period requested March 2015 ? March 2015)",
-    "organization": "Construction Services, Engineering Services, Water/Wastewater",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-15",
-    "application_fee": "5.00"
-  },
-  {
-    "id": "FOI2015-229",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 229,
-    "abstract": "Fire Report for a specified property",
-    "organization": "Fire Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-21",
-    "application_fee": "5.00"
-  },
-  {
-    "id": "FOI2015-230",
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": 230,
-    "abstract": "Complete file records with respect to a specified property",
-    "organization": "Building Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-23",
-    "application_fee": "5.00"
+    "date_accepted": "2015-05-14",
+    "decision": "abandoned"
   }
 ]
