@@ -37,6 +37,7 @@ TEMPLATES = {
   'ca' => {
     'division_id' => 'ocd-division/country:ca',
     'identifier' => '/Request Number ~1 Numero de la demande',
+    'organization' => '/Org',
     'date' => lambda{|data|
       year = Integer(JsonPointer.new(data, '/Year ~1 Année').value)
       month = Integer(JsonPointer.new(data, '/Month ~1 Mois (1-12)').value)
@@ -48,7 +49,6 @@ TEMPLATES = {
       ['abstract', en || fr]
     },
     'decision' => '/Disposition',
-    'organization' => '/Org',
     'number_of_pages' => lambda{|data|
       v = JsonPointer.new(data, '/Number of Pages ~1 Nombre de pages').value
       ['number_of_pages', v && Integer(v)]
@@ -58,14 +58,14 @@ TEMPLATES = {
     'id' => '/id',
     'division_id' => '/division_id',
     'identifier' => '/identifier',
-    'date' => '/date',
     'abstract' => '/abstract',
     'organization' => '/organization',
-    'number_of_pages' => '/number_of_pages',
+    'date' => '/date',
     'url' => lambda{|data|
       v = JsonPointer.new(data, '/url').value
       ['url', URI.escape(v)]
     },
+    'number_of_pages' => '/number_of_pages',
   },
   'ca_nl' => {
     'division_id' => 'ocd-division/country:ca/province:nl',
@@ -73,6 +73,8 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/Request Number').value
       ['identifier', v.strip]
     },
+    'abstract' => '/Summary of Request',
+    'organization' => '/Department',
     'date' => lambda{|data|
       year = JsonPointer.new(data, '/Year').value
       month = JsonPointer.new(data, '/Month').value
@@ -83,9 +85,7 @@ TEMPLATES = {
         ['date', Date.strptime(year_month, '%y-%b').strftime('%Y-%m')]
       end
     },
-    'abstract' => '/Summary of Request',
     'decision' => '/Outcome of Request',
-    'organization' => '/Department',
     'number_of_pages' => lambda{|data|
       v = JsonPointer.new(data, '/Number of Pages').value
       ['number_of_pages', v == 'EXCEL' ? nil : Integer(v)]
@@ -94,8 +94,8 @@ TEMPLATES = {
   'ca_ns_halifax' => {
     'division_id' => '/division_id',
     'identifier' => '/identifier',
-    'date' => '/date',
     'abstract' => '/abstract',
+    'date' => '/date',
     'decision' => '/decision',
     'number_of_pages' => '/number_of_pages',
   },
@@ -105,8 +105,6 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/No.').value
       ['identifier', v && Integer(v)]
     },
-    'date' => '/Year',
-    'decision' => '/Decision',
     'organization' => '/Dept Contact',
     'classification' => lambda{|data|
       v = JsonPointer.new(data, '/Request Type').value
@@ -119,6 +117,8 @@ TEMPLATES = {
         raise "unrecognized classification: #{v}" if v
       end
     },
+    'date' => '/Year',
+    'decision' => '/Decision',
   },
   'ca_on_greater_sudbury' => {
     'id' => '/FILE_NUMBER',
@@ -127,11 +127,16 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/FILE_NUMBER').value
       ['identifier', Integer(v.strip.match(/\AFOI ?\d{4}-(\d{1,4})\z/)[1])]
     },
+    'abstract' => '/PUBLIC_DESCRIPTION',
+    'organization' => '/DEPARTMENT',
+    'classification' => lambda{|data|
+      v = JsonPointer.new(data, '/PERSONAL_OR_GENERAL').value
+      ['classification', v.downcase.strip]
+    },
     'date' => lambda{|data|
       v = JsonPointer.new(data, '/NOTICE_OF_DECISION_SENT').value
       ['date', v && (Date.strptime(v, '%m/%d/%Y') rescue Date.strptime(v, '%d/%m/%Y')).strftime('%Y-%m-%d')]
     },
-    'abstract' => '/PUBLIC_DESCRIPTION',
     'decision' => lambda{|data|
       v = [
         '1_ALL_INFORMATION_DISCLOSED',
@@ -142,28 +147,16 @@ TEMPLATES = {
       ].select do |header|
         JsonPointer.new(data, "/#{header}").value
       end
-      assert("expected a single decision: #{v}"){v.size < 2}
-      ['decision', v[0]]
-    },
-    'organization' => '/DEPARTMENT',
-    'classification' => lambda{|data|
-      v = JsonPointer.new(data, '/PERSONAL_OR_GENERAL').value
-      ['classification', v.downcase.strip]
+      if v.size > 1
+        puts "expected a single decision: #{v}"
+      end
+      ['decision', v[-1]]
     },
   },
   'ca_on_toronto' => {
     'division_id' => 'ocd-division/country:ca/csd:3520005',
     'identifier' => '/Request_Number',
-    'date' => lambda{|data|
-      v = JsonPointer.new(data, '/Decision_Communicated').value
-      ['date', v && (Date.strptime(v, '%d-%m-%Y') rescue Date.strptime(v, '%Y-%m-%d')).strftime('%Y-%m-%d')]
-    },
     'abstract' => '/Summary',
-    'decision' => '/Name',
-    'number_of_pages' => lambda{|data|
-      v = JsonPointer.new(data, '/Number_of_Pages_Released').value
-      ['number_of_pages', v && Integer(v.sub(/\.0\z/, ''))]
-    },
     'classification' => lambda{|data|
       v = JsonPointer.new(data, '/Request_Type').value
       case v
@@ -174,6 +167,15 @@ TEMPLATES = {
       else
         raise "unrecognized classification: #{v}"
       end
+    },
+    'date' => lambda{|data|
+      v = JsonPointer.new(data, '/Decision_Communicated').value
+      ['date', v && (Date.strptime(v, '%d-%m-%Y') rescue Date.strptime(v, '%Y-%m-%d')).strftime('%Y-%m-%d')]
+    },
+    'decision' => '/Name',
+    'number_of_pages' => lambda{|data|
+      v = JsonPointer.new(data, '/Number_of_Pages_Released').value
+      ['number_of_pages', v && Integer(v.sub(/\.0\z/, ''))]
     },
   },
 }.freeze

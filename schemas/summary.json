@@ -26,14 +26,26 @@
         "string"
       ]
     },
+    "abstract": {
+      "description": "The summary of the request",
+      "type": "string"
+    },
+    "organization": {
+      "description": "The organization to which the request was sent",
+      "type": "string"
+    },
+    "classification": {
+      "description": "The classification of the request",
+      "type": "string",
+      "enum": [
+        "general",
+        "personal"
+      ]
+    },
     "date": {
       "description": "The date of decision or the date of publication of the request",
       "type": "string",
       "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
-    },
-    "abstract": {
-      "description": "The summary of the request",
-      "type": "string"
     },
     "decision": {
       "description": "The decision as to whether or not to disclose the record or the part thereof",
@@ -49,9 +61,10 @@
         "treated informally"
       ]
     },
-    "organization": {
-      "description": "The organization to which the request was sent",
-      "type": "string"
+    "url": {
+      "description": "The URL of the request",
+      "type": "string",
+      "format": "uri"
     },
     "media_type": {
       "description": "The media type of the records disclosed",
@@ -77,19 +90,6 @@
     "duration": {
       "description": "The duration in seconds of the audio or video",
       "type": "number"
-    },
-    "classification": {
-      "description": "The classification of the request",
-      "type": "string",
-      "enum": [
-        "general",
-        "personal"
-      ]
-    },
-    "url": {
-      "description": "The URL of the request",
-      "type": "string",
-      "format": "uri"
     }
   },
   "additionalProperties": false,
