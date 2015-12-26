@@ -86,6 +86,7 @@ def mapping_formatter(property, path, map = {})
   }
 end
 
+# The order of the keys should be the same as in the schema.
 TEMPLATES = {
   'ca' => {
     'division_id' => 'ocd-division/country:ca',
