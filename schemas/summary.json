@@ -43,7 +43,7 @@
       ]
     },
     "applicant_type": {
-      "description": "The type of applicant, using the code list from Canada's Access to Information Statistical Reporting plus 'government'",
+      "description": "The type of applicant, using the code list from Canada's Access to Information Statistical Reporting, plus 'government'",
       "type": "string",
       "enum": [
         "academia",
