@@ -203,63 +203,125 @@ namespace :datasets do
     end
   end
 
-  desc 'Validates datasets'
-  task :validate do
-    no_pages = [
-      'abandoned',
-      'in progress',
-      'nothing disclosed',
-      'transferred',
-      'treated informally',
-    ]
-    messages = [
-      'number_of_pages should be equal to zero',
-      'number_of_pages should be greater than zero',
-    ]
+  namespace :validate do
+    desc 'Validates values according to jurisdiction-specific rules'
+    task :values do
+      ca_nl_identifiers = CSV.foreach(File.join('reference', 'ca_nl-organization_identifiers.csv'), headers: true).map do |row|
+        row.fetch('identifier')
+      end
 
-    Dir[File.join('summaries', '*.json')].each do |path|
-      directory = File.basename(path, '.json')
-      records = records_from_source(directory, TEMPLATES[directory], normalize: false, validate: false)
-      counts_by_decision = {}
-      examples_by_decision = {}
+      identifier_patterns = {
+        'ca_bc' => ['identifier', /\A(?:[A-Z]{3})-\d{4}-\d{5}\z/],
+        'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,2}/\d{4}\z}],
+        'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
+        'ca_on_burlington' => ['identifier', /\A\d{1,2}\z/],
+        'ca_on_greater_sudbury' => ['id', /\AFOI\d{4}-\d{1,3}\z/],
+        'ca_on_toronto' => ['identifier', /\A(?:AG|AP|COR|PHI)-\d{4}-\d{5}\z/],
+      }
 
-      JSON.load(File.read(path)).each do |record|
-        if record['number_of_pages'] && record['decision'] && record['decision'] != 'correction'
-          if record['number_of_pages'] > 0 && no_pages.include?(record['decision']) || record['number_of_pages'] == 0 && !no_pages.include?(record['decision'])
-            # NL publishes letters of 6 pages or less if nothing disclosed.
-            unless record['division_id'] == 'ocd-division/country:ca/province:nl' && record['number_of_pages'] <= 6 && record['decision'] == 'nothing disclosed'
-              decisions = records.select do |r|
-                if record['id']
-                  r['id'] == record['id']
-                else
-                  r['identifier'] == record['identifier'] && r['organization'] == record['organization']
-                end
-              end.map do |match|
-                match['decision']
-              end
-
-              decisions.each do |decision|
-                counts_by_decision[record['decision']] ||= Hash.new(0)
-                counts_by_decision[record['decision']][decision] += 1
-
-                examples_by_decision[decision] ||= []
-                examples_by_decision[decision] << record.slice('id', 'identifier', 'organization').values
-              end
+      Dir[File.join('summaries', '*.json')].each do |path|
+        basename = File.basename(path, '.json')
+        property, pattern = identifier_patterns[basename]
+        if pattern
+          values = Set.new
+          JSON.load(File.read(path)).each do |record|
+            match = record[property].to_s.match(pattern)
+            if match
+              values += match.captures
+            else
+              puts "#{basename}: #{record[property].inspect}"
             end
+          end
+          if values.any?
+            puts "#{basename}\n#{values.to_a.join("\n")}\n"
           end
         end
       end
 
-      if counts_by_decision.any?
-        puts directory
-        counts_by_decision.partition{|decision,_| no_pages.include?(decision)}.each_with_index do |partition,index|
-          puts "  #{messages[index]}"
-          partition.each do |decision,counts|
-            puts "    #{decision}"
-            counts.sort_by{|_,v| -v}.each do |text,count|
-              puts '      %2d %s' % [count, text]
-              examples_by_decision[text].each do |example|
-                puts "         #{example.join(' ')}"
+      organization_lists = {
+        'ca_bc' => /\A[A-Z]+/,
+        'ca_nl' => /\A[A-Z]+/,
+      }
+
+      messages = []
+      organization_lists.each do |basename,pattern|
+        names = {}
+        CSV.foreach(File.join('reference', "#{basename}-organization_identifiers.csv"), headers: true) do |row|
+          names[row['identifier']] = Set.new(row.fields[1..-1].compact)
+        end
+        JSON.load(File.read(File.join('summaries', "#{basename}.json"))).each do |record|
+          identifier = record['identifier'].match(pattern)[0]
+          if names.key?(identifier)
+            unless names[identifier].include?(record['organization'])
+              messages << "#{basename}: expected #{record['organization'].inspect} to be in #{names.fetch(identifier).to_a} (#{identifier})"
+            end
+          else
+            messages << "#{basename}: unrecognized identifier #{identifier} for #{record['organization'].inspect}"
+          end
+        end
+      end
+      puts messages.sort
+    end
+
+    desc 'Performs dataset-level validations'
+    task :datasets do
+      no_pages = [
+        'abandoned',
+        'in progress',
+        'nothing disclosed',
+        'transferred',
+        'treated informally',
+      ]
+      messages = [
+        'number_of_pages should be equal to zero',
+        'number_of_pages should be greater than zero',
+      ]
+
+      Dir[File.join('summaries', '*.json')].each do |path|
+        directory = File.basename(path, '.json')
+        records = records_from_source(directory, TEMPLATES[directory], normalize: false, validate: false)
+        counts_by_decision = {}
+        examples_by_decision = {}
+
+        JSON.load(File.read(path)).each do |record|
+          if record['number_of_pages'] && record['decision'] && record['decision'] != 'correction'
+            if record['number_of_pages'] > 0 && no_pages.include?(record['decision']) || record['number_of_pages'] == 0 && !no_pages.include?(record['decision'])
+              # NL publishes letters of 6 pages or less if nothing disclosed.
+              unless record['division_id'] == 'ocd-division/country:ca/province:nl' && record['number_of_pages'] <= 6 && record['decision'] == 'nothing disclosed'
+                # Get the non-normalized decisions.
+                decisions = records.select do |r|
+                  if record['id']
+                    r['id'] == record['id']
+                  else
+                    r['identifier'] == record['identifier'] && r['organization'] == record['organization']
+                  end
+                end.map do |match|
+                  match['decision']
+                end
+
+                decisions.each do |decision|
+                  counts_by_decision[record['decision']] ||= Hash.new(0)
+                  counts_by_decision[record['decision']][decision] += 1
+
+                  examples_by_decision[decision] ||= []
+                  examples_by_decision[decision] << record.slice('id', 'identifier', 'organization').values
+                end
+              end
+            end
+          end
+        end
+
+        if counts_by_decision.any?
+          puts directory
+          counts_by_decision.partition{|decision,_| no_pages.include?(decision)}.each_with_index do |partition,index|
+            puts "  #{messages[index]}"
+            partition.each do |decision,counts|
+              puts "    #{decision}"
+              counts.sort_by{|_,v| -v}.each do |text,count|
+                puts '      %2d %s' % [count, text]
+                examples_by_decision[text].each do |example|
+                  puts "         #{example.join(' ')}"
+                end
               end
             end
           end
