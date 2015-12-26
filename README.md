@@ -127,10 +127,11 @@ Stack the CSV files:
 
 ## Notes
 
-Some jurisdictions publish more information than normalized by this project:
+This project does not publish all data elements published by jurisdictions, primarily because they are of low value, hard to normalize, or unique to a jurisdiction.
 
-* Newfoundland and Labrador: `Comments` (CSV) and footnotes (web)
-* Burlington: `Exemptions Applied`, `Days to Complete`
+* Newfoundland and Labrador: comments, footnotes
+* Burlington: exemptions, time to complete
+* Greater Sudbury: status, time to complete, notice of extension, notice to affected party, exemptions, appeal number
 
 ## Reference
 
