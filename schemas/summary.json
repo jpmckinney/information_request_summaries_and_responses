@@ -113,7 +113,7 @@
       ]
     },
     "byte_size": {
-      "description": "The file size in bytes",
+      "description": "The file size in bytes of the records disclosed",
       "type": "integer"
     },
     "number_of_pages": {
@@ -125,7 +125,7 @@
       "type": "integer"
     },
     "duration": {
-      "description": "The duration in seconds of the audio or video",
+      "description": "The duration in seconds of the audio and video records disclosed",
       "type": "number"
     }
   },
