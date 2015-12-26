@@ -140,20 +140,10 @@ namespace :datasets do
 
   desc 'Downloads datasets'
   task :download do
-    # @see https://docs.google.com/spreadsheets/d/1WQ6kWL5hAEThi31ZQtTZRX5E8_Y9BwDeEWATiuDakTM/edit#gid=0
-    datasets = {
-      # http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c
-      'ca' => 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv',
-      # http://opendata.gov.nl.ca/public/opendata/page/?page-id=datasetdetails&id=222
-      'ca_nl' => 'http://opendata.gov.nl.ca/public/opendata/filedownload/?file-id=4383',
-      # http://cob.burlington.opendata.arcgis.com/datasets/ee3ccd488aef46c7b1dca1fc1062f3e5_0
-      'ca_on_burlington' => 'http://cob.burlington.opendata.arcgis.com/datasets/ee3ccd488aef46c7b1dca1fc1062f3e5_0.csv',
-      # http://opendata.greatersudbury.ca/datasets/5a7bb9da5c7d4284a9f7ea5f6e8e9364_0
-      'ca_on_greater_sudbury' => 'http://opendata.greatersudbury.ca/datasets/5a7bb9da5c7d4284a9f7ea5f6e8e9364_0.csv',
-    }
-
     if ENV['jurisdiction']
-      datasets = datasets.slice(ENV['jurisdiction'])
+      datasets = DATASET_URLS.slice(ENV['jurisdiction'])
+    else
+      datasets = DATASET_URLS
     end
 
     paths = {
@@ -168,11 +158,9 @@ namespace :datasets do
     end
 
     datasets.each do |directory,url|
-      if url
-        basename = File.extname(url) == '.csv' ? File.basename(url) : 'data.csv'
-        File.open(File.join(paths[directory], basename), 'w') do |f|
-          f.write(client.get(url).body)
-        end
+      basename = File.extname(url) == '.csv' ? File.basename(url) : 'data.csv'
+      File.open(File.join(paths[directory], basename), 'w') do |f|
+        f.write(client.get(url).body)
       end
     end
   end
