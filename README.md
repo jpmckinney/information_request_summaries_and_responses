@@ -31,9 +31,13 @@ Reconcile NL's scraped data with its open data:
 
     ruby ca_nl_scraper.rb -v -a reconcile
 
+Validate the format of identifiers:
+
+    rake datasets:validate:identifiers
+
 Validate that the decision and the number of pages agree:
 
-    rake datasets:validate
+    rake datasets:validate:datasets
 
 ### Canada
 
@@ -136,9 +140,9 @@ This project does not publish all data elements published by jurisdictions, prim
 ## Reference
 
 <dl>
-<dt><a href="/data/statutes.csv">statutes.csv</a></dt>
+<dt><a href="/reference/statutes.csv">statutes.csv</a></dt>
 <dd>The names and URLs of all current freedom of information statutes in Canada.</dd>
-<dt><a href="/data/keywords.csv">keywords.csv</a></dt>
+<dt><a href="/reference/keywords.csv">keywords.csv</a></dt>
 <dd>The keywords used to refer to freedom of information in Canada.</dd>
 </dl>
 
