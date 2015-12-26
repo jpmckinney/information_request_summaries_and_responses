@@ -125,6 +125,13 @@ Stack the CSV files:
 
     rake ca_on_toronto:stack
 
+## Notes
+
+Some jurisdictions publish more information than normalized by this project:
+
+* Newfoundland and Labrador: `Comments` (CSV) and footnotes (web)
+* Burlington: `Exemptions Applied`, `Days to Complete`
+
 ## Reference
 
 <dl>
@@ -147,7 +154,7 @@ Policies:
 * [Criteria for posting summaries of completed access to information requests](http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?section=text&id=18310#appE)
 * [Best Practices for Posting Summaries of Completed Access to Information Requests](http://www.tbs-sct.gc.ca/atip-aiprp/tools/bppscair-pepsdaic-eng.asp)
 
-## Nomenclature
+### Nomenclature
 
 In terms of the prevalence of FOI versus ATI:
 
