@@ -5,7 +5,7 @@ namespace :cron do
 
     DATASET_URLS.each do |directory,url|
       basename = File.extname(url) == '.csv' ? File.basename(url) : 'data.csv'
-      store.write(File.join(Time.now.utc.year, Time.now.utc.strftime('%Y-%m-%d'), directory, basename), client.get(url).body)
+      store.write(File.join(Time.now.utc.strftime('%Y'), Time.now.utc.strftime('%Y-%m-%d'), directory, basename), client.get(url).body)
     end
   end
 end
