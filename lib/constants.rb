@@ -74,10 +74,10 @@ def integer_formatter(property, path)
   }
 end
 
-def mapping_formatter(property, path, map)
+def mapping_formatter(property, path, map = {})
   return lambda{|data|
     v = JsonPointer.new(data, path).value
-    [property, v && map.fetch(v.strip)]
+    [property, v && map.fetch(v.downcase.strip, v.downcase.strip)]
   }
 end
 
@@ -105,6 +105,17 @@ TEMPLATES = {
     'identifier' => '/identifier',
     'abstract' => '/abstract',
     'organization' => '/organization',
+    'applicant_type' => mapping_formatter('applicant_type', '/applicant_type', {
+      'business' => 'business',
+      'individual' => 'public',
+      'interest group' => 'organization',
+      'law firm' => 'business',
+      'media' => 'media',
+      'other governments' => 'government',
+      'other public body' => 'government',
+      'political party' => 'organization',
+      'researcher' => 'academia',
+    }),
     'processing_fee' => '/processing_fee',
     'date' => '/date',
     'url' => lambda{|data|
@@ -149,8 +160,14 @@ TEMPLATES = {
     'identifier' => integer_formatter('identifier', '/No.'),
     'organization' => '/Dept Contact',
     'classification' => mapping_formatter('classification', '/Request Type', {
-      'General Records' => 'general',
-      'Personal Information' => 'personal',
+      'general records' => 'general',
+      'personal information' => 'personal',
+    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
+      'association/group' => 'organization',
+      'business' => 'business',
+      'individual/public' => 'public',
+      'media' => 'media',
     }),
     'date' => '/Year',
     'decision' => '/Decision',
@@ -164,9 +181,14 @@ TEMPLATES = {
     },
     'abstract' => '/PUBLIC_DESCRIPTION',
     'organization' => '/DEPARTMENT',
-    'classification' => mapping_formatter('classification', '/PERSONAL_OR_GENERAL', {
-      'General' => 'general',
-      'Personal' => 'personal',
+    'classification' => mapping_formatter('classification', '/PERSONAL_OR_GENERAL'),
+    'applicant_type' => mapping_formatter('applicant_type', '/SOURCE_OF_REQUESTS', {
+      'agent' => nil,
+      'business' => 'business',
+      'government' => 'government',
+      'individual' => 'public',
+      'individual by agent' => 'public',
+      'media' => 'media',
     }),
     'date_accepted' => date_formatter('date_accepted', '/DATE_RECEIVED', ['%m/%d/%Y']),
     'application_fee' => decimal_formatter('application_fee', '/APPLICATION_FEES_COLLECTED'),
@@ -195,10 +217,24 @@ TEMPLATES = {
     'identifier' => '/Request_Number',
     'abstract' => '/Summary',
     'classification' => mapping_formatter('classification', '/Request_Type', {
-      'General Records' => 'general',
-      'Personal Information' => 'personal',
-      'Personal Health Information' => 'personal',
-      'Correction of Personal Information' => 'personal',
+      'general records' => 'general',
+      'personal information' => 'personal',
+      'personal health information' => 'personal',
+      'correction of personal information' => 'personal',
+    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
+      'academic/researcher' => 'academia',
+      'association' => 'organization',
+      'business' => 'business',
+      'fire reports' => nil,
+      'formal' => nil,
+      'government' => 'government',
+      'individual by agent' => 'public',
+      'media' => 'media',
+      'other' => nil,
+      'public' => 'public',
+      'researcher' => 'academia',
+      'sensitive' => nil,
     }),
     'date_accepted' => date_formatter('date_accepted', '/Date_Complete_Received', ['%Y-%m-%d']),
     'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d']),

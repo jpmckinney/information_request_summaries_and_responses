@@ -42,6 +42,18 @@
         "personal"
       ]
     },
+    "applicant_type": {
+      "description": "The type of applicant, using the code list from Canada's Access to Information Statistical Reporting plus 'government'",
+      "type": "string",
+      "enum": [
+        "academia",
+        "business",
+        "government",
+        "media",
+        "organization",
+        "public"
+      ]
+    },
     "date_accepted": {
       "description": "The date of reception",
       "type": "string",
