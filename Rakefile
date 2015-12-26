@@ -25,6 +25,7 @@ def load_yaml(basename)
   YAML.load(File.read(File.join('support', basename)))
 end
 
+require_relative 'lib/aws_store'
 require_relative 'lib/constants'
 require_relative 'lib/templates'
 require_relative 'lib/sort'
