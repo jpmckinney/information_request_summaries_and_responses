@@ -20,6 +20,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 673279,
     "number_of_pages": 2
   },
   {
@@ -32,6 +33,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 402756,
     "number_of_pages": 1
   },
   {
@@ -44,6 +46,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 8974031,
     "number_of_pages": 532
   },
   {
@@ -56,6 +59,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 159858,
     "number_of_pages": 25
   },
   {
@@ -68,6 +72,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 87600,
     "number_of_pages": 2
   },
   {
@@ -80,6 +85,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 487768,
     "number_of_pages": 10
   },
   {
@@ -92,6 +98,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 292317,
     "number_of_pages": 17
   },
   {
@@ -104,6 +111,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 459107,
     "number_of_pages": 1
   },
   {
@@ -116,6 +124,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 69231,
     "number_of_pages": 1
   },
   {
@@ -128,6 +137,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 91146,
     "number_of_pages": 1
   },
   {
@@ -140,6 +150,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 351306,
     "number_of_pages": 9
   },
   {
@@ -152,6 +163,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 74559,
     "number_of_pages": 1
   },
   {
@@ -164,6 +176,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 11634035,
     "number_of_pages": 71
   },
   {
@@ -176,6 +189,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 665671,
     "number_of_pages": 2
   },
   {
@@ -188,6 +202,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 4248976,
     "number_of_pages": 54
   },
   {
@@ -200,6 +215,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 897591,
     "number_of_pages": 3
   },
   {
@@ -212,6 +228,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 595690,
     "number_of_pages": 2
   },
   {
@@ -224,6 +241,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 169704,
     "number_of_pages": 28
   },
   {
@@ -236,6 +254,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 718607,
     "number_of_pages": 3
   },
   {
@@ -248,6 +267,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 9803972,
     "number_of_pages": 106
   },
   {
@@ -260,6 +280,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 901733,
     "number_of_pages": 2
   },
   {
@@ -272,6 +293,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 17321005,
     "number_of_pages": 72
   },
   {
@@ -284,6 +306,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 169698,
     "number_of_pages": 28
   },
   {
@@ -296,6 +319,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 233959,
     "number_of_pages": 2
   },
   {
@@ -308,6 +332,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 137296,
     "number_of_pages": 1
   },
   {
@@ -320,6 +345,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 658432,
     "number_of_pages": 2
   },
   {
@@ -332,6 +358,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 271016,
     "number_of_pages": 3
   },
   {
@@ -344,6 +371,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 475648,
     "number_of_pages": 3
   },
   {
@@ -356,6 +384,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 15318153,
     "number_of_pages": 35
   },
   {
@@ -368,6 +397,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 598180,
     "number_of_pages": 1
   },
   {
@@ -380,6 +410,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 75170,
     "number_of_pages": 2
   },
   {
@@ -392,6 +423,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 181251,
     "number_of_pages": 2
   },
   {
@@ -404,6 +436,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 1026285,
     "number_of_pages": 23
   },
   {
@@ -416,6 +449,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 147823,
     "number_of_pages": 4
   },
   {
@@ -428,6 +462,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 3405036,
     "number_of_pages": 55
   },
   {
@@ -440,6 +475,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 81468,
     "number_of_pages": 2
   },
   {
@@ -452,6 +488,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 87209,
     "number_of_pages": 2
   },
   {
@@ -464,6 +501,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 221511,
     "number_of_pages": 2
   },
   {
@@ -476,6 +514,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 75213,
     "number_of_pages": 1
   },
   {
@@ -488,6 +527,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 254241,
     "number_of_pages": 2
   },
   {
@@ -500,6 +540,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 238010,
     "number_of_pages": 2
   },
   {
@@ -512,6 +553,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 282795,
     "number_of_pages": 3
   },
   {
@@ -524,6 +566,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 963210,
     "number_of_pages": 6
   },
   {
@@ -536,6 +579,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 198998,
     "number_of_pages": 1
   },
   {
@@ -549,6 +593,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 459823,
     "number_of_pages": 2
   },
   {
@@ -561,6 +606,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 533792,
     "number_of_pages": 2
   },
   {
@@ -573,6 +619,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 187916,
     "number_of_pages": 1
   },
   {
@@ -585,6 +632,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 174353,
     "number_of_pages": 4
   },
   {
@@ -597,6 +645,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 170726,
     "number_of_pages": 3
   },
   {
@@ -609,6 +658,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 208812,
     "number_of_pages": 4
   },
   {
@@ -621,6 +671,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 1049107,
     "number_of_pages": 10
   },
   {
@@ -633,6 +684,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 903332,
     "number_of_pages": 10
   },
   {
@@ -645,6 +697,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 815759,
     "number_of_pages": 21
   },
   {
@@ -657,6 +710,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 217377,
     "number_of_pages": 2
   },
   {
@@ -669,6 +723,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 184695,
     "number_of_pages": 2
   },
   {
@@ -681,6 +736,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 3161269,
     "number_of_pages": 1
   },
   {
@@ -693,6 +749,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 4557018,
     "number_of_pages": 2
   },
   {
@@ -705,6 +762,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 13252594,
     "number_of_pages": 32
   },
   {
@@ -717,6 +775,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "disclosed in part",
+    "byte_size": 12807236,
     "number_of_pages": 112
   },
   {
@@ -729,6 +788,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 14416689,
     "number_of_pages": 3
   },
   {
@@ -741,6 +801,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 4488930,
     "number_of_pages": 171
   },
   {
@@ -753,6 +814,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 4652997,
     "number_of_pages": 2
   },
   {
@@ -765,6 +827,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 146997,
     "number_of_pages": 2
   },
   {
@@ -777,6 +840,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 5431466,
     "number_of_pages": 2
   },
   {
@@ -789,6 +853,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 470781,
     "number_of_pages": 3
   },
   {
@@ -801,6 +866,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 247324,
     "number_of_pages": 75
   },
   {
@@ -813,6 +879,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 11515720,
     "number_of_pages": 3
   },
   {
@@ -825,6 +892,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 112268,
     "number_of_pages": 1
   },
   {
@@ -837,6 +905,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 2793569,
     "number_of_pages": 1
   },
   {
@@ -849,6 +918,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "all disclosed",
+    "byte_size": 2729500,
     "number_of_pages": 1
   },
   {
@@ -861,6 +931,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 335031,
     "number_of_pages": 2
   },
   {
@@ -873,6 +944,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-24",
     "decision": "nothing disclosed",
+    "byte_size": 292289,
     "number_of_pages": 2
   },
   {
@@ -885,6 +957,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-24",
     "decision": "all disclosed",
+    "byte_size": 328061,
     "number_of_pages": 3
   },
   {
@@ -897,6 +970,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-25",
     "decision": "nothing disclosed",
+    "byte_size": 171745,
     "number_of_pages": 2
   },
   {
@@ -909,6 +983,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-25",
     "decision": "all disclosed",
+    "byte_size": 1097402,
     "number_of_pages": 7
   },
   {
@@ -921,6 +996,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-25",
     "decision": "nothing disclosed",
+    "byte_size": 381328,
     "number_of_pages": 2
   },
   {
@@ -933,6 +1009,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-26",
     "decision": "all disclosed",
+    "byte_size": 255385,
     "number_of_pages": 1
   },
   {
@@ -945,6 +1022,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-26",
     "decision": "all disclosed",
+    "byte_size": 225054,
     "number_of_pages": 2
   },
   {
@@ -957,6 +1035,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-26",
     "decision": "all disclosed",
+    "byte_size": 237238,
     "number_of_pages": 2
   },
   {
@@ -969,6 +1048,7 @@
     "processing_fee": "0.00",
     "date": "2013-04-30",
     "decision": "nothing disclosed",
+    "byte_size": 1239005,
     "number_of_pages": 2
   },
   {
@@ -981,6 +1061,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-06",
     "decision": "nothing disclosed",
+    "byte_size": 1084082,
     "number_of_pages": 2
   },
   {
@@ -993,6 +1074,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-06",
     "decision": "disclosed in part",
+    "byte_size": 11779994,
     "number_of_pages": 26
   },
   {
@@ -1005,6 +1087,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-06",
     "decision": "all disclosed",
+    "byte_size": 2914410,
     "number_of_pages": 3
   },
   {
@@ -1017,6 +1100,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-06",
     "decision": "all disclosed",
+    "byte_size": 208453,
     "number_of_pages": 2
   },
   {
@@ -1029,6 +1113,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-07",
     "decision": "disclosed in part",
+    "byte_size": 6257650,
     "number_of_pages": 36
   },
   {
@@ -1041,6 +1126,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-08",
     "decision": "all disclosed",
+    "byte_size": 15699011,
     "number_of_pages": 7
   },
   {
@@ -1053,6 +1139,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-10",
     "decision": "nothing disclosed",
+    "byte_size": 118076,
     "number_of_pages": 2
   },
   {
@@ -1065,6 +1152,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-13",
     "decision": "all disclosed",
+    "byte_size": 898221,
     "number_of_pages": 3
   },
   {
@@ -1077,6 +1165,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-13",
     "decision": "disclosed in part",
+    "byte_size": 6207708,
     "number_of_pages": 11
   },
   {
@@ -1089,6 +1178,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-13",
     "decision": "disclosed in part",
+    "byte_size": 516461,
     "number_of_pages": 14
   },
   {
@@ -1101,6 +1191,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-13",
     "decision": "nothing disclosed",
+    "byte_size": 707071,
     "number_of_pages": 3
   },
   {
@@ -1113,6 +1204,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-13",
     "decision": "disclosed in part",
+    "byte_size": 3162100,
     "number_of_pages": 18
   },
   {
@@ -1125,6 +1217,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-15",
     "decision": "disclosed in part",
+    "byte_size": 845641,
     "number_of_pages": 39
   },
   {
@@ -1137,6 +1230,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-17",
     "decision": "disclosed in part",
+    "byte_size": 183646,
     "number_of_pages": 6
   },
   {
@@ -1149,6 +1243,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-21",
     "decision": "nothing disclosed",
+    "byte_size": 1637413,
     "number_of_pages": 3
   },
   {
@@ -1161,6 +1256,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-21",
     "decision": "all disclosed",
+    "byte_size": 790899,
     "number_of_pages": 1
   },
   {
@@ -1173,6 +1269,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-21",
     "decision": "nothing disclosed",
+    "byte_size": 2525206,
     "number_of_pages": 4
   },
   {
@@ -1185,6 +1282,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-21",
     "decision": "nothing disclosed",
+    "byte_size": 2504292,
     "number_of_pages": 4
   },
   {
@@ -1197,6 +1295,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-21",
     "decision": "nothing disclosed",
+    "byte_size": 2518093,
     "number_of_pages": 4
   },
   {
@@ -1209,6 +1308,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-22",
     "decision": "disclosed in part",
+    "byte_size": 922885,
     "number_of_pages": 10
   },
   {
@@ -1221,6 +1321,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-22",
     "decision": "all disclosed",
+    "byte_size": 293911,
     "number_of_pages": 8
   },
   {
@@ -1233,6 +1334,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-23",
     "decision": "all disclosed",
+    "byte_size": 278359,
     "number_of_pages": 2
   },
   {
@@ -1245,6 +1347,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-27",
     "decision": "disclosed in part",
+    "byte_size": 3461319,
     "number_of_pages": 224
   },
   {
@@ -1257,6 +1360,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-27",
     "decision": "disclosed in part",
+    "byte_size": 851245,
     "number_of_pages": 4
   },
   {
@@ -1269,6 +1373,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-28",
     "decision": "disclosed in part",
+    "byte_size": 17115081,
     "number_of_pages": 626
   },
   {
@@ -1281,6 +1386,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-28",
     "decision": "nothing disclosed",
+    "byte_size": 149083,
     "number_of_pages": 3
   },
   {
@@ -1293,6 +1399,7 @@
     "processing_fee": "204.50",
     "date": "2013-05-28",
     "decision": "disclosed in part",
+    "byte_size": 9202320,
     "number_of_pages": 191
   },
   {
@@ -1305,6 +1412,7 @@
     "processing_fee": "227.50",
     "date": "2013-05-29",
     "decision": "disclosed in part",
+    "byte_size": 25494757,
     "number_of_pages": 180
   },
   {
@@ -1317,6 +1425,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-29",
     "decision": "disclosed in part",
+    "byte_size": 417396,
     "number_of_pages": 5
   },
   {
@@ -1329,6 +1438,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-30",
     "decision": "disclosed in part",
+    "byte_size": 5388307,
     "number_of_pages": 54
   },
   {
@@ -1341,6 +1451,7 @@
     "processing_fee": "0.00",
     "date": "2013-05-30",
     "decision": "disclosed in part",
+    "byte_size": 37199503,
     "number_of_pages": 291
   },
   {
@@ -1353,6 +1464,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-03",
     "decision": "all disclosed",
+    "byte_size": 531506,
     "number_of_pages": 2
   },
   {
@@ -1365,6 +1477,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-04",
     "decision": "nothing disclosed",
+    "byte_size": 617239,
     "number_of_pages": 2
   },
   {
@@ -1377,6 +1490,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-05",
     "decision": "disclosed in part",
+    "byte_size": 17766306,
     "number_of_pages": 215
   },
   {
@@ -1389,6 +1503,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-07",
     "decision": "disclosed in part",
+    "byte_size": 7830984,
     "number_of_pages": 16
   },
   {
@@ -1401,6 +1516,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-07",
     "decision": "disclosed in part",
+    "byte_size": 8183724,
     "number_of_pages": 57
   },
   {
@@ -1413,6 +1529,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-10",
     "decision": "all disclosed",
+    "byte_size": 144752,
     "number_of_pages": 2
   },
   {
@@ -1425,6 +1542,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-11",
     "decision": "disclosed in part",
+    "byte_size": 4862887,
     "number_of_pages": 38
   },
   {
@@ -1437,6 +1555,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-12",
     "decision": "disclosed in part",
+    "byte_size": 6120789,
     "number_of_pages": 51
   },
   {
@@ -1449,6 +1568,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-12",
     "decision": "nothing disclosed",
+    "byte_size": 946871,
     "number_of_pages": 2
   },
   {
@@ -1461,6 +1581,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-12",
     "decision": "all disclosed",
+    "byte_size": 39699468,
     "number_of_pages": 1793
   },
   {
@@ -1473,6 +1594,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-12",
     "decision": "nothing disclosed",
+    "byte_size": 121803,
     "number_of_pages": 2
   },
   {
@@ -1485,6 +1607,7 @@
     "processing_fee": "38.00",
     "date": "2013-06-12",
     "decision": "disclosed in part",
+    "byte_size": 2498272,
     "number_of_pages": 22
   },
   {
@@ -1497,6 +1620,7 @@
     "processing_fee": "72.00",
     "date": "2013-06-12",
     "decision": "disclosed in part",
+    "byte_size": 10909075,
     "number_of_pages": 71
   },
   {
@@ -1509,6 +1633,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-12",
     "decision": "disclosed in part",
+    "byte_size": 30622946,
     "number_of_pages": 123
   },
   {
@@ -1521,6 +1646,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-13",
     "decision": "disclosed in part",
+    "byte_size": 1894292,
     "number_of_pages": 25
   },
   {
@@ -1533,6 +1659,7 @@
     "processing_fee": "367.00",
     "date": "2013-06-13",
     "decision": "disclosed in part",
+    "byte_size": 19919158,
     "number_of_pages": 257
   },
   {
@@ -1545,6 +1672,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-13",
     "decision": "all disclosed",
+    "byte_size": 2018700,
     "number_of_pages": 11
   },
   {
@@ -1557,6 +1685,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-14",
     "decision": "disclosed in part",
+    "byte_size": 2939089,
     "number_of_pages": 237
   },
   {
@@ -1569,6 +1698,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-14",
     "decision": "nothing disclosed",
+    "byte_size": 2166238,
     "number_of_pages": 2
   },
   {
@@ -1581,6 +1711,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-14",
     "decision": "disclosed in part",
+    "byte_size": 1278419,
     "number_of_pages": 31
   },
   {
@@ -1593,6 +1724,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-14",
     "decision": "disclosed in part",
+    "byte_size": 1361274,
     "number_of_pages": 12
   },
   {
@@ -1605,6 +1737,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-14",
     "decision": "disclosed in part",
+    "byte_size": 4753152,
     "number_of_pages": 29
   },
   {
@@ -1617,6 +1750,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-17",
     "decision": "all disclosed",
+    "byte_size": 727622,
     "number_of_pages": 3
   },
   {
@@ -1629,6 +1763,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-18",
     "decision": "disclosed in part",
+    "byte_size": 6501986,
     "number_of_pages": 41
   },
   {
@@ -1641,6 +1776,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-18",
     "decision": "all disclosed",
+    "byte_size": 834649,
     "number_of_pages": 2
   },
   {
@@ -1653,6 +1789,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-18",
     "decision": "nothing disclosed",
+    "byte_size": 737019,
     "number_of_pages": 2
   },
   {
@@ -1665,6 +1802,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-18",
     "decision": "disclosed in part",
+    "byte_size": 16654370,
     "number_of_pages": 167
   },
   {
@@ -1677,6 +1815,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-25",
     "decision": "disclosed in part",
+    "byte_size": 3169152,
     "number_of_pages": 29
   },
   {
@@ -1689,6 +1828,7 @@
     "processing_fee": "0.00",
     "date": "2013-06-25",
     "decision": "all disclosed",
+    "byte_size": 2794789,
     "number_of_pages": 7
   },
   {
@@ -1701,6 +1841,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-02",
     "decision": "all disclosed",
+    "byte_size": 691398,
     "number_of_pages": 4
   },
   {
@@ -1713,6 +1854,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-03",
     "decision": "disclosed in part",
+    "byte_size": 6960322,
     "number_of_pages": 37
   },
   {
@@ -1725,6 +1867,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-03",
     "decision": "disclosed in part",
+    "byte_size": 4837913,
     "number_of_pages": 47
   },
   {
@@ -1737,6 +1880,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-05",
     "decision": "disclosed in part",
+    "byte_size": 166852,
     "number_of_pages": 2
   },
   {
@@ -1749,6 +1893,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-08",
     "decision": "all disclosed",
+    "byte_size": 100358,
     "number_of_pages": 3
   },
   {
@@ -1761,6 +1906,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-16",
     "decision": "all disclosed",
+    "byte_size": 2050007,
     "number_of_pages": 5
   },
   {
@@ -1773,6 +1919,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-16",
     "decision": "all disclosed",
+    "byte_size": 2063165,
     "number_of_pages": 7
   },
   {
@@ -1785,6 +1932,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-17",
     "decision": "all disclosed",
+    "byte_size": 218674,
     "number_of_pages": 6
   },
   {
@@ -1797,6 +1945,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-17",
     "decision": "disclosed in part",
+    "byte_size": 284451,
     "number_of_pages": 4
   },
   {
@@ -1809,6 +1958,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-17",
     "decision": "disclosed in part",
+    "byte_size": 776545,
     "number_of_pages": 10
   },
   {
@@ -1821,6 +1971,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-22",
     "decision": "all disclosed",
+    "byte_size": 783230,
     "number_of_pages": 1
   },
   {
@@ -1833,6 +1984,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-23",
     "decision": "all disclosed",
+    "byte_size": 594936,
     "number_of_pages": 1
   },
   {
@@ -1845,6 +1997,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-23",
     "decision": "all disclosed",
+    "byte_size": 568969,
     "number_of_pages": 1
   },
   {
@@ -1857,6 +2010,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-23",
     "decision": "nothing disclosed",
+    "byte_size": 201193,
     "number_of_pages": 2
   },
   {
@@ -1869,6 +2023,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-23",
     "decision": "all disclosed",
+    "byte_size": 1699263,
     "number_of_pages": 2
   },
   {
@@ -1881,6 +2036,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-24",
     "decision": "all disclosed",
+    "byte_size": 510184,
     "number_of_pages": 1
   },
   {
@@ -1893,6 +2049,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-24",
     "decision": "all disclosed",
+    "byte_size": 478613,
     "number_of_pages": 1
   },
   {
@@ -1905,6 +2062,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-26",
     "decision": "nothing disclosed",
+    "byte_size": 210897,
     "number_of_pages": 2
   },
   {
@@ -1917,6 +2075,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-29",
     "decision": "disclosed in part",
+    "byte_size": 8899082,
     "number_of_pages": 37
   },
   {
@@ -1929,6 +2088,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "all disclosed",
+    "byte_size": 1495762,
     "number_of_pages": 23
   },
   {
@@ -1941,6 +2101,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "nothing disclosed",
+    "byte_size": 409149,
     "number_of_pages": 2
   },
   {
@@ -1953,6 +2114,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "all disclosed",
+    "byte_size": 1048456,
     "number_of_pages": 2
   },
   {
@@ -1965,6 +2127,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "all disclosed",
+    "byte_size": 1669686,
     "number_of_pages": 3
   },
   {
@@ -1977,6 +2140,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "all disclosed",
+    "byte_size": 863367,
     "number_of_pages": 2
   },
   {
@@ -1989,6 +2153,7 @@
     "processing_fee": "0.00",
     "date": "2013-07-30",
     "decision": "nothing disclosed",
+    "byte_size": 527956,
     "number_of_pages": 2
   },
   {
@@ -2001,6 +2166,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-02",
     "decision": "all disclosed",
+    "byte_size": 1019073,
     "number_of_pages": 2
   },
   {
@@ -2013,6 +2179,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-05",
     "decision": "nothing disclosed",
+    "byte_size": 140654,
     "number_of_pages": 1
   },
   {
@@ -2025,6 +2192,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-05",
     "decision": "nothing disclosed",
+    "byte_size": 102892,
     "number_of_pages": 2
   },
   {
@@ -2037,6 +2205,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-08",
     "decision": "nothing disclosed",
+    "byte_size": 288721,
     "number_of_pages": 2
   },
   {
@@ -2049,6 +2218,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-09",
     "decision": "all disclosed",
+    "byte_size": 745917,
     "number_of_pages": 1
   },
   {
@@ -2061,6 +2231,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-09",
     "decision": "all disclosed",
+    "byte_size": 757970,
     "number_of_pages": 1
   },
   {
@@ -2073,6 +2244,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-12",
     "decision": "disclosed in part",
+    "byte_size": 5715514,
     "number_of_pages": 71
   },
   {
@@ -2085,6 +2257,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-13",
     "decision": "disclosed in part",
+    "byte_size": 1093270,
     "number_of_pages": 16
   },
   {
@@ -2097,6 +2270,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-13",
     "decision": "all disclosed",
+    "byte_size": 186327,
     "number_of_pages": 16
   },
   {
@@ -2109,6 +2283,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-13",
     "decision": "nothing disclosed",
+    "byte_size": 603613,
     "number_of_pages": 2
   },
   {
@@ -2121,6 +2296,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-13",
     "decision": "all disclosed",
+    "byte_size": 508594,
     "number_of_pages": 3
   },
   {
@@ -2133,6 +2309,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-13",
     "decision": "all disclosed",
+    "byte_size": 270862,
     "number_of_pages": 2
   },
   {
@@ -2145,6 +2322,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-14",
     "decision": "disclosed in part",
+    "byte_size": 11576904,
     "number_of_pages": 269
   },
   {
@@ -2157,6 +2335,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-14",
     "decision": "disclosed in part",
+    "byte_size": 8065094,
     "number_of_pages": 63
   },
   {
@@ -2169,6 +2348,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-16",
     "decision": "disclosed in part",
+    "byte_size": 7696166,
     "number_of_pages": 84
   },
   {
@@ -2181,6 +2361,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-16",
     "decision": "all disclosed",
+    "byte_size": 913735,
     "number_of_pages": 7
   },
   {
@@ -2193,6 +2374,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-16",
     "decision": "all disclosed",
+    "byte_size": 4373368,
     "number_of_pages": 2
   },
   {
@@ -2205,6 +2387,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-19",
     "decision": "all disclosed",
+    "byte_size": 717270,
     "number_of_pages": 2
   },
   {
@@ -2217,6 +2400,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-19",
     "decision": "all disclosed",
+    "byte_size": 290786,
     "number_of_pages": 3
   },
   {
@@ -2229,6 +2413,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-19",
     "decision": "nothing disclosed",
+    "byte_size": 1744458,
     "number_of_pages": 2
   },
   {
@@ -2241,6 +2426,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-21",
     "decision": "disclosed in part",
+    "byte_size": 4183231,
     "number_of_pages": 24
   },
   {
@@ -2253,6 +2439,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-22",
     "decision": "nothing disclosed",
+    "byte_size": 88795,
     "number_of_pages": 2
   },
   {
@@ -2265,6 +2452,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-23",
     "decision": "disclosed in part",
+    "byte_size": 9172917,
     "number_of_pages": 46
   },
   {
@@ -2277,6 +2465,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-23",
     "decision": "disclosed in part",
+    "byte_size": 2136145,
     "number_of_pages": 5
   },
   {
@@ -2289,6 +2478,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-23",
     "decision": "disclosed in part",
+    "byte_size": 2003923,
     "number_of_pages": 19
   },
   {
@@ -2301,6 +2491,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-23",
     "decision": "disclosed in part",
+    "byte_size": 6739323,
     "number_of_pages": 74
   },
   {
@@ -2313,6 +2504,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-23",
     "decision": "nothing disclosed",
+    "byte_size": 191965,
     "number_of_pages": 2
   },
   {
@@ -2325,6 +2517,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-26",
     "decision": "nothing disclosed",
+    "byte_size": 54746,
     "number_of_pages": 1
   },
   {
@@ -2337,6 +2530,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-28",
     "decision": "nothing disclosed",
+    "byte_size": 359872,
     "number_of_pages": 1
   },
   {
@@ -2349,6 +2543,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-29",
     "decision": "disclosed in part",
+    "byte_size": 14055250,
     "number_of_pages": 121
   },
   {
@@ -2361,6 +2556,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-29",
     "decision": "nothing disclosed",
+    "byte_size": 68620,
     "number_of_pages": 1
   },
   {
@@ -2373,6 +2569,7 @@
     "processing_fee": "0.00",
     "date": "2013-08-30",
     "decision": "all disclosed",
+    "byte_size": 608794,
     "number_of_pages": 2
   },
   {
@@ -2385,6 +2582,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-03",
     "decision": "all disclosed",
+    "byte_size": 2506874,
     "number_of_pages": 15
   },
   {
@@ -2397,6 +2595,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-03",
     "decision": "all disclosed",
+    "byte_size": 593131,
     "number_of_pages": 2
   },
   {
@@ -2409,6 +2608,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-03",
     "decision": "disclosed in part",
+    "byte_size": 1146210,
     "number_of_pages": 5
   },
   {
@@ -2421,6 +2621,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-09",
     "decision": "disclosed in part",
+    "byte_size": 5147701,
     "number_of_pages": 36
   },
   {
@@ -2433,6 +2634,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-09",
     "decision": "all disclosed",
+    "byte_size": 634509,
     "number_of_pages": 3
   },
   {
@@ -2445,6 +2647,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-09",
     "decision": "nothing disclosed",
+    "byte_size": 484351,
     "number_of_pages": 4
   },
   {
@@ -2457,6 +2660,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-09",
     "decision": "all disclosed",
+    "byte_size": 191120,
     "number_of_pages": 3
   },
   {
@@ -2469,6 +2673,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-10",
     "decision": "nothing disclosed",
+    "byte_size": 2162438,
     "number_of_pages": 2
   },
   {
@@ -2481,6 +2686,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-18",
     "decision": "all disclosed",
+    "byte_size": 336798,
     "number_of_pages": 2
   },
   {
@@ -2493,6 +2699,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-18",
     "decision": "disclosed in part",
+    "byte_size": 3046583,
     "number_of_pages": 27
   },
   {
@@ -2505,6 +2712,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-18",
     "decision": "nothing disclosed",
+    "byte_size": 154245,
     "number_of_pages": 2
   },
   {
@@ -2517,6 +2725,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-20",
     "decision": "disclosed in part",
+    "byte_size": 206386,
     "number_of_pages": 3
   },
   {
@@ -2529,6 +2738,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-20",
     "decision": "disclosed in part",
+    "byte_size": 1464633,
     "number_of_pages": 10
   },
   {
@@ -2541,6 +2751,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-26",
     "decision": "all disclosed",
+    "byte_size": 162291,
     "number_of_pages": 2
   },
   {
@@ -2553,6 +2764,7 @@
     "processing_fee": "0.00",
     "date": "2013-09-30",
     "decision": "nothing disclosed",
+    "byte_size": 91727,
     "number_of_pages": 1
   },
   {
@@ -2565,6 +2777,7 @@
     "processing_fee": "35.00",
     "date": "2013-09-30",
     "decision": "disclosed in part",
+    "byte_size": 4383078,
     "number_of_pages": 72
   },
   {
@@ -2577,6 +2790,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-02",
     "decision": "disclosed in part",
+    "byte_size": 8878604,
     "number_of_pages": 61
   },
   {
@@ -2589,6 +2803,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-02",
     "decision": "nothing disclosed",
+    "byte_size": 730276,
     "number_of_pages": 2
   },
   {
@@ -2601,6 +2816,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-04",
     "decision": "disclosed in part",
+    "byte_size": 2064536,
     "number_of_pages": 32
   },
   {
@@ -2613,6 +2829,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-04",
     "decision": "all disclosed",
+    "byte_size": 137779,
     "number_of_pages": 1
   },
   {
@@ -2625,6 +2842,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-04",
     "decision": "all disclosed",
+    "byte_size": 686258,
     "number_of_pages": 4
   },
   {
@@ -2637,6 +2855,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-07",
     "decision": "all disclosed",
+    "byte_size": 287151,
     "number_of_pages": 7
   },
   {
@@ -2649,6 +2868,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-11",
     "decision": "all disclosed",
+    "byte_size": 3621035,
     "number_of_pages": 20
   },
   {
@@ -2661,6 +2881,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-16",
     "decision": "all disclosed",
+    "byte_size": 400417,
     "number_of_pages": 2
   },
   {
@@ -2673,6 +2894,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-17",
     "decision": "disclosed in part",
+    "byte_size": 8192459,
     "number_of_pages": 138
   },
   {
@@ -2685,6 +2907,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-18",
     "decision": "disclosed in part",
+    "byte_size": 138300,
     "number_of_pages": 3
   },
   {
@@ -2697,6 +2920,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-18",
     "decision": "all disclosed",
+    "byte_size": 1944442,
     "number_of_pages": 2
   },
   {
@@ -2709,6 +2933,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-18",
     "decision": "all disclosed",
+    "byte_size": 771917,
     "number_of_pages": 1
   },
   {
@@ -2721,6 +2946,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-21",
     "decision": "all disclosed",
+    "byte_size": 463228,
     "number_of_pages": 111
   },
   {
@@ -2733,6 +2959,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-21",
     "decision": "all disclosed",
+    "byte_size": 1743464,
     "number_of_pages": 9
   },
   {
@@ -2745,6 +2972,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-21",
     "decision": "all disclosed",
+    "byte_size": 151811,
     "number_of_pages": 2
   },
   {
@@ -2757,6 +2985,7 @@
     "processing_fee": "100.00",
     "date": "2013-10-21",
     "decision": "all disclosed",
+    "byte_size": 1340794,
     "number_of_pages": 3
   },
   {
@@ -2769,6 +2998,7 @@
     "processing_fee": "375.00",
     "date": "2013-10-21",
     "decision": "disclosed in part",
+    "byte_size": 18817013,
     "number_of_pages": 304
   },
   {
@@ -2781,6 +3011,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-21",
     "decision": "all disclosed",
+    "byte_size": 2217446,
     "number_of_pages": 200
   },
   {
@@ -2793,6 +3024,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-25",
     "decision": "disclosed in part",
+    "byte_size": 8198022,
     "number_of_pages": 47
   },
   {
@@ -2805,6 +3037,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-28",
     "decision": "disclosed in part",
+    "byte_size": 8733326,
     "number_of_pages": 191
   },
   {
@@ -2817,6 +3050,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-28",
     "decision": "disclosed in part",
+    "byte_size": 157971,
     "number_of_pages": 3
   },
   {
@@ -2829,6 +3063,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-29",
     "decision": "all disclosed",
+    "byte_size": 139619,
     "number_of_pages": 1
   },
   {
@@ -2841,6 +3076,7 @@
     "processing_fee": "0.00",
     "date": "2013-10-30",
     "decision": "disclosed in part",
+    "byte_size": 646858,
     "number_of_pages": 4
   },
   {
@@ -2853,6 +3089,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-05",
     "decision": "nothing disclosed",
+    "byte_size": 144834,
     "number_of_pages": 3
   },
   {
@@ -2865,6 +3102,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-12",
     "decision": "disclosed in part",
+    "byte_size": 11506974,
     "number_of_pages": 98
   },
   {
@@ -2877,6 +3115,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-12",
     "decision": "all disclosed",
+    "byte_size": 2115055,
     "number_of_pages": 27
   },
   {
@@ -2889,6 +3128,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-15",
     "decision": "all disclosed",
+    "byte_size": 589480,
     "number_of_pages": 1
   },
   {
@@ -2901,6 +3141,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-15",
     "decision": "disclosed in part",
+    "byte_size": 2296784,
     "number_of_pages": 12
   },
   {
@@ -2913,6 +3154,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-18",
     "decision": "nothing disclosed",
+    "byte_size": 185970,
     "number_of_pages": 2
   },
   {
@@ -2925,6 +3167,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-18",
     "decision": "all disclosed",
+    "byte_size": 694902,
     "number_of_pages": 4
   },
   {
@@ -2937,6 +3180,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-18",
     "decision": "nothing disclosed",
+    "byte_size": 405303,
     "number_of_pages": 2
   },
   {
@@ -2949,6 +3193,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-18",
     "decision": "disclosed in part",
+    "byte_size": 1260212,
     "number_of_pages": 9
   },
   {
@@ -2961,6 +3206,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-19",
     "decision": "nothing disclosed",
+    "byte_size": 142397,
     "number_of_pages": 2
   },
   {
@@ -2973,6 +3219,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-20",
     "decision": "all disclosed",
+    "byte_size": 284677,
     "number_of_pages": 2
   },
   {
@@ -2985,6 +3232,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-20",
     "decision": "disclosed in part",
+    "byte_size": 1070361,
     "number_of_pages": 10
   },
   {
@@ -2997,6 +3245,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-20",
     "decision": "disclosed in part",
+    "byte_size": 1000966,
     "number_of_pages": 8
   },
   {
@@ -3009,6 +3258,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-22",
     "decision": "disclosed in part",
+    "byte_size": 213927,
     "number_of_pages": 2
   },
   {
@@ -3021,6 +3271,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-26",
     "decision": "nothing disclosed",
+    "byte_size": 120344,
     "number_of_pages": 2
   },
   {
@@ -3033,6 +3284,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-26",
     "decision": "disclosed in part",
+    "byte_size": 320662,
     "number_of_pages": 4
   },
   {
@@ -3045,6 +3297,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-26",
     "decision": "disclosed in part",
+    "byte_size": 1420156,
     "number_of_pages": 10
   },
   {
@@ -3057,6 +3310,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-27",
     "decision": "nothing disclosed",
+    "byte_size": 80139,
     "number_of_pages": 2
   },
   {
@@ -3069,6 +3323,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-27",
     "decision": "disclosed in part",
+    "byte_size": 281353,
     "number_of_pages": 3
   },
   {
@@ -3081,6 +3336,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-28",
     "decision": "disclosed in part",
+    "byte_size": 2506713,
     "number_of_pages": 29
   },
   {
@@ -3093,6 +3349,7 @@
     "processing_fee": "0.00",
     "date": "2013-11-28",
     "decision": "disclosed in part",
+    "byte_size": 3765662,
     "number_of_pages": 49
   },
   {
@@ -3105,6 +3362,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-02",
     "decision": "disclosed in part",
+    "byte_size": 35097042,
     "number_of_pages": 243
   },
   {
@@ -3117,6 +3375,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-02",
     "decision": "all disclosed",
+    "byte_size": 375818,
     "number_of_pages": 28
   },
   {
@@ -3129,6 +3388,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-02",
     "decision": "nothing disclosed",
+    "byte_size": 131437,
     "number_of_pages": 2
   },
   {
@@ -3141,6 +3401,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-03",
     "decision": "nothing disclosed",
+    "byte_size": 403826,
     "number_of_pages": 2
   },
   {
@@ -3153,6 +3414,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-05",
     "decision": "nothing disclosed",
+    "byte_size": 202035,
     "number_of_pages": 2
   },
   {
@@ -3165,6 +3427,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-09",
     "decision": "all disclosed",
+    "byte_size": 1588330,
     "number_of_pages": 118
   },
   {
@@ -3177,6 +3440,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-09",
     "decision": "all disclosed",
+    "byte_size": 7495969,
     "number_of_pages": 13
   },
   {
@@ -3189,6 +3453,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-10",
     "decision": "disclosed in part",
+    "byte_size": 984306,
     "number_of_pages": 26
   },
   {
@@ -3201,6 +3466,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-10",
     "decision": "nothing disclosed",
+    "byte_size": 405772,
     "number_of_pages": 2
   },
   {
@@ -3213,6 +3479,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-12",
     "decision": "nothing disclosed",
+    "byte_size": 513438,
     "number_of_pages": 1
   },
   {
@@ -3225,6 +3492,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-13",
     "decision": "all disclosed",
+    "byte_size": 1947546,
     "number_of_pages": 11
   },
   {
@@ -3237,6 +3505,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-13",
     "decision": "disclosed in part",
+    "byte_size": 5465353,
     "number_of_pages": 17
   },
   {
@@ -3249,6 +3518,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-13",
     "decision": "disclosed in part",
+    "byte_size": 12360012,
     "number_of_pages": 52
   },
   {
@@ -3260,7 +3530,9 @@
     "application_fee": "5.00",
     "processing_fee": "0.00",
     "date": "2013-12-13",
-    "decision": "disclosed in part"
+    "decision": "disclosed in part",
+    "byte_size": 29606400,
+    "number_of_rows": 31710
   },
   {
     "id": "309",
@@ -3272,6 +3544,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-17",
     "decision": "all disclosed",
+    "byte_size": 927871,
     "number_of_pages": 8
   },
   {
@@ -3284,6 +3557,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-23",
     "decision": "disclosed in part",
+    "byte_size": 1895657,
     "number_of_pages": 12
   },
   {
@@ -3295,7 +3569,9 @@
     "application_fee": "5.00",
     "processing_fee": "0.00",
     "date": "2013-12-23",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 2568704,
+    "number_of_rows": 742
   },
   {
     "id": "298",
@@ -3307,6 +3583,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-27",
     "decision": "all disclosed",
+    "byte_size": 531373,
     "number_of_pages": 1
   },
   {
@@ -3319,6 +3596,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-27",
     "decision": "disclosed in part",
+    "byte_size": 687011,
     "number_of_pages": 3
   },
   {
@@ -3331,6 +3609,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-27",
     "decision": "all disclosed",
+    "byte_size": 248151,
     "number_of_pages": 8
   },
   {
@@ -3343,6 +3622,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-27",
     "decision": "disclosed in part",
+    "byte_size": 6151954,
     "number_of_pages": 68
   },
   {
@@ -3355,6 +3635,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-27",
     "decision": "all disclosed",
+    "byte_size": 1310334,
     "number_of_pages": 1
   },
   {
@@ -3367,6 +3648,7 @@
     "processing_fee": "0.00",
     "date": "2013-12-30",
     "decision": "disclosed in part",
+    "byte_size": 2318757,
     "number_of_pages": 14
   },
   {
@@ -3379,6 +3661,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-02",
     "decision": "all disclosed",
+    "byte_size": 274700,
     "number_of_pages": 7
   },
   {
@@ -3391,6 +3674,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-02",
     "decision": "nothing disclosed",
+    "byte_size": 182581,
     "number_of_pages": 3
   },
   {
@@ -3403,6 +3687,7 @@
     "processing_fee": "143.25",
     "date": "2014-01-06",
     "decision": "disclosed in part",
+    "byte_size": 7870439,
     "number_of_pages": 167
   },
   {
@@ -3415,6 +3700,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-07",
     "decision": "all disclosed",
+    "byte_size": 2025921,
     "number_of_pages": 2
   },
   {
@@ -3427,6 +3713,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-08",
     "decision": "all disclosed",
+    "byte_size": 654496,
     "number_of_pages": 4
   },
   {
@@ -3439,6 +3726,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-08",
     "decision": "nothing disclosed",
+    "byte_size": 116079,
     "number_of_pages": 2
   },
   {
@@ -3451,6 +3739,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-08",
     "decision": "disclosed in part",
+    "byte_size": 466380,
     "number_of_pages": 22
   },
   {
@@ -3463,6 +3752,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-08",
     "decision": "all disclosed",
+    "byte_size": 126905,
     "number_of_pages": 2
   },
   {
@@ -3475,6 +3765,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-10",
     "decision": "all disclosed",
+    "byte_size": 1245386,
     "number_of_pages": 11
   },
   {
@@ -3487,6 +3778,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-15",
     "decision": "all disclosed",
+    "byte_size": 198117,
     "number_of_pages": 2
   },
   {
@@ -3499,6 +3791,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-17",
     "decision": "disclosed in part",
+    "byte_size": 3017317,
     "number_of_pages": 23
   },
   {
@@ -3511,6 +3804,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-20",
     "decision": "disclosed in part",
+    "byte_size": 3956648,
     "number_of_pages": 22
   },
   {
@@ -3523,6 +3817,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-21",
     "decision": "all disclosed",
+    "byte_size": 697937,
     "number_of_pages": 8
   },
   {
@@ -3535,6 +3830,7 @@
     "processing_fee": "0.00",
     "date": "2014-01-31",
     "decision": "disclosed in part",
+    "byte_size": 3312816,
     "number_of_pages": 32
   },
   {
@@ -3547,6 +3843,7 @@
     "processing_fee": "78.00",
     "date": "2014-02-06",
     "decision": "all disclosed",
+    "byte_size": 696231,
     "number_of_pages": 16
   },
   {
@@ -3559,6 +3856,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-10",
     "decision": "all disclosed",
+    "byte_size": 889544,
     "number_of_pages": 2
   },
   {
@@ -3571,6 +3869,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-11",
     "decision": "all disclosed",
+    "byte_size": 623640,
     "number_of_pages": 10
   },
   {
@@ -3583,6 +3882,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-17",
     "decision": "all disclosed",
+    "byte_size": 837156,
     "number_of_pages": 22
   },
   {
@@ -3595,6 +3895,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-17",
     "decision": "disclosed in part",
+    "byte_size": 1675755,
     "number_of_pages": 9
   },
   {
@@ -3607,6 +3908,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-17",
     "decision": "disclosed in part",
+    "byte_size": 1753302,
     "number_of_pages": 23
   },
   {
@@ -3619,6 +3921,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-18",
     "decision": "disclosed in part",
+    "byte_size": 394523,
     "number_of_pages": 2
   },
   {
@@ -3631,6 +3934,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-19",
     "decision": "all disclosed",
+    "byte_size": 668677,
     "number_of_pages": 2
   },
   {
@@ -3643,6 +3947,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-20",
     "decision": "disclosed in part",
+    "byte_size": 2233779,
     "number_of_pages": 15
   },
   {
@@ -3655,6 +3960,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-20",
     "decision": "all disclosed",
+    "byte_size": 6775276,
     "number_of_pages": 95
   },
   {
@@ -3667,6 +3973,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-20",
     "decision": "nothing disclosed",
+    "byte_size": 518358,
     "number_of_pages": 2
   },
   {
@@ -3679,6 +3986,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-24",
     "decision": "all disclosed",
+    "byte_size": 368664,
     "number_of_pages": 8
   },
   {
@@ -3691,6 +3999,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-24",
     "decision": "disclosed in part",
+    "byte_size": 1263390,
     "number_of_pages": 11
   },
   {
@@ -3703,6 +4012,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-24",
     "decision": "nothing disclosed",
+    "byte_size": 692455,
     "number_of_pages": 2
   },
   {
@@ -3715,6 +4025,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-24",
     "decision": "all disclosed",
+    "byte_size": 498315,
     "number_of_pages": 6
   },
   {
@@ -3727,6 +4038,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-25",
     "decision": "all disclosed",
+    "byte_size": 589621,
     "number_of_pages": 2
   },
   {
@@ -3739,6 +4051,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-28",
     "decision": "all disclosed",
+    "byte_size": 1247734,
     "number_of_pages": 42
   },
   {
@@ -3751,6 +4064,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-28",
     "decision": "all disclosed",
+    "byte_size": 93976,
     "number_of_pages": 1
   },
   {
@@ -3763,6 +4077,7 @@
     "processing_fee": "0.00",
     "date": "2014-02-28",
     "decision": "all disclosed",
+    "byte_size": 81624,
     "number_of_pages": 1
   },
   {
@@ -3775,6 +4090,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-03",
     "decision": "all disclosed",
+    "byte_size": 584843,
     "number_of_pages": 25
   },
   {
@@ -3787,6 +4103,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-03",
     "decision": "all disclosed",
+    "byte_size": 700334,
     "number_of_pages": 2
   },
   {
@@ -3799,6 +4116,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-05",
     "decision": "nothing disclosed",
+    "byte_size": 431294,
     "number_of_pages": 2
   },
   {
@@ -3811,6 +4129,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-06",
     "decision": "all disclosed",
+    "byte_size": 63029202,
     "number_of_pages": 1215
   },
   {
@@ -3823,6 +4142,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-07",
     "decision": "disclosed in part",
+    "byte_size": 1305233,
     "number_of_pages": 14
   },
   {
@@ -3835,6 +4155,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-10",
     "decision": "all disclosed",
+    "byte_size": 167897,
     "number_of_pages": 7
   },
   {
@@ -3847,6 +4168,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-10",
     "decision": "disclosed in part",
+    "byte_size": 5313168,
     "number_of_pages": 59
   },
   {
@@ -3859,6 +4181,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-11",
     "decision": "all disclosed",
+    "byte_size": 937006,
     "number_of_pages": 2
   },
   {
@@ -3871,6 +4194,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-11",
     "decision": "nothing disclosed",
+    "byte_size": 240398,
     "number_of_pages": 2
   },
   {
@@ -3883,6 +4207,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-14",
     "decision": "all disclosed",
+    "byte_size": 995632,
     "number_of_pages": 2
   },
   {
@@ -3895,6 +4220,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-14",
     "decision": "nothing disclosed",
+    "byte_size": 997702,
     "number_of_pages": 1
   },
   {
@@ -3907,6 +4233,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-14",
     "decision": "all disclosed",
+    "byte_size": 3646656,
     "number_of_pages": 398
   },
   {
@@ -3919,6 +4246,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-18",
     "decision": "all disclosed",
+    "byte_size": 151535,
     "number_of_pages": 2
   },
   {
@@ -3931,6 +4259,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-18",
     "decision": "all disclosed",
+    "byte_size": 356965,
     "number_of_pages": 4
   },
   {
@@ -3943,6 +4272,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-24",
     "decision": "all disclosed",
+    "byte_size": 1315389,
     "number_of_pages": 3
   },
   {
@@ -3955,6 +4285,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 1035392,
     "number_of_pages": 6
   },
   {
@@ -3967,6 +4298,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 351807,
     "number_of_pages": 3
   },
   {
@@ -3979,6 +4311,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 4851600,
     "number_of_pages": 45
   },
   {
@@ -3991,6 +4324,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "nothing disclosed",
+    "byte_size": 311761,
     "number_of_pages": 2
   },
   {
@@ -4003,6 +4337,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 209618,
     "number_of_pages": 3
   },
   {
@@ -4015,6 +4350,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 373296,
     "number_of_pages": 2
   },
   {
@@ -4027,6 +4363,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-27",
     "decision": "all disclosed",
+    "byte_size": 394943,
     "number_of_pages": 3
   },
   {
@@ -4039,6 +4376,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-28",
     "decision": "disclosed in part",
+    "byte_size": 1746691,
     "number_of_pages": 28
   },
   {
@@ -4051,6 +4389,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-31",
     "decision": "all disclosed",
+    "byte_size": 1691285,
     "number_of_pages": 7
   },
   {
@@ -4063,6 +4402,7 @@
     "processing_fee": "0.00",
     "date": "2014-03-31",
     "decision": "all disclosed",
+    "byte_size": 1100578,
     "number_of_pages": 2
   },
   {
@@ -4075,6 +4415,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-01",
     "decision": "all disclosed",
+    "byte_size": 155506,
     "number_of_pages": 3
   },
   {
@@ -4087,6 +4428,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-01",
     "decision": "all disclosed",
+    "byte_size": 456084,
     "number_of_pages": 4
   },
   {
@@ -4099,6 +4441,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-01",
     "decision": "all disclosed",
+    "byte_size": 2181708,
     "number_of_pages": 16
   },
   {
@@ -4111,6 +4454,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-01",
     "decision": "nothing disclosed",
+    "byte_size": 404257,
     "number_of_pages": 2
   },
   {
@@ -4123,6 +4467,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-02",
     "decision": "all disclosed",
+    "byte_size": 92240,
     "number_of_pages": 3
   },
   {
@@ -4135,6 +4480,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-02",
     "decision": "all disclosed",
+    "byte_size": 175376,
     "number_of_pages": 3
   },
   {
@@ -4147,6 +4493,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-08",
     "decision": "all disclosed",
+    "byte_size": 108463,
     "number_of_pages": 1
   },
   {
@@ -4159,6 +4506,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-11",
     "decision": "all disclosed",
+    "byte_size": 102318,
     "number_of_pages": 1
   },
   {
@@ -4171,6 +4519,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-11",
     "decision": "disclosed in part",
+    "byte_size": 4541041,
     "number_of_pages": 59
   },
   {
@@ -4183,6 +4532,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-11",
     "decision": "all disclosed",
+    "byte_size": 1461194,
     "number_of_pages": 62
   },
   {
@@ -4195,6 +4545,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-14",
     "decision": "nothing disclosed",
+    "byte_size": 419605,
     "number_of_pages": 2
   },
   {
@@ -4207,6 +4558,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-15",
     "decision": "all disclosed",
+    "byte_size": 36890,
     "number_of_pages": 1
   },
   {
@@ -4219,6 +4571,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-17",
     "decision": "nothing disclosed",
+    "byte_size": 511312,
     "number_of_pages": 1
   },
   {
@@ -4231,6 +4584,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-22",
     "decision": "all disclosed",
+    "byte_size": 352821,
     "number_of_pages": 2
   },
   {
@@ -4243,6 +4597,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-22",
     "decision": "all disclosed",
+    "byte_size": 966051,
     "number_of_pages": 4
   },
   {
@@ -4255,6 +4610,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-22",
     "decision": "all disclosed",
+    "byte_size": 1023651,
     "number_of_pages": 3
   },
   {
@@ -4267,6 +4623,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-23",
     "decision": "all disclosed",
+    "byte_size": 301699,
     "number_of_pages": 3
   },
   {
@@ -4279,6 +4636,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 104570,
     "number_of_pages": 2
   },
   {
@@ -4291,6 +4649,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-28",
     "decision": "all disclosed",
+    "byte_size": 224722,
     "number_of_pages": 2
   },
   {
@@ -4303,6 +4662,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-30",
     "decision": "nothing disclosed",
+    "byte_size": 1092909,
     "number_of_pages": 2
   },
   {
@@ -4315,6 +4675,7 @@
     "processing_fee": "0.00",
     "date": "2014-04-30",
     "decision": "disclosed in part",
+    "byte_size": 316967,
     "number_of_pages": 5
   },
   {
@@ -4327,6 +4688,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-02",
     "decision": "all disclosed",
+    "byte_size": 822818,
     "number_of_pages": 4
   },
   {
@@ -4339,6 +4701,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-05",
     "decision": "disclosed in part",
+    "byte_size": 1926797,
     "number_of_pages": 17
   },
   {
@@ -4351,6 +4714,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-05",
     "decision": "disclosed in part",
+    "byte_size": 2139533,
     "number_of_pages": 74
   },
   {
@@ -4363,6 +4727,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-05",
     "decision": "disclosed in part",
+    "byte_size": 12907826,
     "number_of_pages": 382
   },
   {
@@ -4375,6 +4740,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-06",
     "decision": "all disclosed",
+    "byte_size": 210862,
     "number_of_pages": 2
   },
   {
@@ -4387,6 +4753,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-06",
     "decision": "disclosed in part",
+    "byte_size": 19536718,
     "number_of_pages": 98
   },
   {
@@ -4399,6 +4766,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-06",
     "decision": "disclosed in part",
+    "byte_size": 14236927,
     "number_of_pages": 58
   },
   {
@@ -4411,6 +4779,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-06",
     "decision": "nothing disclosed",
+    "byte_size": 225273,
     "number_of_pages": 2
   },
   {
@@ -4423,6 +4792,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-09",
     "decision": "disclosed in part",
+    "byte_size": 3419394,
     "number_of_pages": 22
   },
   {
@@ -4435,6 +4805,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-12",
     "decision": "nothing disclosed",
+    "byte_size": 202643,
     "number_of_pages": 2
   },
   {
@@ -4447,6 +4818,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-13",
     "decision": "disclosed in part",
+    "byte_size": 8751408,
     "number_of_pages": 27
   },
   {
@@ -4459,6 +4831,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-13",
     "decision": "disclosed in part",
+    "byte_size": 2317632,
     "number_of_pages": 18
   },
   {
@@ -4471,6 +4844,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-13",
     "decision": "all disclosed",
+    "byte_size": 490173,
     "number_of_pages": 8
   },
   {
@@ -4483,6 +4857,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-13",
     "decision": "all disclosed",
+    "byte_size": 578362,
     "number_of_pages": 29
   },
   {
@@ -4495,6 +4870,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-14",
     "decision": "nothing disclosed",
+    "byte_size": 562813,
     "number_of_pages": 2
   },
   {
@@ -4507,6 +4883,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-15",
     "decision": "nothing disclosed",
+    "byte_size": 847691,
     "number_of_pages": 2
   },
   {
@@ -4519,6 +4896,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-16",
     "decision": "disclosed in part",
+    "byte_size": 738219,
     "number_of_pages": 12
   },
   {
@@ -4531,6 +4909,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-30",
     "decision": "all disclosed",
+    "byte_size": 1547618,
     "number_of_pages": 15
   },
   {
@@ -4543,6 +4922,7 @@
     "processing_fee": "0.00",
     "date": "2014-05-30",
     "decision": "all disclosed",
+    "byte_size": 636454,
     "number_of_pages": 53
   },
   {
@@ -4555,6 +4935,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-02",
     "decision": "disclosed in part",
+    "byte_size": 2052154,
     "number_of_pages": 15
   },
   {
@@ -4567,6 +4948,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-11",
     "decision": "disclosed in part",
+    "byte_size": 14222692,
     "number_of_pages": 102
   },
   {
@@ -4579,6 +4961,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-11",
     "decision": "disclosed in part",
+    "byte_size": 3125783,
     "number_of_pages": 47
   },
   {
@@ -4591,6 +4974,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-11",
     "decision": "nothing disclosed",
+    "byte_size": 637768,
     "number_of_pages": 2
   },
   {
@@ -4603,6 +4987,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-13",
     "decision": "all disclosed",
+    "byte_size": 149850,
     "number_of_pages": 2
   },
   {
@@ -4615,6 +5000,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-27",
     "decision": "nothing disclosed",
+    "byte_size": 345962,
     "number_of_pages": 2
   },
   {
@@ -4627,6 +5013,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-27",
     "decision": "nothing disclosed",
+    "byte_size": 435112,
     "number_of_pages": 2
   },
   {
@@ -4639,6 +5026,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-27",
     "decision": "nothing disclosed",
+    "byte_size": 806496,
     "number_of_pages": 2
   },
   {
@@ -4651,6 +5039,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-27",
     "decision": "nothing disclosed",
+    "byte_size": 995623,
     "number_of_pages": 2
   },
   {
@@ -4663,6 +5052,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-27",
     "decision": "disclosed in part",
+    "byte_size": 7399110,
     "number_of_pages": 57
   },
   {
@@ -4675,6 +5065,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-30",
     "decision": "all disclosed",
+    "byte_size": 1318089,
     "number_of_pages": 14
   },
   {
@@ -4687,6 +5078,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-30",
     "decision": "all disclosed",
+    "byte_size": 920382,
     "number_of_pages": 6
   },
   {
@@ -4699,6 +5091,7 @@
     "processing_fee": "0.00",
     "date": "2014-06-30",
     "decision": "nothing disclosed",
+    "byte_size": 268552,
     "number_of_pages": 2
   },
   {
@@ -4711,6 +5104,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-02",
     "decision": "all disclosed",
+    "byte_size": 989387,
     "number_of_pages": 12
   },
   {
@@ -4723,6 +5117,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-02",
     "decision": "all disclosed",
+    "byte_size": 301942,
     "number_of_pages": 2
   },
   {
@@ -4735,6 +5130,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-03",
     "decision": "disclosed in part",
+    "byte_size": 2102865,
     "number_of_pages": 13
   },
   {
@@ -4747,6 +5143,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-04",
     "decision": "disclosed in part",
+    "byte_size": 777740,
     "number_of_pages": 4
   },
   {
@@ -4759,6 +5156,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-04",
     "decision": "all disclosed",
+    "byte_size": 2645809,
     "number_of_pages": 3
   },
   {
@@ -4771,6 +5169,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-07",
     "decision": "disclosed in part",
+    "byte_size": 930768,
     "number_of_pages": 12
   },
   {
@@ -4783,6 +5182,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-07",
     "decision": "disclosed in part",
+    "byte_size": 1085056,
     "number_of_pages": 17
   },
   {
@@ -4795,6 +5195,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-08",
     "decision": "all disclosed",
+    "byte_size": 2152893,
     "number_of_pages": 35
   },
   {
@@ -4807,6 +5208,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-16",
     "decision": "nothing disclosed",
+    "byte_size": 1792727,
     "number_of_pages": 2
   },
   {
@@ -4819,6 +5221,7 @@
     "processing_fee": "0.00",
     "date": "2014-07-21",
     "decision": "disclosed in part",
+    "byte_size": 806432,
     "number_of_pages": 4
   },
   {
@@ -4831,6 +5234,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-01",
     "decision": "all disclosed",
+    "byte_size": 231147,
     "number_of_pages": 2
   },
   {
@@ -4843,6 +5247,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-01",
     "decision": "all disclosed",
+    "byte_size": 2407198,
     "number_of_pages": 21
   },
   {
@@ -4855,6 +5260,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-01",
     "decision": "nothing disclosed",
+    "byte_size": 246948,
     "number_of_pages": 2
   },
   {
@@ -4867,6 +5273,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-04",
     "decision": "all disclosed",
+    "byte_size": 1119322,
     "number_of_pages": 3
   },
   {
@@ -4879,6 +5286,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-04",
     "decision": "disclosed in part",
+    "byte_size": 1951567,
     "number_of_pages": 14
   },
   {
@@ -4891,6 +5299,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-04",
     "decision": "nothing disclosed",
+    "byte_size": 257348,
     "number_of_pages": 2
   },
   {
@@ -4903,6 +5312,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-07",
     "decision": "disclosed in part",
+    "byte_size": 12074387,
     "number_of_pages": 171
   },
   {
@@ -4915,6 +5325,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-08",
     "decision": "nothing disclosed",
+    "byte_size": 384511,
     "number_of_pages": 2
   },
   {
@@ -4927,6 +5338,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-08",
     "decision": "all disclosed",
+    "byte_size": 990458,
     "number_of_pages": 6
   },
   {
@@ -4939,6 +5351,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-08",
     "decision": "all disclosed",
+    "byte_size": 147147,
     "number_of_pages": 2
   },
   {
@@ -4951,6 +5364,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "all disclosed",
+    "byte_size": 198327,
     "number_of_pages": 2
   },
   {
@@ -4963,6 +5377,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "all disclosed",
+    "byte_size": 712146,
     "number_of_pages": 7
   },
   {
@@ -4975,6 +5390,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "disclosed in part",
+    "byte_size": 3709062,
     "number_of_pages": 69
   },
   {
@@ -4987,6 +5403,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "disclosed in part",
+    "byte_size": 7857393,
     "number_of_pages": 75
   },
   {
@@ -4999,6 +5416,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "disclosed in part",
+    "byte_size": 19357557,
     "number_of_pages": 114
   },
   {
@@ -5011,6 +5429,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-11",
     "decision": "all disclosed",
+    "byte_size": 1136962,
     "number_of_pages": 10
   },
   {
@@ -5023,6 +5442,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-13",
     "decision": "all disclosed",
+    "byte_size": 996195,
     "number_of_pages": 3
   },
   {
@@ -5035,6 +5455,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-13",
     "decision": "nothing disclosed",
+    "byte_size": 123978,
     "number_of_pages": 2
   },
   {
@@ -5047,6 +5468,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-14",
     "decision": "all disclosed",
+    "byte_size": 11193478,
     "number_of_pages": 318
   },
   {
@@ -5059,6 +5481,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-19",
     "decision": "nothing disclosed",
+    "byte_size": 95025,
     "number_of_pages": 2
   },
   {
@@ -5071,6 +5494,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-25",
     "decision": "nothing disclosed",
+    "byte_size": 253468,
     "number_of_pages": 1
   },
   {
@@ -5083,6 +5507,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-25",
     "decision": "all disclosed",
+    "byte_size": 971265,
     "number_of_pages": 2
   },
   {
@@ -5095,6 +5520,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-28",
     "decision": "all disclosed",
+    "byte_size": 927048,
     "number_of_pages": 2
   },
   {
@@ -5107,6 +5533,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-28",
     "decision": "all disclosed",
+    "byte_size": 1069869,
     "number_of_pages": 2
   },
   {
@@ -5119,6 +5546,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-28",
     "decision": "all disclosed",
+    "byte_size": 237052,
     "number_of_pages": 2
   },
   {
@@ -5131,6 +5559,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-29",
     "decision": "nothing disclosed",
+    "byte_size": 79362,
     "number_of_pages": 2
   },
   {
@@ -5143,6 +5572,7 @@
     "processing_fee": "0.00",
     "date": "2014-08-29",
     "decision": "nothing disclosed",
+    "byte_size": 76442,
     "number_of_pages": 2
   },
   {
@@ -5155,6 +5585,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-02",
     "decision": "all disclosed",
+    "byte_size": 607616,
     "number_of_pages": 2
   },
   {
@@ -5167,6 +5598,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-02",
     "decision": "disclosed in part",
+    "byte_size": 8014078,
     "number_of_pages": 80
   },
   {
@@ -5179,6 +5611,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-03",
     "decision": "all disclosed",
+    "byte_size": 380972,
     "number_of_pages": 50
   },
   {
@@ -5191,6 +5624,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-05",
     "decision": "all disclosed",
+    "byte_size": 7533751,
     "number_of_pages": 35
   },
   {
@@ -5203,6 +5637,7 @@
     "processing_fee": "113.75",
     "date": "2014-09-10",
     "decision": "disclosed in part",
+    "byte_size": 11333444,
     "number_of_pages": 112
   },
   {
@@ -5215,6 +5650,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-10",
     "decision": "all disclosed",
+    "byte_size": 7822451,
     "number_of_pages": 46
   },
   {
@@ -5227,6 +5663,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-10",
     "decision": "disclosed in part",
+    "byte_size": 36695227,
     "number_of_pages": 403
   },
   {
@@ -5239,6 +5676,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-16",
     "decision": "disclosed in part",
+    "byte_size": 16840911,
     "number_of_pages": 86
   },
   {
@@ -5251,6 +5689,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-16",
     "decision": "disclosed in part",
+    "byte_size": 17766923,
     "number_of_pages": 82
   },
   {
@@ -5263,6 +5702,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-18",
     "decision": "all disclosed",
+    "byte_size": 3218205,
     "number_of_pages": 11
   },
   {
@@ -5275,6 +5715,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-22",
     "decision": "disclosed in part",
+    "byte_size": 3189514,
     "number_of_pages": 10
   },
   {
@@ -5287,6 +5728,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-22",
     "decision": "disclosed in part",
+    "byte_size": 1297338,
     "number_of_pages": 8
   },
   {
@@ -5299,6 +5741,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-22",
     "decision": "disclosed in part",
+    "byte_size": 1452772,
     "number_of_pages": 10
   },
   {
@@ -5311,6 +5754,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-22",
     "decision": "all disclosed",
+    "byte_size": 3527978,
     "number_of_pages": 39
   },
   {
@@ -5323,6 +5767,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-23",
     "decision": "disclosed in part",
+    "byte_size": 4857678,
     "number_of_pages": 37
   },
   {
@@ -5335,6 +5780,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-23",
     "decision": "nothing disclosed",
+    "byte_size": 674060,
     "number_of_pages": 2
   },
   {
@@ -5347,6 +5793,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-23",
     "decision": "nothing disclosed",
+    "byte_size": 728079,
     "number_of_pages": 2
   },
   {
@@ -5359,6 +5806,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-24",
     "decision": "all disclosed",
+    "byte_size": 650560,
     "number_of_pages": 2
   },
   {
@@ -5371,6 +5819,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-25",
     "decision": "all disclosed",
+    "byte_size": 387503,
     "number_of_pages": 2
   },
   {
@@ -5383,6 +5832,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-26",
     "decision": "all disclosed",
+    "byte_size": 737356,
     "number_of_pages": 2
   },
   {
@@ -5395,6 +5845,7 @@
     "processing_fee": "0.00",
     "date": "2014-09-29",
     "decision": "disclosed in part",
+    "byte_size": 1637541,
     "number_of_pages": 4
   },
   {
@@ -5407,6 +5858,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-03",
     "decision": "all disclosed",
+    "byte_size": 842368,
     "number_of_pages": 3
   },
   {
@@ -5419,6 +5871,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-03",
     "decision": "nothing disclosed",
+    "byte_size": 86914,
     "number_of_pages": 2
   },
   {
@@ -5431,6 +5884,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-03",
     "decision": "all disclosed",
+    "byte_size": 10611712,
     "number_of_pages": 30
   },
   {
@@ -5443,6 +5897,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-06",
     "decision": "nothing disclosed",
+    "byte_size": 719462,
     "number_of_pages": 2
   },
   {
@@ -5455,6 +5910,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-07",
     "decision": "disclosed in part",
+    "byte_size": 2926848,
     "number_of_pages": 28
   },
   {
@@ -5467,6 +5923,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-10",
     "decision": "disclosed in part",
+    "byte_size": 1003038,
     "number_of_pages": 6
   },
   {
@@ -5479,6 +5936,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-16",
     "decision": "nothing disclosed",
+    "byte_size": 601615,
     "number_of_pages": 2
   },
   {
@@ -5491,6 +5949,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-21",
     "decision": "all disclosed",
+    "byte_size": 1965257,
     "number_of_pages": 4
   },
   {
@@ -5503,6 +5962,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-22",
     "decision": "disclosed in part",
+    "byte_size": 24181071,
     "number_of_pages": 171
   },
   {
@@ -5515,6 +5975,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-24",
     "decision": "all disclosed",
+    "byte_size": 464242,
     "number_of_pages": 5
   },
   {
@@ -5527,6 +5988,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-27",
     "decision": "disclosed in part",
+    "byte_size": 1446811,
     "number_of_pages": 4
   },
   {
@@ -5539,6 +6001,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-27",
     "decision": "disclosed in part",
+    "byte_size": 1521218,
     "number_of_pages": 4
   },
   {
@@ -5551,6 +6014,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-27",
     "decision": "all disclosed",
+    "byte_size": 1105578,
     "number_of_pages": 48
   },
   {
@@ -5563,6 +6027,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "all disclosed",
+    "byte_size": 196352,
     "number_of_pages": 10
   },
   {
@@ -5575,6 +6040,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "all disclosed",
+    "byte_size": 504421,
     "number_of_pages": 14
   },
   {
@@ -5587,6 +6053,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "disclosed in part",
+    "byte_size": 4911472,
     "number_of_pages": 46
   },
   {
@@ -5599,6 +6066,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "disclosed in part",
+    "byte_size": 555500,
     "number_of_pages": 11
   },
   {
@@ -5611,6 +6079,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "all disclosed",
+    "byte_size": 1209283,
     "number_of_pages": 3
   },
   {
@@ -5623,6 +6092,7 @@
     "processing_fee": "0.00",
     "date": "2014-10-28",
     "decision": "all disclosed",
+    "byte_size": 2970835,
     "number_of_pages": 217
   },
   {
@@ -5635,6 +6105,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-03",
     "decision": "all disclosed",
+    "byte_size": 612221,
     "number_of_pages": 2
   },
   {
@@ -5648,6 +6119,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-04",
     "decision": "disclosed in part",
+    "byte_size": 1025745,
     "number_of_pages": 16
   },
   {
@@ -5660,6 +6132,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-05",
     "decision": "disclosed in part",
+    "byte_size": 11330741,
     "number_of_pages": 52
   },
   {
@@ -5672,6 +6145,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-05",
     "decision": "disclosed in part",
+    "byte_size": 738466,
     "number_of_pages": 13
   },
   {
@@ -5684,6 +6158,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-07",
     "decision": "all disclosed",
+    "byte_size": 308994,
     "number_of_pages": 2
   },
   {
@@ -5696,6 +6171,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-07",
     "decision": "disclosed in part",
+    "byte_size": 1478140,
     "number_of_pages": 80
   },
   {
@@ -5708,6 +6184,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-12",
     "decision": "nothing disclosed",
+    "byte_size": 687084,
     "number_of_pages": 2
   },
   {
@@ -5720,6 +6197,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-12",
     "decision": "nothing disclosed",
+    "byte_size": 669497,
     "number_of_pages": 2
   },
   {
@@ -5732,6 +6210,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-12",
     "decision": "nothing disclosed",
+    "byte_size": 1512628,
     "number_of_pages": 4
   },
   {
@@ -5744,6 +6223,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-12",
     "decision": "nothing disclosed",
+    "byte_size": 648436,
     "number_of_pages": 1
   },
   {
@@ -5756,6 +6236,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-14",
     "decision": "all disclosed",
+    "byte_size": 736522,
     "number_of_pages": 2
   },
   {
@@ -5768,6 +6249,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-14",
     "decision": "nothing disclosed",
+    "byte_size": 819187,
     "number_of_pages": 2
   },
   {
@@ -5780,6 +6262,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-14",
     "decision": "nothing disclosed",
+    "byte_size": 568023,
     "number_of_pages": 1
   },
   {
@@ -5792,6 +6275,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-17",
     "decision": "disclosed in part",
+    "byte_size": 3534294,
     "number_of_pages": 50
   },
   {
@@ -5804,6 +6288,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-17",
     "decision": "disclosed in part",
+    "byte_size": 2254006,
     "number_of_pages": 16
   },
   {
@@ -5816,6 +6301,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-18",
     "decision": "disclosed in part",
+    "byte_size": 3885637,
     "number_of_pages": 20
   },
   {
@@ -5828,6 +6314,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-18",
     "decision": "all disclosed",
+    "byte_size": 9937580,
     "number_of_pages": 32
   },
   {
@@ -5840,6 +6327,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 3335845,
     "number_of_pages": 32
   },
   {
@@ -5852,6 +6340,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 1645331,
     "number_of_pages": 28
   },
   {
@@ -5864,6 +6353,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "nothing disclosed",
+    "byte_size": 3335845,
     "number_of_pages": 32
   },
   {
@@ -5876,6 +6366,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 1949437,
     "number_of_pages": 61
   },
   {
@@ -5888,6 +6379,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 623296,
     "number_of_pages": 15
   },
   {
@@ -5900,6 +6392,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 3352716,
     "number_of_pages": 12
   },
   {
@@ -5912,6 +6405,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 2833481,
     "number_of_pages": 35
   },
   {
@@ -5924,6 +6418,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "all disclosed",
+    "byte_size": 518654,
     "number_of_pages": 10
   },
   {
@@ -5936,6 +6431,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "disclosed in part",
+    "byte_size": 30167464,
     "number_of_pages": 449
   },
   {
@@ -5948,6 +6444,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-24",
     "decision": "all disclosed",
+    "byte_size": 9762960,
     "number_of_pages": 65
   },
   {
@@ -5960,6 +6457,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-28",
     "decision": "nothing disclosed",
+    "byte_size": 615322,
     "number_of_pages": 2
   },
   {
@@ -5972,6 +6470,7 @@
     "processing_fee": "0.00",
     "date": "2014-11-28",
     "decision": "nothing disclosed",
+    "byte_size": 746690,
     "number_of_pages": 2
   },
   {
@@ -5984,6 +6483,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-01",
     "decision": "disclosed in part",
+    "byte_size": 4911944,
     "number_of_pages": 57
   },
   {
@@ -5996,6 +6496,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-01",
     "decision": "disclosed in part",
+    "byte_size": 180938,
     "number_of_pages": 3
   },
   {
@@ -6008,6 +6509,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-01",
     "decision": "all disclosed",
+    "byte_size": 548508,
     "number_of_pages": 2
   },
   {
@@ -6020,6 +6522,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-01",
     "decision": "disclosed in part",
+    "byte_size": 2502987,
     "number_of_pages": 26
   },
   {
@@ -6032,6 +6535,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-01",
     "decision": "disclosed in part",
+    "byte_size": 3211416,
     "number_of_pages": 26
   },
   {
@@ -6044,6 +6548,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-02",
     "decision": "nothing disclosed",
+    "byte_size": 627587,
     "number_of_pages": 2
   },
   {
@@ -6056,6 +6561,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-02",
     "decision": "disclosed in part",
+    "byte_size": 5236413,
     "number_of_pages": 84
   },
   {
@@ -6068,6 +6574,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-03",
     "decision": "all disclosed",
+    "byte_size": 408361,
     "number_of_pages": 1
   },
   {
@@ -6080,6 +6587,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-03",
     "decision": "disclosed in part",
+    "byte_size": 6511329,
     "number_of_pages": 64
   },
   {
@@ -6092,6 +6600,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-03",
     "decision": "disclosed in part",
+    "byte_size": 3535410,
     "number_of_pages": 17
   },
   {
@@ -6104,6 +6613,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-03",
     "decision": "disclosed in part",
+    "byte_size": 3532949,
     "number_of_pages": 17
   },
   {
@@ -6116,6 +6626,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-05",
     "decision": "disclosed in part",
+    "byte_size": 2119348,
     "number_of_pages": 8
   },
   {
@@ -6128,6 +6639,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-09",
     "decision": "all disclosed",
+    "byte_size": 327802,
     "number_of_pages": 2
   },
   {
@@ -6140,6 +6652,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-11",
     "decision": "all disclosed",
+    "byte_size": 2244797,
     "number_of_pages": 14
   },
   {
@@ -6152,6 +6665,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-11",
     "decision": "all disclosed",
+    "byte_size": 1357093,
     "number_of_pages": 3
   },
   {
@@ -6164,6 +6678,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-12",
     "decision": "nothing disclosed",
+    "byte_size": 458687,
     "number_of_pages": 2
   },
   {
@@ -6176,6 +6691,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-12",
     "decision": "all disclosed",
+    "byte_size": 1044014,
     "number_of_pages": 6
   },
   {
@@ -6188,6 +6704,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-12",
     "decision": "disclosed in part",
+    "byte_size": 14582512,
     "number_of_pages": 221
   },
   {
@@ -6200,6 +6717,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-16",
     "decision": "nothing disclosed",
+    "byte_size": 875306,
     "number_of_pages": 2
   },
   {
@@ -6212,6 +6730,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-18",
     "decision": "nothing disclosed",
+    "byte_size": 681384,
     "number_of_pages": 2
   },
   {
@@ -6224,6 +6743,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-18",
     "decision": "all disclosed",
+    "byte_size": 433070,
     "number_of_pages": 4
   },
   {
@@ -6236,6 +6756,7 @@
     "processing_fee": "37.50",
     "date": "2014-12-19",
     "decision": "disclosed in part",
+    "byte_size": 3555219,
     "number_of_pages": 106
   },
   {
@@ -6248,6 +6769,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-23",
     "decision": "nothing disclosed",
+    "byte_size": 721785,
     "number_of_pages": 2
   },
   {
@@ -6260,6 +6782,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-23",
     "decision": "disclosed in part",
+    "byte_size": 422413,
     "number_of_pages": 18
   },
   {
@@ -6272,6 +6795,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-29",
     "decision": "nothing disclosed",
+    "byte_size": 104943,
     "number_of_pages": 2
   },
   {
@@ -6284,6 +6808,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-29",
     "decision": "all disclosed",
+    "byte_size": 255665,
     "number_of_pages": 1
   },
   {
@@ -6296,6 +6821,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-29",
     "decision": "disclosed in part",
+    "byte_size": 1273588,
     "number_of_pages": 7
   },
   {
@@ -6308,6 +6834,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-29",
     "decision": "nothing disclosed",
+    "byte_size": 690232,
     "number_of_pages": 2
   },
   {
@@ -6320,6 +6847,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-29",
     "decision": "nothing disclosed",
+    "byte_size": 800945,
     "number_of_pages": 2
   },
   {
@@ -6332,6 +6860,7 @@
     "processing_fee": "0.00",
     "date": "2014-12-30",
     "decision": "all disclosed",
+    "byte_size": 348034,
     "number_of_pages": 2
   },
   {
@@ -6344,6 +6873,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-05",
     "decision": "nothing disclosed",
+    "byte_size": 541158,
     "number_of_pages": 2
   },
   {
@@ -6356,6 +6886,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-05",
     "decision": "disclosed in part",
+    "byte_size": 139061,
     "number_of_pages": 3
   },
   {
@@ -6368,6 +6899,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-05",
     "decision": "disclosed in part",
+    "byte_size": 12851619,
     "number_of_pages": 96
   },
   {
@@ -6380,6 +6912,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-05",
     "decision": "nothing disclosed",
+    "byte_size": 346996,
     "number_of_pages": 1
   },
   {
@@ -6392,6 +6925,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-06",
     "decision": "disclosed in part",
+    "byte_size": 4443050,
     "number_of_pages": 121
   },
   {
@@ -6405,6 +6939,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-07",
     "decision": "disclosed in part",
+    "byte_size": 4566025,
     "number_of_pages": 75
   },
   {
@@ -6417,6 +6952,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-12",
     "decision": "nothing disclosed",
+    "byte_size": 243748,
     "number_of_pages": 2
   },
   {
@@ -6429,6 +6965,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-12",
     "decision": "disclosed in part",
+    "byte_size": 4618947,
     "number_of_pages": 60
   },
   {
@@ -6441,6 +6978,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-13",
     "decision": "all disclosed",
+    "byte_size": 140712,
     "number_of_pages": 2
   },
   {
@@ -6453,6 +6991,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-16",
     "decision": "disclosed in part",
+    "byte_size": 1607468,
     "number_of_pages": 12
   },
   {
@@ -6465,6 +7004,7 @@
     "processing_fee": "50.00",
     "date": "2015-01-19",
     "decision": "disclosed in part",
+    "byte_size": 1721747,
     "number_of_pages": 147
   },
   {
@@ -6477,6 +7017,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-20",
     "decision": "all disclosed",
+    "byte_size": 5862382,
     "number_of_pages": 53
   },
   {
@@ -6489,6 +7030,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-23",
     "decision": "all disclosed",
+    "byte_size": 688286,
     "number_of_pages": 4
   },
   {
@@ -6501,6 +7043,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-26",
     "decision": "all disclosed",
+    "byte_size": 992998,
     "number_of_pages": 3
   },
   {
@@ -6513,6 +7056,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-27",
     "decision": "disclosed in part",
+    "byte_size": 1088968,
     "number_of_pages": 33
   },
   {
@@ -6525,6 +7069,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-27",
     "decision": "nothing disclosed",
+    "byte_size": 322361,
     "number_of_pages": 2
   },
   {
@@ -6537,6 +7082,7 @@
     "processing_fee": "0.00",
     "date": "2015-01-29",
     "decision": "all disclosed",
+    "byte_size": 1557764,
     "number_of_pages": 10
   },
   {
@@ -6549,6 +7095,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-06",
     "decision": "all disclosed",
+    "byte_size": 1270579,
     "number_of_pages": 3
   },
   {
@@ -6561,6 +7108,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-06",
     "decision": "all disclosed",
+    "byte_size": 2278680,
     "number_of_pages": 9
   },
   {
@@ -6573,6 +7121,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-09",
     "decision": "all disclosed",
+    "byte_size": 155903,
     "number_of_pages": 2
   },
   {
@@ -6585,6 +7134,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-09",
     "decision": "disclosed in part",
+    "byte_size": 1765982,
     "number_of_pages": 33
   },
   {
@@ -6597,6 +7147,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-13",
     "decision": "all disclosed",
+    "byte_size": 932331,
     "number_of_pages": 2
   },
   {
@@ -6609,6 +7160,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-16",
     "decision": "all disclosed",
+    "byte_size": 1028717,
     "number_of_pages": 3
   },
   {
@@ -6621,6 +7173,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-17",
     "decision": "disclosed in part",
+    "byte_size": 1121361,
     "number_of_pages": 8
   },
   {
@@ -6633,6 +7186,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-17",
     "decision": "disclosed in part",
+    "byte_size": 28683183,
     "number_of_pages": 247
   },
   {
@@ -6645,6 +7199,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-19",
     "decision": "all disclosed",
+    "byte_size": 732901,
     "number_of_pages": 2
   },
   {
@@ -6657,6 +7212,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-20",
     "decision": "disclosed in part",
+    "byte_size": 4104264,
     "number_of_pages": 61
   },
   {
@@ -6669,6 +7225,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-20",
     "decision": "all disclosed",
+    "byte_size": 452730,
     "number_of_pages": 2
   },
   {
@@ -6681,6 +7238,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-20",
     "decision": "all disclosed",
+    "byte_size": 479379,
     "number_of_pages": 2
   },
   {
@@ -6693,6 +7251,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-20",
     "decision": "all disclosed",
+    "byte_size": 415057,
     "number_of_pages": 2
   },
   {
@@ -6705,6 +7264,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-23",
     "decision": "disclosed in part",
+    "byte_size": 3459965,
     "number_of_pages": 31
   },
   {
@@ -6717,6 +7277,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-23",
     "decision": "disclosed in part",
+    "byte_size": 8187821,
     "number_of_pages": 27
   },
   {
@@ -6729,6 +7290,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-25",
     "decision": "all disclosed",
+    "byte_size": 15872173,
     "number_of_pages": 211
   },
   {
@@ -6741,6 +7303,7 @@
     "processing_fee": "0.00",
     "date": "2015-02-25",
     "decision": "disclosed in part",
+    "byte_size": 2669430,
     "number_of_pages": 80
   },
   {
@@ -7105,6 +7668,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-02",
     "decision": "all disclosed",
+    "byte_size": 457671,
     "number_of_pages": 2
   },
   {
@@ -7117,6 +7681,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-03",
     "decision": "nothing disclosed",
+    "byte_size": 130790,
     "number_of_pages": 2
   },
   {
@@ -7129,6 +7694,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-06",
     "decision": "disclosed in part",
+    "byte_size": 1177323,
     "number_of_pages": 4
   },
   {
@@ -7141,6 +7707,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-09",
     "decision": "all disclosed",
+    "byte_size": 207811,
     "number_of_pages": 5
   },
   {
@@ -7153,6 +7720,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-09",
     "decision": "nothing disclosed",
+    "byte_size": 584219,
     "number_of_pages": 2
   },
   {
@@ -7165,6 +7733,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-10",
     "decision": "all disclosed",
+    "byte_size": 2348012,
     "number_of_pages": 15
   },
   {
@@ -7177,6 +7746,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-10",
     "decision": "all disclosed",
+    "byte_size": 163383,
     "number_of_pages": 1
   },
   {
@@ -7189,6 +7759,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-12",
     "decision": "all disclosed",
+    "byte_size": 136407,
     "number_of_pages": 2
   },
   {
@@ -7201,6 +7772,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-13",
     "decision": "disclosed in part",
+    "byte_size": 9665644,
     "number_of_pages": 73
   },
   {
@@ -7213,6 +7785,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-13",
     "decision": "disclosed in part",
+    "byte_size": 498633,
     "number_of_pages": 3
   },
   {
@@ -7225,6 +7798,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-18",
     "decision": "all disclosed",
+    "byte_size": 302652,
     "number_of_pages": 4
   },
   {
@@ -7237,6 +7811,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-18",
     "decision": "disclosed in part",
+    "byte_size": 19449828,
     "number_of_pages": 225
   },
   {
@@ -7249,6 +7824,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-19",
     "decision": "all disclosed",
+    "byte_size": 1056558,
     "number_of_pages": 9
   },
   {
@@ -7262,6 +7838,7 @@
     "processing_fee": "41.00",
     "date": "2015-03-19",
     "decision": "disclosed in part",
+    "byte_size": 7126279,
     "number_of_pages": 105
   },
   {
@@ -7274,6 +7851,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-20",
     "decision": "disclosed in part",
+    "byte_size": 27052922,
     "number_of_pages": 402
   },
   {
@@ -7286,6 +7864,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-20",
     "decision": "all disclosed",
+    "byte_size": 5876415,
     "number_of_pages": 125
   },
   {
@@ -7298,6 +7877,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-20",
     "decision": "disclosed in part",
+    "byte_size": 17684070,
     "number_of_pages": 131
   },
   {
@@ -7310,6 +7890,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "all disclosed",
+    "byte_size": 2432505,
     "number_of_pages": 78
   },
   {
@@ -7322,6 +7903,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "all disclosed",
+    "byte_size": 762592,
     "number_of_pages": 2
   },
   {
@@ -7334,6 +7916,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "nothing disclosed",
+    "byte_size": 719775,
     "number_of_pages": 2
   },
   {
@@ -7346,6 +7929,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "disclosed in part",
+    "byte_size": 7245615,
     "number_of_pages": 77
   },
   {
@@ -7358,6 +7942,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "disclosed in part",
+    "byte_size": 2202158,
     "number_of_pages": 217
   },
   {
@@ -7370,6 +7955,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "disclosed in part",
+    "byte_size": 1605606,
     "number_of_pages": 102
   },
   {
@@ -7382,6 +7968,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "disclosed in part",
+    "byte_size": 10943818,
     "number_of_pages": 268
   },
   {
@@ -7394,6 +7981,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-23",
     "decision": "disclosed in part",
+    "byte_size": 19333012,
     "number_of_pages": 369
   },
   {
@@ -7406,6 +7994,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-24",
     "decision": "nothing disclosed",
+    "byte_size": 191905,
     "number_of_pages": 2
   },
   {
@@ -7418,6 +8007,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-24",
     "decision": "disclosed in part",
+    "byte_size": 22489895,
     "number_of_pages": 214
   },
   {
@@ -7430,6 +8020,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-24",
     "decision": "nothing disclosed",
+    "byte_size": 845381,
     "number_of_pages": 3
   },
   {
@@ -7442,6 +8033,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-24",
     "decision": "nothing disclosed",
+    "byte_size": 845381,
     "number_of_pages": 3
   },
   {
@@ -7454,6 +8046,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-24",
     "decision": "disclosed in part",
+    "byte_size": 5831006,
     "number_of_pages": 37
   },
   {
@@ -7466,6 +8059,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "disclosed in part",
+    "byte_size": 3910058,
     "number_of_pages": 42
   },
   {
@@ -7478,6 +8072,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "disclosed in part",
+    "byte_size": 3174437,
     "number_of_pages": 38
   },
   {
@@ -7490,6 +8085,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "nothing disclosed",
+    "byte_size": 746497,
     "number_of_pages": 2
   },
   {
@@ -7502,6 +8098,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 313263,
     "number_of_pages": 1
   },
   {
@@ -7514,6 +8111,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "disclosed in part",
+    "byte_size": 16365627,
     "number_of_pages": 72
   },
   {
@@ -7526,6 +8124,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 166573,
     "number_of_pages": 3
   },
   {
@@ -7538,6 +8137,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 265291,
     "number_of_pages": 2
   },
   {
@@ -7550,6 +8150,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 133361,
     "number_of_pages": 1
   },
   {
@@ -7562,6 +8163,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 179562,
     "number_of_pages": 2
   },
   {
@@ -7574,6 +8176,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 197804,
     "number_of_pages": 2
   },
   {
@@ -7586,6 +8189,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 137535,
     "number_of_pages": 1
   },
   {
@@ -7598,6 +8202,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 1051843,
     "number_of_pages": 2
   },
   {
@@ -7610,6 +8215,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 268951,
     "number_of_pages": 2
   },
   {
@@ -7622,6 +8228,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 285756,
     "number_of_pages": 2
   },
   {
@@ -7634,6 +8241,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 460269,
     "number_of_pages": 8
   },
   {
@@ -7646,6 +8254,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 643056,
     "number_of_pages": 3
   },
   {
@@ -7658,6 +8267,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "nothing disclosed",
+    "byte_size": 147619,
     "number_of_pages": 2
   },
   {
@@ -7670,6 +8280,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 5053546,
     "number_of_pages": 57
   },
   {
@@ -7682,6 +8293,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-25",
     "decision": "all disclosed",
+    "byte_size": 179290,
     "number_of_pages": 3
   },
   {
@@ -7694,6 +8306,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-27",
     "decision": "all disclosed",
+    "byte_size": 573607,
     "number_of_pages": 4
   },
   {
@@ -7706,6 +8319,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-27",
     "decision": "disclosed in part",
+    "byte_size": 4469653,
     "number_of_pages": 51
   },
   {
@@ -7718,6 +8332,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-30",
     "decision": "all disclosed",
+    "byte_size": 369458,
     "number_of_pages": 13
   },
   {
@@ -7730,6 +8345,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-30",
     "decision": "all disclosed",
+    "byte_size": 14983894,
     "number_of_pages": 216
   },
   {
@@ -7742,6 +8358,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-30",
     "decision": "disclosed in part",
+    "byte_size": 9257499,
     "number_of_pages": 97
   },
   {
@@ -7754,6 +8371,7 @@
     "processing_fee": "0.00",
     "date": "2015-03-31",
     "decision": "all disclosed",
+    "byte_size": 1144569,
     "number_of_pages": 3
   },
   {
@@ -7766,6 +8384,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-06",
     "decision": "disclosed in part",
+    "byte_size": 1514072,
     "number_of_pages": 6
   },
   {
@@ -7778,6 +8397,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-06",
     "decision": "disclosed in part",
+    "byte_size": 31480341,
     "number_of_pages": 202
   },
   {
@@ -7790,6 +8410,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-06",
     "decision": "all disclosed",
+    "byte_size": 2089014,
     "number_of_pages": 4
   },
   {
@@ -7802,6 +8423,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-07",
     "decision": "nothing disclosed",
+    "byte_size": 99025,
     "number_of_pages": 2
   },
   {
@@ -7815,6 +8437,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-07",
     "decision": "all disclosed",
+    "byte_size": 3133742,
     "number_of_pages": 52
   },
   {
@@ -7827,6 +8450,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-07",
     "decision": "all disclosed",
+    "byte_size": 68793480,
     "number_of_pages": 787
   },
   {
@@ -7840,6 +8464,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-07",
     "decision": "all disclosed",
+    "byte_size": 223470,
     "number_of_pages": 1
   },
   {
@@ -7852,6 +8477,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-08",
     "decision": "all disclosed",
+    "byte_size": 577800,
     "number_of_pages": 40
   },
   {
@@ -7864,6 +8490,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-08",
     "decision": "all disclosed",
+    "byte_size": 394262,
     "number_of_pages": 2
   },
   {
@@ -7876,6 +8503,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-08",
     "decision": "all disclosed",
+    "byte_size": 1409453,
     "number_of_pages": 9
   },
   {
@@ -7888,6 +8516,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-08",
     "decision": "all disclosed",
+    "byte_size": 216633,
     "number_of_pages": 5
   },
   {
@@ -7900,6 +8529,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-08",
     "decision": "all disclosed",
+    "byte_size": 105997,
     "number_of_pages": 1
   },
   {
@@ -7912,6 +8542,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-09",
     "decision": "disclosed in part",
+    "byte_size": 14457860,
     "number_of_pages": 212
   },
   {
@@ -7924,6 +8555,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-09",
     "decision": "disclosed in part",
+    "byte_size": 21855472,
     "number_of_pages": 318
   },
   {
@@ -7936,6 +8568,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-10",
     "decision": "disclosed in part",
+    "byte_size": 6705043,
     "number_of_pages": 50
   },
   {
@@ -7948,6 +8581,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-14",
     "decision": "nothing disclosed",
+    "byte_size": 145622,
     "number_of_pages": 2
   },
   {
@@ -7960,6 +8594,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-14",
     "decision": "disclosed in part",
+    "byte_size": 9656376,
     "number_of_pages": 18
   },
   {
@@ -7972,6 +8607,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-14",
     "decision": "disclosed in part",
+    "byte_size": 599127,
     "number_of_pages": 8
   },
   {
@@ -7984,6 +8620,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-14",
     "decision": "all disclosed",
+    "byte_size": 523897,
     "number_of_pages": 3
   },
   {
@@ -7996,6 +8633,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-14",
     "decision": "all disclosed",
+    "byte_size": 5011468,
     "number_of_pages": 84
   },
   {
@@ -8008,6 +8646,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-15",
     "decision": "all disclosed",
+    "byte_size": 4246266,
     "number_of_pages": 31
   },
   {
@@ -8021,6 +8660,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-17",
     "decision": "disclosed in part",
+    "byte_size": 13610231,
     "number_of_pages": 154
   },
   {
@@ -8033,6 +8673,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 948923,
     "number_of_pages": 2
   },
   {
@@ -8045,6 +8686,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 656858,
     "number_of_pages": 2
   },
   {
@@ -8057,6 +8699,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 204251,
     "number_of_pages": 5
   },
   {
@@ -8069,6 +8712,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 153237,
     "number_of_pages": 3
   },
   {
@@ -8081,6 +8725,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 115127,
     "number_of_pages": 1
   },
   {
@@ -8093,6 +8738,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "disclosed in part",
+    "byte_size": 3510832,
     "number_of_pages": 39
   },
   {
@@ -8105,6 +8751,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 2501888,
     "number_of_pages": 50
   },
   {
@@ -8117,6 +8764,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-21",
     "decision": "all disclosed",
+    "byte_size": 682101,
     "number_of_pages": 2
   },
   {
@@ -8129,6 +8777,7 @@
     "processing_fee": "150.00",
     "date": "2015-04-22",
     "decision": "disclosed in part",
+    "byte_size": 15217352,
     "number_of_pages": 257
   },
   {
@@ -8141,6 +8790,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-23",
     "decision": "all disclosed",
+    "byte_size": 2014311,
     "number_of_pages": 14
   },
   {
@@ -8153,6 +8803,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-23",
     "decision": "disclosed in part",
+    "byte_size": 1215315,
     "number_of_pages": 6
   },
   {
@@ -8166,6 +8817,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 1245792,
     "number_of_pages": 3
   },
   {
@@ -8178,6 +8830,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-23",
     "decision": "nothing disclosed",
+    "byte_size": 1245792,
     "number_of_pages": 3
   },
   {
@@ -8191,6 +8844,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-24",
     "decision": "all disclosed",
+    "byte_size": 907754,
     "number_of_pages": 1
   },
   {
@@ -8203,6 +8857,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "all disclosed",
+    "byte_size": 133527,
     "number_of_pages": 1
   },
   {
@@ -8215,6 +8870,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 443390,
     "number_of_pages": 4
   },
   {
@@ -8227,6 +8883,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 5344607,
     "number_of_pages": 85
   },
   {
@@ -8239,6 +8896,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 7530434,
     "number_of_pages": 82
   },
   {
@@ -8251,6 +8909,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "all disclosed",
+    "byte_size": 4957772,
     "number_of_pages": 51
   },
   {
@@ -8263,6 +8922,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 6061197,
     "number_of_pages": 17
   },
   {
@@ -8275,6 +8935,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 1085119,
     "number_of_pages": 16
   },
   {
@@ -8287,6 +8948,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "all disclosed",
+    "byte_size": 2889877,
     "number_of_pages": 7
   },
   {
@@ -8299,6 +8961,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "disclosed in part",
+    "byte_size": 12285753,
     "number_of_pages": 105
   },
   {
@@ -8311,6 +8974,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-27",
     "decision": "nothing disclosed",
+    "byte_size": 112861,
     "number_of_pages": 2
   },
   {
@@ -8323,6 +8987,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-28",
     "decision": "all disclosed",
+    "byte_size": 136375,
     "number_of_pages": 1
   },
   {
@@ -8335,6 +9000,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-28",
     "decision": "disclosed in part",
+    "byte_size": 381722,
     "number_of_pages": 14
   },
   {
@@ -8347,6 +9013,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-28",
     "decision": "disclosed in part",
+    "byte_size": 381722,
     "number_of_pages": 14
   },
   {
@@ -8359,6 +9026,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-28",
     "decision": "disclosed in part",
+    "byte_size": 341521,
     "number_of_pages": 12
   },
   {
@@ -8371,6 +9039,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-29",
     "decision": "disclosed in part",
+    "byte_size": 286438,
     "number_of_pages": 7
   },
   {
@@ -8383,6 +9052,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-29",
     "decision": "nothing disclosed",
+    "byte_size": 286450,
     "number_of_pages": 2
   },
   {
@@ -8394,7 +9064,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-04-29",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 2123159,
+    "number_of_rows": 395
   },
   {
     "id": "769",
@@ -8406,6 +9078,7 @@
     "processing_fee": "0.00",
     "date": "2015-04-30",
     "decision": "all disclosed",
+    "byte_size": 159032,
     "number_of_pages": 1
   },
   {
@@ -8418,6 +9091,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 8127179,
     "number_of_pages": 106
   },
   {
@@ -8430,6 +9104,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 8127179,
     "number_of_pages": 106
   },
   {
@@ -8442,6 +9117,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "nothing disclosed",
+    "byte_size": 79430,
     "number_of_pages": 2
   },
   {
@@ -8454,6 +9130,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 5295712,
     "number_of_pages": 44
   },
   {
@@ -8466,6 +9143,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 5295712,
     "number_of_pages": 44
   },
   {
@@ -8478,6 +9156,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 26273028,
     "number_of_pages": 160
   },
   {
@@ -8490,6 +9169,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-01",
     "decision": "disclosed in part",
+    "byte_size": 34725549,
     "number_of_pages": 481
   },
   {
@@ -8502,6 +9182,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-04",
     "decision": "all disclosed",
+    "byte_size": 599781,
     "number_of_pages": 2
   },
   {
@@ -8514,6 +9195,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-04",
     "decision": "all disclosed",
+    "byte_size": 153282,
     "number_of_pages": 1
   },
   {
@@ -8526,6 +9208,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-04",
     "decision": "nothing disclosed",
+    "byte_size": 840632,
     "number_of_pages": 2
   },
   {
@@ -8538,6 +9221,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-04",
     "decision": "all disclosed",
+    "byte_size": 355816,
     "number_of_pages": 3
   },
   {
@@ -8550,6 +9234,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-04",
     "decision": "all disclosed",
+    "byte_size": 290464,
     "number_of_pages": 3
   },
   {
@@ -8562,6 +9247,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-05",
     "decision": "disclosed in part",
+    "byte_size": 14653886,
     "number_of_pages": 134
   },
   {
@@ -8574,6 +9260,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-05",
     "decision": "all disclosed",
+    "byte_size": 157662,
     "number_of_pages": 1
   },
   {
@@ -8586,6 +9273,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-05",
     "decision": "disclosed in part",
+    "byte_size": 1480818,
     "number_of_pages": 76
   },
   {
@@ -8598,6 +9286,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-05",
     "decision": "nothing disclosed",
+    "byte_size": 128801,
     "number_of_pages": 2
   },
   {
@@ -8610,6 +9299,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-05",
     "decision": "all disclosed",
+    "byte_size": 177423,
     "number_of_pages": 1
   },
   {
@@ -8622,6 +9312,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-07",
     "decision": "nothing disclosed",
+    "byte_size": 874075,
     "number_of_pages": 2
   },
   {
@@ -8634,6 +9325,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "disclosed in part",
+    "byte_size": 3448303,
     "number_of_pages": 19
   },
   {
@@ -8646,6 +9338,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "all disclosed",
+    "byte_size": 521133,
     "number_of_pages": 3
   },
   {
@@ -8658,6 +9351,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "disclosed in part",
+    "byte_size": 4934374,
     "number_of_pages": 102
   },
   {
@@ -8670,6 +9364,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "all disclosed",
+    "byte_size": 279209,
     "number_of_pages": 2
   },
   {
@@ -8682,6 +9377,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "nothing disclosed",
+    "byte_size": 129544,
     "number_of_pages": 2
   },
   {
@@ -8694,6 +9390,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-08",
     "decision": "disclosed in part",
+    "byte_size": 5713046,
     "number_of_pages": 44
   },
   {
@@ -8706,6 +9403,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "disclosed in part",
+    "byte_size": 5937857,
     "number_of_pages": 71
   },
   {
@@ -8718,6 +9416,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 2453597,
     "number_of_pages": 27
   },
   {
@@ -8730,6 +9429,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 227681,
     "number_of_pages": 2
   },
   {
@@ -8742,6 +9442,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 237055,
     "number_of_pages": 2
   },
   {
@@ -8754,6 +9455,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 202094,
     "number_of_pages": 1
   },
   {
@@ -8766,6 +9468,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 316536,
     "number_of_pages": 1
   },
   {
@@ -8778,6 +9481,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "disclosed in part",
+    "byte_size": 1015785,
     "number_of_pages": 13
   },
   {
@@ -8790,6 +9494,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-11",
     "decision": "all disclosed",
+    "byte_size": 131882,
     "number_of_pages": 2
   },
   {
@@ -8802,6 +9507,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-13",
     "decision": "disclosed in part",
+    "byte_size": 6367304,
     "number_of_pages": 39
   },
   {
@@ -8814,6 +9520,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-15",
     "decision": "disclosed in part",
+    "byte_size": 18047935,
     "number_of_pages": 267
   },
   {
@@ -8826,6 +9533,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-15",
     "decision": "nothing disclosed",
+    "byte_size": 679501,
     "number_of_pages": 2
   },
   {
@@ -8838,6 +9546,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-15",
     "decision": "nothing disclosed",
+    "byte_size": 450495,
     "number_of_pages": 2
   },
   {
@@ -8850,6 +9559,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-19",
     "decision": "all disclosed",
+    "byte_size": 1263090,
     "number_of_pages": 7
   },
   {
@@ -8862,6 +9572,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-19",
     "decision": "all disclosed",
+    "byte_size": 977040,
     "number_of_pages": 7
   },
   {
@@ -8874,6 +9585,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-19",
     "decision": "disclosed in part",
+    "byte_size": 724937,
     "number_of_pages": 30
   },
   {
@@ -8886,6 +9598,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-20",
     "decision": "disclosed in part",
+    "byte_size": 5766271,
     "number_of_pages": 84
   },
   {
@@ -8898,6 +9611,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-22",
     "decision": "all disclosed",
+    "byte_size": 277251,
     "number_of_pages": 7
   },
   {
@@ -8910,6 +9624,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-22",
     "decision": "nothing disclosed",
+    "byte_size": 173597,
     "number_of_pages": 2
   },
   {
@@ -8922,6 +9637,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-25",
     "decision": "disclosed in part",
+    "byte_size": 32494388,
     "number_of_pages": 255
   },
   {
@@ -8934,6 +9650,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-25",
     "decision": "disclosed in part",
+    "byte_size": 7050862,
     "number_of_pages": 129
   },
   {
@@ -8946,6 +9663,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 1712489,
     "number_of_pages": 54
   },
   {
@@ -8958,6 +9676,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 340472,
     "number_of_pages": 2
   },
   {
@@ -8970,6 +9689,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 340472,
     "number_of_pages": 2
   },
   {
@@ -8982,6 +9702,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 561907,
     "number_of_pages": 3
   },
   {
@@ -8994,6 +9715,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 1010006,
     "number_of_pages": 6
   },
   {
@@ -9006,6 +9728,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "nothing disclosed",
+    "byte_size": 769652,
     "number_of_pages": 2
   },
   {
@@ -9018,6 +9741,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "disclosed in part",
+    "byte_size": 1116529,
     "number_of_pages": 7
   },
   {
@@ -9030,6 +9754,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 940907,
     "number_of_pages": 2
   },
   {
@@ -9042,6 +9767,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-26",
     "decision": "all disclosed",
+    "byte_size": 940907,
     "number_of_pages": 2
   },
   {
@@ -9054,6 +9780,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-27",
     "decision": "disclosed in part",
+    "byte_size": 10759933,
     "number_of_pages": 159
   },
   {
@@ -9066,6 +9793,7 @@
     "processing_fee": "0.00",
     "date": "2015-05-27",
     "decision": "disclosed in part",
+    "byte_size": 131164,
     "number_of_pages": 3
   },
   {
@@ -9078,6 +9806,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-02",
     "decision": "disclosed in part",
+    "byte_size": 20783557,
     "number_of_pages": 218
   },
   {
@@ -9090,6 +9819,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-03",
     "decision": "nothing disclosed",
+    "byte_size": 219200,
     "number_of_pages": 2
   },
   {
@@ -9102,6 +9832,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-03",
     "decision": "nothing disclosed",
+    "byte_size": 192207,
     "number_of_pages": 2
   },
   {
@@ -9114,6 +9845,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-03",
     "decision": "nothing disclosed",
+    "byte_size": 207030,
     "number_of_pages": 2
   },
   {
@@ -9126,6 +9858,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-04",
     "decision": "all disclosed",
+    "byte_size": 1036924,
     "number_of_pages": 2
   },
   {
@@ -9138,6 +9871,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-05",
     "decision": "disclosed in part",
+    "byte_size": 2777105,
     "number_of_pages": 17
   },
   {
@@ -9150,6 +9884,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-05",
     "decision": "all disclosed",
+    "byte_size": 167197,
     "number_of_pages": 4
   },
   {
@@ -9162,6 +9897,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-05",
     "decision": "all disclosed",
+    "byte_size": 95349,
     "number_of_pages": 1
   },
   {
@@ -9174,6 +9910,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-08",
     "decision": "all disclosed",
+    "byte_size": 3700123,
     "number_of_pages": 42
   },
   {
@@ -9186,6 +9923,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-08",
     "decision": "all disclosed",
+    "byte_size": 978524,
     "number_of_pages": 7
   },
   {
@@ -9198,6 +9936,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-08",
     "decision": "all disclosed",
+    "byte_size": 801716,
     "number_of_pages": 7
   },
   {
@@ -9210,6 +9949,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-09",
     "decision": "all disclosed",
+    "byte_size": 13794215,
     "number_of_pages": 138
   },
   {
@@ -9222,6 +9962,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-12",
     "decision": "disclosed in part",
+    "byte_size": 420521,
     "number_of_pages": 27
   },
   {
@@ -9234,6 +9975,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-12",
     "decision": "disclosed in part",
+    "byte_size": 12894392,
     "number_of_pages": 89
   },
   {
@@ -9246,6 +9988,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-15",
     "decision": "disclosed in part",
+    "byte_size": 1364022,
     "number_of_pages": 30
   },
   {
@@ -9258,6 +10001,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-15",
     "decision": "disclosed in part",
+    "byte_size": 1626708,
     "number_of_pages": 39
   },
   {
@@ -9270,6 +10014,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-15",
     "decision": "all disclosed",
+    "byte_size": 177024,
     "number_of_pages": 2
   },
   {
@@ -9282,6 +10027,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-15",
     "decision": "all disclosed",
+    "byte_size": 171632,
     "number_of_pages": 1
   },
   {
@@ -9294,6 +10040,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-15",
     "decision": "all disclosed",
+    "byte_size": 537628,
     "number_of_pages": 2
   },
   {
@@ -9306,6 +10053,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-16",
     "decision": "nothing disclosed",
+    "byte_size": 269713,
     "number_of_pages": 2
   },
   {
@@ -9318,6 +10066,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-17",
     "decision": "disclosed in part",
+    "byte_size": 1049435,
     "number_of_pages": 52
   },
   {
@@ -9330,6 +10079,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-17",
     "decision": "nothing disclosed",
+    "byte_size": 216367,
     "number_of_pages": 2
   },
   {
@@ -9342,6 +10092,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-18",
     "decision": "disclosed in part",
+    "byte_size": 854818,
     "number_of_pages": 51
   },
   {
@@ -9354,6 +10105,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-19",
     "decision": "disclosed in part",
+    "byte_size": 2691598,
     "number_of_pages": 20
   },
   {
@@ -9366,6 +10118,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-19",
     "decision": "all disclosed",
+    "byte_size": 141165,
     "number_of_pages": 3
   },
   {
@@ -9378,6 +10131,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-23",
     "decision": "nothing disclosed",
+    "byte_size": 42104,
     "number_of_pages": 1
   },
   {
@@ -9390,6 +10144,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-23",
     "decision": "all disclosed",
+    "byte_size": 77360,
     "number_of_pages": 3
   },
   {
@@ -9402,6 +10157,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-23",
     "decision": "disclosed in part",
+    "byte_size": 455704,
     "number_of_pages": 10
   },
   {
@@ -9414,6 +10170,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-23",
     "decision": "all disclosed",
+    "byte_size": 2739536,
     "number_of_pages": 242
   },
   {
@@ -9426,6 +10183,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-23",
     "decision": "disclosed in part",
+    "byte_size": 2834393,
     "number_of_pages": 17
   },
   {
@@ -9438,6 +10196,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-24",
     "decision": "nothing disclosed",
+    "byte_size": 89133,
     "number_of_pages": 2
   },
   {
@@ -9450,6 +10209,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-24",
     "decision": "nothing disclosed",
+    "byte_size": 89217,
     "number_of_pages": 2
   },
   {
@@ -9462,6 +10222,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-29",
     "decision": "all disclosed",
+    "byte_size": 327305,
     "number_of_pages": 10
   },
   {
@@ -9474,6 +10235,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-29",
     "decision": "disclosed in part",
+    "byte_size": 1754189,
     "number_of_pages": 17
   },
   {
@@ -9486,6 +10248,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-29",
     "decision": "disclosed in part",
+    "byte_size": 2449197,
     "number_of_pages": 22
   },
   {
@@ -9498,6 +10261,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-29",
     "decision": "nothing disclosed",
+    "byte_size": 207984,
     "number_of_pages": 2
   },
   {
@@ -9509,7 +10273,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-06-29",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 269614,
+    "number_of_rows": 38
   },
   {
     "id": "882",
@@ -9520,7 +10286,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-06-29",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 453355,
+    "number_of_rows": 77
   },
   {
     "id": "888",
@@ -9532,6 +10300,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-30",
     "decision": "all disclosed",
+    "byte_size": 42780,
     "number_of_pages": 1
   },
   {
@@ -9544,6 +10313,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-30",
     "decision": "all disclosed",
+    "byte_size": 1401726,
     "number_of_pages": 5
   },
   {
@@ -9556,6 +10326,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-30",
     "decision": "all disclosed",
+    "byte_size": 491857,
     "number_of_pages": 1
   },
   {
@@ -9568,6 +10339,7 @@
     "processing_fee": "0.00",
     "date": "2015-06-30",
     "decision": "disclosed in part",
+    "byte_size": 899686,
     "number_of_pages": 8
   },
   {
@@ -9590,6 +10362,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-02",
     "decision": "disclosed in part",
+    "byte_size": 374802,
     "number_of_pages": 14
   },
   {
@@ -9602,6 +10375,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-02",
     "decision": "disclosed in part",
+    "byte_size": 2743818,
     "number_of_pages": 17
   },
   {
@@ -9614,6 +10388,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-02",
     "decision": "disclosed in part",
+    "byte_size": 1314154,
     "number_of_pages": 5
   },
   {
@@ -9626,6 +10401,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-03",
     "decision": "all disclosed",
+    "byte_size": 343036,
     "number_of_pages": 2
   },
   {
@@ -9638,6 +10414,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-06",
     "decision": "disclosed in part",
+    "byte_size": 205645,
     "number_of_pages": 4
   },
   {
@@ -9650,6 +10427,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-07",
     "decision": "disclosed in part",
+    "byte_size": 12093956,
     "number_of_pages": 120
   },
   {
@@ -9662,6 +10440,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-07",
     "decision": "all disclosed",
+    "byte_size": 654461,
     "number_of_pages": 2
   },
   {
@@ -9674,6 +10453,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-07",
     "decision": "nothing disclosed",
+    "byte_size": 929673,
     "number_of_pages": 3
   },
   {
@@ -9685,7 +10465,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-07-07",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 584180,
+    "number_of_rows": 736
   },
   {
     "id": "899",
@@ -9697,6 +10479,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "disclosed in part",
+    "byte_size": 1218660,
     "number_of_pages": 8
   },
   {
@@ -9710,6 +10493,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "disclosed in part",
+    "byte_size": 1218660,
     "number_of_pages": 8
   },
   {
@@ -9722,6 +10506,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "disclosed in part",
+    "byte_size": 6785178,
     "number_of_pages": 43
   },
   {
@@ -9734,6 +10519,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "disclosed in part",
+    "byte_size": 33944165,
     "number_of_pages": 471
   },
   {
@@ -9746,6 +10532,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "all disclosed",
+    "byte_size": 587529,
     "number_of_pages": 2
   },
   {
@@ -9758,6 +10545,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-08",
     "decision": "all disclosed",
+    "byte_size": 989475,
     "number_of_pages": 3
   },
   {
@@ -9770,6 +10558,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-10",
     "decision": "disclosed in part",
+    "byte_size": 572164,
     "number_of_pages": 4
   },
   {
@@ -9782,6 +10571,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-10",
     "decision": "disclosed in part",
+    "byte_size": 33242718,
     "number_of_pages": 704
   },
   {
@@ -9794,6 +10584,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-10",
     "decision": "all disclosed",
+    "byte_size": 47930,
     "number_of_pages": 1
   },
   {
@@ -9806,6 +10597,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-10",
     "decision": "nothing disclosed",
+    "byte_size": 833893,
     "number_of_pages": 2
   },
   {
@@ -9817,7 +10609,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-07-10",
-    "decision": "disclosed in part"
+    "decision": "disclosed in part",
+    "byte_size": 1236850,
+    "number_of_rows": 136
   },
   {
     "id": "911",
@@ -9828,7 +10622,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-07-14",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 298910,
+    "number_of_rows": 20
   },
   {
     "id": "910",
@@ -9840,6 +10636,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-14",
     "decision": "all disclosed",
+    "byte_size": 23149752,
     "number_of_pages": 224
   },
   {
@@ -9852,6 +10649,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-15",
     "decision": "disclosed in part",
+    "byte_size": 2253135,
     "number_of_pages": 135
   },
   {
@@ -9864,6 +10662,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-15",
     "decision": "disclosed in part",
+    "byte_size": 6208939,
     "number_of_pages": 108
   },
   {
@@ -9876,6 +10675,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-16",
     "decision": "disclosed in part",
+    "byte_size": 727869,
     "number_of_pages": 3
   },
   {
@@ -9888,6 +10688,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-17",
     "decision": "disclosed in part",
+    "byte_size": 5029407,
     "number_of_pages": 100
   },
   {
@@ -9900,6 +10701,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-20",
     "decision": "all disclosed",
+    "byte_size": 1527981,
     "number_of_pages": 30
   },
   {
@@ -9912,6 +10714,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-20",
     "decision": "disclosed in part",
+    "byte_size": 66062624,
     "number_of_pages": 1050
   },
   {
@@ -9924,6 +10727,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-20",
     "decision": "disclosed in part",
+    "byte_size": 6454386,
     "number_of_pages": 70
   },
   {
@@ -9936,6 +10740,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-20",
     "decision": "all disclosed",
+    "byte_size": 749082,
     "number_of_pages": 2
   },
   {
@@ -9948,6 +10753,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-20",
     "decision": "disclosed in part",
+    "byte_size": 635441,
     "number_of_pages": 5
   },
   {
@@ -9959,7 +10765,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-07-20",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 3359697,
+    "number_of_rows": 2886
   },
   {
     "id": "922",
@@ -9971,6 +10779,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-21",
     "decision": "disclosed in part",
+    "byte_size": 10827746,
     "number_of_pages": 255
   },
   {
@@ -9983,6 +10792,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-21",
     "decision": "all disclosed",
+    "byte_size": 229601,
     "number_of_pages": 2
   },
   {
@@ -9995,6 +10805,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-21",
     "decision": "all disclosed",
+    "byte_size": 259481,
     "number_of_pages": 2
   },
   {
@@ -10007,6 +10818,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-21",
     "decision": "all disclosed",
+    "byte_size": 208515,
     "number_of_pages": 2
   },
   {
@@ -10019,6 +10831,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-22",
     "decision": "disclosed in part",
+    "byte_size": 9812749,
     "number_of_pages": 149
   },
   {
@@ -10031,6 +10844,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-23",
     "decision": "all disclosed",
+    "byte_size": 114420,
     "number_of_pages": 6
   },
   {
@@ -10043,6 +10857,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-23",
     "decision": "disclosed in part",
+    "byte_size": 779319,
     "number_of_pages": 50
   },
   {
@@ -10055,6 +10870,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-24",
     "decision": "all disclosed",
+    "byte_size": 979205,
     "number_of_pages": 2
   },
   {
@@ -10066,7 +10882,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-07-27",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 426024,
+    "number_of_rows": 33
   },
   {
     "id": "929",
@@ -10078,6 +10896,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "all disclosed",
+    "byte_size": 207620,
     "number_of_pages": 6
   },
   {
@@ -10090,6 +10909,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "all disclosed",
+    "byte_size": 244244,
     "number_of_pages": 5
   },
   {
@@ -10102,6 +10922,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "disclosed in part",
+    "byte_size": 1682235,
     "number_of_pages": 12
   },
   {
@@ -10114,6 +10935,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "all disclosed",
+    "byte_size": 3883796,
     "number_of_pages": 168
   },
   {
@@ -10126,6 +10948,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "all disclosed",
+    "byte_size": 3221397,
     "number_of_pages": 30
   },
   {
@@ -10138,6 +10961,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "disclosed in part",
+    "byte_size": 2681494,
     "number_of_pages": 22
   },
   {
@@ -10150,6 +10974,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "all disclosed",
+    "byte_size": 470022,
     "number_of_pages": 9
   },
   {
@@ -10162,6 +10987,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-27",
     "decision": "disclosed in part",
+    "byte_size": 25841768,
     "number_of_pages": 222
   },
   {
@@ -10174,6 +11000,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-28",
     "decision": "disclosed in part",
+    "byte_size": 243813,
     "number_of_pages": 6
   },
   {
@@ -10186,6 +11013,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-28",
     "decision": "disclosed in part",
+    "byte_size": 348479,
     "number_of_pages": 4
   },
   {
@@ -10198,6 +11026,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-28",
     "decision": "all disclosed",
+    "byte_size": 267519,
     "number_of_pages": 3
   },
   {
@@ -10210,6 +11039,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-29",
     "decision": "all disclosed",
+    "byte_size": 1110673,
     "number_of_pages": 3
   },
   {
@@ -10222,6 +11052,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-29",
     "decision": "nothing disclosed",
+    "byte_size": 909950,
     "number_of_pages": 2
   },
   {
@@ -10234,6 +11065,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-29",
     "decision": "disclosed in part",
+    "byte_size": 9316995,
     "number_of_pages": 131
   },
   {
@@ -10246,6 +11078,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-31",
     "decision": "all disclosed",
+    "byte_size": 995198,
     "number_of_pages": 19
   },
   {
@@ -10258,6 +11091,7 @@
     "processing_fee": "0.00",
     "date": "2015-07-31",
     "decision": "disclosed in part",
+    "byte_size": 28616921,
     "number_of_pages": 439
   },
   {
@@ -10270,6 +11104,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-03",
     "decision": "nothing disclosed",
+    "byte_size": 159246,
     "number_of_pages": 5
   },
   {
@@ -10282,6 +11117,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-03",
     "decision": "all disclosed",
+    "byte_size": 322771,
     "number_of_pages": 5
   },
   {
@@ -10293,7 +11129,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-08-03",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 260140,
+    "number_of_rows": 18
   },
   {
     "id": "950",
@@ -10305,6 +11143,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-03",
     "decision": "nothing disclosed",
+    "byte_size": 925431,
     "number_of_pages": 4
   },
   {
@@ -10317,6 +11156,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-03",
     "decision": "nothing disclosed",
+    "byte_size": 156702,
     "number_of_pages": 2
   },
   {
@@ -10329,6 +11169,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-04",
     "decision": "disclosed in part",
+    "byte_size": 6683914,
     "number_of_pages": 29
   },
   {
@@ -10341,6 +11182,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-04",
     "decision": "all disclosed",
+    "byte_size": 11790730,
     "number_of_pages": 234
   },
   {
@@ -10353,6 +11195,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-04",
     "decision": "all disclosed",
+    "byte_size": 11893198,
     "number_of_pages": 234
   },
   {
@@ -10365,6 +11208,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-04",
     "decision": "all disclosed",
+    "byte_size": 572956,
     "number_of_pages": 2
   },
   {
@@ -10377,6 +11221,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-06",
     "decision": "all disclosed",
+    "byte_size": 1028077,
     "number_of_pages": 5
   },
   {
@@ -10389,6 +11234,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-06",
     "decision": "nothing disclosed",
+    "byte_size": 212961,
     "number_of_pages": 2
   },
   {
@@ -10401,6 +11247,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-10",
     "decision": "all disclosed",
+    "byte_size": 4382684,
     "number_of_pages": 111
   },
   {
@@ -10413,6 +11260,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-10",
     "decision": "disclosed in part",
+    "byte_size": 17378663,
     "number_of_pages": 500
   },
   {
@@ -10425,6 +11273,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-10",
     "decision": "nothing disclosed",
+    "byte_size": 943059,
     "number_of_pages": 3
   },
   {
@@ -10437,6 +11286,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "disclosed in part",
+    "byte_size": 2482344,
     "number_of_pages": 23
   },
   {
@@ -10449,6 +11299,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "disclosed in part",
+    "byte_size": 3668895,
     "number_of_pages": 24
   },
   {
@@ -10462,6 +11313,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "all disclosed",
+    "byte_size": 10347654,
     "number_of_pages": 198
   },
   {
@@ -10474,6 +11326,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "disclosed in part",
+    "byte_size": 3991719,
     "number_of_pages": 114
   },
   {
@@ -10486,6 +11339,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "all disclosed",
+    "byte_size": 935035,
     "number_of_pages": 20
   },
   {
@@ -10498,6 +11352,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "all disclosed",
+    "byte_size": 156896,
     "number_of_pages": 4
   },
   {
@@ -10510,6 +11365,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "all disclosed",
+    "byte_size": 1101040,
     "number_of_pages": 5
   },
   {
@@ -10522,6 +11378,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "all disclosed",
+    "byte_size": 2299818,
     "number_of_pages": 50
   },
   {
@@ -10534,6 +11391,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-11",
     "decision": "nothing disclosed",
+    "byte_size": 1137286,
     "number_of_pages": 2
   },
   {
@@ -10546,6 +11404,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-12",
     "decision": "disclosed in part",
+    "byte_size": 727752,
     "number_of_pages": 22
   },
   {
@@ -10558,6 +11417,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-12",
     "decision": "all disclosed",
+    "byte_size": 1673385,
     "number_of_pages": 49
   },
   {
@@ -10570,6 +11430,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-13",
     "decision": "all disclosed",
+    "byte_size": 477137,
     "number_of_pages": 11
   },
   {
@@ -10582,6 +11443,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-14",
     "decision": "all disclosed",
+    "byte_size": 3371061,
     "number_of_pages": 51
   },
   {
@@ -10594,6 +11456,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-14",
     "decision": "all disclosed",
+    "byte_size": 829418,
     "number_of_pages": 3
   },
   {
@@ -10606,6 +11469,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "disclosed in part",
+    "byte_size": 1610916,
     "number_of_pages": 31
   },
   {
@@ -10618,6 +11482,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "disclosed in part",
+    "byte_size": 45003379,
     "number_of_pages": 847
   },
   {
@@ -10630,6 +11495,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "disclosed in part",
+    "byte_size": 14531815,
     "number_of_pages": 111
   },
   {
@@ -10642,6 +11508,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "disclosed in part",
+    "byte_size": 9194259,
     "number_of_pages": 111
   },
   {
@@ -10654,6 +11521,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "disclosed in part",
+    "byte_size": 29050517,
     "number_of_pages": 290
   },
   {
@@ -10666,6 +11534,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "all disclosed",
+    "byte_size": 2107065,
     "number_of_pages": 41
   },
   {
@@ -10678,6 +11547,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-17",
     "decision": "all disclosed",
+    "byte_size": 658955,
     "number_of_pages": 4
   },
   {
@@ -10689,7 +11559,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-08-18",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 580581,
+    "number_of_rows": 111
   },
   {
     "id": "992",
@@ -10701,6 +11573,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-18",
     "decision": "disclosed in part",
+    "byte_size": 2553960,
     "number_of_pages": 15
   },
   {
@@ -10713,6 +11586,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-19",
     "decision": "all disclosed",
+    "byte_size": 344461,
     "number_of_pages": 2
   },
   {
@@ -10725,6 +11599,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-19",
     "decision": "nothing disclosed",
+    "byte_size": 150559,
     "number_of_pages": 2
   },
   {
@@ -10737,6 +11612,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-19",
     "decision": "nothing disclosed",
+    "byte_size": 150559,
     "number_of_pages": 2
   },
   {
@@ -10749,6 +11625,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-21",
     "decision": "disclosed in part",
+    "byte_size": 1428774,
     "number_of_pages": 3
   },
   {
@@ -10761,6 +11638,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-21",
     "decision": "all disclosed",
+    "byte_size": 123894,
     "number_of_pages": 6
   },
   {
@@ -10773,6 +11651,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-21",
     "decision": "all disclosed",
+    "byte_size": 1244804,
     "number_of_pages": 39
   },
   {
@@ -10785,6 +11664,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-24",
     "decision": "disclosed in part",
+    "byte_size": 2433745,
     "number_of_pages": 21
   },
   {
@@ -10797,6 +11677,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-24",
     "decision": "all disclosed",
+    "byte_size": 1223815,
     "number_of_pages": 4
   },
   {
@@ -10809,6 +11690,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-24",
     "decision": "all disclosed",
+    "byte_size": 2057850,
     "number_of_pages": 29
   },
   {
@@ -10821,6 +11703,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-24",
     "decision": "all disclosed",
+    "byte_size": 6438375,
     "number_of_pages": 96
   },
   {
@@ -10833,6 +11716,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-25",
     "decision": "disclosed in part",
+    "byte_size": 876691,
     "number_of_pages": 11
   },
   {
@@ -10845,6 +11729,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-27",
     "decision": "disclosed in part",
+    "byte_size": 2015537,
     "number_of_pages": 36
   },
   {
@@ -10857,6 +11742,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-27",
     "decision": "disclosed in part",
+    "byte_size": 47481980,
     "number_of_pages": 754
   },
   {
@@ -10869,6 +11755,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-28",
     "decision": "nothing disclosed",
+    "byte_size": 733294,
     "number_of_pages": 5
   },
   {
@@ -10881,6 +11768,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-28",
     "decision": "nothing disclosed",
+    "byte_size": 733294,
     "number_of_pages": 5
   },
   {
@@ -10893,6 +11781,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-28",
     "decision": "disclosed in part",
+    "byte_size": 4787331,
     "number_of_pages": 70
   },
   {
@@ -10905,6 +11794,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "nothing disclosed",
+    "byte_size": 89923,
     "number_of_pages": 2
   },
   {
@@ -10917,6 +11807,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "nothing disclosed",
+    "byte_size": 89923,
     "number_of_pages": 2
   },
   {
@@ -10929,6 +11820,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "all disclosed",
+    "byte_size": 1435588,
     "number_of_pages": 5
   },
   {
@@ -10941,6 +11833,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "disclosed in part",
+    "byte_size": 1780973,
     "number_of_pages": 28
   },
   {
@@ -10953,6 +11846,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "disclosed in part",
+    "byte_size": 21401441,
     "number_of_pages": 125
   },
   {
@@ -10965,6 +11859,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "nothing disclosed",
+    "byte_size": 660121,
     "number_of_pages": 6
   },
   {
@@ -10977,6 +11872,7 @@
     "processing_fee": "0.00",
     "date": "2015-08-31",
     "decision": "all disclosed",
+    "byte_size": 1397295,
     "number_of_pages": 63
   },
   {
@@ -10989,6 +11885,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-02",
     "decision": "all disclosed",
+    "byte_size": 634218,
     "number_of_pages": 13
   },
   {
@@ -11001,6 +11898,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-02",
     "decision": "disclosed in part",
+    "byte_size": 402485,
     "number_of_pages": 5
   },
   {
@@ -11013,6 +11911,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-02",
     "decision": "disclosed in part",
+    "byte_size": 673852,
     "number_of_pages": 25
   },
   {
@@ -11025,6 +11924,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-02",
     "decision": "nothing disclosed",
+    "byte_size": 596658,
     "number_of_pages": 2
   },
   {
@@ -11037,6 +11937,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-03",
     "decision": "disclosed in part",
+    "byte_size": 5422526,
     "number_of_pages": 209
   },
   {
@@ -11049,6 +11950,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-03",
     "decision": "all disclosed",
+    "byte_size": 2604667,
     "number_of_pages": 102
   },
   {
@@ -11061,6 +11963,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-08",
     "decision": "all disclosed",
+    "byte_size": 685811,
     "number_of_pages": 2
   },
   {
@@ -11073,6 +11976,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-08",
     "decision": "disclosed in part",
+    "byte_size": 327391,
     "number_of_pages": 5
   },
   {
@@ -11085,6 +11989,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-08",
     "decision": "disclosed in part",
+    "byte_size": 3517868,
     "number_of_pages": 24
   },
   {
@@ -11097,6 +12002,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-08",
     "decision": "disclosed in part",
+    "byte_size": 76677186,
     "number_of_pages": 632
   },
   {
@@ -11109,6 +12015,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-09",
     "decision": "disclosed in part",
+    "byte_size": 288773,
     "number_of_pages": 3
   },
   {
@@ -11121,6 +12028,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-11",
     "decision": "disclosed in part",
+    "byte_size": 2146259,
     "number_of_pages": 60
   },
   {
@@ -11133,6 +12041,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-14",
     "decision": "nothing disclosed",
+    "byte_size": 97598,
     "number_of_pages": 1
   },
   {
@@ -11144,7 +12053,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-09-18",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 265085,
+    "number_of_rows": 28
   },
   {
     "id": "1122",
@@ -11156,6 +12067,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-18",
     "decision": "disclosed in part",
+    "byte_size": 79060200,
     "number_of_pages": 548
   },
   {
@@ -11168,6 +12080,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-18",
     "decision": "disclosed in part",
+    "byte_size": 30250930,
     "number_of_pages": 284
   },
   {
@@ -11180,6 +12093,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-18",
     "decision": "nothing disclosed",
+    "byte_size": 642258,
     "number_of_pages": 6
   },
   {
@@ -11191,7 +12105,9 @@
     "application_fee": "0.00",
     "processing_fee": "0.00",
     "date": "2015-09-22",
-    "decision": "all disclosed"
+    "decision": "all disclosed",
+    "byte_size": 749569,
+    "number_of_rows": 122
   },
   {
     "id": "1127",
@@ -11203,6 +12119,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-22",
     "decision": "disclosed in part",
+    "byte_size": 2379050,
     "number_of_pages": 21
   },
   {
@@ -11215,6 +12132,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-22",
     "decision": "all disclosed",
+    "byte_size": 6539912,
     "number_of_pages": 89
   },
   {
@@ -11227,6 +12145,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-25",
     "decision": "nothing disclosed",
+    "byte_size": 1525961,
     "number_of_pages": 2
   },
   {
@@ -11239,6 +12158,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-28",
     "decision": "all disclosed",
+    "byte_size": 1825295,
     "number_of_pages": 10
   },
   {
@@ -11251,6 +12171,7 @@
     "processing_fee": "0.00",
     "date": "2015-09-29",
     "decision": "disclosed in part",
+    "byte_size": 3692536,
     "number_of_pages": 82
   },
   {
@@ -11263,6 +12184,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-01",
     "decision": "disclosed in part",
+    "byte_size": 11529994,
     "number_of_pages": 174
   },
   {
@@ -11275,6 +12197,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-02",
     "decision": "disclosed in part",
+    "byte_size": 12478926,
     "number_of_pages": 160
   },
   {
@@ -11287,6 +12210,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-05",
     "decision": "all disclosed",
+    "byte_size": 786746,
     "number_of_pages": 3
   },
   {
@@ -11299,6 +12223,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-05",
     "decision": "disclosed in part",
+    "byte_size": 10728396,
     "number_of_pages": 59
   },
   {
@@ -11311,6 +12236,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-05",
     "decision": "nothing disclosed",
+    "byte_size": 1696313,
     "number_of_pages": 6
   },
   {
@@ -11323,6 +12249,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-05",
     "decision": "disclosed in part",
+    "byte_size": 50350233,
     "number_of_pages": 454
   },
   {
@@ -11335,6 +12262,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-06",
     "decision": "all disclosed",
+    "byte_size": 9026610,
     "number_of_pages": 132
   },
   {
@@ -11347,6 +12275,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-06",
     "decision": "all disclosed",
+    "byte_size": 1268568,
     "number_of_pages": 26
   },
   {
@@ -11359,6 +12288,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-07",
     "decision": "all disclosed",
+    "byte_size": 368622,
     "number_of_pages": 17
   },
   {
@@ -11371,6 +12301,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-07",
     "decision": "disclosed in part",
+    "byte_size": 1542505,
     "number_of_pages": 19
   },
   {
@@ -11383,6 +12314,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-09",
     "decision": "disclosed in part",
+    "byte_size": 24779131,
     "number_of_pages": 167
   },
   {
@@ -11395,6 +12327,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-09",
     "decision": "nothing disclosed",
+    "byte_size": 197438,
     "number_of_pages": 2
   },
   {
@@ -11407,6 +12340,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-09",
     "decision": "nothing disclosed",
+    "byte_size": 690582,
     "number_of_pages": 2
   },
   {
@@ -11419,6 +12353,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-13",
     "decision": "all disclosed",
+    "byte_size": 135155,
     "number_of_pages": 2
   },
   {
@@ -11431,6 +12366,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-14",
     "decision": "all disclosed",
+    "byte_size": 222835,
     "number_of_pages": 20
   },
   {
@@ -11443,6 +12379,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-14",
     "decision": "nothing disclosed",
+    "byte_size": 97041,
     "number_of_pages": 2
   },
   {
@@ -11455,6 +12392,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-14",
     "decision": "disclosed in part",
+    "byte_size": 4333116,
     "number_of_pages": 27
   },
   {
@@ -11467,6 +12405,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-16",
     "decision": "disclosed in part",
+    "byte_size": 8094331,
     "number_of_pages": 333
   },
   {
@@ -11479,6 +12418,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-16",
     "decision": "all disclosed",
+    "byte_size": 267685,
     "number_of_pages": 4
   },
   {
@@ -11491,6 +12431,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-16",
     "decision": "all disclosed",
+    "byte_size": 268867,
     "number_of_pages": 3
   },
   {
@@ -11503,6 +12444,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-16",
     "decision": "all disclosed",
+    "byte_size": 283706,
     "number_of_pages": 4
   },
   {
@@ -11515,6 +12457,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-16",
     "decision": "all disclosed",
+    "byte_size": 141303,
     "number_of_pages": 4
   },
   {
@@ -11527,6 +12470,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-19",
     "decision": "nothing disclosed",
+    "byte_size": 118360,
     "number_of_pages": 2
   },
   {
@@ -11539,6 +12483,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-20",
     "decision": "nothing disclosed",
+    "byte_size": 125204,
     "number_of_pages": 2
   },
   {
@@ -11551,6 +12496,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-20",
     "decision": "all disclosed",
+    "byte_size": 167806,
     "number_of_pages": 1
   },
   {
@@ -11563,6 +12509,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-20",
     "decision": "all disclosed",
+    "byte_size": 133554,
     "number_of_pages": 2
   },
   {
@@ -11575,6 +12522,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-23",
     "decision": "disclosed in part",
+    "byte_size": 6642334,
     "number_of_pages": 83
   },
   {
@@ -11587,6 +12535,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-23",
     "decision": "nothing disclosed",
+    "byte_size": 918077,
     "number_of_pages": 2
   },
   {
@@ -11599,6 +12548,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-26",
     "decision": "disclosed in part",
+    "byte_size": 2774041,
     "number_of_pages": 28
   },
   {
@@ -11611,6 +12561,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-26",
     "decision": "disclosed in part",
+    "byte_size": 4309083,
     "number_of_pages": 38
   },
   {
@@ -11623,6 +12574,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-27",
     "decision": "disclosed in part",
+    "byte_size": 2964241,
     "number_of_pages": 21
   },
   {
@@ -11635,6 +12587,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-29",
     "decision": "nothing disclosed",
+    "byte_size": 270074,
     "number_of_pages": 2
   },
   {
@@ -11647,6 +12600,7 @@
     "processing_fee": "0.00",
     "date": "2015-10-29",
     "decision": "nothing disclosed",
+    "byte_size": 1009631,
     "number_of_pages": 3
   },
   {
@@ -11659,6 +12613,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-02",
     "decision": "all disclosed",
+    "byte_size": 1642584,
     "number_of_pages": 36
   },
   {
@@ -11671,6 +12626,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-02",
     "decision": "all disclosed",
+    "byte_size": 220567,
     "number_of_pages": 23
   },
   {
@@ -11683,6 +12639,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-02",
     "decision": "nothing disclosed",
+    "byte_size": 553356,
     "number_of_pages": 2
   },
   {
@@ -11695,6 +12652,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-02",
     "decision": "disclosed in part",
+    "byte_size": 3496942,
     "number_of_pages": 103
   },
   {
@@ -11707,6 +12665,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-03",
     "decision": "nothing disclosed",
+    "byte_size": 694859,
     "number_of_pages": 4
   },
   {
@@ -11719,6 +12678,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-09",
     "decision": "all disclosed",
+    "byte_size": 634052,
     "number_of_pages": 27
   },
   {
@@ -11731,6 +12691,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-09",
     "decision": "all disclosed",
+    "byte_size": 492730,
     "number_of_pages": 12
   },
   {
@@ -11743,6 +12704,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-09",
     "decision": "all disclosed",
+    "byte_size": 2115197,
     "number_of_pages": 39
   },
   {
@@ -11755,6 +12717,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-09",
     "decision": "all disclosed",
+    "byte_size": 841567,
     "number_of_pages": 4
   },
   {
@@ -11767,6 +12730,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-09",
     "decision": "nothing disclosed",
+    "byte_size": 742537,
     "number_of_pages": 3
   },
   {
@@ -11779,6 +12743,7 @@
     "processing_fee": "0.00",
     "date": "2015-11-13",
     "decision": "all disclosed",
+    "byte_size": 11219773,
     "number_of_pages": 318
   },
   {
@@ -11788,6 +12753,7 @@
     "abstract": "A breakdown of skills development funding approvals since July 2015 indicating: how many people have been approved by trade/program of study; and how much money has been invested by trade/program of study.",
     "organization": "Advanced Education and Skills",
     "date": "2015-11-16",
+    "byte_size": 185630,
     "number_of_pages": 5
   },
   {
@@ -11797,6 +12763,7 @@
     "abstract": "All permits/approvals for the project: Voisey's Bay Mine and Marine Terminal.",
     "organization": "Environment and Conservation",
     "date": "2015-11-16",
+    "byte_size": 3972949,
     "number_of_pages": 39
   },
   {
@@ -11806,6 +12773,7 @@
     "abstract": "Information relating to a residential property.",
     "organization": "Environment and Conservation",
     "date": "2015-11-16",
+    "byte_size": 4560151,
     "number_of_pages": 15
   },
   {
@@ -11815,6 +12783,7 @@
     "abstract": "Any and all relevant documents, materials, correspondence, letters, media communications, or other related communications pertaining to the Wheeler's Road Subdivision in Corner Brook.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-11-16",
+    "byte_size": 1161182,
     "number_of_pages": 38
   },
   {
@@ -11824,6 +12793,7 @@
     "abstract": "Records on Pentecostal Church in Degrau, NL.",
     "organization": "Service NL",
     "date": "2015-11-16",
+    "byte_size": 791858,
     "number_of_pages": 12
   },
   {
@@ -11833,6 +12803,7 @@
     "abstract": "Copy of the rules of natural justice you reference, relating to declaring a councillor's seat vacant, and specifically their relationship/connection/reference to/inclusion of a \"friendly hearing\".",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-11-20",
+    "byte_size": 287455,
     "number_of_pages": 2
   },
   {
@@ -11841,7 +12812,9 @@
     "identifier": "SNL/41/2015",
     "abstract": "A list of all school busses (both Board-owned and Private) that have been inspected, received CSA D250 certification or non-certification for the years 2010-2015. Please provide a separate tally of busses that have not been approved",
     "organization": "Service NL",
-    "date": "2015-11-20"
+    "date": "2015-11-20",
+    "byte_size": 647615,
+    "number_of_rows": 6302
   },
   {
     "id": "1581",
@@ -11850,6 +12823,7 @@
     "abstract": "Information on an agreement made between the Government of NL and a Test Publisher named Pearson and possibly other Test Publishers as well. I have been told that there is an agreement in place which overrides the qualifications Test Publishers have in place, this agreement allows assessors with less qualifications to administer Level C tests in NL than in other jurisdictions. Does NL follow these guidelines that the rest of the Canada and the US are following or is there in fact an agreement in place that overrides this list of qualifications.",
     "organization": "Education and Early Childhood Development",
     "date": "2015-11-23",
+    "byte_size": 291274,
     "number_of_pages": 3
   },
   {
@@ -11859,6 +12833,7 @@
     "abstract": "Any correspondence between the Department of Education and the NLPB and the Canadian Psychological Association, as well as correspondence with Educational Psychologists already working within the system, or psychologists working outside the system, or other concerned parties, regarding assessments done in schools, these could be called 'placement exams', 'exams to determine qualifications for accommodations', 'diagnosis exams', 'level a', 'level b', 'level c' exams. 'WISC exams','WIAT exams'.",
     "organization": "Education and Early Childhood Development",
     "date": "2015-11-23",
+    "byte_size": 688853,
     "number_of_pages": 46
   },
   {
@@ -11868,6 +12843,7 @@
     "abstract": "In October Minister Sullivan announced there is nothing wrong with our math curriculum. Was this conclusion a result of the review that was promised in the 2015 Budget? Did someone decide the review was not needed after all? I would like to see the review if in fact there is one.",
     "organization": "Education and Early Childhood Development",
     "date": "2015-11-23",
+    "byte_size": 59675,
     "number_of_pages": 2
   },
   {
@@ -11877,6 +12853,7 @@
     "abstract": "Information relating to the remunerations of a former employee of the Department of Finance.",
     "organization": "Human Resource Secretariat",
     "date": "2015-11-23",
+    "byte_size": 936364,
     "number_of_pages": 3
   },
   {
@@ -11886,6 +12863,7 @@
     "abstract": "Information relating to land in Brigus Junction.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-11-23",
+    "byte_size": 822482,
     "number_of_pages": 12
   },
   {
@@ -11895,6 +12873,7 @@
     "abstract": "Information relating to land in Brigus Junction.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-11-23",
+    "byte_size": 342458,
     "number_of_pages": 2
   },
   {
@@ -11903,7 +12882,9 @@
     "identifier": "TW/51/2015",
     "abstract": "Information regarding the past capital works projects between 2012-2014,specifically the approved budget of each project versus the total actual cost on completed projects and percentage complete.",
     "organization": "Transportation and Works",
-    "date": "2015-11-23"
+    "date": "2015-11-23",
+    "byte_size": 601998,
+    "number_of_rows": 22
   },
   {
     "id": "1603",
@@ -11912,6 +12893,7 @@
     "abstract": "Information relating to the October 12/13, 2010 delivery of consultations in relation to the George River Caribou Herd and stakeholders consulted.",
     "organization": "Environment and Conservation",
     "date": "2015-11-24",
+    "byte_size": 5720928,
     "number_of_pages": 55
   },
   {
@@ -11921,6 +12903,7 @@
     "abstract": "A copy of the draft legislation that Minister Kent has referenced in media which is apparently ready for introduction to the House of Assembly concerning Secure Treatment and Detox for Youth.",
     "organization": "Health and Community Services",
     "date": "2015-11-24",
+    "byte_size": 304794,
     "number_of_pages": 2
   },
   {
@@ -11930,6 +12913,7 @@
     "abstract": "Copies of Eastern Regional Appeal Board decisions since June 19,2015.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-11-24",
+    "byte_size": 2421215,
     "number_of_pages": 89
   },
   {
@@ -11938,7 +12922,9 @@
     "identifier": "MIGA/74/2015",
     "abstract": "Request copy of updated list for Eastern Regional Appeal Board Hearings.",
     "organization": "Municipal and Intergovernmental Affairs",
-    "date": "2015-11-24"
+    "date": "2015-11-24",
+    "byte_size": 1535396,
+    "number_of_rows": 117
   },
   {
     "id": "1621",
@@ -11947,6 +12933,7 @@
     "abstract": "All documents pertaining to the policies surrounding the granting of MCP coverage to Out of Province and International applicants.",
     "organization": "Health and Community Services",
     "date": "2015-11-26",
+    "byte_size": 11310197,
     "number_of_pages": 257
   },
   {
@@ -11955,7 +12942,9 @@
     "identifier": "MIGA/68/2015",
     "abstract": "Information regarding the past capital works projects between 2012-2014, the approved budget of each project versus the total actual cost on completed projects, the completion percentage of projects approved between 2012-2014 and each of their projected costs.",
     "organization": "Municipal and Intergovernmental Affairs",
-    "date": "2015-11-27"
+    "date": "2015-11-27",
+    "byte_size": 1702335,
+    "number_of_rows": 357
   },
   {
     "id": "1642",
@@ -11964,6 +12953,7 @@
     "abstract": "All costs associated with the Advisory Committee on Labrador Transportation's consultation activities on marine services since July 2015.",
     "organization": "Transportation and Works",
     "date": "2015-11-27",
+    "byte_size": 621782,
     "number_of_pages": 2
   },
   {
@@ -11973,6 +12963,7 @@
     "abstract": "Microplastics found in fish from the last five years. How much fish we consumed in the past five years.",
     "organization": "Fisheries and Aquaculture",
     "date": "2015-11-30",
+    "byte_size": 544660,
     "number_of_pages": 2
   },
   {
@@ -11982,6 +12973,7 @@
     "abstract": "Payment details on the Paid Family Caregiver Program.",
     "organization": "Health and Community Services",
     "date": "2015-11-30",
+    "byte_size": 562183,
     "number_of_pages": 4
   },
   {
@@ -11991,6 +12983,7 @@
     "abstract": "All documents, briefing notes, proposals and contracts resulting from Request for Proposal OCIO.1011.006 Data Network Service Provider RFP release date October 12, 2010",
     "organization": "Office of the Chief Information Officer",
     "date": "2015-11-30",
+    "byte_size": 8589824,
     "number_of_pages": 129
   },
   {
@@ -12000,6 +12993,7 @@
     "abstract": "Information relating to the reasoning for the reopening of the marine safety infrastructure in Newfoundland and Labrador being listed as one of the five issues that are of 'paramount' importance to the province in Premier Davis' letter to Prime Minister Elect Justin Trudeau.",
     "organization": "The Office of the Premier",
     "date": "2015-11-30",
+    "byte_size": 1596040,
     "number_of_pages": 3
   },
   {
@@ -12009,6 +13003,7 @@
     "abstract": "Information on the replacement of gyprock to renovate the old Regina High School into Corner Brook Intermediate.",
     "organization": "Transportation and Works",
     "date": "2015-11-30",
+    "byte_size": 7636025,
     "number_of_pages": 141
   },
   {
@@ -12018,6 +13013,7 @@
     "abstract": "Information relating to land in Brigus Junction.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-12-01",
+    "byte_size": 213070,
     "number_of_pages": 2
   },
   {
@@ -12027,6 +13023,7 @@
     "abstract": "All information or records concerning implementation of the \"Recovery Strategy for Three Woodland Caribou Herds (Rangifer tarandus caribou; Boreal population) in Labrador\" published in July 2004, but only those records dated October 2012 or later.",
     "organization": "Environment and Conservation",
     "date": "2015-12-07",
+    "byte_size": 10651312,
     "number_of_pages": 75
   },
   {
@@ -12036,6 +13033,7 @@
     "abstract": "All communications (including telephone calls, faxes, emails. file notes) between all Env & Cons employees in all locations pertaining to LaManche Park and the hiring of contractors to do work in LaManche Provincial Park. I am also looking for all quotes received, invoices received and payments issued. I am requesting this information for 2013, 2014 and 2015.",
     "organization": "Environment and Conservation",
     "date": "2015-12-07",
+    "byte_size": 29464808,
     "number_of_pages": 174
   },
   {
@@ -12044,7 +13042,9 @@
     "identifier": "HCS/64/2015",
     "abstract": "I am looking for the Capital Equipment approvals for the RHA (regional health authorities) for 2015-16. I believe that this would be contained in the department of health and community services budget 2015-16.",
     "organization": "Health and Community Services",
-    "date": "2015-12-07"
+    "date": "2015-12-07",
+    "byte_size": 349184,
+    "number_of_rows": 491
   },
   {
     "id": "1721",
@@ -12053,6 +13053,7 @@
     "abstract": "Re; Response to File #: MIGA/69/2015. What is the source/origin/reference/documentation/authorship for the information on \"rules of natural justice\"? How would this source be referenced for a third party?",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-12-10",
+    "byte_size": 287858,
     "number_of_pages": 2
   },
   {
@@ -12062,6 +13063,7 @@
     "abstract": "Any and all information relating to the Newfoundland and Labrador Youth Centre in Whitbourne, NL from 2005-present day. This information should include yearly breakdown of number of persons living there, their ages and gender, as well as number of employees, and any reports of inhabitants being placed on suicide watch, any violent incidents with case workers, and any and all reports regarding the same.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-14",
+    "byte_size": 12583382,
     "number_of_pages": 327
   },
   {
@@ -12071,6 +13073,7 @@
     "abstract": "Any and all information related to: Planning and Design for Various School Infrastructure Projects Tender, Paradise Middle School, Witless Bay/Mobile Middle School, Paradise High School, Riverside Elementary School.",
     "organization": "Transportation and Works",
     "date": "2015-12-14",
+    "byte_size": 2079873,
     "number_of_pages": 15
   },
   {
@@ -12080,6 +13083,7 @@
     "abstract": "Any and all complaints, responses, or resolutions regarding any provincial court judge, as well as procedural history. Request records from Jan 2014-to present.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-15",
+    "byte_size": 178628,
     "number_of_pages": 4
   },
   {
@@ -12089,6 +13093,7 @@
     "abstract": "A copy of a brief delivered to the justice department, dated on or about Dec. 16, 2013, from the Newfoundland and Labrador association of provincial court judges.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-15",
+    "byte_size": 231113,
     "number_of_pages": 4
   },
   {
@@ -12098,6 +13103,7 @@
     "abstract": "I am requesting for the year 2015 the totals monthly for cell phone usage tickets for in car use without Bluetooth that have been issued. The totals for each month please in the St. John's area.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-15",
+    "byte_size": 265773,
     "number_of_pages": 5
   },
   {
@@ -12107,6 +13113,7 @@
     "abstract": "Directives and correspondence to Eastern Waste Management from Municipal Affairs pertaining to collection of fees as under the Regional Services Act for the period of January 1st, 2015 to November 1st, 2015.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-12-15",
+    "byte_size": 363452,
     "number_of_pages": 2
   },
   {
@@ -12116,6 +13123,7 @@
     "abstract": "Any and all communications, information, letters, memos, emails for the last year regarding a specific officer.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 436079,
     "number_of_pages": 19
   },
   {
@@ -12125,6 +13133,7 @@
     "abstract": "Information relating to suspended correctional officers between 2011-2015.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 185863,
     "number_of_pages": 4
   },
   {
@@ -12134,6 +13143,7 @@
     "abstract": "Existing records related to an RNC investigation from 1993 (February through June or July) which took place at the Village Mall. I have been able to locate court records for individual cases, and some transcripts for the cases which were appealed and then ended up in the Supreme Court of NFLD (Court of Appeal). I am wondering if there are any files available which came out of the police investigation or if there are ones that would help to explain how the investigation was initiated.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 316931,
     "number_of_pages": 2
   },
   {
@@ -12143,6 +13153,7 @@
     "abstract": "Could you please supply copies of audited financial information that shows how much money is paid into the province via the Support Enforcement Agency (Order-In payment) and how much support is paid out of the province through the Support Enforcement Agency (Order-Out Payment) with respect to child and spousal support since 2005. Could you also please provide copies of documents provided to StatsCan by the government of Newfoundland and Labrador with respect to the requested information.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 186210,
     "number_of_pages": 3
   },
   {
@@ -12152,6 +13163,7 @@
     "abstract": "Copies of all minutes, briefing notes or other documentation used or created by the Supreme Court of Newfoundland and Labrador Rules Committee from November 2014 until October 2015 and a list of dates showing when the Rules Committee met.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 124208,
     "number_of_pages": 2
   },
   {
@@ -12161,6 +13173,7 @@
     "abstract": "Your Ref : TW/26/2014 : Dated Dec 14,2014 Star Realty's Mechanic's lien against the Crown and Eastern School Board , please provide book of documents and factum, to date, if possible.",
     "organization": "Justice and Public Safety",
     "date": "2015-12-16",
+    "byte_size": 799029,
     "number_of_pages": 39
   },
   {
@@ -12170,6 +13183,7 @@
     "abstract": "Municipal capital works projects related to MIGA/68/2015 and the town of Portugal Cove St. Philips.",
     "organization": "Municipal and Intergovernmental Affairs",
     "date": "2015-12-21",
+    "byte_size": 211730,
     "number_of_pages": 2
   },
   {
@@ -12179,6 +13193,7 @@
     "abstract": "Information relating to debt servicing costs over the past two fiscal years (2013-14 and 2014-15).",
     "organization": "Finance",
     "date": "2015-12-22",
+    "byte_size": 1472675,
     "number_of_pages": 5
   }
 ]
