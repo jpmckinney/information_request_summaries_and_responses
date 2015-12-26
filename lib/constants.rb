@@ -106,9 +106,10 @@ TEMPLATES = {
     'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages ~1 Nombre de pages'),
   },
   'ca_bc' => {
-    'id' => '/id',
     'division_id' => '/division_id',
     'identifier' => '/identifier',
+    'alternate_identifier' => '/id',
+    'position' => '/position',
     'abstract' => '/abstract',
     'organization' => '/organization',
     'applicant_type' => mapping_formatter('applicant_type', '/applicant_type', {
@@ -153,6 +154,10 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/Request Number').value
       ['identifier', v.strip]
     },
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/Request Number').value
+      ['position', Integer(v.strip.match(%r{\A[A-Z]{2,5}/(\d{1,2})/\d{4}\z})[1])]
+    },
     'abstract' => '/Summary of Request',
     'organization' => '/Department',
     'application_fee' => decimal_formatter('application_fee', '/$5 Application Fees Paid'),
@@ -173,6 +178,7 @@ TEMPLATES = {
   'ca_ns_halifax' => {
     'division_id' => '/division_id',
     'identifier' => '/identifier',
+    'position' => '/position',
     'abstract' => '/abstract',
     'date' => '/date',
     'decision' => '/decision',
@@ -180,7 +186,7 @@ TEMPLATES = {
   },
   'ca_on_burlington' => {
     'division_id' => 'ocd-division/country:ca/csd:3524002',
-    'identifier' => integer_formatter('identifier', '/No.'),
+    'position' => integer_formatter('position', '/No.'),
     'organization' => '/Dept Contact',
     'classification' => mapping_formatter('classification', '/Request Type', {
       'general records' => 'general',
@@ -196,14 +202,14 @@ TEMPLATES = {
     'decision' => '/Decision',
   },
   'ca_on_greater_sudbury' => {
-    'id' => lambda{|data|
-      v = JsonPointer.new(data, '/FILE_NUMBER').value
-      ['id', v.gsub(' ', '')]
-    },
     'division_id' => 'ocd-division/country:ca/csd:3553005',
     'identifier' => lambda{|data|
       v = JsonPointer.new(data, '/FILE_NUMBER').value
-      ['identifier', Integer(v.strip.match(/\AFOI ?\d{4}-(\d{1,4})\z/)[1])]
+      ['identifier', v.gsub(' ', '')]
+    },
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/FILE_NUMBER').value
+      ['position', Integer(v.gsub(' ', '').match(/\AFOI\d{4}-(\d{1,3})\z/)[1])]
     },
     'abstract' => '/PUBLIC_DESCRIPTION',
     'organization' => '/DEPARTMENT',
@@ -241,6 +247,10 @@ TEMPLATES = {
   'ca_on_toronto' => {
     'division_id' => 'ocd-division/country:ca/csd:3520005',
     'identifier' => '/Request_Number',
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/Request_Number').value
+      ['position', v.strip.empty? ? nil : Integer(v.match(/\A(?:AG|AP|COR|PHI)-\d{4}-0*(\d+)\z/)[1])]
+    },
     'abstract' => '/Summary',
     'classification' => mapping_formatter('classification', '/Request_Type', {
       'general records' => 'general',

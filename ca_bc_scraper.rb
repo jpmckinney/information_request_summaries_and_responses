@@ -72,11 +72,13 @@ class BC < Processor
 
           # Get the response's properties from the list page.
           title = tds[0].text
+          identifier = get_identifier(title)
           detail_url = "http://www.openinfo.gov.bc.ca#{tds[0].at_xpath('.//@href').value.strip}"
           list_properties = {
             id: detail_url.match(/\brecorduid:([^&]+)/)[1],
             title: title,
-            identifier: get_identifier(title),
+            identifier: identifier,
+            position: Integer(identifier.match(/\A[A-Z]{3}-\d{4}-0*(\d+)\z/)[1]),
             url: detail_url,
             abstract: tds[1].text.chomp('...'),
             date: get_date(tds[2].text),

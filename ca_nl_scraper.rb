@@ -210,6 +210,7 @@ class NL < Processor
       'division_id',
       'identifier',
       'alternate_identifier',
+      'position',
       'abstract',
       'organization',
       'application_fee',

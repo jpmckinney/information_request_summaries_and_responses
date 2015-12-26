@@ -4,10 +4,6 @@
   "description": "A request for information under a freedom of information law",
   "type": "object",
   "properties": {
-    "id": {
-      "description": "A unique identifier for the request",
-      "type": "string"
-    },
     "division_id": {
       "description": "An Open Civic Data Division Identifier",
       "type": "string"
@@ -25,6 +21,10 @@
         "integer",
         "string"
       ]
+    },
+    "position": {
+      "description": "The request's position within a sequence",
+      "type": "integer"
     },
     "abstract": {
       "description": "The summary of the request",
@@ -197,6 +197,12 @@
       "required": [
         "identifier",
         "abstract"
+      ]
+    },
+    {
+      "required": [
+        "position",
+        "date"
       ]
     },
     {
