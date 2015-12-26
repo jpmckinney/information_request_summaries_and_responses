@@ -4,6 +4,7 @@
     "identifier": 1,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -12,6 +13,7 @@
     "identifier": 2,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -20,6 +22,7 @@
     "identifier": 3,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -28,6 +31,7 @@
     "identifier": 4,
     "organization": "Halton Region",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012"
   },
   {
@@ -35,6 +39,7 @@
     "identifier": 5,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -43,6 +48,7 @@
     "identifier": 6,
     "organization": "Various",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -51,6 +57,7 @@
     "identifier": 7,
     "organization": "Building, Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -59,6 +66,7 @@
     "identifier": 8,
     "organization": "Roads and Parks Maintenance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -67,6 +75,7 @@
     "identifier": 9,
     "organization": "Engineering",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -75,6 +84,7 @@
     "identifier": 10,
     "organization": "Building and By-law ",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -83,6 +93,7 @@
     "identifier": 12,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -91,6 +102,7 @@
     "identifier": 12,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -99,6 +111,7 @@
     "identifier": 13,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -107,6 +120,7 @@
     "identifier": 14,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -115,6 +129,7 @@
     "identifier": 15,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -123,6 +138,7 @@
     "identifier": 16,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -131,6 +147,7 @@
     "identifier": 17,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -139,6 +156,7 @@
     "identifier": 18,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -147,6 +165,7 @@
     "identifier": 19,
     "organization": "Fire",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -155,6 +174,7 @@
     "identifier": 20,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -163,6 +183,7 @@
     "identifier": 21,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -171,6 +192,7 @@
     "identifier": 22,
     "organization": "Finance, Clerks",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -179,6 +201,7 @@
     "identifier": 23,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -187,6 +210,7 @@
     "identifier": 24,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -195,6 +219,7 @@
     "identifier": 25,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -203,6 +228,7 @@
     "identifier": 26,
     "organization": "Various",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -211,6 +237,7 @@
     "identifier": 27,
     "organization": "Roads and Parks Maintenance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -219,6 +246,7 @@
     "identifier": 28,
     "organization": "Various",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -227,6 +255,7 @@
     "identifier": 29,
     "organization": "Planning Building Engineering",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -235,6 +264,7 @@
     "identifier": 30,
     "organization": "Procurement ",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -243,6 +273,7 @@
     "identifier": 31,
     "organization": "Planning Building Engineering",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -251,6 +282,7 @@
     "identifier": 32,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -259,6 +291,7 @@
     "identifier": 33,
     "organization": "Planning Building Engineering",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -267,6 +300,7 @@
     "identifier": 34,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -275,6 +309,7 @@
     "identifier": 35,
     "organization": "Procurement ",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -283,6 +318,7 @@
     "identifier": 36,
     "organization": "Roads and Parks Maintenance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -291,6 +327,7 @@
     "identifier": 37,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -299,6 +336,7 @@
     "identifier": 38,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -307,6 +345,7 @@
     "identifier": 39,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -315,6 +354,7 @@
     "identifier": 40,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "all disclosed"
   },
@@ -323,6 +363,7 @@
     "identifier": 41,
     "organization": "Halton Region",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -331,6 +372,7 @@
     "identifier": 42,
     "organization": "Clerks",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "abandoned"
   },
@@ -339,6 +381,7 @@
     "identifier": 43,
     "organization": "By-law enforcement",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "disclosed in part"
   },
@@ -347,6 +390,7 @@
     "identifier": 44,
     "organization": "Halton Region",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -355,6 +399,7 @@
     "identifier": 45,
     "organization": "Clerks - Council",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2012",
     "decision": "nothing disclosed"
   },
@@ -363,6 +408,7 @@
     "identifier": 1,
     "organization": "AMANDA - Planning and Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -371,6 +417,7 @@
     "identifier": 2,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -379,6 +426,7 @@
     "identifier": 3,
     "organization": "Burlington Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -387,6 +435,7 @@
     "identifier": 4,
     "organization": "Burlington Fire",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2013",
     "decision": "abandoned"
   },
@@ -395,6 +444,7 @@
     "identifier": 5,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -403,6 +453,7 @@
     "identifier": 6,
     "organization": "Burlington Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -411,6 +462,7 @@
     "identifier": 7,
     "organization": "Building, Planning",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -419,6 +471,7 @@
     "identifier": 8,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -427,6 +480,7 @@
     "identifier": 9,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -435,6 +489,7 @@
     "identifier": 10,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -443,6 +498,7 @@
     "identifier": 11,
     "organization": "Burlington Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -450,6 +506,7 @@
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 12,
     "classification": "general",
+    "applicant_type": "business",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -458,6 +515,7 @@
     "identifier": 13,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -466,6 +524,7 @@
     "identifier": 14,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -474,6 +533,7 @@
     "identifier": 15,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "abandoned"
   },
@@ -482,6 +542,7 @@
     "identifier": 16,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -489,6 +550,7 @@
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 17,
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -497,6 +559,7 @@
     "identifier": 18,
     "organization": "By-law enforcement",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -504,6 +567,7 @@
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 19,
     "classification": "general",
+    "applicant_type": "business",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -511,6 +575,7 @@
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 20,
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -518,6 +583,7 @@
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 21,
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "abandoned"
   },
@@ -526,6 +592,7 @@
     "identifier": 22,
     "organization": "Procurement ",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -534,6 +601,7 @@
     "identifier": 23,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -542,6 +610,7 @@
     "identifier": 24,
     "organization": "Licensing and Permits",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -550,6 +619,7 @@
     "identifier": 25,
     "organization": "Clerks",
     "classification": "general",
+    "applicant_type": "media",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -558,6 +628,7 @@
     "identifier": 26,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -566,6 +637,7 @@
     "identifier": 27,
     "organization": "Engineering",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "nothing disclosed"
   },
@@ -574,6 +646,7 @@
     "identifier": 28,
     "organization": "Engineering",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "abandoned"
   },
@@ -582,6 +655,7 @@
     "identifier": 29,
     "organization": "Transportation, Transit",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -590,6 +664,7 @@
     "identifier": 30,
     "organization": "Animal Control",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "abandoned"
   },
@@ -598,6 +673,7 @@
     "identifier": 31,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -606,6 +682,7 @@
     "identifier": 32,
     "organization": "Building, Licensing",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -614,6 +691,7 @@
     "identifier": 33,
     "organization": "Fire",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -622,6 +700,7 @@
     "identifier": 34,
     "organization": "Clerks, HR",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2013"
   },
   {
@@ -629,6 +708,7 @@
     "identifier": 35,
     "organization": "Burlington Museums",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -637,6 +717,7 @@
     "identifier": 36,
     "organization": "Roads and Parks Maintenance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "all disclosed"
   },
@@ -645,6 +726,7 @@
     "identifier": 37,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2013",
     "decision": "disclosed in part"
   },
@@ -653,6 +735,7 @@
     "identifier": 1,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014"
   },
   {
@@ -660,6 +743,7 @@
     "identifier": 2,
     "organization": "Animal Control",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -668,6 +752,7 @@
     "identifier": 3,
     "organization": "Building, Fire",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -676,6 +761,7 @@
     "identifier": 4,
     "organization": "By-law enforcement",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -684,6 +770,7 @@
     "identifier": 5,
     "organization": "Building, Licensing",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -692,6 +779,7 @@
     "identifier": 6,
     "organization": "Procurement",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -700,6 +788,7 @@
     "identifier": 7,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -708,6 +797,7 @@
     "identifier": 8,
     "organization": "Planning and Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -716,6 +806,7 @@
     "identifier": 9,
     "organization": "Animal Control",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -724,6 +815,7 @@
     "identifier": 10,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -732,6 +824,7 @@
     "identifier": 11,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "abandoned"
   },
@@ -740,6 +833,7 @@
     "identifier": 12,
     "organization": "Planning",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014"
   },
   {
@@ -747,6 +841,7 @@
     "identifier": 13,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014"
   },
   {
@@ -754,6 +849,7 @@
     "identifier": 14,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014"
   },
   {
@@ -761,6 +857,7 @@
     "identifier": 15,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -769,6 +866,7 @@
     "identifier": 16,
     "organization": "Procurement Services",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -777,6 +875,7 @@
     "identifier": 17,
     "organization": "Building, Fire",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -785,6 +884,7 @@
     "identifier": 18,
     "organization": "Transportation",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -793,6 +893,7 @@
     "identifier": 19,
     "organization": "Parks and Recreation",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -801,6 +902,7 @@
     "identifier": 20,
     "organization": "All",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -809,6 +911,7 @@
     "identifier": 21,
     "organization": "Finance",
     "classification": "general",
+    "applicant_type": "organization",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -817,6 +920,7 @@
     "identifier": 22,
     "organization": "Finance, Clerks",
     "classification": "general",
+    "applicant_type": "organization",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -825,12 +929,14 @@
     "identifier": 23,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "identifier": 24,
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -845,6 +951,7 @@
     "identifier": 26,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -853,6 +960,7 @@
     "identifier": 27,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -861,6 +969,7 @@
     "identifier": 28,
     "organization": "Transportation",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "abandoned"
   },
@@ -869,6 +978,7 @@
     "identifier": 29,
     "organization": "Clerks",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -877,6 +987,7 @@
     "identifier": 30,
     "organization": "Planning and Building, Animal Control",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -885,6 +996,7 @@
     "identifier": 31,
     "organization": "Licensing",
     "classification": "general",
+    "applicant_type": "business",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -893,6 +1005,7 @@
     "identifier": 32,
     "organization": "Engineering, Finance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -901,6 +1014,7 @@
     "identifier": 33,
     "organization": "Parking, Transportation",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014"
   },
   {
@@ -908,6 +1022,7 @@
     "identifier": 34,
     "organization": "Transit",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -916,6 +1031,7 @@
     "identifier": 35,
     "organization": "Transit",
     "classification": "personal",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -924,6 +1040,7 @@
     "identifier": 36,
     "organization": "Parks and Recreation",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "nothing disclosed"
   },
@@ -932,6 +1049,7 @@
     "identifier": 37,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   },
@@ -940,6 +1058,7 @@
     "identifier": 38,
     "organization": "Roads and Parks Maintenance",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "disclosed in part"
   },
@@ -948,6 +1067,7 @@
     "identifier": 39,
     "organization": "Building",
     "classification": "general",
+    "applicant_type": "public",
     "date": "2014",
     "decision": "all disclosed"
   }
