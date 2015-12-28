@@ -37,20 +37,20 @@ namespace :datasets do
     })
   end
 
-  def records_from_source(directory, template, options = {})
+  def records_from_source(jurisdiction_code, template, options = {})
     records = []
 
-    method = "#{directory}_normalize"
+    method = "#{jurisdiction_code}_normalize"
 
-    if NON_CSV_SOURCES.include?(directory)
+    if NON_CSV_SOURCES.include?(jurisdiction_code)
       rows = send(method)
     else
-      filename = File.join('wip', directory, 'data.csv')
+      filename = File.join('wip', jurisdiction_code, 'data.csv')
 
       unless File.exist?(filename)
-        filenames = Dir[File.join('wip', directory, '*.csv')]
+        filenames = Dir[File.join('wip', jurisdiction_code, '*.csv')]
         filename = filenames[0]
-        assert("#{directory}: can't determine CSV file"){filenames.one?}
+        assert("#{jurisdiction_code}: can't determine CSV file"){filenames.one?}
       end
 
       begin
@@ -58,8 +58,8 @@ namespace :datasets do
       rescue NoMethodError => e
         if e.message[method]
           csv_options = {headers: true}
-          if CSV_ENCODINGS.key?(directory)
-            csv_options[:encoding] = CSV_ENCODINGS[directory]
+          if CSV_ENCODINGS.key?(jurisdiction_code)
+            csv_options[:encoding] = CSV_ENCODINGS[jurisdiction_code]
           end
           rows = CSV.foreach(filename, csv_options)
         else
@@ -93,12 +93,12 @@ namespace :datasets do
             end
             records << record
           rescue JSON::Schema::ValidationError => e
-            puts "#{directory} #{index + 2}: #{e}\n  #{record}"
+            puts "#{jurisdiction_code} #{index + 2}: #{e}\n  #{record}"
           end
         end
       end
     rescue CSV::MalformedCSVError => e
-      puts "#{directory}: #{e.message}"
+      puts "#{jurisdiction_code}: #{e.message}"
     end
 
     records
@@ -149,17 +149,17 @@ namespace :datasets do
     paths = {
       'wip' => 'wip',
     }
-    datasets.each do |directory,_|
-      paths[directory] = File.join(paths['wip'], directory)
+    datasets.each do |jurisdiction_code,_|
+      paths[jurisdiction_code] = File.join(paths['wip'], jurisdiction_code)
     end
 
     paths.each do |_,path|
       FileUtils.mkdir_p(path)
     end
 
-    datasets.each do |directory,url|
+    datasets.each do |jurisdiction_code,url|
       basename = File.extname(url) == '.csv' ? File.basename(url) : 'data.csv'
-      File.open(File.join(paths[directory], basename), 'w') do |f|
+      File.open(File.join(paths[jurisdiction_code], basename), 'w') do |f|
         f.write(client.get(url).body)
       end
     end
@@ -173,16 +173,16 @@ namespace :datasets do
       templates = TEMPLATES
     end
 
-    templates.each do |directory,template|
-      records = sort_records(records_from_source(directory, template))
+    templates.each do |jurisdiction_code,template|
+      records = sort_records(records_from_source(jurisdiction_code, template))
 
       # Write the records.
       FileUtils.mkdir_p('summaries')
-      File.open(File.join('summaries', "#{directory}.json"), 'w') do |f|
+      File.open(File.join('summaries', "#{jurisdiction_code}.json"), 'w') do |f|
         f << JSON.pretty_generate(records)
       end
       keys = template.keys - ['documents']
-      CSV.open(File.join('summaries', "#{directory}.csv"), 'w') do |csv|
+      CSV.open(File.join('summaries', "#{jurisdiction_code}.csv"), 'w') do |csv|
         csv << keys
         records.each do |record|
           csv << keys.map{|key| record[key]}
@@ -266,8 +266,8 @@ namespace :datasets do
       ]
 
       Dir[File.join('summaries', '*.json')].each do |path|
-        directory = File.basename(path, '.json')
-        records = records_from_source(directory, TEMPLATES[directory], normalize: false, validate: false)
+        jurisdiction_code = File.basename(path, '.json')
+        records = records_from_source(jurisdiction_code, TEMPLATES[jurisdiction_code], normalize: false, validate: false)
         counts_by_decision = {}
         examples_by_decision = {}
 
@@ -300,7 +300,7 @@ namespace :datasets do
         end
 
         if counts_by_decision.any?
-          puts directory
+          puts jurisdiction_code
           counts_by_decision.partition{|decision,_| no_pages.include?(decision)}.each_with_index do |partition,index|
             puts "  #{messages[index]}"
             partition.each do |decision,counts|
