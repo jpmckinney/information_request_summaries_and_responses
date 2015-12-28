@@ -159,10 +159,6 @@ class NL < Processor
     end
   end
 
-  def upload
-    # TODO: ZIP and upload as year and year-month archives
-  end
-
   def reconcile
     # Identifiers may change year from one system to another, and not always in
     # the same direction. It's unclear which is correct.
