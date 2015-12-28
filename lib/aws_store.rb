@@ -9,6 +9,7 @@ class AWSStore < Pupa::Processor::DocumentStore::FileStore
   # @see http://fog.io/storage/#using-amazon-s3-and-fog
   def initialize(output_dir, bucket, aws_access_key_id, aws_secret_access_key)
     @output_dir = output_dir
+    @output_dir_re = %r{\A#{output_dir}/}
     @connection = Fog::Storage.new(provider: 'AWS', aws_access_key_id: aws_access_key_id, aws_secret_access_key: aws_secret_access_key, path_style: true)
     @bucket = @connection.directories.get(bucket, prefix: output_dir)
   end
@@ -26,7 +27,7 @@ class AWSStore < Pupa::Processor::DocumentStore::FileStore
   #
   # @return [Array<String>] all keys in the store
   def entries
-    @bucket.files.map(&:key)
+    @bucket.files.map{|file| file.key.sub(@output_dir_re, '')}
   end
 
   # Returns the contents of the file with the given name.
