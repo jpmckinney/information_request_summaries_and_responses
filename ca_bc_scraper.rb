@@ -7,18 +7,7 @@ require_relative 'lib/utils'
 class BC < Processor
   DIVISION_ID = 'ocd-division/country:ca/province:bc'
 
-  def initialize(*args)
-    super
-    @download_store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_bc'), Dir.pwd))
-  end
-
-  def get_identifier(text)
-    text.match(/\AFOI Request - (\S+)\z/)[1]
-  end
-
-  def get_date(text)
-    DateTime.strptime(text, '%B %e, %Y').strftime('%Y-%m-%d')
-  end
+  @jurisdiction_code = 'ca_bc'
 
   def scrape_responses
     client.options.params_encoder = Faraday::FlatParamsEncoder
@@ -219,37 +208,12 @@ class BC < Processor
     end
   end
 
-  def upload
-    aws_store = AWSStore.new('information_requests', ENV['AWS_BUCKET'], ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY'])
-    delimiter_re = /(\d)(?=(\d\d\d)+(?!\d))/
+  def get_identifier(text)
+    text.match(/\AFOI Request - (\S+)\z/)[1]
+  end
 
-    # An entire year is very large (GBs), so upload months and smaller.
-    download_store.glob('*/**/*').each do |directory|
-      if download_store.directory?(directory)
-        aws_path = File.join('ca_bc', "#{directory}.zip")
-
-        unless aws_store.exist?(aws_path)
-          info("writing #{aws_path}")
-          pattern = %r{\A#{File.dirname(directory)}/}
-
-          io = Zip::OutputStream.write_buffer do |zipfile|
-            download_store.glob(File.join(directory, '**/*')).each do |file|
-              if download_store.file?(file)
-                zipfile.put_next_entry(file.sub(pattern, ''))
-                zipfile.write download_store.read(file)
-              end
-            end
-          end
-
-          info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
-          begin
-            aws_store.write(aws_path, io.string)
-          rescue Excon::Errors::SocketError => e
-            error(e)
-          end
-        end
-      end
-    end
+  def get_date(text)
+    DateTime.strptime(text, '%B %e, %Y').strftime('%Y-%m-%d')
   end
 
   def documents(response)

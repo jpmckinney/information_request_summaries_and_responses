@@ -55,7 +55,16 @@ class Processor < Pupa::Processor
     'ms' => 0.001,
   }.freeze
 
+  class << self
+    attr_accessor :jurisdiction_code
+  end
+
   attr_reader :download_store
+
+  def initialize(*args)
+    super
+    @download_store = DownloadStore.new(File.expand_path(File.join('downloads', self.class.jurisdiction_code), Dir.pwd))
+  end
 
   def assert(message)
     error(message) unless yield
@@ -145,6 +154,39 @@ class Processor < Pupa::Processor
             file['scan'] = output.gsub(/\p{Space}+/, ' ').strip.size <= 1000
           else
             error("#{path}: #{stderr.read}")
+          end
+        end
+      end
+    end
+  end
+
+  def upload
+    aws_store = AWSStore.new('information_requests', ENV['AWS_BUCKET'], ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY'])
+    delimiter_re = /(\d)(?=(\d\d\d)+(?!\d))/
+
+    # An entire year is very large (GBs), so upload months and smaller.
+    download_store.glob('*/**/*').each do |directory|
+      if download_store.directory?(directory)
+        aws_path = File.join(self.class.jurisdiction_code, "#{directory}.zip")
+
+        unless aws_store.exist?(aws_path)
+          info("writing #{aws_path}")
+          pattern = %r{\A#{File.dirname(directory)}/}
+
+          io = Zip::OutputStream.write_buffer do |zipfile|
+            download_store.glob(File.join(directory, '**/*')).each do |file|
+              if download_store.file?(file)
+                zipfile.put_next_entry(file.sub(pattern, ''))
+                zipfile.write download_store.read(file)
+              end
+            end
+          end
+
+          info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
+          begin
+            aws_store.write(aws_path, io.string)
+          rescue Excon::Errors::SocketError => e
+            error(e)
           end
         end
       end
