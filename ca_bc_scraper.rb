@@ -223,6 +223,7 @@ class BC < Processor
     aws_store = AWSStore.new('information_requests', ENV['AWS_BUCKET'], ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY'])
     delimiter_re = /(\d)(?=(\d\d\d)+(?!\d))/
 
+    # An entire year is very large (GBs), so upload months and smaller.
     download_store.glob('*/**/*').each do |directory|
       if download_store.directory?(directory)
         aws_path = File.join('ca_bc', "#{directory}.zip")
@@ -241,7 +242,11 @@ class BC < Processor
           end
 
           info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
-          aws_store.write(aws_path, io.string)
+          begin
+            aws_store.write(aws_path, io.string)
+          rescue Excon::Errors::SocketError => e
+            error(e)
+          end
         end
       end
     end
