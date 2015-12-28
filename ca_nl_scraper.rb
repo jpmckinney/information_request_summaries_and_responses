@@ -200,6 +200,18 @@ class NL < Processor
     end
   end
 
+  def compress
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+      path = "#{response.fetch('id')}#{MEDIA_TYPES[response.fetch('media_type')]}"
+      determine_if_scanned(response, path)
+      collection.update_one({_id: response['_id']}, response)
+    end
+  end
+
+  def upload
+    # TODO: ZIP and upload as year and year-month archives
+  end
+
   def reconcile
     # Identifiers may change year from one system to another, and not always in
     # the same direction. It's unclear which is correct.
@@ -367,5 +379,7 @@ NL.add_scraping_task(:responses)
 
 runner = Pupa::Runner.new(NL)
 runner.add_action(name: 'download', description: 'Download responses')
+runner.add_action(name: 'compress', description: 'Compress responses')
+runner.add_action(name: 'upload', description: 'Upload responses as ZIP archives')
 runner.add_action(name: 'reconcile', description: 'Merge CSV data')
 runner.run(ARGV)

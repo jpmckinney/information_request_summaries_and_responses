@@ -162,51 +162,74 @@ class BC < Processor
 
   def download
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      date = Date.parse(response['date'])
-      year = date.strftime('%Y')
-      month = date.strftime('%m')
-
       response['byte_size'] = 0
       response['number_of_pages'] = 0
       response['number_of_rows'] = 0
       response['duration'] = 0
 
-      ['letters', 'notes', 'files'].each do |property|
-        if response[property]
-          response[property].each do |file|
-            path = File.join(year, month, response['id'], file['title'])
-
-            unless download_store.exist?(path)
-              begin
-                download_store.write(path, get(URI.escape(file['url'])))
-              rescue Faraday::ResourceNotFound
-                warn("404 #{file['url']}")
-              end
-            end
-
-            calculate_document_size(file, path)
-
-            # The response is sometimes in the incorrect section on the
-            # website, so we find responses by filename instead.
-            if file['title'][/pac[ka]{2}ge|records/i]
-              if Integer === file['byte_size']
-                response['byte_size'] += file['byte_size']
-              end
-              if file['number_of_pages']
-                response['number_of_pages'] += file['number_of_pages']
-              elsif file['number_of_rows']
-                response['number_of_rows'] += file['number_of_rows']
-              elsif file['duration']
-                response['duration'] += file['duration']
-              end
-            elsif !file['title'][/letter|email|note/i]
-              error("#{path} not recognized as letter, note or file")
-            end
+      documents(response).to_enum.each do |file,path|
+        unless download_store.exist?(path)
+          begin
+            download_store.write(path, get(URI.escape(file['url'])))
+          rescue Faraday::ResourceNotFound
+            warn("404 #{file['url']}")
           end
+        end
+
+        calculate_document_size(file, path)
+
+        # The response is sometimes in the incorrect section on the
+        # website, so we find responses by filename instead.
+        if file['title'][/pac[ka]{2}ge|records/i]
+          if Integer === file['byte_size']
+            response['byte_size'] += file['byte_size']
+          end
+          if file['number_of_pages']
+            response['number_of_pages'] += file['number_of_pages']
+          elsif file['number_of_rows']
+            response['number_of_rows'] += file['number_of_rows']
+          elsif file['duration']
+            response['duration'] += file['duration']
+          end
+        elsif !file['title'][/letter|email|note/i]
+          error("#{path} not recognized as letter, note or file")
         end
       end
 
       collection.update_one({_id: response['_id']}, response)
+    end
+  end
+
+  def compress
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+      documents(response).to_enum.each do |file,path|
+        determine_if_scanned(file, path)
+      end
+
+      # Since all the documents are scans, we don't want to compress.
+      # @see https://github.com/jpmckinney/information_request_summaries_and_responses/issues/14
+
+      collection.update_one({_id: response['_id']}, response)
+    end
+  end
+
+  def package
+    # TODO: ZIP and upload: stream to avoid taking up lots of HD space
+  end
+
+  def documents(response)
+    Pupa::Processor::Yielder.new do
+      date = Date.parse(response['date'])
+      year = date.strftime('%Y')
+      month = date.strftime('%m')
+
+      ['letters', 'notes', 'files'].each do |property|
+        if response[property]
+          response[property].each do |file|
+            Fiber.yield(file, File.join(year, month, response['id'], file['title']))
+          end
+        end
+      end
     end
   end
 end
@@ -215,5 +238,6 @@ BC.add_scraping_task(:responses)
 
 runner = Pupa::Runner.new(BC)
 runner.add_action(name: 'download', description: 'Download responses')
-runner.add_action(name: 'number_of_pages', description: 'Calculate the number of pages disclosed')
+runner.add_action(name: 'compress', description: 'Compress responses')
+runner.add_action(name: 'upload', description: 'Upload responses as ZIP archives')
 runner.run(ARGV, faraday_options: {follow_redirects: {limit: 5}})

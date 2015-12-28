@@ -103,12 +103,12 @@ namespace :ca do
     end
 
     puts <<-END
-  # install.packages("ggplot2")
-  library(ggplot2)
-  dat <- data.frame(id = c(#{counts.keys.map{|k| %("#{k}")}.join(', ')}), count = c(#{counts.values.map(&:to_s).join(', ')}))
-  # head(dat)
-  ggplot(dat, aes(x=count)) + geom_histogram(binwidth=50) + scale_y_sqrt()
-  END
+# install.packages("ggplot2")
+library(ggplot2)
+dat <- data.frame(id = c(#{counts.keys.map{|k| %("#{k}")}.join(', ')}), count = c(#{counts.values.map(&:to_s).join(', ')}))
+# head(dat)
+ggplot(dat, aes(x=count)) + geom_histogram(binwidth=50) + scale_y_sqrt()
+END
 
     total = counts.size.to_f
     values = counts.values
