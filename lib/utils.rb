@@ -132,13 +132,17 @@ class Processor < Pupa::Processor
     end
   end
 
-  def determine_if_scanned(file, path)
+  def determine_if_scanned(file, path, remove)
     if download_store.exist?(path) && file.fetch('media_type') == 'application/pdf'
       unless file.key?('scan')
         info(path)
         Open3.popen3("pdftotext #{Shellwords.escape(download_store.path(path))} -") do |stdin,stdout,stderr,wait_thr|
-          if wait_thr.value.success?
-            file['scan'] = stdout.read.empty?
+          if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
+            output = stdout.read.gsub(/\p{Space}+/, ' ')
+            remove.each do |pattern|
+              output.gsub!(pattern, '')
+            end
+            file['scan'] = output.gsub(/\p{Space}+/, ' ').strip.size <= 1000
           else
             error("#{path}: #{stderr.read}")
           end

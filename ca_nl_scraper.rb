@@ -203,7 +203,10 @@ class NL < Processor
   def compress
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       path = "#{response.fetch('id')}#{MEDIA_TYPES[response.fetch('media_type')]}"
-      determine_if_scanned(response, path)
+      determine_if_scanned(response, path, [
+        /\b[A-Z]+-\d+-\d+\b/, # identifier
+        /\b(?:Page )?\d+\b/,
+      ])
       collection.update_one({_id: response['_id']}, response)
     end
   end

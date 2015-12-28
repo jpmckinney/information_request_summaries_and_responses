@@ -202,8 +202,14 @@ class BC < Processor
 
   def compress
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+      remove = [
+        /\b#{response.fetch('identifier')}\b/,
+        /\b[Ss]\.? ?\d+\b,*/,
+        /\b(?:Page:? )?\d+\b/,
+      ]
+
       documents(response).to_enum.each do |file,path|
-        determine_if_scanned(file, path)
+        determine_if_scanned(file, path, remove)
       end
 
       # Since all the documents are scans, we don't want to compress.
@@ -213,8 +219,32 @@ class BC < Processor
     end
   end
 
-  def package
-    # TODO: ZIP and upload: stream to avoid taking up lots of HD space
+  def upload
+    aws_store = AWSStore.new('information_requests', ENV['AWS_BUCKET'], ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY'])
+    delimiter_re = /(\d)(?=(\d\d\d)+(?!\d))/
+
+    download_store.glob('*/**/*').each do |directory|
+      if download_store.directory?(directory)
+        aws_path = File.join('ca_bc', "#{directory}.zip")
+
+        unless aws_store.exist?(aws_path)
+          info("writing #{aws_path}")
+          pattern = %r{\A#{File.dirname(directory)}/}
+
+          io = Zip::OutputStream.write_buffer do |zipfile|
+            download_store.glob(File.join(directory, '**/*')).each do |file|
+              if download_store.file?(file)
+                zipfile.put_next_entry(file.sub(pattern, ''))
+                zipfile.write download_store.read(file)
+              end
+            end
+          end
+
+          info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
+          aws_store.write(aws_path, io.string)
+        end
+      end
+    end
   end
 
   def documents(response)
