@@ -49,6 +49,22 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
     end
   end
 
+  # Returns whether the file is a directory.
+  #
+  # @param [String] name a key
+  # @return [Boolean] whether the file is a directory
+  def directory?(name)
+    File.directory?(path(name))
+  end
+
+  # Returns whether the file is a regular file.
+  #
+  # @param [String] name a key
+  # @return [Boolean] whether the file is a regular file
+  def file?(name)
+    File.file?(path(name))
+  end
+
   # Returns the byte size of the file.
   #
   # @param [String] name a key
