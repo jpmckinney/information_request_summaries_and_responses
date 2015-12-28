@@ -93,6 +93,14 @@ Download the attachments for responses (over 40 GB as of late 2015):
 
     ruby ca_bc_scraper.rb -a download --no-cache
 
+Determine which attachments definitely require OCR:
+
+    ruby ca_bc_scraper.rb -a compress
+
+Upload the attachments as archives to S3:
+
+    AWS_BUCKET=… AWS_ACCESS_KEY_ID=… AWS_SECRET_ACCESS_KEY=… ruby_ca_bc_scraper.rb -a upload
+
 ### Newfoundland and Labrador
 
 **Note:** Newfoundland and Labrador publishes an incorrect number of pages for about one in ten files. We therefore calculate the correct value.
@@ -104,6 +112,14 @@ Download the metadata for responses:
 Download the attachments for responses:
 
     ruby ca_nl_scraper.rb -a download --no-cache
+
+Determine which attachments definitely require OCR:
+
+    ruby ca_nl_scraper.rb -a compress
+
+Upload the attachments as archives to S3:
+
+    AWS_BUCKET=… AWS_ACCESS_KEY_ID=… AWS_SECRET_ACCESS_KEY=… ruby_ca_nl_scraper.rb -a upload
 
 ### Nova Scotia
 
