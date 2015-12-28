@@ -32,6 +32,15 @@ class DownloadStore < Pupa::Processor::DocumentStore::FileStore
     end
   end
 
+  # Moves the file.
+  #
+  # @param [String] old_name the old key
+  # @param [String] new_name the new key
+  def move(old_name, new_name)
+    FileUtils.mkdir_p(File.dirname(path(new_name)))
+    FileUtils.mv(path(old_name), path(new_name))
+  end
+
   # Deletes all files in the storage directory.
   def clear
     Dir[File.join(@output_dir, '*')].each do |path|

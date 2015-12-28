@@ -177,15 +177,15 @@ class NL < Processor
   def download
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       if response['media_type']
-        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+        path = document_path(response)
       elsif !download_store.glob("#{response.fetch('id')}.*").empty?
         http_response = client.head(response.fetch('download_url'))
         response['media_type'] = http_response.headers.fetch('content-type')
-        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+        path = document_path(response)
       else
         http_response = client.get(response.fetch('download_url'))
         response['media_type'] = http_response.headers.fetch('content-type')
-        path = "#{response.fetch('id')}#{MEDIA_TYPES[response['media_type']]}"
+        path = document_path(response)
 
         if MEDIA_TYPES.key?(response['media_type'])
           download_store.write(path, http_response.body)
@@ -375,6 +375,17 @@ class NL < Processor
     debug(JSON.pretty_generate(old)) if old.any?
     info("Added #{unreconciled_from_csv.size} unreconciled records from CSV (#{nothing.size} not disclosed, #{something.size} disclosed)")
     debug(JSON.pretty_generate(something)) if something.any?
+  end
+
+  # Returns the path to the disclosed document.
+  #
+  # @param [Hash] response a response
+  # @return [String] the path to the disclosed document
+  def document_path(response)
+    date = Date.parse(response['date'])
+    year = date.strftime('%Y')
+    month = date.strftime('%m')
+    File.join(year, month, "#{response.fetch('id')}#{MEDIA_TYPES[response.fetch('media_type')]}")
   end
 end
 
