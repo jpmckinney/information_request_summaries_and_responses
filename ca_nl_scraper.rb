@@ -55,59 +55,7 @@ class NL < Processor
     "Records related to Premier designate Frank Coleman and his transition team (including Bill Matthews and Carmel Turpin) including a full list of the people on the transition team, their positions and remuneration levels, copies of all staffing action requests (including, but not limited to, permanent, temporary, any other hire contracts and position changes), OCIO requests (including requests for new email, network and blackberry accounts), security IDs, and requests to have insurance policies changes to allow any of the above employees to drive government vehicles (and any associated costs to make these insurance policy changes",
   }
 
-  def initialize(*args)
-    super
-    @download_store = DownloadStore.new(File.expand_path(File.join('downloads', 'ca_nl'), Dir.pwd))
-  end
-
-  def normalize_abstract(text)
-    # Web is generally lower quality than CSV:
-    #
-    # * uses hyphen instead of n-dash
-    # * omits unicode bullets
-    # * omits trailing parenthesis
-    #
-    # CSV has some quality issues:
-    #
-    # * adds trailing numbers
-    # * uses incorrect curly quotes
-    # * omits alphanumeric bullets
-    # * omits period in "etc."
-    # * omits trailing period
-    # * omits semi-colons
-    #
-    # Neither uses curly quotes consistently.
-    text.gsub(/\p{Space}+/, ' ').strip.
-      # Curly quotes.
-      gsub('’', "'").gsub(/[“”]/, '"').
-
-      # Dashes.
-      gsub('–', '-').
-      # Bullets.
-      gsub(/• ([A-Z])/){$1.downcase}.
-      # Trailing parenthesis (and period).
-      gsub(/[).]+\z/, '').
-
-      # Numbers.
-      gsub(/(?<!\d)\.\d{2,}\z/, '').
-      # Quotes.
-      gsub(' ”', ' “').
-      # Bullets.
-      gsub(/\b[1-3a-c]\. | -(?= [A-Z])/, '').
-      # Period in "etc.".
-      gsub(/(?<=\betc\b)(?!\.)/, '.')
-  end
-
-  def normalize_organization(text)
-    ORGANIZATIONS_MAP.fetch(text, text)
-  end
-
-  def format_response(response)
-    [
-      normalize_abstract(response['abstract']).inspect.scan(/.{1,#{COLUMN_WIDTH}}/),
-      [normalize_organization(response['organization'])],
-    ]
-  end
+  @jurisdiction_code = 'ca_nl'
 
   def scrape_responses
     # From bottom of page.
@@ -386,6 +334,55 @@ class NL < Processor
     year = date.strftime('%Y')
     month = date.strftime('%m')
     File.join(year, month, "#{response.fetch('id')}#{MEDIA_TYPES[response.fetch('media_type')]}")
+  end
+
+  def normalize_abstract(text)
+    # Web is generally lower quality than CSV:
+    #
+    # * uses hyphen instead of n-dash
+    # * omits unicode bullets
+    # * omits trailing parenthesis
+    #
+    # CSV has some quality issues:
+    #
+    # * adds trailing numbers
+    # * uses incorrect curly quotes
+    # * omits alphanumeric bullets
+    # * omits period in "etc."
+    # * omits trailing period
+    # * omits semi-colons
+    #
+    # Neither uses curly quotes consistently.
+    text.gsub(/\p{Space}+/, ' ').strip.
+      # Curly quotes.
+      gsub('’', "'").gsub(/[“”]/, '"').
+
+      # Dashes.
+      gsub('–', '-').
+      # Bullets.
+      gsub(/• ([A-Z])/){$1.downcase}.
+      # Trailing parenthesis (and period).
+      gsub(/[).]+\z/, '').
+
+      # Numbers.
+      gsub(/(?<!\d)\.\d{2,}\z/, '').
+      # Quotes.
+      gsub(' ”', ' “').
+      # Bullets.
+      gsub(/\b[1-3a-c]\. | -(?= [A-Z])/, '').
+      # Period in "etc.".
+      gsub(/(?<=\betc\b)(?!\.)/, '.')
+  end
+
+  def normalize_organization(text)
+    ORGANIZATIONS_MAP.fetch(text, text)
+  end
+
+  def format_response(response)
+    [
+      normalize_abstract(response['abstract']).inspect.scan(/.{1,#{COLUMN_WIDTH}}/),
+      [normalize_organization(response['organization'])],
+    ]
   end
 end
 
