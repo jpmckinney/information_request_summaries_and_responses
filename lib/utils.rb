@@ -2,10 +2,12 @@ require 'csv'
 require 'digest/sha1'
 require 'open3'
 
+require 'fog'
 require 'nokogiri'
 require 'oxcelix'
 require 'pupa'
 require 'spreadsheet'
+require 'zip'
 
 require_relative 'aws_store'
 require_relative 'download_store'
@@ -134,7 +136,7 @@ class Processor < Pupa::Processor
     if download_store.exist?(path) && file.fetch('media_type') == 'application/pdf'
       unless file.key?('scan')
         info(path)
-        Open3.popen3("pdftotext #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
+        Open3.popen3("pdftotext #{Shellwords.escape(download_store.path(path))} -") do |stdin,stdout,stderr,wait_thr|
           if wait_thr.value.success?
             file['scan'] = stdout.read.empty?
           else
