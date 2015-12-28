@@ -184,6 +184,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     unicode_utils (1.4.0)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
@@ -199,6 +200,7 @@ DEPENDENCIES
   spreadsheet
   unicode_utils
   whos_got_dirt!
+  zip
 
 BUNDLED WITH
    1.10.6
