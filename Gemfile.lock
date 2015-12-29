@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/documentcloud/docsplit.git
+  revision: 434fb296d7d5b984ea22399d19b539ee533a04c7
+  branch: pdfshaver
+  specs:
+    docsplit (0.8.0.alpha1)
+
+GIT
   remote: https://github.com/influencemapping/whos_got_dirt-gem.git
   revision: 2f50d6d1b3075dfb290476fb9cbe6f8cf281e9e1
   specs:
@@ -159,6 +166,7 @@ GEM
     oxcelix (0.4.1)
       ox (>= 2.1.7)
       rubyzip (>= 1.1.0)
+    pdfshaver (0.0.3)
     pg (0.17.1)
     pupa (0.2.4)
       activesupport (~> 4.0)
@@ -189,10 +197,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  docsplit!
   faraday-cookie_jar
   fog
   nokogiri
   oxcelix
+  pdfshaver
   pupa
   rake
   rubyzip
