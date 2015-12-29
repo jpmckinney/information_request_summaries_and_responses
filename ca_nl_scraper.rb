@@ -150,7 +150,7 @@ class NL < Processor
 
   def compress
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
-      path = "#{response.fetch('id')}#{MEDIA_TYPES[response.fetch('media_type')]}"
+      path = document_path(response)
       determine_if_scanned(response, path, [
         /\b[A-Z]+-\d+-\d+\b/, # identifier
         /\b(?:Page )?\d+\b/,
