@@ -7,6 +7,8 @@ All government bodies in Canada are subject to some freedom of information statu
     brew install media-info libtiff poppler
     sudo PIP_REQUIRE_VIRTUALENV=false pip install csvkit
 
+See also the dependencies of [docsplit](https://documentcloud.github.io/docsplit/) and [pdfshaver](https://github.com/documentcloud/pdfshaver). (You may need to use [this Homebrew formula](https://github.com/jpmckinney/homebrew/blob/pdfium/Library/Formula/pdfium.rb) for PDFium (see the [PR](https://github.com/knowtheory/homebrew/pull/1).)
+
 ## Scripts
 
 Search for new datasets across multiple catalogs with Namara.io:
