@@ -2,6 +2,7 @@ require 'csv'
 require 'digest/sha1'
 require 'open3'
 
+require 'docsplit'
 require 'fog'
 require 'nokogiri'
 require 'oxcelix'
@@ -166,27 +167,29 @@ class Processor < Pupa::Processor
 
     # An entire year is very large (GBs), so upload months and smaller.
     download_store.glob('*/**/*').each do |directory|
-      if download_store.directory?(directory)
-        aws_path = File.join(self.class.jurisdiction_code, "#{directory}.zip")
+      if ENV['prefix'].nil? || directory.start_with?(ENV['prefix'])
+        if download_store.directory?(directory)
+          aws_path = File.join(self.class.jurisdiction_code, "#{directory}.zip")
 
-        unless aws_store.exist?(aws_path)
-          info("writing #{aws_path}")
-          pattern = %r{\A#{File.dirname(directory)}/}
+          unless aws_store.exist?(aws_path)
+            info("writing #{aws_path}")
+            pattern = %r{\A#{File.dirname(directory)}/}
 
-          io = Zip::OutputStream.write_buffer do |zipfile|
-            download_store.glob(File.join(directory, '**/*')).each do |file|
-              if download_store.file?(file)
-                zipfile.put_next_entry(file.sub(pattern, ''))
-                zipfile.write download_store.read(file)
+            io = Zip::OutputStream.write_buffer do |zipfile|
+              download_store.glob(File.join(directory, '**/*')).each do |file|
+                if download_store.file?(file)
+                  zipfile.put_next_entry(file.sub(pattern, ''))
+                  zipfile.write download_store.read(file)
+                end
               end
             end
-          end
 
-          info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
-          begin
-            aws_store.write(aws_path, io.string)
-          rescue Excon::Errors::SocketError => e
-            error(e)
+            info("uploading #{aws_path} (#{io.size.to_s.gsub(delimiter_re){|d| "#{d},"}})")
+            begin
+              aws_store.write(aws_path, io.string)
+            rescue Excon::Errors::SocketError => e
+              error(e)
+            end
           end
         end
       end
