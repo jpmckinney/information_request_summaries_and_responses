@@ -22,7 +22,7 @@ namespace :datasets do
       unless text[RE_INVALID]
         decision, _ = RE_DECISIONS.find{|_,pattern| text[pattern]}
         unless decision
-          raise "unrecognized decision #{original.inspect}"
+          $stderr.puts "unrecognized decision #{original.inspect}"
         end
         decision
       end
@@ -158,7 +158,7 @@ namespace :datasets do
     end
 
     datasets.each do |jurisdiction_code,url|
-      basename = File.extname(url) == '.csv' ? File.basename(url) : 'data.csv'
+      basename = url_to_basename(url)
       File.open(File.join(paths[jurisdiction_code], basename), 'w') do |f|
         f.write(client.get(url).body)
       end
@@ -199,12 +199,15 @@ namespace :datasets do
       end
 
       identifier_patterns = {
+        # ca has multiple identifier patterns.
+        'ca_ab_edmonton' => ['identifier', /\A\d{4}-\d{4}(?:-\d{3})?\z/],
         'ca_bc' => ['identifier', /\A[A-Z]{3}-\d{4}-\d{5}\z/],
         'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,2}/\d{4}\z}],
         'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
-        'ca_on_burlington' => ['identifier', /\A\d{1,2}\z/],
-        'ca_on_greater_sudbury' => ['id', /\AFOI\d{4}-\d{1,3}\z/],
+        'ca_on_burlington' => ['position', /\A\d{1,2}\z/],
+        'ca_on_greater_sudbury' => ['identifier', /\AFOI\d{4}-\d{1,3}\z/],
         'ca_on_toronto' => ['identifier', /\A(?:AG|AP|COR|PHI)-\d{4}-\d{5}\z/],
+        'ca_ab_waterloo_region' => ['identifier', /\A(?:\d{8}|\d{5})\z/],
       }
 
       Dir[File.join('summaries', '*.json')].each do |path|
@@ -292,7 +295,7 @@ namespace :datasets do
                   counts_by_decision[record['decision']][decision] += 1
 
                   examples_by_decision[decision] ||= []
-                  examples_by_decision[decision] << record.slice('id', 'identifier', 'organization').values
+                  examples_by_decision[decision] << record.slice('identifier', 'number_of_pages', 'organization').values
                 end
               end
             end

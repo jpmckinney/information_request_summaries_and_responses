@@ -3,6 +3,8 @@
 DATASET_URLS = {
   # http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c
   'ca' => 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv',
+  # https://data.edmonton.ca/City-Administration/FOIP-Requests/u2wt-gn9w
+  'ca_ab_edmonton' => 'https://data.edmonton.ca/api/views/u2wt-gn9w/rows.csv?accessType=DOWNLOAD',
   # http://opendata.gov.nl.ca/public/opendata/page/?page-id=datasetdetails&id=222
   'ca_nl' => 'http://opendata.gov.nl.ca/public/opendata/filedownload/?file-id=4383',
   # http://cob.burlington.opendata.arcgis.com/datasets/ee3ccd488aef46c7b1dca1fc1062f3e5_0
@@ -25,16 +27,16 @@ CA_DISPOSITIONS = Set.new(load_yaml('dispositions.yml')).freeze
 RE_PARENTHETICAL_CITATION = /\(.\)/.freeze
 RE_PARENTHETICAL = /\([^)]+\)?/.freeze
 # Empty string, number, date, or exact string.
-RE_INVALID = /\A(?:|=(?:f\d+)?|\d+|[a-z]{3} \d{1,2}|consult other institution|electronic package sent sept28 15|other|request number|test disposition)\z/.freeze
+RE_INVALID = /\A(?:|=(?:f\d+)?|\d+|[a-z]{3} \d{1,2}|electronic package sent sept28 15|other|request number|statement of disagreement filed|test disposition)\z/.freeze
 RE_DECISIONS = {
   'abandoned' => /\b(?:abandon|withdrawn\b)/,
   'correction' => /\bcorrection\b/,
   'in progress' => /\bin (?:progress|treatment)\b/,
   'treated informally' => /\binformal/,
-  'transferred' => /\btransferred\b/,
+  'transferred' => /\b(?:consult other institution|forwarded out|transferred)\b/,
   # This order matters.
   'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
-  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|inexistant\b|no(?:\b|ne\b|t)|public|unable to process\b)/,
+  'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|inexistant\b|no(?:\b|n existent\b|ne\b|t)|public|unable to process\b)/,
   'all disclosed' => /\Adisclosed\z|\b(?:all (?:d|information\b)|enti|full|total)/,
 }.freeze
 

@@ -71,6 +71,22 @@ TEMPLATES = {
     'decision' => '/Disposition',
     'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages ~1 Nombre de pages'),
   },
+  'ca_ab_edmonton' => {
+    'division_id' => 'ocd-division/country:ca/csd:4811061',
+    'identifier' => '/Request #',
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/Request #').value
+      ['position', Integer(v.match(/\A\d{4}-0*(\d+)(?:-\d{3})?\z/)[1])]
+    },
+    'abstract' => '/Request Summary',
+    'classification' => mapping_formatter('classification', '/Request Type', {
+      'consult' => nil, # Jan 7: sent email for clarification
+      'general (continuing)' => 'general',
+      'investigation' => nil, # review, privacy complaint
+    }),
+    'date_accepted' => date_formatter('date_accepted', '/Date Received', ['%B %d %Y']),
+    'date' => date_formatter('date', '/Closed Date', ['%B %d %Y']),
+  },
   'ca_bc' => {
     'division_id' => '/division_id',
     'identifier' => '/identifier',
@@ -242,5 +258,29 @@ TEMPLATES = {
     'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d']),
     'decision' => '/Name',
     'number_of_pages' => integer_formatter('number_of_pages', '/Number_of_Pages_Released'),
+  },
+  'ca_on_waterloo_region' => {
+    'division_id' => 'ocd-division/country:ca/cd:3530',
+    'identifier' => integer_formatter('identifier', '/Request Number'),
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/Request Number').value
+      ['position', Integer(v.match(/0*(\d{1,3})\z/)[1])]
+    },
+    'classification' => mapping_formatter('classification', '/Request Type', {
+      'correction' => 'personal',
+      'general information' => 'general',
+      'general records' => 'general',
+      'personal health information' => 'personal',
+      'personal health information/general informaiton' => nil, # Jan 7: submitted webform for clarification
+      'personal health information/general information' => nil, # Jan 7: submitted webform for clarification
+      'personal information' => 'personal',
+      'personal information/general information' => nil, # Jan 7: submitted webform for clarification
+    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
+      'individual by agent' => 'public',
+      'business by agent' => 'business',
+    }),
+    'abstract' => '/Summary of Request',
+    'decision' => '/Decision',
   },
 }.freeze

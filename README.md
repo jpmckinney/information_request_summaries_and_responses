@@ -19,7 +19,11 @@ Download summaries:
 
     rake datasets:download
 
-Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax) and [Toronto](#toronto) scripts.
+Or, download one jurisdiction:
+
+    jurisdiction=ca rake datasets:download
+
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
 
 Normalize summaries:
 
@@ -147,6 +151,33 @@ Stack the CSV files:
 
     rake ca_on_toronto:stack
 
+### Waterloo Region
+
+Download the Excel files:
+
+    rake ca_on_waterloo_region:download
+
+Convert the Excel files to CSV files:
+
+    rake ca_on_waterloo_region:excel_to_csv
+
+Stack the CSV files:
+
+    rake ca_on_waterloo_region:stack
+
+## Adding a new jurisdiction
+
+* If the source is CSV, add the source URL and data URL to `DATASET_URLS`.
+* If the source is HTML, add the jurisdiction to `NON_CSV_SOURCES`.
+* Run `rake datasets:download`.
+* Inspect the data in `wip`, and add an entry to `TEMPLATES`.
+* Run `rake datasets:normalize`.
+* Inspect the messages, and update `RE_INVALID` and `RE_DECISIONS`.
+* Inspect the data in `summaries`, and add an entry to `datasets:validate:values`.
+* Run `rake datasets:validate:values` and make corrections if necessary.
+* Add an entry to `identifiers.md`.
+* Add any jurisdiction-specific [scripts](#scripts) or [notes](#notes) to this readme.
+
 ## Notes
 
 This project does not publish all data elements published by jurisdictions, primarily because they are of low value, hard to normalize, or unique to a jurisdiction.
@@ -154,6 +185,7 @@ This project does not publish all data elements published by jurisdictions, prim
 * Newfoundland and Labrador: comments, footnotes
 * Burlington: exemptions, time to complete
 * Greater Sudbury: status, time to complete, notice of extension, notice to affected party, exemptions, appeal number
+* Edmonton: status
 
 ## Reference
 

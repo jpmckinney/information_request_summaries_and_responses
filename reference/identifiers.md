@@ -1,5 +1,13 @@
 # Identifier schemes
 
+## Alberta
+
+## Edmonton
+
+`<YYYY>-<XXXX>[-<ZZZ>]`
+
+The optional `-ZZZ` suffix is for "continuing" requests.
+
 ## British Columbia
 
 `<ORG>-<YYYY>-<XXXXX>`
@@ -36,3 +44,8 @@ See [ca_nl-organization_identifiers.csv](/reference/ca_nl-organization_identifie
 * **AP:** Personal Information
 * **COR:** Correction of Personal Information
 * **PHI:** Personal Health Information
+
+### Waterloo Region
+
+* After 2000: `<YYYY><XXX>`
+* Before 2000: `<YY><XXX>`
