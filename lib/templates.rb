@@ -20,10 +20,12 @@ def date_formatter(property, path, patterns)
       pattern = patterns.find do |pattern|
         Date.strptime(v, pattern) rescue false
       end
-      if pattern.nil?
+      if pattern
+        [property, Date.strptime(v, pattern).strftime('%Y-%m-%d')]
+      else
         puts "expected #{v.inspect} to match one of #{patterns}"
+        [property, v]
       end
-      [property, Date.strptime(v, pattern).strftime('%Y-%m-%d')]
     end
   }
 end
@@ -70,6 +72,24 @@ TEMPLATES = {
     },
     'decision' => '/Disposition',
     'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages ~1 Nombre de pages'),
+  },
+  'ca_ab_calgary' => {
+    'division_id' => 'ocd-division/country:ca/csd:4806016',
+    'identifier' => '/FOIP Number',
+    'abstract' => '/Request Summary',
+    'position' => lambda{|data|
+      v = JsonPointer.new(data, '/FOIP Number').value
+      ['position', Integer(v.match(/\A\d{4}-[BCFGP]-0*(\d+)(?:-\d{3})?\z/)[1])]
+    },
+    'applicant_type' => mapping_formatter('applicant_type', '/Request Source', {
+      'academic/researcher' => 'academia',
+      'business/commercial' => 'business',
+      'general public' => 'public',
+      'organization/interest group' => 'organization',
+    }),
+    'date_accepted' => date_formatter('date_accepted', '/Date Received', ['%Y-%m-%d', '%m-%d-%Y']),
+    'date' => date_formatter('date', '/Date Completed', ['%Y-%m-%d', '%m-%d-%Y', '%Y-%m%d']),
+    'decision' => '/Disclosure Decision',
   },
   'ca_ab_edmonton' => {
     'division_id' => 'ocd-division/country:ca/csd:4811061',

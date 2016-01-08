@@ -2,6 +2,10 @@
 
 ## Alberta
 
+## Calgary
+
+`<YYYY>-<B|C|F|G|P>-<XXXX>[-<ZZZ>]`
+
 ## Edmonton
 
 `<YYYY>-<XXXX>[-<ZZZ>]`

@@ -22,7 +22,7 @@ namespace :datasets do
       unless text[RE_INVALID]
         decision, _ = RE_DECISIONS.find{|_,pattern| text[pattern]}
         unless decision
-          $stderr.puts "unrecognized decision #{original.inspect}"
+          puts "unrecognized decision #{original.inspect}"
         end
         decision
       end
@@ -159,10 +159,18 @@ namespace :datasets do
 
     datasets.each do |jurisdiction_code,url|
       basename = url_to_basename(url)
-      File.open(File.join(paths[jurisdiction_code], basename), 'w') do |f|
+      input = File.join(paths[jurisdiction_code], basename)
+      File.open(input, 'w') do |f|
         f.write(client.get(url).body)
       end
+
+      unless File.extname(input) == '.csv'
+        output = input.sub(/\.xlsx?\z/, '.csv')
+        puts "in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}"
+        `in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}`
+      end
     end
+
   end
 
   desc 'Normalizes datasets'
@@ -200,6 +208,7 @@ namespace :datasets do
 
       identifier_patterns = {
         # ca has multiple identifier patterns.
+        'ca_ab_calgary' => ['identifier', /\A\d{4}-[BCFGP]-\d{4}(?:-\d{3})?\z/],
         'ca_ab_edmonton' => ['identifier', /\A\d{4}-\d{4}(?:-\d{3})?\z/],
         'ca_bc' => ['identifier', /\A[A-Z]{3}-\d{4}-\d{5}\z/],
         'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,2}/\d{4}\z}],

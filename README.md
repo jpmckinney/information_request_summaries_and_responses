@@ -167,15 +167,18 @@ Stack the CSV files:
 
 ## Adding a new jurisdiction
 
-* If the source is CSV, add the source URL and data URL to `DATASET_URLS`.
-* If the source is HTML, add the jurisdiction to `NON_CSV_SOURCES`.
+* If the source is a single CSV or Excel file, add the source URL and data URL to `DATASET_URLS`.
+* If the source is an HTML file, add the jurisdiction to `NON_CSV_SOURCES`.
 * Run `rake datasets:download`.
 * Inspect the data in `wip`, and add an entry to `TEMPLATES`.
-* Run `rake datasets:normalize`.
+* Run `rake datasets:normalize` and make corrections if necessary.
 * Inspect the messages, and update `RE_INVALID` and `RE_DECISIONS`.
+* Inspect the output, and use `integer_formatter` on values if possible.
 * Inspect the data in `summaries`, and add an entry to `datasets:validate:values`.
 * Run `rake datasets:validate:values` and make corrections if necessary.
 * Add an entry to `identifiers.md`.
+* Inspect the data in `summaries`, and add `position` to the entry in `TEMPLATES` if possible.
+* Run `rake datasets:normalize`.
 * Add any jurisdiction-specific [scripts](#scripts) or [notes](#notes) to this readme.
 
 ## Notes
@@ -183,9 +186,10 @@ Stack the CSV files:
 This project does not publish all data elements published by jurisdictions, primarily because they are of low value, hard to normalize, or unique to a jurisdiction.
 
 * Newfoundland and Labrador: comments, footnotes
+* Calgary: exemptions
+* Edmonton: status
 * Burlington: exemptions, time to complete
 * Greater Sudbury: status, time to complete, notice of extension, notice to affected party, exemptions, appeal number
-* Edmonton: status
 
 ## Reference
 
