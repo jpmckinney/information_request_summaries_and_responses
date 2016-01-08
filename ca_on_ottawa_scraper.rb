@@ -20,7 +20,7 @@ class Ottawa < Processor
           division_id: 'ocd-division/country:ca/csd:3506008',
           identifier: identifier,
           position: Integer(identifier.match(/\AA-\d{4}-0*(\d+)\z/)[1]),
-          abstract: tds[1].text,
+          abstract: tds[1].text.strip,
           date: period,
         }))
       end
