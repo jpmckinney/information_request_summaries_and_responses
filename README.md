@@ -23,7 +23,7 @@ Or, download one jurisdiction:
 
     jurisdiction=ca rake datasets:download
 
-Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Ottawa](#toronto), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Markham](#markham), [Ottawa](#ottawa), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
 
 Normalize summaries:
 
@@ -136,6 +136,12 @@ Download summaries:
     ruby ca_ns_halifax_scraper.rb
 
 ### Ontario
+
+#### Markham
+
+Download summaries:
+
+    ruby ca_on_markham_scraper.rb
 
 #### Ottawa
 

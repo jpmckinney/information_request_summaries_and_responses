@@ -10,6 +10,9 @@ namespace :datasets do
   def ca_ns_halifax_normalize
     information_responses('ocd-division/country:ca/csd:1209034')
   end
+  def ca_on_markham_normalize
+    information_responses('ocd-division/country:ca/csd:3519036')
+  end
   def ca_on_ottawa_normalize
     information_responses('ocd-division/country:ca/csd:3506008')
   end
@@ -219,6 +222,7 @@ namespace :datasets do
         'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
         'ca_on_burlington' => ['position', /\A\d{1,2}\z/],
         'ca_on_greater_sudbury' => ['identifier', /\AFOI\d{4}-\d{1,3}\z/],
+        'ca_on_markham' => ['identifier', /\A\d{2}-\d{2}\z/],
         'ca_on_ottawa' => ['identifier', /\AA-\d{4}-\d{5}\z/],
         'ca_on_toronto' => ['identifier', /\A(?:AG|AP|COR|PHI)-\d{4}-\d{5}\z/],
         'ca_ab_waterloo_region' => ['identifier', /\A(?:\d{8}|\d{5})\z/],
