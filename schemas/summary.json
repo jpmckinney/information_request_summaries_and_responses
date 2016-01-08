@@ -38,6 +38,7 @@
       "description": "The classification of the request",
       "type": "string",
       "enum": [
+        "consult",
         "general",
         "personal"
       ]

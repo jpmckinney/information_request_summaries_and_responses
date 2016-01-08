@@ -6,6 +6,12 @@
 
 `<YYYY>-<B|C|F|G|P>-<XXXX>[-<ZZZ>]`
 
+* **B:** Non-federal consult
+* **C:** Correction
+* **F:** Federal consult
+* **G:** General
+* **P:** Personal
+
 ## Edmonton
 
 `<YYYY>-<XXXX>[-<ZZZ>]`

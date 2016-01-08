@@ -81,6 +81,25 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/FOIP Number').value
       ['position', Integer(v.match(/\A\d{4}-[BCFGP]-0*(\d+)(?:-\d{3})?\z/)[1])]
     },
+    'classification' => lambda{|data|
+      v = JsonPointer.new(data, '/FOIP Number').value
+      v = v.match(/\A\d{4}-([BCFGP])-\d{4}(?:-\d{3})?\z/)[1]
+      v = case v
+      when 'B'
+        'consult'
+      when 'C'
+        'personal'
+      when 'F'
+        'consult'
+      when 'G'
+        'general'
+      when 'P'
+        'personal'
+      else
+        puts "unrecognized classification #{v}"
+      end
+      ['classification', v]
+    },
     'applicant_type' => mapping_formatter('applicant_type', '/Request Source', {
       'academic/researcher' => 'academia',
       'business/commercial' => 'business',
@@ -100,7 +119,7 @@ TEMPLATES = {
     },
     'abstract' => '/Request Summary',
     'classification' => mapping_formatter('classification', '/Request Type', {
-      'consult' => nil, # Jan 7: sent email for clarification
+      'consult' => 'consult',
       'general (continuing)' => 'general',
       'investigation' => nil, # review, privacy complaint
     }),
