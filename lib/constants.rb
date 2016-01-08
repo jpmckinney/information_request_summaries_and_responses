@@ -46,6 +46,7 @@ RE_DECISIONS = {
 NON_CSV_SOURCES = Set.new([
   'ca_bc',
   'ca_ns_halifax',
+  'ca_on_ottawa',
 ]).freeze
 CSV_ENCODINGS = {
   'ca_nl' => 'windows-1252:utf-8',

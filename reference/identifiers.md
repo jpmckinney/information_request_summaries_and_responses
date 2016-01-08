@@ -46,6 +46,10 @@ See [ca_nl-organization_identifiers.csv](/reference/ca_nl-organization_identifie
 
 `FOI<YYYY>-<X…>`
 
+### Ottawa
+
+`A-<YYYY>-<XXXXX>`
+
 ### Toronto
 
 `<AG|AP|COR|PHI>-<YYYY>-<XXXXX>`

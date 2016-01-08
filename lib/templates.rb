@@ -265,6 +265,13 @@ TEMPLATES = {
       ['decision', v[-1]]
     },
   },
+  'ca_on_ottawa' => {
+    'division_id' => '/division_id',
+    'identifier' => '/identifier',
+    'position' => '/position',
+    'abstract' => '/abstract',
+    'date' => '/date',
+  },
   'ca_on_toronto' => {
     'division_id' => 'ocd-division/country:ca/csd:3520005',
     'identifier' => '/Request_Number',

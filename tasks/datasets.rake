@@ -1,13 +1,17 @@
 namespace :datasets do
   # #records_from_source
-  def ca_bc_normalize
+  def information_responses(division_id)
     connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
-    connection['information_responses'].find(division_id: 'ocd-division/country:ca/province:bc')
+    connection['information_responses'].find(division_id: division_id)
   end
-
+  def ca_bc_normalize
+    information_responses('ocd-division/country:ca/province:bc')
+  end
   def ca_ns_halifax_normalize
-    connection = Mongo::Client.new(['localhost:27017'], database: 'pupa')
-    connection['information_responses'].find(division_id: 'ocd-division/country:ca/csd:1209034')
+    information_responses('ocd-division/country:ca/csd:1209034')
+  end
+  def ca_on_ottawa_normalize
+    information_responses('ocd-division/country:ca/csd:3506008')
   end
 
   # #records_from_source
@@ -215,6 +219,7 @@ namespace :datasets do
         'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
         'ca_on_burlington' => ['position', /\A\d{1,2}\z/],
         'ca_on_greater_sudbury' => ['identifier', /\AFOI\d{4}-\d{1,3}\z/],
+        'ca_on_ottawa' => ['identifier', /\AA-\d{4}-\d{5}\z/],
         'ca_on_toronto' => ['identifier', /\A(?:AG|AP|COR|PHI)-\d{4}-\d{5}\z/],
         'ca_ab_waterloo_region' => ['identifier', /\A(?:\d{8}|\d{5})\z/],
       }

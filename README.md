@@ -23,7 +23,7 @@ Or, download one jurisdiction:
 
     jurisdiction=ca rake datasets:download
 
-Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Ottawa](#toronto), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
 
 Normalize summaries:
 
@@ -137,6 +137,12 @@ Download summaries:
 
 ### Ontario
 
+#### Ottawa
+
+Download summaries:
+
+    ruby ca_on_ottawa_scraper.rb
+
 #### Toronto
 
 Download the Excel files:
@@ -167,19 +173,23 @@ Stack the CSV files:
 
 ## Adding a new jurisdiction
 
-* If the source is a single CSV or Excel file, add the source URL and data URL to `DATASET_URLS`.
-* If the source is an HTML file, add the jurisdiction to `NON_CSV_SOURCES`.
-* Run `rake datasets:download`.
-* Inspect the data in `wip`, and add an entry to `TEMPLATES`.
-* Run `rake datasets:normalize` and make corrections if necessary.
-* Inspect the messages, and update `RE_INVALID` and `RE_DECISIONS`.
-* Inspect the output, and use `integer_formatter` on values if possible.
-* Inspect the data in `summaries`, and add an entry to `datasets:validate:values`.
-* Run `rake datasets:validate:values` and make corrections if necessary.
-* Add an entry to `identifiers.md`.
-* Inspect the data in `summaries`, and add `position` to the entry in `TEMPLATES` if possible.
-* Run `rake datasets:normalize`.
-* Add any jurisdiction-specific [scripts](#scripts) or [notes](#notes) to this readme.
+* If the source is a single CSV or Excel file:
+    * Add the source URL and data URL to `DATASET_URLS`
+    * Run `rake datasets:download`
+    * Inspect the data in `wip`, and add an entry to `TEMPLATES`
+* If the source is an HTML file:
+    * Add the jurisdiction to `NON_CSV_SOURCES`
+    * Write and run a scraper
+    * Define a `*_normalize` method
+* Run `rake datasets:normalize` and make corrections if necessary
+* Inspect the messages, and update `RE_INVALID` and `RE_DECISIONS`
+* Inspect the output, and use `integer_formatter` on values if possible
+* Inspect the data in `summaries`, and add an entry to `datasets:validate:values`
+* Run `rake datasets:validate:values` and make corrections if necessary
+* Add an entry to `identifiers.md`
+* Inspect the data in `summaries`, and add `position` to the entry in `TEMPLATES` if possible
+* Run `rake datasets:normalize` if `position` was added
+* Add any jurisdiction-specific [scripts](#scripts) or [notes](#notes) to this readme
 
 ## Notes
 
