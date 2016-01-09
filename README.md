@@ -23,7 +23,7 @@ Or, download one jurisdiction:
 
     jurisdiction=ca rake datasets:download
 
-Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), [Halifax](#halifax), [Markham](#markham), [Ottawa](#ottawa), [Toronto](#toronto) and [Waterloo Region](#waterloo_region) scripts.
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), and [municipal](#municipalities) scripts.
 
 Normalize summaries:
 
@@ -92,8 +92,8 @@ Download the metadata for responses:
 [openinfo.bc.ca](http://www.openinfo.gov.bc.ca) sometimes redirects to another page then back to the original page which then returns HTTP 200. However, the cache has already stored a HTTP 302 response for the original page; the script therefore reaches a redirect limit. If a `FaradayMiddleware::RedirectLimitReached` error occurs, it is simplest to temporarily move the `_cache` directory. To avoid losing time due to a late error, it is best to scrape and import one month at a time.
 
     for month in {7..12}; do echo 2011-$month; ruby ca_bc_scraper.rb -q -- date 2011-$month; done
-    for year in {2012..2014}; do for month in {1..12}; do echo $year-$month; ruby ca_bc_scraper.rb -q -- date $year-$month; done; done
-    for month in {1..11}; do echo 2015-$month; ruby ca_bc_scraper.rb -q -- date 2015-$month; done
+    for year in {2012..2015}; do for month in {1..12}; do echo $year-$month; ruby ca_bc_scraper.rb -q -- date $year-$month; done; done
+    ruby ca_bc_scraper.rb -q -- date `date +%Y-%m`
 
 Download the attachments for responses (over 40 GB as of late 2015):
 
@@ -127,55 +127,27 @@ Upload the attachments as archives to S3:
 
     AWS_BUCKET=… AWS_ACCESS_KEY_ID=… AWS_SECRET_ACCESS_KEY=… ruby_ca_nl_scraper.rb -a upload
 
-### Nova Scotia
+### Municipalities
 
-#### Halifax
-
-Download summaries:
+* **Halifax:** Download summaries:
 
     ruby ca_ns_halifax_scraper.rb
 
-### Ontario
+* **Markham:** Download summaries:
 
-#### Markham
+        ruby ca_on_markham_scraper.rb
 
-Download summaries:
+* **Ottawa:** Download summaries:
 
-    ruby ca_on_markham_scraper.rb
+        ruby ca_on_ottawa_scraper.rb
 
-#### Ottawa
+* **Toronto:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
 
-Download summaries:
+    rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
 
-    ruby ca_on_ottawa_scraper.rb
+* **Waterloo Region:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
 
-#### Toronto
-
-Download the Excel files:
-
-    rake ca_on_toronto:download
-
-Convert the Excel files to CSV files:
-
-    rake ca_on_toronto:excel_to_csv
-
-Stack the CSV files:
-
-    rake ca_on_toronto:stack
-
-### Waterloo Region
-
-Download the Excel files:
-
-    rake ca_on_waterloo_region:download
-
-Convert the Excel files to CSV files:
-
-    rake ca_on_waterloo_region:excel_to_csv
-
-Stack the CSV files:
-
-    rake ca_on_waterloo_region:stack
+    rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
 
 ## Adding a new jurisdiction
 
