@@ -126,7 +126,7 @@ class NL < Processor
     collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
       if response['media_type']
         path = document_path(response)
-      elsif !download_store.glob("#{response.fetch('id')}.*").empty?
+      elsif !download_store.glob("**/#{response.fetch('id')}.*").empty?
         http_response = client.head(response.fetch('download_url'))
         response['media_type'] = http_response.headers.fetch('content-type')
         path = document_path(response)
@@ -203,7 +203,7 @@ class NL < Processor
             other.except('id', 'download_url', 'media_type', 'byte_size', 'number_of_pages') == response.except('id', 'download_url', 'media_type', 'byte_size', 'number_of_pages')
           end
 
-          if other && download_store.sha1("#{other['id']}.pdf") == download_store.sha1("#{response['id']}.pdf")
+          if other && download_store.sha1(document_path(other)) == download_store.sha1(document_path(response))
             duplicates += 1
           else
             web[key] << response.merge('identifier' => identifier)
