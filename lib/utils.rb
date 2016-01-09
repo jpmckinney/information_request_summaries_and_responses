@@ -7,6 +7,7 @@ require 'fog'
 require 'nokogiri'
 require 'oxcelix'
 require 'pupa'
+require 'rails-html-sanitizer'
 require 'spreadsheet'
 require 'zip'
 

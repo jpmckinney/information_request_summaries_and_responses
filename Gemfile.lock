@@ -146,6 +146,8 @@ GEM
     json-pointer (0.0.1)
     json-schema (2.5.2)
       addressable (~> 2.3.8)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99)
@@ -178,6 +180,8 @@ GEM
       oj (~> 2.1)
       pg (~> 0.17.0)
       sequel (~> 4.10.0)
+    rails-html-sanitizer (1.0.2)
+      loofah (~> 2.0)
     rake (10.4.2)
     ruby-ole (1.2.11.8)
     rubyzip (1.1.7)
@@ -204,6 +208,7 @@ DEPENDENCIES
   oxcelix
   pdfshaver
   pupa
+  rails-html-sanitizer
   rake
   rubyzip
   safe_yaml
