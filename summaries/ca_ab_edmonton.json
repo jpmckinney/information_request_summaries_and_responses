@@ -334,20 +334,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0052",
-    "position": 52,
-    "abstract": "Personnel & Disability file",
-    "classification": "general",
-    "date_accepted": "2012-02-16",
-    "date": "2012-02-29"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2012-0054",
     "position": 54,
     "abstract": "Patient Care Report",
     "classification": "general",
     "date_accepted": "2012-02-14",
+    "date": "2012-02-29"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0052",
+    "position": 52,
+    "abstract": "Personnel & Disability file",
+    "classification": "general",
+    "date_accepted": "2012-02-16",
     "date": "2012-02-29"
   },
   {
@@ -1466,20 +1466,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0184",
-    "position": 184,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2012-06-13",
-    "date": "2012-07-05"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2012-0185",
     "position": 185,
     "abstract": "Fire investigation report ",
     "classification": "general",
     "date_accepted": "2012-06-11",
+    "date": "2012-07-05"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0184",
+    "position": 184,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2012-06-13",
     "date": "2012-07-05"
   },
   {
@@ -2050,20 +2050,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0252",
-    "position": 252,
-    "abstract": "Patient Care Report",
-    "classification": "general",
-    "date_accepted": "2012-09-13",
-    "date": "2012-09-13"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2012-0261",
     "position": 261,
     "abstract": "Edmonton Combative Sports Commission meeting minutes, Quarterly reports and Annual Report to Council",
     "classification": "general",
     "date_accepted": "2012-09-10",
+    "date": "2012-09-13"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0252",
+    "position": 252,
+    "abstract": "Patient Care Report",
+    "classification": "general",
+    "date_accepted": "2012-09-13",
     "date": "2012-09-13"
   },
   {
@@ -2687,20 +2687,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0310",
-    "position": 310,
-    "abstract": "Fire investigation report ",
-    "classification": "general",
-    "date_accepted": "2012-10-10",
-    "date": "2012-11-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2012-0314",
     "position": 314,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2012-10-04",
+    "date": "2012-11-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0310",
+    "position": 310,
+    "abstract": "Fire investigation report ",
+    "classification": "general",
+    "date_accepted": "2012-10-10",
     "date": "2012-11-07"
   },
   {
@@ -2939,6 +2939,15 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0366",
+    "position": 366,
+    "abstract": "Patient Care Report",
+    "classification": "general",
+    "date_accepted": "2012-11-12",
+    "date": "2012-11-29"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2012-0353",
     "position": 353,
     "abstract": "Expropriation records",
@@ -2971,15 +2980,6 @@
     "abstract": "Drainage records",
     "classification": "general",
     "date_accepted": "2012-11-26",
-    "date": "2012-11-29"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0366",
-    "position": 366,
-    "abstract": "Patient Care Report",
-    "classification": "general",
-    "date_accepted": "2012-11-12",
     "date": "2012-11-29"
   },
   {
@@ -3676,20 +3676,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0046",
-    "position": 46,
-    "abstract": "Consult regarding an injury of a named individual",
-    "classification": "consult",
-    "date_accepted": "2013-02-14",
-    "date": "2013-02-15"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0068",
     "position": 68,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2013-02-07",
+    "date": "2013-02-15"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0046",
+    "position": 46,
+    "abstract": "Consult regarding an injury of a named individual",
+    "classification": "consult",
+    "date_accepted": "2013-02-14",
     "date": "2013-02-15"
   },
   {
@@ -3810,20 +3810,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0039",
-    "position": 39,
-    "abstract": "Employee service commendations",
-    "classification": "personal",
-    "date_accepted": "2013-02-12",
-    "date": "2013-03-05"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0040",
     "position": 40,
     "abstract": "Information on tender #921486",
     "classification": "general",
     "date_accepted": "2013-02-07",
+    "date": "2013-03-05"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0039",
+    "position": 39,
+    "abstract": "Employee service commendations",
+    "classification": "personal",
+    "date_accepted": "2013-02-12",
     "date": "2013-03-05"
   },
   {
@@ -4133,6 +4133,13 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0070",
+    "position": 70,
+    "abstract": "Google",
+    "date_accepted": "2013-03-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0071",
     "position": 71,
     "abstract": "Transit event records",
@@ -4169,20 +4176,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0063-005",
-    "position": 63,
-    "abstract": "All records regarding apartment building",
-    "classification": "general",
-    "date_accepted": "2013-04-01",
-    "date": "2013-04-08"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0084",
     "position": 84,
     "abstract": "Environmental report",
     "classification": "general",
     "date_accepted": "2013-03-14",
+    "date": "2013-04-08"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0063-005",
+    "position": 63,
+    "abstract": "All records regarding apartment building",
+    "classification": "general",
+    "date_accepted": "2013-04-01",
     "date": "2013-04-08"
   },
   {
@@ -4286,15 +4293,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0056",
-    "position": 56,
-    "abstract": "How personal information is collected, stored and used",
-    "classification": "personal",
-    "date_accepted": "2013-02-21",
-    "date": "2013-04-16"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0059",
     "position": 59,
     "abstract": "Walterdale Bridge reconstruction & consultation with Aboriginal Communities",
@@ -4304,10 +4302,12 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0070",
-    "position": 70,
-    "abstract": "Google",
-    "date_accepted": "2013-03-07"
+    "identifier": "2013-0056",
+    "position": 56,
+    "abstract": "How personal information is collected, stored and used",
+    "classification": "personal",
+    "date_accepted": "2013-02-21",
+    "date": "2013-04-16"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -4759,19 +4759,19 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0148",
+    "position": 148,
+    "abstract": "Review of 2013-P-0087",
+    "date_accepted": "2013-05-15",
+    "date": "2013-06-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0136",
     "position": 136,
     "abstract": "Attendance records & evaluations",
     "classification": "general",
     "date_accepted": "2013-05-17",
-    "date": "2013-06-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0148",
-    "position": 148,
-    "abstract": "Review of 2013-P-0087",
-    "date_accepted": "2013-05-15",
     "date": "2013-06-17"
   },
   {
@@ -5728,15 +5728,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0063-006",
-    "position": 63,
-    "abstract": "All records regarding apartment building",
-    "classification": "general",
-    "date_accepted": "2013-10-01",
-    "date": "2013-10-01"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0240",
     "position": 240,
     "abstract": "Bylaw complaints",
@@ -5760,6 +5751,15 @@
     "abstract": "Counselling records",
     "classification": "personal",
     "date_accepted": "2013-09-20",
+    "date": "2013-10-01"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0063-006",
+    "position": 63,
+    "abstract": "All records regarding apartment building",
+    "classification": "general",
+    "date_accepted": "2013-10-01",
     "date": "2013-10-01"
   },
   {
@@ -6043,20 +6043,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0009-008",
-    "position": 9,
-    "abstract": "Records related to elephant",
-    "classification": "general",
-    "date_accepted": "2013-10-18",
-    "date": "2013-11-08"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0275",
     "position": 275,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2013-10-16",
+    "date": "2013-11-08"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0009-008",
+    "position": 9,
+    "abstract": "Records related to elephant",
+    "classification": "general",
+    "date_accepted": "2013-10-18",
     "date": "2013-11-08"
   },
   {
@@ -6228,34 +6228,6 @@
     "abstract": "Review of 2013-G-0207 ",
     "date_accepted": "2013-10-29",
     "date": "2013-11-26"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0304",
-    "position": 304,
-    "abstract": "Review of 2013-G-0192",
-    "date_accepted": "2013-11-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0305",
-    "position": 305,
-    "abstract": "Review of 2013-G-0193",
-    "date_accepted": "2013-11-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0306",
-    "position": 306,
-    "abstract": "Review of 2013-G-0191",
-    "date_accepted": "2013-11-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0307",
-    "position": 307,
-    "abstract": "Review of 2013-G-0194",
-    "date_accepted": "2013-11-07"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -6447,6 +6419,77 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0377",
+    "position": 377,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2012-12-07",
+    "date": "2013-12-21"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0067",
+    "position": 67,
+    "abstract": "Review of 2011-P-009",
+    "date_accepted": "2012-03-05",
+    "date": "2013-12-24"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0211",
+    "position": 211,
+    "abstract": "Review of 2013-G-0110",
+    "date_accepted": "2013-08-02",
+    "date": "2013-12-30"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0295",
+    "position": 295,
+    "abstract": "Arts organization records",
+    "classification": "general",
+    "date_accepted": "2013-11-01",
+    "date": "2013-12-31"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0284",
+    "position": 284,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2013-10-23",
+    "date": "2014-01-03"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0304",
+    "position": 304,
+    "abstract": "Review of 2013-G-0192",
+    "date_accepted": "2013-11-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0305",
+    "position": 305,
+    "abstract": "Review of 2013-G-0193",
+    "date_accepted": "2013-11-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0306",
+    "position": 306,
+    "abstract": "Review of 2013-G-0191",
+    "date_accepted": "2013-11-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2013-0307",
+    "position": 307,
+    "abstract": "Review of 2013-G-0194",
+    "date_accepted": "2013-11-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0344",
     "position": 344,
     "abstract": "Fire investigation report",
@@ -6492,37 +6535,12 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0377",
-    "position": 377,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2012-12-07",
-    "date": "2013-12-21"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0067",
-    "position": 67,
-    "abstract": "Review of 2011-P-009",
-    "date_accepted": "2012-03-05",
-    "date": "2013-12-24"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0340",
     "position": 340,
     "abstract": "Phase 1 Environmental Site Assessment",
     "classification": "general",
     "date_accepted": "2013-12-06",
     "date": "2013-12-24"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0211",
-    "position": 211,
-    "abstract": "Review of 2013-G-0110",
-    "date_accepted": "2013-08-02",
-    "date": "2013-12-30"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -6544,30 +6562,12 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0295",
-    "position": 295,
-    "abstract": "Arts organization records",
-    "classification": "general",
-    "date_accepted": "2013-11-01",
-    "date": "2013-12-31"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0337",
     "position": 337,
     "abstract": "Costs of Neighbourhood Renewal Programs",
     "classification": "general",
     "date_accepted": "2013-12-04",
     "date": "2014-01-02"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2013-0284",
-    "position": 284,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2013-10-23",
-    "date": "2014-01-03"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -6634,15 +6634,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0007",
-    "position": 7,
-    "abstract": "Fire investigation report ",
-    "classification": "general",
-    "date_accepted": "2014-01-06",
-    "date": "2014-01-09"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0008",
     "position": 8,
     "abstract": "Fire investigation report ",
@@ -6657,6 +6648,15 @@
     "abstract": "Fire investigation report ",
     "classification": "general",
     "date_accepted": "2014-01-02",
+    "date": "2014-01-09"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0007",
+    "position": 7,
+    "abstract": "Fire investigation report ",
+    "classification": "general",
+    "date_accepted": "2014-01-06",
     "date": "2014-01-09"
   },
   {
@@ -6885,6 +6885,15 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0029",
+    "position": 29,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-01-21",
+    "date": "2014-02-05"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0026",
     "position": 26,
     "abstract": "Fire investigation report",
@@ -6908,15 +6917,6 @@
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-01-30",
-    "date": "2014-02-05"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0029",
-    "position": 29,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-01-21",
     "date": "2014-02-05"
   },
   {
@@ -6975,20 +6975,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0032",
-    "position": 32,
-    "abstract": "Employee file",
-    "classification": "personal",
-    "date_accepted": "2014-02-03",
-    "date": "2014-02-10"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0039",
     "position": 39,
     "abstract": "Intermodal Facility at 41 Avenue SW/QEII interchange",
     "classification": "consult",
     "date_accepted": "2014-01-27",
+    "date": "2014-02-10"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0032",
+    "position": 32,
+    "abstract": "Employee file",
+    "classification": "personal",
+    "date_accepted": "2014-02-03",
     "date": "2014-02-10"
   },
   {
@@ -7020,20 +7020,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0041",
-    "position": 41,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-02-10",
-    "date": "2014-02-13"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0045",
     "position": 45,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-02-07",
+    "date": "2014-02-13"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0041",
+    "position": 41,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-02-10",
     "date": "2014-02-13"
   },
   {
@@ -7236,15 +7236,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2012-0063-008",
-    "position": 63,
-    "abstract": "All records regarding apartment building",
-    "classification": "general",
-    "date_accepted": "2014-02-14",
-    "date": "2014-03-11"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2013-0346",
     "position": 346,
     "abstract": "Terwillegar Foot Bridge",
@@ -7268,6 +7259,15 @@
     "abstract": "Property Complaints",
     "classification": "general",
     "date_accepted": "2014-02-11",
+    "date": "2014-03-11"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2012-0063-008",
+    "position": 63,
+    "abstract": "All records regarding apartment building",
+    "classification": "general",
+    "date_accepted": "2014-02-14",
     "date": "2014-03-11"
   },
   {
@@ -7407,20 +7407,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0094",
-    "position": 94,
-    "abstract": "Law Enforcement Disclosure",
-    "classification": "general",
-    "date_accepted": "2014-03-14",
-    "date": "2014-03-20"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0095",
     "position": 95,
     "abstract": "Drainage/flooding records",
     "classification": "general",
     "date_accepted": "2014-03-06",
+    "date": "2014-03-20"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0094",
+    "position": 94,
+    "abstract": "Law Enforcement Disclosure",
+    "classification": "general",
+    "date_accepted": "2014-03-14",
     "date": "2014-03-20"
   },
   {
@@ -7497,15 +7497,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0106",
-    "position": 106,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-03-26",
-    "date": "2014-03-28"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0108",
     "position": 108,
     "abstract": "Fire investigation report",
@@ -7533,6 +7524,15 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0106",
+    "position": 106,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-03-26",
+    "date": "2014-03-28"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0070",
     "position": 70,
     "abstract": "Respectful Workplace Investigation",
@@ -7551,20 +7551,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0097",
-    "position": 97,
-    "abstract": "Bylaw violation notices  ",
-    "classification": "general",
-    "date_accepted": "2014-03-21",
-    "date": "2014-04-01"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0107",
     "position": 107,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-03-17",
+    "date": "2014-04-01"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0097",
+    "position": 97,
+    "abstract": "Bylaw violation notices  ",
+    "classification": "general",
+    "date_accepted": "2014-03-21",
     "date": "2014-04-01"
   },
   {
@@ -7704,9 +7704,45 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0127",
+    "position": 127,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-04-02",
+    "date": "2014-04-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0128",
+    "position": 128,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-04-02",
+    "date": "2014-04-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0125",
+    "position": 125,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-04-08",
+    "date": "2014-04-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0118",
     "position": 118,
     "abstract": "Public Fatality Investigation",
+    "classification": "general",
+    "date_accepted": "2014-04-10",
+    "date": "2014-04-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0131",
+    "position": 131,
+    "abstract": "Fire and motor vehicle accident report",
     "classification": "general",
     "date_accepted": "2014-04-10",
     "date": "2014-04-17"
@@ -7731,47 +7767,11 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0125",
-    "position": 125,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-04-08",
-    "date": "2014-04-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0126",
     "position": 126,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-04-15",
-    "date": "2014-04-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0127",
-    "position": 127,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-04-02",
-    "date": "2014-04-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0128",
-    "position": 128,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-04-02",
-    "date": "2014-04-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0131",
-    "position": 131,
-    "abstract": "Fire and motor vehicle accident report",
-    "classification": "general",
-    "date_accepted": "2014-04-10",
     "date": "2014-04-17"
   },
   {
@@ -7892,20 +7892,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0138",
-    "position": 138,
-    "abstract": "Investigation file",
-    "classification": "general",
-    "date_accepted": "2014-04-24",
-    "date": "2014-05-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0141",
     "position": 141,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-04-14",
+    "date": "2014-05-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0138",
+    "position": 138,
+    "abstract": "Investigation file",
+    "classification": "general",
+    "date_accepted": "2014-04-24",
     "date": "2014-05-07"
   },
   {
@@ -8035,6 +8035,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0156",
+    "position": 156,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-05-13"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0158",
     "position": 158,
     "abstract": "Census Worker Evaluation",
@@ -8059,14 +8067,6 @@
     "classification": "general",
     "date_accepted": "2014-04-28",
     "date": "2014-06-02"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0156",
-    "position": 156,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-05-13"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -8509,20 +8509,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0214",
-    "position": 214,
-    "abstract": "Fire Incident Report",
-    "classification": "general",
-    "date_accepted": "2014-07-16",
-    "date": "2014-07-18"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0215",
     "position": 215,
     "abstract": "Fire investigation report",
     "classification": "general",
     "date_accepted": "2014-07-14",
+    "date": "2014-07-18"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0214",
+    "position": 214,
+    "abstract": "Fire Incident Report",
+    "classification": "general",
+    "date_accepted": "2014-07-16",
     "date": "2014-07-18"
   },
   {
@@ -9397,20 +9397,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0274",
-    "position": 274,
-    "abstract": "311 bylaw complaints",
-    "classification": "general",
-    "date_accepted": "2014-09-24",
-    "date": "2014-10-02"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0285",
     "position": 285,
     "abstract": "Employee file",
     "classification": "general",
     "date_accepted": "2014-09-10",
+    "date": "2014-10-02"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0274",
+    "position": 274,
+    "abstract": "311 bylaw complaints",
+    "classification": "general",
+    "date_accepted": "2014-09-24",
     "date": "2014-10-02"
   },
   {
@@ -10282,20 +10282,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0380",
-    "position": 380,
-    "abstract": "Risk Management File",
-    "classification": "personal",
-    "date_accepted": "2014-11-18",
-    "date": "2014-12-17"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0382",
     "position": 382,
     "abstract": "Fines issued downtown",
     "classification": "general",
     "date_accepted": "2014-11-17",
+    "date": "2014-12-17"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0380",
+    "position": 380,
+    "abstract": "Risk Management File",
+    "classification": "personal",
+    "date_accepted": "2014-11-18",
     "date": "2014-12-17"
   },
   {
@@ -10354,20 +10354,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0002",
-    "position": 2,
-    "abstract": "Fire report",
-    "classification": "general",
-    "date_accepted": "2015-01-06",
-    "date": "2015-01-07"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0012",
     "position": 12,
     "abstract": "Property records",
     "classification": "consult",
     "date_accepted": "2015-01-05",
+    "date": "2015-01-07"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0002",
+    "position": 2,
+    "abstract": "Fire report",
+    "classification": "general",
+    "date_accepted": "2015-01-06",
     "date": "2015-01-07"
   },
   {
@@ -10453,20 +10453,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0410",
-    "position": 410,
-    "abstract": "Employee file",
-    "classification": "general",
-    "date_accepted": "2014-12-19",
-    "date": "2015-01-15"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0411",
     "position": 411,
     "abstract": "Audio recording of a phone call regarding a business licence",
     "classification": "personal",
     "date_accepted": "2014-12-15",
+    "date": "2015-01-15"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0410",
+    "position": 410,
+    "abstract": "Employee file",
+    "classification": "general",
+    "date_accepted": "2014-12-19",
     "date": "2015-01-15"
   },
   {
@@ -10480,20 +10480,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0414",
-    "position": 414,
-    "abstract": "Fire investigation report",
-    "classification": "general",
-    "date_accepted": "2014-12-19",
-    "date": "2015-01-19"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2014-0416",
     "position": 416,
     "abstract": "Building permit & business licence",
     "classification": "general",
     "date_accepted": "2014-12-18",
+    "date": "2015-01-19"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0414",
+    "position": 414,
+    "abstract": "Fire investigation report",
+    "classification": "general",
+    "date_accepted": "2014-12-19",
     "date": "2015-01-19"
   },
   {
@@ -10576,6 +10576,13 @@
     "classification": "general",
     "date_accepted": "2014-11-17",
     "date": "2015-01-26"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0025",
+    "position": 25,
+    "abstract": "Review of 2014-G-0306 ",
+    "date_accepted": "2015-01-23"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -10669,28 +10676,21 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2014-0412",
-    "position": 412,
-    "abstract": "Communication between Mayor Office staff and an individual",
-    "classification": "general",
-    "date_accepted": "2014-12-19",
-    "date": "2015-02-06"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0025",
-    "position": 25,
-    "abstract": "Review of 2014-G-0306 ",
-    "date_accepted": "2015-01-23"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0042",
     "position": 42,
     "abstract": "All information about an individual",
     "classification": "personal",
     "date_accepted": "2015-02-05",
     "date": "2015-02-05"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2014-0412",
+    "position": 412,
+    "abstract": "Communication between Mayor Office staff and an individual",
+    "classification": "general",
+    "date_accepted": "2014-12-19",
+    "date": "2015-02-06"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -10799,6 +10799,13 @@
     "classification": "general",
     "date_accepted": "2015-02-10",
     "date": "2015-02-19"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0084",
+    "position": 84,
+    "abstract": "Review of 2014-G-0276",
+    "date_accepted": "2015-02-12"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
@@ -10919,20 +10926,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0044",
-    "position": 44,
-    "abstract": "Contract, invoice, purchase orders of White Rock Ventures",
-    "classification": "general",
-    "date_accepted": "2015-02-09",
-    "date": "2015-03-10"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0048",
     "position": 48,
     "abstract": "Business licence and development permit",
     "classification": "general",
     "date_accepted": "2015-02-06",
+    "date": "2015-03-10"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0044",
+    "position": 44,
+    "abstract": "Contract, invoice, purchase orders of White Rock Ventures",
+    "classification": "general",
+    "date_accepted": "2015-02-09",
     "date": "2015-03-10"
   },
   {
@@ -11206,13 +11213,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0084",
-    "position": 84,
-    "abstract": "Review of 2014-G-0276",
-    "date_accepted": "2015-02-12"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0089",
     "position": 89,
     "abstract": "Review of 2014-G-0232 ",
@@ -11268,20 +11268,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0108",
-    "position": 108,
-    "abstract": "Fire report",
-    "classification": "general",
-    "date_accepted": "2015-03-17",
-    "date": "2015-03-18"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0113",
     "position": 113,
     "abstract": "Survey response",
     "classification": "consult",
     "date_accepted": "2015-03-16",
+    "date": "2015-03-18"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0108",
+    "position": 108,
+    "abstract": "Fire report",
+    "classification": "general",
+    "date_accepted": "2015-03-17",
     "date": "2015-03-18"
   },
   {
@@ -11457,20 +11457,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0130",
-    "position": 130,
-    "abstract": "Fire report",
-    "classification": "general",
-    "date_accepted": "2015-04-07",
-    "date": "2015-04-15"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0131",
     "position": 131,
     "abstract": "Patient Care Report",
     "classification": "general",
     "date_accepted": "2015-04-01",
+    "date": "2015-04-15"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0130",
+    "position": 130,
+    "abstract": "Fire report",
+    "classification": "general",
+    "date_accepted": "2015-04-07",
     "date": "2015-04-15"
   },
   {
@@ -11951,20 +11951,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4811061",
-    "identifier": "2015-0178",
-    "position": 178,
-    "abstract": "Sewer scoping dvd's",
-    "classification": "general",
-    "date_accepted": "2015-05-15",
-    "date": "2015-06-02"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4811061",
     "identifier": "2015-0179",
     "position": 179,
     "abstract": "Elevation & lot grading",
     "classification": "general",
     "date_accepted": "2015-05-04",
+    "date": "2015-06-02"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4811061",
+    "identifier": "2015-0178",
+    "position": 178,
+    "abstract": "Sewer scoping dvd's",
+    "classification": "general",
+    "date_accepted": "2015-05-15",
     "date": "2015-06-02"
   },
   {

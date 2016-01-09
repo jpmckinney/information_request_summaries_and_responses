@@ -96,16 +96,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0021",
-    "abstract": "Consult relates to 12 pages associated with Spyhill Provincial Aggregate Operations",
-    "position": 21,
-    "classification": "consult",
-    "date_accepted": "2015-01-30",
-    "date": "2015-02-17",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0013",
     "abstract": "A copy of the complaint made regarding 4008 Grove Hill Road SW in September 2003.",
     "position": 13,
@@ -114,6 +104,16 @@
     "date_accepted": "2015-01-19",
     "date": "2015-02-17",
     "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0021",
+    "abstract": "Consult relates to 12 pages associated with Spyhill Provincial Aggregate Operations",
+    "position": 21,
+    "classification": "consult",
+    "date_accepted": "2015-01-30",
+    "date": "2015-02-17",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -201,6 +201,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0020",
+    "abstract": "Personal Information",
+    "position": 20,
+    "classification": "personal",
+    "date_accepted": "2015-01-29",
+    "date": "2015-02-25",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0032",
     "abstract": "City's postage and courier costs for each of the past 5 years from Jan 1, 2010 to Dec 31, 2014",
     "position": 32,
@@ -234,13 +244,13 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0020",
+    "identifier": "2015-P-0030",
     "abstract": "Personal Information",
-    "position": 20,
+    "position": 30,
     "classification": "personal",
-    "date_accepted": "2015-01-29",
-    "date": "2015-02-25",
-    "decision": "disclosed in part"
+    "date_accepted": "2015-02-06",
+    "date": "2015-03-02",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -252,16 +262,6 @@
     "date_accepted": "2015-02-18",
     "date": "2015-03-02",
     "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0030",
-    "abstract": "Personal Information",
-    "position": 30,
-    "classification": "personal",
-    "date_accepted": "2015-02-06",
-    "date": "2015-03-02",
-    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -451,22 +451,22 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0049",
+    "abstract": "Personal Information",
+    "position": 49,
+    "classification": "personal",
+    "date_accepted": "2015-02-24",
+    "date": "2015-03-16",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0054",
     "abstract": "Records pertaining to complaints or violations for the property located at 930-932 17th Ave. SW, Calgary.",
     "position": 54,
     "classification": "general",
     "applicant_type": "business",
     "date_accepted": "2015-03-02",
-    "date": "2015-03-16",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0049",
-    "abstract": "Personal Information",
-    "position": 49,
-    "classification": "personal",
-    "date_accepted": "2015-02-24",
     "date": "2015-03-16",
     "decision": "disclosed in part"
   },
@@ -615,6 +615,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0053",
+    "abstract": "Personal Information",
+    "position": 53,
+    "classification": "personal",
+    "date_accepted": "2015-03-02",
+    "date": "2015-03-30",
+    "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0061",
     "abstract": "Environmental/Scientific/Technical reports from all applicable City business units EXCEPT from the Environmental & Safety Management (ESM) for the following property (City Owned):  332 - 94 Avenue S.E (Plan 3075JK; Block 1; Lot 55) - timelines:  1950 to Present",
     "position": 61,
@@ -632,16 +642,6 @@
     "classification": "general",
     "applicant_type": "media",
     "date_accepted": "2015-03-12",
-    "date": "2015-03-30",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0053",
-    "abstract": "Personal Information",
-    "position": 53,
-    "classification": "personal",
-    "date_accepted": "2015-03-02",
     "date": "2015-03-30",
     "decision": "nothing disclosed"
   },
@@ -994,16 +994,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0130",
-    "abstract": "Consult from Alberta Environment And Sustainable Resource Development.",
-    "position": 130,
-    "classification": "consult",
-    "date_accepted": "2015-05-20",
-    "date": "2015-05-26",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0114",
     "abstract": "Information on leakage, spills or contamination, remediation status about storage tank that is located at 21 Crowfoot Circle NW which was decommissioned in 2001. Please provide records for the period of 1995 to present.",
     "position": 114,
@@ -1022,6 +1012,16 @@
     "date_accepted": "2015-04-28",
     "date": "2015-05-26",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0130",
+    "abstract": "Consult from Alberta Environment And Sustainable Resource Development.",
+    "position": 130,
+    "classification": "consult",
+    "date_accepted": "2015-05-20",
+    "date": "2015-05-26",
+    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1198,6 +1198,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0131",
+    "abstract": "Personal Information",
+    "position": 131,
+    "classification": "personal",
+    "date_accepted": "2015-05-19",
+    "date": "2015-06-18",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0136",
     "abstract": "Copy of a \"Nexen Pipeline Removal\" report by Nexen from 2012/07/17 as identified on City Online for the property located at 8220-52 St. NE",
     "position": 136,
@@ -1206,16 +1216,6 @@
     "date_accepted": "2015-05-26",
     "date": "2015-06-18",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0131",
-    "abstract": "Personal Information",
-    "position": 131,
-    "classification": "personal",
-    "date_accepted": "2015-05-19",
-    "date": "2015-06-18",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1252,6 +1252,17 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-G-0174",
+    "abstract": "Corporate information related to Business Tax account or other Finance Department related accounts (i.e.Utilities); Clarified on April 14, 2015: accounts in good standings if they are not please include reason.",
+    "position": 174,
+    "classification": "general",
+    "applicant_type": "business",
+    "date_accepted": "2015-04-14",
+    "date": "2015-06-25",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0152",
     "abstract": "Correspondence between the mayor and the province in 2014 on the subject of provincial funding for municipal programs.",
     "position": 152,
@@ -1282,17 +1293,6 @@
     "date_accepted": "2015-06-19",
     "date": "2015-06-25",
     "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-G-0174",
-    "abstract": "Corporate information related to Business Tax account or other Finance Department related accounts (i.e.Utilities); Clarified on April 14, 2015: accounts in good standings if they are not please include reason.",
-    "position": 174,
-    "classification": "general",
-    "applicant_type": "business",
-    "date_accepted": "2015-04-14",
-    "date": "2015-06-25",
-    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1372,6 +1372,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0173",
+    "abstract": "Personal Information",
+    "position": 173,
+    "classification": "personal",
+    "date_accepted": "2015-04-14",
+    "date": "2015-07-02",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0139",
     "abstract": "Documents related to all major and minor traffic collisions/traffic accidents involving vehicles owned by the City of Calgary Fire Department.",
     "position": 139,
@@ -1391,16 +1401,6 @@
     "date_accepted": "2015-06-17",
     "date": "2015-07-02",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0173",
-    "abstract": "Personal Information",
-    "position": 173,
-    "classification": "personal",
-    "date_accepted": "2015-04-14",
-    "date": "2015-07-02",
-    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1467,16 +1467,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0188",
-    "abstract": "Consult from Environment and Parks Government of Alberta.",
-    "position": 188,
-    "classification": "consult",
-    "date_accepted": "2015-07-10",
-    "date": "2015-07-10",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0100",
     "abstract": "Environmental records for the property located at 6969-112th Ave. SE up to April17, 2015.",
     "position": 100,
@@ -1496,6 +1486,16 @@
     "date_accepted": "2015-06-10",
     "date": "2015-07-10",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0188",
+    "abstract": "Consult from Environment and Parks Government of Alberta.",
+    "position": 188,
+    "classification": "consult",
+    "date_accepted": "2015-07-10",
+    "date": "2015-07-10",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1542,21 +1542,21 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0194",
-    "abstract": "Consult from Environment and Parks Government of Alberta.",
-    "position": 194,
-    "classification": "consult",
-    "date_accepted": "2015-07-15",
-    "date": "2015-07-15",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0156",
     "abstract": "Reports, studies, measure, policies and all other documents relating to Traffic Calming in the communities of Upper Mount Royal & Lower Mount Royal.",
     "position": 156,
     "classification": "general",
     "applicant_type": "business",
+    "date_accepted": "2015-06-15",
+    "date": "2015-07-15",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0155",
+    "abstract": "Personal Information",
+    "position": 155,
+    "classification": "personal",
     "date_accepted": "2015-06-15",
     "date": "2015-07-15",
     "decision": "disclosed in part"
@@ -1585,21 +1585,21 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0155",
-    "abstract": "Personal Information",
-    "position": 155,
-    "classification": "personal",
-    "date_accepted": "2015-06-15",
-    "date": "2015-07-15",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0180",
     "abstract": "Personal Information",
     "position": 180,
     "classification": "personal",
     "date_accepted": "2015-07-02",
+    "date": "2015-07-15",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0194",
+    "abstract": "Consult from Environment and Parks Government of Alberta.",
+    "position": 194,
+    "classification": "consult",
+    "date_accepted": "2015-07-15",
     "date": "2015-07-15",
     "decision": "all disclosed"
   },
@@ -1615,6 +1615,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0178",
+    "abstract": "Personal Information",
+    "position": 178,
+    "classification": "personal",
+    "date_accepted": "2015-06-26",
+    "date": "2015-07-21",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0184",
     "abstract": "Records or reports for 140-16 Ave. NW since 1900 to present.",
     "position": 184,
@@ -1623,16 +1633,6 @@
     "date_accepted": "2015-07-06",
     "date": "2015-07-21",
     "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0178",
-    "abstract": "Personal Information",
-    "position": 178,
-    "classification": "personal",
-    "date_accepted": "2015-06-26",
-    "date": "2015-07-21",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1690,6 +1690,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0177",
+    "abstract": "Personal Information",
+    "position": 177,
+    "classification": "personal",
+    "date_accepted": "2015-06-26",
+    "date": "2015-07-27",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0199",
     "abstract": "Environmental records pertaining to 2404-50th Street SE, Plan 316 GV Block 7, 9-10-24-29-W4M  from 1900 to present.",
     "position": 199,
@@ -1698,16 +1708,6 @@
     "date_accepted": "2015-07-15",
     "date": "2015-07-27",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0177",
-    "abstract": "Personal Information",
-    "position": 177,
-    "classification": "personal",
-    "date_accepted": "2015-06-26",
-    "date": "2015-07-27",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1754,22 +1754,22 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0183",
+    "abstract": "Personal Information",
+    "position": 183,
+    "classification": "personal",
+    "date_accepted": "2015-07-06",
+    "date": "2015-08-05",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0203",
     "abstract": "Copy of correspondence to the Mayor re attendance to inspect pot holes near Bearspaw Christian School ",
     "position": 203,
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-07-24",
-    "date": "2015-08-05",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0183",
-    "abstract": "Personal Information",
-    "position": 183,
-    "classification": "personal",
-    "date_accepted": "2015-07-06",
     "date": "2015-08-05",
     "decision": "disclosed in part"
   },
@@ -1828,17 +1828,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-G-0187",
-    "abstract": "Copies of the Phase II Environmental Site Assessment, Soil Remediation and Phase I Environmental Assessment reports re 18150-56 St. SE",
-    "position": 187,
-    "classification": "general",
-    "applicant_type": "business",
-    "date_accepted": "2015-08-09",
-    "date": "2015-08-13",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0197",
     "abstract": "Fire Report for August 14th, 2013 fire  at 315 Southampton Dr. SW",
     "position": 197,
@@ -1867,6 +1856,17 @@
     "classification": "general",
     "applicant_type": "business",
     "date_accepted": "2015-07-27",
+    "date": "2015-08-13",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-G-0187",
+    "abstract": "Copies of the Phase II Environmental Site Assessment, Soil Remediation and Phase I Environmental Assessment reports re 18150-56 St. SE",
+    "position": 187,
+    "classification": "general",
+    "applicant_type": "business",
+    "date_accepted": "2015-08-09",
     "date": "2015-08-13",
     "decision": "disclosed in part"
   },
@@ -2188,31 +2188,11 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0257",
-    "abstract": "Consult from Alberta Justice and Solicitor General",
-    "position": 257,
-    "classification": "consult",
-    "date_accepted": "2015-09-09",
-    "date": "2015-09-14",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-F-0256",
-    "abstract": "Consult from Infrastructure Canada",
-    "position": 256,
-    "classification": "consult",
-    "date_accepted": "2015-09-08",
-    "date": "2015-09-14",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-F-0258",
-    "abstract": "Consult from Infrastructure Canada",
-    "position": 258,
-    "classification": "consult",
-    "date_accepted": "2015-09-09",
+    "identifier": "2015-P-0234",
+    "abstract": "Personal Information",
+    "position": 234,
+    "classification": "personal",
+    "date_accepted": "2015-08-19",
     "date": "2015-09-14",
     "decision": "all disclosed"
   },
@@ -2226,6 +2206,36 @@
     "date_accepted": "2015-08-31",
     "date": "2015-09-14",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-F-0256",
+    "abstract": "Consult from Infrastructure Canada",
+    "position": 256,
+    "classification": "consult",
+    "date_accepted": "2015-09-08",
+    "date": "2015-09-14",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0257",
+    "abstract": "Consult from Alberta Justice and Solicitor General",
+    "position": 257,
+    "classification": "consult",
+    "date_accepted": "2015-09-09",
+    "date": "2015-09-14",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-F-0258",
+    "abstract": "Consult from Infrastructure Canada",
+    "position": 258,
+    "classification": "consult",
+    "date_accepted": "2015-09-09",
+    "date": "2015-09-14",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2248,16 +2258,6 @@
     "date_accepted": "2015-09-10",
     "date": "2015-09-14",
     "decision": "transferred"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0234",
-    "abstract": "Personal Information",
-    "position": 234,
-    "classification": "personal",
-    "date_accepted": "2015-08-19",
-    "date": "2015-09-14",
-    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2325,16 +2325,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0265",
-    "abstract": "Consult from AHS",
-    "position": 265,
-    "classification": "consult",
-    "date_accepted": "2015-09-14",
-    "date": "2015-09-18",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0253",
     "abstract": "Copies of the complaint files",
     "position": 253,
@@ -2346,11 +2336,31 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0265",
+    "abstract": "Consult from AHS",
+    "position": 265,
+    "classification": "consult",
+    "date_accepted": "2015-09-14",
+    "date": "2015-09-18",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0236",
     "abstract": "Copy of a complaint file",
     "position": 236,
     "classification": "general",
     "applicant_type": "public",
+    "date_accepted": "2015-08-20",
+    "date": "2015-09-21",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0237",
+    "abstract": "Personal Information",
+    "position": 237,
+    "classification": "personal",
     "date_accepted": "2015-08-20",
     "date": "2015-09-21",
     "decision": "disclosed in part"
@@ -2387,16 +2397,6 @@
     "date_accepted": "2015-09-09",
     "date": "2015-09-21",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0237",
-    "abstract": "Personal Information",
-    "position": 237,
-    "classification": "personal",
-    "date_accepted": "2015-08-20",
-    "date": "2015-09-21",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2529,16 +2529,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0281",
-    "abstract": "Consult from Alberta International & Intergovernmental Relations",
-    "position": 281,
-    "classification": "consult",
-    "date_accepted": "2015-10-01",
-    "date": "2015-10-01",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0269",
     "abstract": "Personal Information",
     "position": 269,
@@ -2546,6 +2536,16 @@
     "date_accepted": "2015-09-16",
     "date": "2015-10-01",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0281",
+    "abstract": "Consult from Alberta International & Intergovernmental Relations",
+    "position": 281,
+    "classification": "consult",
+    "date_accepted": "2015-10-01",
+    "date": "2015-10-01",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2592,21 +2592,21 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0294",
-    "abstract": "Personal Information",
-    "position": 294,
-    "classification": "personal",
-    "date_accepted": "2015-10-07",
-    "date": "2015-10-07",
-    "decision": "transferred"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0295",
     "abstract": "Personal Information",
     "position": 295,
     "classification": "personal",
     "date_accepted": "2015-10-05",
+    "date": "2015-10-07",
+    "decision": "transferred"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0294",
+    "abstract": "Personal Information",
+    "position": 294,
+    "classification": "personal",
+    "date_accepted": "2015-10-07",
     "date": "2015-10-07",
     "decision": "transferred"
   },
@@ -2652,22 +2652,22 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0298",
-    "abstract": "Consult from Alberta Environment and Parks",
-    "position": 298,
-    "classification": "consult",
-    "date_accepted": "2015-10-08",
-    "date": "2015-10-13",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0277",
     "abstract": "Copy of a Building Permit for 1922 Broadview Rd NW",
     "position": 277,
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-09-28",
+    "date": "2015-10-13",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0298",
+    "abstract": "Consult from Alberta Environment and Parks",
+    "position": 298,
+    "classification": "consult",
+    "date_accepted": "2015-10-08",
     "date": "2015-10-13",
     "decision": "all disclosed"
   },
@@ -2694,26 +2694,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0299",
-    "abstract": "Consult from Alberta municipal Affairs",
-    "position": 299,
-    "classification": "consult",
-    "date_accepted": "2015-10-08",
-    "date": "2015-10-19",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0301",
-    "abstract": "Consult from Rocky View County",
-    "position": 301,
-    "classification": "consult",
-    "date_accepted": "2015-10-09",
-    "date": "2015-10-19",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0270",
     "abstract": "Work orders for the property at 3347-57 Ave SE",
     "position": 270,
@@ -2735,6 +2715,26 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0299",
+    "abstract": "Consult from Alberta municipal Affairs",
+    "position": 299,
+    "classification": "consult",
+    "date_accepted": "2015-10-08",
+    "date": "2015-10-19",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0301",
+    "abstract": "Consult from Rocky View County",
+    "position": 301,
+    "classification": "consult",
+    "date_accepted": "2015-10-09",
+    "date": "2015-10-19",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0287",
     "abstract": "Personal Information",
     "position": 287,
@@ -2742,6 +2742,16 @@
     "date_accepted": "2015-10-01",
     "date": "2015-10-22",
     "decision": "transferred"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0288",
+    "abstract": "Personal Information",
+    "position": 288,
+    "classification": "personal",
+    "date_accepted": "2015-10-02",
+    "date": "2015-10-23",
+    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2753,16 +2763,6 @@
     "date_accepted": "2015-10-13",
     "date": "2015-10-23",
     "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0288",
-    "abstract": "Personal Information",
-    "position": 288,
-    "classification": "personal",
-    "date_accepted": "2015-10-02",
-    "date": "2015-10-23",
-    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2788,16 +2788,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-F-0312",
-    "abstract": "Consult from Infrastructure Canada",
-    "position": 312,
-    "classification": "consult",
-    "date_accepted": "2015-10-28",
-    "date": "2015-10-30",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0309",
     "abstract": "Personal Information",
     "position": 309,
@@ -2808,12 +2798,13 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-C-0175",
-    "abstract": "Personal Information",
-    "position": 175,
-    "classification": "personal",
-    "date_accepted": "2015-06-25",
-    "date": "2015-11-02"
+    "identifier": "2015-F-0312",
+    "abstract": "Consult from Infrastructure Canada",
+    "position": 312,
+    "classification": "consult",
+    "date_accepted": "2015-10-28",
+    "date": "2015-10-30",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2825,6 +2816,15 @@
     "date_accepted": "2015-02-27",
     "date": "2015-11-02",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-C-0175",
+    "abstract": "Personal Information",
+    "position": 175,
+    "classification": "personal",
+    "date_accepted": "2015-06-25",
+    "date": "2015-11-02"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2902,22 +2902,22 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0307",
-    "abstract": "Consult from Alberta Municipal Affairs",
-    "position": 307,
-    "classification": "consult",
-    "date_accepted": "2015-10-16",
-    "date": "2015-11-09",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0303",
     "abstract": "Bylaw Infractions/complaints against 2335-162 Ave SW",
     "position": 303,
     "classification": "general",
     "applicant_type": "business",
     "date_accepted": "2015-10-13",
+    "date": "2015-11-09",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0307",
+    "abstract": "Consult from Alberta Municipal Affairs",
+    "position": 307,
+    "classification": "consult",
+    "date_accepted": "2015-10-16",
     "date": "2015-11-09",
     "decision": "disclosed in part"
   },
@@ -2944,17 +2944,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-G-0325",
-    "abstract": "Records regarding development and building Permits for 48-27th Ave SW",
-    "position": 325,
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-11-04",
-    "date": "2015-11-12",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0305",
     "abstract": "Personal Information",
     "position": 305,
@@ -2965,13 +2954,14 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0340",
-    "abstract": "Consult from Service Alberta",
-    "position": 340,
-    "classification": "consult",
-    "date_accepted": "2015-11-13",
-    "date": "2015-11-13",
-    "decision": "all disclosed"
+    "identifier": "2015-G-0325",
+    "abstract": "Records regarding development and building Permits for 48-27th Ave SW",
+    "position": 325,
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-11-04",
+    "date": "2015-11-12",
+    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2985,12 +2975,12 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0341",
-    "abstract": "Consult from Alberta Transportation",
-    "position": 341,
+    "identifier": "2015-B-0340",
+    "abstract": "Consult from Service Alberta",
+    "position": 340,
     "classification": "consult",
     "date_accepted": "2015-11-13",
-    "date": "2015-11-16",
+    "date": "2015-11-13",
     "decision": "all disclosed"
   },
   {
@@ -3006,6 +2996,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0341",
+    "abstract": "Consult from Alberta Transportation",
+    "position": 341,
+    "classification": "consult",
+    "date_accepted": "2015-11-13",
+    "date": "2015-11-16",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0296",
     "abstract": "Level 1 (Phase I) Environmental Site Assessment of 21200-15 Street SE ",
     "position": 296,
@@ -3014,16 +3014,6 @@
     "date_accepted": "2015-10-07",
     "date": "2015-11-18",
     "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-B-0337",
-    "abstract": "Consult from Alberta Transportation",
-    "position": 337,
-    "classification": "consult",
-    "date_accepted": "2015-11-10",
-    "date": "2015-11-19",
-    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3046,6 +3036,16 @@
     "date_accepted": "2015-11-04",
     "date": "2015-11-19",
     "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-B-0337",
+    "abstract": "Consult from Alberta Transportation",
+    "position": 337,
+    "classification": "consult",
+    "date_accepted": "2015-11-10",
+    "date": "2015-11-19",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3114,16 +3114,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-G-0351",
-    "abstract": "Traffic Sequencing chart",
-    "position": 351,
-    "classification": "general",
-    "date_accepted": "2015-11-18",
-    "date": "2015-12-02",
-    "decision": "transferred"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-P-0317",
     "abstract": "Personal Information",
     "position": 317,
@@ -3131,6 +3121,16 @@
     "date_accepted": "2015-11-02",
     "date": "2015-12-02",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-G-0351",
+    "abstract": "Traffic Sequencing chart",
+    "position": 351,
+    "classification": "general",
+    "date_accepted": "2015-11-18",
+    "date": "2015-12-02",
+    "decision": "transferred"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3199,22 +3199,22 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0293",
+    "abstract": "Personal Information",
+    "position": 293,
+    "classification": "personal",
+    "date_accepted": "2015-10-07",
+    "date": "2015-12-04",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0323",
     "abstract": "Complaint file re 3502-14 Ave SE",
     "position": 323,
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-11-04",
-    "date": "2015-12-04",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0293",
-    "abstract": "Personal Information",
-    "position": 293,
-    "classification": "personal",
-    "date_accepted": "2015-10-07",
     "date": "2015-12-04",
     "decision": "disclosed in part"
   },
@@ -3251,6 +3251,16 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-P-0335",
+    "abstract": "Personal Information",
+    "position": 335,
+    "classification": "personal",
+    "date_accepted": "2015-11-06",
+    "date": "2015-12-07",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0362",
     "abstract": "Summary of the complaints for 9600-114 Ave SE, 10919-84th St. SE, 10811-84 St NE, 10885-84 St SE, 10857-84 St SE, 10800-84 St SE, 11000-84 St NE.",
     "position": 362,
@@ -3259,16 +3269,6 @@
     "date_accepted": "2015-11-27",
     "date": "2015-12-07",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-P-0335",
-    "abstract": "Personal Information",
-    "position": 335,
-    "classification": "personal",
-    "date_accepted": "2015-11-06",
-    "date": "2015-12-07",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3316,17 +3316,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-F-0380",
-    "abstract": "Consult from Transport Canada",
-    "position": 380,
-    "classification": "consult",
-    "applicant_type": "organization",
-    "date_accepted": "2015-12-09",
-    "date": "2015-12-10",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0190",
     "abstract": "All records on LOC 2014-0061 for 111-9 Avenue SW",
     "position": 190,
@@ -3335,6 +3324,17 @@
     "date_accepted": "2015-07-10",
     "date": "2015-12-10",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-F-0380",
+    "abstract": "Consult from Transport Canada",
+    "position": 380,
+    "classification": "consult",
+    "applicant_type": "organization",
+    "date_accepted": "2015-12-09",
+    "date": "2015-12-10",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3360,17 +3360,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
-    "identifier": "2015-G-0113",
-    "abstract": "Emails between staff and Enmax and reports re manhole fire in the area of 8th St & 5th Ave that began on 2014 October 12",
-    "position": 113,
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-27",
-    "date": "2015-12-13",
-    "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:4806016",
     "identifier": "2015-G-0303",
     "abstract": "All Scientific/Technical reports regarding the environmental condiditon of the Site, the address is SW01-026-01 W5M",
     "position": 303,
@@ -3379,6 +3368,17 @@
     "date_accepted": "2014-10-23",
     "date": "2015-12-13",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:4806016",
+    "identifier": "2015-G-0113",
+    "abstract": "Emails between staff and Enmax and reports re manhole fire in the area of 8th St & 5th Ave that began on 2014 October 12",
+    "position": 113,
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-27",
+    "date": "2015-12-13",
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
