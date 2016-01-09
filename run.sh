@@ -23,7 +23,14 @@ rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_wat
 # ca_on_burlington: 2 (thin records)
 # ca_on_greater_sudbury: 1 (multiple decisions)
 rake datasets:normalize
-ruby ca_nl_scraper.rb -v -a reconcile # 1 warning; 6 duplicates; 39 recent, 18 old; 32 not disclosed, 2 disclosed
+# 1 warning
+# 6 duplicates
+# 39 recent, 18 old
+# 32 not disclosed, 2 disclosed
+ruby ca_nl_scraper.rb -v -a reconcile
+# ca_bc: 17
+# ca_nl: 3
+# ca_on_toronto: 1
 rake datasets:validate:values
 rake datasets:validate:datasets
 rake cron:upload
