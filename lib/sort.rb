@@ -7,6 +7,7 @@ def sort_records(records)
 
   records.sort do |a,b|
     compare(a, b, 'date') ||
+    compare(a, b, 'date_accepted') ||
     compare(a, b, 'identifier') ||
     compare(a, b, 'position') ||
     compare(a, b, 'organization') ||
