@@ -261,6 +261,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-5",
+    "position": 5,
+    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. The documentation could include correspondence as well as revenue and expense reports for the arena, audits and auditors reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages.",
+    "organization": "Leisure, Human Resources",
+    "classification": "general",
+    "applicant_type": "media",
+    "date_accepted": "2015-01-08",
+    "application_fee": "5.00",
+    "unpaid_fees": "119.60",
+    "date": "2015-03-09",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-23",
     "position": 23,
     "abstract": "City repair orders, all orders from by-law office, health department, and city orders dating back from April 2014 for a specified property.",
@@ -286,20 +300,6 @@
     "processing_fee": "19.70",
     "date": "2015-03-09",
     "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-5",
-    "position": 5,
-    "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. The documentation could include correspondence as well as revenue and expense reports for the arena, audits and auditors reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages.",
-    "organization": "Leisure, Human Resources",
-    "classification": "general",
-    "applicant_type": "media",
-    "date_accepted": "2015-01-08",
-    "application_fee": "5.00",
-    "unpaid_fees": "119.60",
-    "date": "2015-03-09",
-    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -905,6 +905,39 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-42",
+    "position": 42,
+    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-03-03",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-39",
+    "position": 39,
+    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
+    "organization": "HR, IT",
+    "classification": "general",
+    "applicant_type": "business",
+    "date_accepted": "2015-03-04",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-53",
+    "position": 53,
+    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
+    "organization": "Mayors office, IT",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-03-26",
+    "application_fee": "5.00",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-67",
     "position": 67,
     "abstract": "Ontario Works File",
@@ -1001,6 +1034,19 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-85",
+    "position": 85,
+    "abstract": "Survey for a specified building.",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-12",
+    "application_fee": "5.00",
+    "date": "2015-06-08",
+    "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-73",
     "position": 73,
     "abstract": "Ontario Works File",
@@ -1012,19 +1058,6 @@
     "processing_fee": "8.40",
     "date": "2015-06-08",
     "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-85",
-    "position": 85,
-    "abstract": "Survey for a specified building.",
-    "organization": "Building Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-12",
-    "application_fee": "5.00",
-    "date": "2015-06-08",
-    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1056,20 +1089,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-89",
-    "position": 89,
-    "abstract": "Copy of Fire Incident Report",
-    "organization": "Fire Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-05-21",
-    "application_fee": "5.00",
-    "processing_fee": "19.70",
-    "date": "2015-06-09",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-76",
     "position": 76,
     "abstract": "Keast Drive Proposal \n1. Environmental Impact Study \n2. Traffic Study \n3. Soil Study \n4. Geotechnical Study",
@@ -1094,6 +1113,30 @@
     "processing_fee": "15.40",
     "date": "2015-06-22",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-88",
+    "position": 88,
+    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
+    "classification": "general",
+    "applicant_type": "media",
+    "date_accepted": "2015-05-14",
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-89",
+    "position": 89,
+    "abstract": "Copy of Fire Incident Report",
+    "organization": "Fire Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-05-21",
+    "application_fee": "5.00",
+    "processing_fee": "19.70",
+    "date": "2015-06-09",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1122,20 +1165,6 @@
     "processing_fee": "16.20",
     "date": "2015-06-22",
     "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-100",
-    "position": 100,
-    "abstract": "Copy of House Plans, Building Permits, City sign-offs on Building Permits, Inspections and sign-offs for a specified address",
-    "organization": "Building Services",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date_accepted": "2015-06-03",
-    "application_fee": "5.00",
-    "processing_fee": "29.80",
-    "date": "2015-06-23",
-    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1192,6 +1221,20 @@
     "unpaid_fees": "10.40",
     "date": "2015-06-23",
     "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-100",
+    "position": 100,
+    "abstract": "Copy of House Plans, Building Permits, City sign-offs on Building Permits, Inspections and sign-offs for a specified address",
+    "organization": "Building Services",
+    "classification": "personal",
+    "applicant_type": "public",
+    "date_accepted": "2015-06-03",
+    "application_fee": "5.00",
+    "processing_fee": "29.80",
+    "date": "2015-06-23",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1341,6 +1384,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-99",
+    "position": 99,
+    "abstract": "Ontario Works file",
+    "organization": "Ontario Works",
+    "classification": "personal",
+    "applicant_type": "public",
+    "date_accepted": "2015-06-01",
+    "application_fee": "5.00",
+    "processing_fee": "14.40",
+    "date": "2015-07-17",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-107",
     "position": 107,
     "abstract": "Structural/Architectural Drawings for a specified address Built in 2008 - \"Looking for the load bearing of the house.\"",
@@ -1406,20 +1463,6 @@
     "date_accepted": "2015-06-23",
     "application_fee": "5.00",
     "processing_fee": "16.70",
-    "date": "2015-07-17",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-99",
-    "position": 99,
-    "abstract": "Ontario Works file",
-    "organization": "Ontario Works",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date_accepted": "2015-06-01",
-    "application_fee": "5.00",
-    "processing_fee": "14.40",
     "date": "2015-07-17",
     "decision": "disclosed in part"
   },
@@ -2184,6 +2227,19 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-179",
+    "position": 179,
+    "abstract": "All court transcripts/documents relating to case against a specified person.",
+    "organization": "Court Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-09-16",
+    "application_fee": "5.00",
+    "date": "2015-10-14",
+    "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-175",
     "position": 175,
     "abstract": "Letter re: Swale/Grading of a specified property.",
@@ -2195,19 +2251,6 @@
     "unpaid_fees": "30.20",
     "date": "2015-10-14",
     "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-179",
-    "position": 179,
-    "abstract": "All court transcripts/documents relating to case against a specified person.",
-    "organization": "Court Services",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-09-16",
-    "application_fee": "5.00",
-    "date": "2015-10-14",
-    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2707,16 +2750,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-206",
-    "position": 206,
-    "abstract": "Environmental Assessment for a specified address.",
-    "organization": "Environmental Assessment",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-11-12"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-216",
     "position": 216,
     "abstract": "History of a specified property ex. Building permits, plans, inspections",
@@ -2796,6 +2829,16 @@
     "unpaid_fees": "63.70",
     "date": "2015-12-17",
     "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-206",
+    "position": 206,
+    "abstract": "Environmental Assessment for a specified address.",
+    "organization": "Environmental Assessment",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-11-12"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2895,6 +2938,20 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-72",
+    "position": 72,
+    "abstract": "Looking for details of the owners of two specified properties and/or building permits.\n",
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-04-22",
+    "application_fee": "5.00",
+    "processing_fee": "18.10",
+    "date": "2016-05-06",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-227",
     "position": 227,
     "abstract": "Incident report from an injury at the Raymond Plourde Arena in Val Caron on a specified date.",
@@ -2937,62 +2994,5 @@
     "applicant_type": "public",
     "date_accepted": "2015-12-31",
     "application_fee": "5.00"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-39",
-    "position": 39,
-    "abstract": "A listing of City of Sudbury employees with the following information: Last name, first name, job title, office name main department, address, phone, fax, email (if published). ",
-    "organization": "HR, IT",
-    "classification": "general",
-    "applicant_type": "business",
-    "date_accepted": "2015-03-04",
-    "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-42",
-    "position": 42,
-    "abstract": "A complete copy of all information and survey documents pertaining a specified property. ",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-03-03",
-    "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-53",
-    "position": 53,
-    "abstract": "All emails from all staff of the Mayors office between August 1st 2012 and December 31st 2014 regarding an individual.",
-    "organization": "Mayors office, IT",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-03-26",
-    "application_fee": "5.00",
-    "decision": "abandoned"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-72",
-    "position": 72,
-    "abstract": "Looking for details of the owners of two specified properties and/or building permits.\n",
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-04-22",
-    "application_fee": "5.00",
-    "processing_fee": "18.10",
-    "date": "2016-05-06",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-88",
-    "position": 88,
-    "abstract": "Copy of the forensic audit that details the Sudbury Transit ticket scandal.",
-    "classification": "general",
-    "applicant_type": "media",
-    "date_accepted": "2015-05-14",
-    "decision": "abandoned"
   }
 ]
