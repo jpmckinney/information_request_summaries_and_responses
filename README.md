@@ -11,11 +11,9 @@ See also the dependencies of [docsplit](https://documentcloud.github.io/docsplit
 
 ## Scripts
 
-Search for new datasets across multiple catalogs with Namara.io:
+The following scripts should be run in order to collect the dataset.
 
-    query="freedom of information" rake datasets:search
-
-Download summaries:
+Download the single-file sources to the `wip/` directory:
 
     rake datasets:download
 
@@ -23,9 +21,9 @@ Or, download one jurisdiction:
 
     jurisdiction=ca rake datasets:download
 
-Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), and [municipal](#municipalities) scripts.
+Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), and [municipal](#municipalities) scripts to download the multiple-file sources.
 
-Normalize summaries:
+Normalize the summaries to the `summaries` directory:
 
     rake datasets:normalize
 
@@ -33,7 +31,7 @@ Or, normalize one jurisdiction:
 
     jurisdiction=ca rake datasets:normalize
 
-Reconcile NL's scraped data with its open data:
+Reconcile NL's scraped data with its open data, rewriting its files in the `summaries` directory:
 
     ruby ca_nl_scraper.rb -v -a reconcile
 
@@ -44,6 +42,10 @@ Validate values according to jurisdiction-specific rules:
 Validate that the decision and the number of pages agree:
 
     rake datasets:validate:datasets
+
+To find additional sources, search for datasets across multiple catalogs with Namara.io:
+
+    query="freedom of information" rake datasets:search
 
 ### British Columbia
 
