@@ -23,10 +23,12 @@ class InformationResponse
 
   attr_accessor :id, :division_id, :title, :identifier, :position, :abstract,
     :organization, :applicant_type, :processing_fee, :date, :decision, :url,
-    :number_of_pages, :download_url, :letters, :notes, :files, :comments
+    :number_of_pages, :download_url, :documents, :letters, :notes, :files,
+    :comments
   dump :id, :division_id, :title, :identifier, :position, :abstract,
     :organization, :applicant_type, :processing_fee, :date, :decision, :url,
-    :number_of_pages, :download_url, :letters, :notes, :files, :comments
+    :number_of_pages, :download_url, :documents, :letters, :notes, :files,
+    :comments
 
   def fingerprint
     to_h.slice(:division_id, :id)

@@ -99,9 +99,10 @@ Upload the attachments as archives to S3:
 
         ruby ca_ns_halifax_scraper.rb
 
-* **Markham:** Download summaries:
+* **Markham:** Download summaries and documents:
 
         ruby ca_on_markham_scraper.rb
+        ruby ca_on_markham_scraper.rb -a download --no-cache
 
 * **Ottawa:** Download summaries:
 

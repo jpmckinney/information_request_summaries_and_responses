@@ -14,6 +14,7 @@ prefix=`date -v15d -v-1m +%Y-%m` ruby_ca_nl_scraper.rb -a upload
 
 ruby ca_ns_halifax_scraper.rb
 ruby ca_on_markham_scraper.rb
+ruby ca_on_markham_scraper.rb -a download --no-cache
 ruby ca_on_ottawa_scraper.rb
 rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
 rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack

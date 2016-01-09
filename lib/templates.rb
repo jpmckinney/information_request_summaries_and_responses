@@ -266,6 +266,7 @@ TEMPLATES = {
     'position' => '/position',
     'abstract' => '/abstract',
     'date' => '/date',
+    'documents' => '/documents',
   },
   'ca_on_ottawa' => {
     'division_id' => '/division_id',

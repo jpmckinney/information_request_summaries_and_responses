@@ -138,8 +138,13 @@
             "enum": [
               "disclosure",
               "letter",
+              "order",
               "note"
             ]
+          },
+          "title": {
+            "description": "The document's title",
+            "type": "string"
           },
           "download_url": {
             "description": "The document's URL",

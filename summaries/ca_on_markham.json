@@ -3,14 +3,90 @@
     "division_id": "ocd-division/country:ca/csd:3519036",
     "identifier": "12-64",
     "position": 64,
-    "abstract": "This is in response to IPC Interim Order # MO-3176-1 [PDF] and IPC Interim Order # MO-3248-1 [PDF] for disclosure of documents related to the construction of an arena in the City of Markham. Per the Interim Orders the following documents have been released:\n\n\n12-64 Record #1 January 2011 [PDF]\n\n12-64 Record #2 January 2011 [PDF]\n\n12-64 Record #3 February 2012 [PDF]\n\n12-64 Record #4 April 2012 [PDF]",
-    "date": "2015-10-01/2015-12-01"
+    "abstract": "<p>This is in response to <a href=\"/wps/wcm/connect/markhampublic/b42c2155-d24c-4054-8d82-aa597827e690/Interim-Order-MO-3176-I_20150330.pdf?MOD=AJPERES&amp;CACHEID=b42c2155-d24c-4054-8d82-aa597827e690\">IPC Interim Order # MO-3176-1</a> [PDF] and <a href=\"/wps/wcm/connect/markhampublic/b3faf67e-309b-411f-ad2c-379dd67fc83e/Interim-Order-MO-3248-I_20150930.pdf?MOD=AJPERES&amp;CACHEID=b3faf67e-309b-411f-ad2c-379dd67fc83e\">IPC Interim Order # MO-3248-1</a> [PDF] for disclosure of documents related to the construction of an arena in the City of Markham. Per the Interim Orders the following documents have been released:</p><ul><li><a href=\"/wps/wcm/connect/markhampublic/01b8f8f4-2c79-4d5f-b543-72b53e0205fb/12-64_Record1_201101.pdf?MOD=AJPERES&amp;CACHEID=01b8f8f4-2c79-4d5f-b543-72b53e0205fb\">12-64 Record #1 January 2011</a> [PDF]</li><li><a href=\"/wps/wcm/connect/markhampublic/241ca7c0-4728-422b-9d54-bc120d1db575/12-64_Record2_201101.pdf?MOD=AJPERES&amp;CACHEID=241ca7c0-4728-422b-9d54-bc120d1db575\">12-64 Record #2 January 2011</a> [PDF]</li><li><a href=\"/wps/wcm/connect/markhampublic/0e7fffd1-343a-4c60-8013-bdba1897ab5d/201202-MSECC-BDR-Opinion-Letter.pdf?MOD=AJPERES&amp;CACHEID=0e7fffd1-343a-4c60-8013-bdba1897ab5d\">12-64 Record #3 February 2012</a> [PDF]</li><li><a href=\"/wps/wcm/connect/markhampublic/962765ba-49d0-46b0-a2ef-9215052d6ec9/20120412-MSECC-Financial-Framework.pdf?MOD=AJPERES&amp;CACHEID=962765ba-49d0-46b0-a2ef-9215052d6ec9\">12-64 Record #4 April 2012</a> [PDF]</li></ul>",
+    "date": "2015-10-01/2015-12-01",
+    "documents": [
+      {
+        "type": "order",
+        "title": "IPC Interim Order # MO-3176-1",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/b42c2155-d24c-4054-8d82-aa597827e690/Interim-Order-MO-3176-I_20150330.pdf?MOD=AJPERES&CACHEID=b42c2155-d24c-4054-8d82-aa597827e690",
+        "media_type": "application/pdf",
+        "byte_size": 160700,
+        "number_of_pages": 15
+      },
+      {
+        "type": "order",
+        "title": "IPC Interim Order # MO-3248-1",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/b3faf67e-309b-411f-ad2c-379dd67fc83e/Interim-Order-MO-3248-I_20150930.pdf?MOD=AJPERES&CACHEID=b3faf67e-309b-411f-ad2c-379dd67fc83e",
+        "media_type": "application/pdf",
+        "byte_size": 356693,
+        "number_of_pages": 12
+      },
+      {
+        "type": "disclosure",
+        "title": "12-64 Record #1 January 2011",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/01b8f8f4-2c79-4d5f-b543-72b53e0205fb/12-64_Record1_201101.pdf?MOD=AJPERES&CACHEID=01b8f8f4-2c79-4d5f-b543-72b53e0205fb",
+        "media_type": "application/pdf",
+        "byte_size": 1328000,
+        "number_of_pages": 28
+      },
+      {
+        "type": "disclosure",
+        "title": "12-64 Record #2 January 2011",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/241ca7c0-4728-422b-9d54-bc120d1db575/12-64_Record2_201101.pdf?MOD=AJPERES&CACHEID=241ca7c0-4728-422b-9d54-bc120d1db575",
+        "media_type": "application/pdf",
+        "byte_size": 958189,
+        "number_of_pages": 42
+      },
+      {
+        "type": "disclosure",
+        "title": "12-64 Record #3 February 2012",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/0e7fffd1-343a-4c60-8013-bdba1897ab5d/201202-MSECC-BDR-Opinion-Letter.pdf?MOD=AJPERES&CACHEID=0e7fffd1-343a-4c60-8013-bdba1897ab5d",
+        "media_type": "application/pdf",
+        "byte_size": 297084,
+        "number_of_pages": 4
+      },
+      {
+        "type": "disclosure",
+        "title": "12-64 Record #4 April 2012",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/962765ba-49d0-46b0-a2ef-9215052d6ec9/20120412-MSECC-Financial-Framework.pdf?MOD=AJPERES&CACHEID=962765ba-49d0-46b0-a2ef-9215052d6ec9",
+        "media_type": "application/pdf",
+        "byte_size": 69737,
+        "number_of_pages": 2
+      }
+    ]
   },
   {
     "division_id": "ocd-division/country:ca/csd:3519036",
     "identifier": "13-15",
     "position": 15,
-    "abstract": "This is in response to IPC Interim Order #MO-3177-1 [PDF] for disclosure of documents related to the construction of an arena in the City of Markham.\n\n\nFOI 13-15 Redacted Record #3 [PDF]\n\nFOI 13-15 Record #5 [PDF]",
-    "date": "2015-10-01/2015-12-01"
+    "abstract": "<p>This is in response to <a href=\"/wps/wcm/connect/markhampublic/60aec0d2-2bd8-4fb0-937f-575b77773f32/Interim-Order-MO-3177-I_20150330.pdf?MOD=AJPERES&amp;CACHEID=60aec0d2-2bd8-4fb0-937f-575b77773f32\">IPC Interim Order #MO-3177-1</a> [PDF] for disclosure of documents related to the construction of an arena in the City of Markham.</p><ul><li><a href=\"/wps/wcm/connect/markhampublic/76b35cf1-7353-4f3e-a3a2-41847891c152/FOI-13-15-Rec3.pdf?MOD=AJPERES&amp;CACHEID=76b35cf1-7353-4f3e-a3a2-41847891c152\">FOI 13-15 Redacted Record #3</a> [PDF]</li><li><a href=\"/wps/wcm/connect/markhampublic/2c1098cc-a35d-4297-91e8-5bb0ef7ea493/FOI-13-15-Rec5.pdf?MOD=AJPERES&amp;CACHEID=2c1098cc-a35d-4297-91e8-5bb0ef7ea493\">FOI 13-15 Record #5</a> [PDF]</li></ul>",
+    "date": "2015-10-01/2015-12-01",
+    "documents": [
+      {
+        "type": "order",
+        "title": "IPC Interim Order #MO-3177-1",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/60aec0d2-2bd8-4fb0-937f-575b77773f32/Interim-Order-MO-3177-I_20150330.pdf?MOD=AJPERES&CACHEID=60aec0d2-2bd8-4fb0-937f-575b77773f32",
+        "media_type": "application/pdf",
+        "byte_size": 274740,
+        "number_of_pages": 39
+      },
+      {
+        "type": "disclosure",
+        "title": "FOI 13-15 Redacted Record #3",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/76b35cf1-7353-4f3e-a3a2-41847891c152/FOI-13-15-Rec3.pdf?MOD=AJPERES&CACHEID=76b35cf1-7353-4f3e-a3a2-41847891c152",
+        "media_type": "application/pdf",
+        "byte_size": 838164,
+        "number_of_pages": 27
+      },
+      {
+        "type": "disclosure",
+        "title": "FOI 13-15 Record #5",
+        "download_url": "http://www.markham.ca/wps/wcm/connect/markhampublic/2c1098cc-a35d-4297-91e8-5bb0ef7ea493/FOI-13-15-Rec5.pdf?MOD=AJPERES&CACHEID=2c1098cc-a35d-4297-91e8-5bb0ef7ea493",
+        "media_type": "application/pdf",
+        "byte_size": 767055,
+        "number_of_pages": 20
+      }
+    ]
   }
 ]
