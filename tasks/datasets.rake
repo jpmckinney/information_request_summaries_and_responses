@@ -173,7 +173,6 @@ namespace :datasets do
 
       unless File.extname(input) == '.csv'
         output = input.sub(/\.xlsx?\z/, '.csv')
-        puts "in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}"
         `in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}`
       end
     end
