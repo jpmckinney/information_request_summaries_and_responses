@@ -15,7 +15,11 @@ namespace :ca_on_toronto do
         output = input.sub(/\.xlsx?\z/, '.csv')
         # The files from 2011 contain two extra columns.
         arguments = input['2011'] ? ' -C Jacket_Number,Exemption' : ''
-        `in2csv #{Shellwords.escape(input)} | csvcut -x #{arguments} > #{Shellwords.escape(output)}`
+        Open3.popen3("in2csv #{Shellwords.escape(input)} | csvcut -x #{arguments} > #{Shellwords.escape(output)}") do |stdin,stdout,stderr,wait_thr|
+          unless wait_thr.value.success?
+            puts "#{input}: #{stderr.read}"
+          end
+        end
       end
     end
   end

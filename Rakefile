@@ -3,6 +3,7 @@ require 'bundler/setup'
 require 'csv'
 require 'erb'
 require 'open-uri'
+require 'open3'
 
 require 'fog'
 require 'nokogiri'
