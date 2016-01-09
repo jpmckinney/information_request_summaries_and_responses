@@ -21787,5 +21787,125 @@
     "date": "2015-12-22",
     "byte_size": 1472675,
     "number_of_pages": 5
+  },
+  {
+    "id": "1861",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "AES/40/2015",
+    "abstract": "All records and correspondence in relation to the transition of the Western Regional School of Nursing from Western Health to Grenfell Campus, Memorial University (or formerly Sir Wilfred Grenfell College) from Jan. 1, 2014-to-Nov. 18, 2015.",
+    "organization": "Advanced Education and Skills",
+    "date": "2015-12-29",
+    "byte_size": 7207773,
+    "number_of_pages": 181
+  },
+  {
+    "id": "1862",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "ENV/46/2015",
+    "abstract": "Any and all information and/or correspondences of any nature in connection with an August 03, 2010 meeting regarding the George River Caribou Herd and/or the GRCH census.",
+    "organization": "Environment and Conservation",
+    "date": "2015-12-29",
+    "byte_size": 1523677,
+    "number_of_pages": 4
+  },
+  {
+    "id": "1863",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "NR/22/2015",
+    "abstract": "All records related to wind energy research or wind energy policy produced by the Department of Natural Resources. In particular I am searching for the Coastal Labrador Alternative Energy Assessment. I am also searching for the report produced by Hatch Consulting, Navigant Consulting, and Manitoba Hydro International who did independent overviews of Nalcor's wind energy assumptions when determining the least cost options at the time of Muskrat Falls commissioning. I am also searching for the Request For Proposals issued prior to commissioning the wind farms at St. Lawrence and Fermeuse. Any other wind energy documents would be helpful in the current research.",
+    "organization": "Natural Resources",
+    "date": "2015-12-29",
+    "byte_size": 178583,
+    "number_of_pages": 3
+  },
+  {
+    "id": "1882",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "MIGA/64/2015",
+    "abstract": "Any and all correspondence to and from Town Council of Bay Bulls, councillors and staff of Town of Bay Bulls, various governmental departments, officials and staff ( including both provincial and federal governments ), Engineers, Surveyors and road contractors involving the recent upgrading and resurfacing of O'Dea's Lane, Bay Bulls, NL during summer of 2015.",
+    "organization": "Municipal and Intergovernmental Affairs",
+    "date": "2015-12-30",
+    "byte_size": 8365367,
+    "number_of_pages": 115
+  },
+  {
+    "id": "1881",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "SNL/47/2015",
+    "abstract": "All records within Service N.L.'s consumer complaints database pertaining to psychic services (i.e. palm reading, tarot card reading, fortune telling, etc.). This includes but is not limited to complaints, inquiries, notifications to businesses and responses from businesses, as well as convictions under the Consumer Protection Act, between now and 2010.",
+    "organization": "Service NL",
+    "date": "2015-12-30",
+    "byte_size": 123492,
+    "number_of_pages": 2
+  },
+  {
+    "id": "1901",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "TW/57/2015",
+    "abstract": "Documents submitted in connection with Tender # 9384, St. Peters Junior High School Extension and Renovation, Mount Pearl.",
+    "organization": "Transportation and Works",
+    "date": "2016-01-04",
+    "byte_size": 1911953,
+    "number_of_pages": 16
+  },
+  {
+    "id": "1921",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "MIGA/79/2015",
+    "abstract": "Fax sent to Corner Brook office to Minister concerning land sold by Town of St. George's to Charles Foote a councillor.",
+    "organization": "Municipal and Intergovernmental Affairs",
+    "date": "2016-01-05",
+    "byte_size": 159010,
+    "number_of_pages": 2
+  },
+  {
+    "id": "1922",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "MIGA/82/2015",
+    "abstract": "Info regarding (a) municipal capital works projects, and (b) municipal multi-year capital works projects between 2012 and 2015, for the Town of Portugal Cove-St. Philip's.",
+    "organization": "Municipal and Intergovernmental Affairs",
+    "date": "2016-01-05",
+    "byte_size": 185880,
+    "number_of_pages": 4
+  },
+  {
+    "id": "1941",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "BTCRD/40/2015",
+    "abstract": "Any and all information connected to a meeting which took place on August 3, 2010 with respect to the George River Caribou Herd and/or population census of the herd.",
+    "organization": "Business, Tourism, Culture and Rural Development",
+    "date": "2016-01-07",
+    "byte_size": 294901,
+    "number_of_pages": 2
+  },
+  {
+    "id": "1942",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "BTCRD/41/2015",
+    "abstract": "A copy of the 2009-2010 Tourist Establishment License under which 2009-2010 Non-Resident Labrador Caribou Licenses numbering 3514-3524 inclusive were issued.",
+    "organization": "Business, Tourism, Culture and Rural Development",
+    "date": "2016-01-07",
+    "byte_size": 1464344,
+    "number_of_pages": 41
+  },
+  {
+    "id": "1943",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "JPS/46/2015",
+    "abstract": "1) How many times have solicitors or barristers with Justice intervened to justify an order made in a private family law matter in the Unified Family Court or Supreme Court Trial Division (Family)\" 2) How many times has the Recalculation Office refused to recalculate a support order made in the Unified Family Court or Supreme Court Trial Division (Family) because of a clerical error in the order, for example putting the wrong address for the Recalculation Office in the Order?",
+    "organization": "Justice and Public Safety",
+    "date": "2016-01-07",
+    "byte_size": 169658,
+    "number_of_pages": 4
+  },
+  {
+    "id": "1944",
+    "division_id": "ocd-division/country:ca/province:nl",
+    "identifier": "MIGA/77/2015",
+    "abstract": "Copy of letters of appointment to the following Eastern Regional Appeal Board members. Pertinent education background, experience, qualifications of each for this appointment. Vicki Connolly — Chair, Michelle Downey — Member, Mary Thorne-Gosse - Member",
+    "organization": "Municipal Affairs",
+    "date": "2016-01-07",
+    "byte_size": 312645,
+    "number_of_pages": 4
   }
 ]
