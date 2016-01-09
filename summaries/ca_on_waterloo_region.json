@@ -3647,6 +3647,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2002008,
     "position": 8,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies incident report records regarding May 2001 dog bite.",
     "decision": "all disclosed"
@@ -3745,6 +3746,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2002019,
     "position": 19,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Food-borne illness incident records for {location removed} on October 7, 2002.",
     "decision": "all disclosed"
@@ -4023,6 +4025,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2004006,
     "position": 6,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation from April 2003 regarding requester's dog.",
     "decision": "disclosed in part"
@@ -4085,6 +4088,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2004013,
     "position": 13,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation file.",
     "decision": "disclosed in part"
@@ -4309,6 +4313,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2005016,
     "position": 16,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Food premise inspections of {location removed} and enteric disease worksheet related to food-borne illness of client.",
     "decision": "all disclosed"
@@ -4362,6 +4367,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2005022,
     "position": 22,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation file regarding dog bite sustained by {name removed}.",
     "decision": "disclosed in part"
@@ -4532,6 +4538,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2006019,
     "position": 19,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation file.",
     "decision": "all disclosed"
@@ -4576,6 +4583,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2007001,
     "position": 1,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Public Health investigation file regarding e-coli 0157 outbreak at the requester's home day care.",
     "decision": "disclosed in part"
@@ -4611,6 +4619,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2007005,
     "position": 5,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Public Health investigation records regarding requester's daughter's e. coli 0157 infection at the home child care operated by {name removed}.",
     "decision": "disclosed in part"
@@ -4637,6 +4646,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2007008,
     "position": 8,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation records affecting son; incident on 2007/3/28 at {business removed}; also other records concerning incidents with the dog.",
     "decision": "disclosed in part"
@@ -4645,6 +4655,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2007009,
     "position": 9,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Food borne illness investigation at {location removed} regarding an incident on 2002/5/28.",
     "decision": "nothing disclosed"
@@ -4671,6 +4682,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2007012,
     "position": 12,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation regarding an incident that took place on 2007/1/21.",
     "decision": "disclosed in part"
@@ -4931,6 +4943,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2008017,
     "position": 17,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation file. ",
     "decision": "disclosed in part"
@@ -5002,6 +5015,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2008025,
     "position": 25,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Emergency Medical Services and Waterloo Regional Police Service response records related to the suicide of {name removed} at {location removed} on October 19, 2007.",
     "decision": "all disclosed"
@@ -5109,6 +5123,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2009007,
     "position": 7,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Records regarding cause of death and recalled {company name removed} products at {location removed}, Waterloo.",
     "decision": "all disclosed"
@@ -5522,6 +5537,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2010014,
     "position": 14,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Food-borne Illness investigation regarding e. coli 0157 outbreak at {location removed}, Kitchener on October 27, 2008.",
     "decision": "disclosed in part"
@@ -6052,6 +6068,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2012004,
     "position": 4,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation records regarding a bite by a Waterloo Regional Police Service dog on {date removed}.",
     "decision": "disclosed in part"
@@ -6195,6 +6212,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2012020,
     "position": 20,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control investigation records.",
     "decision": "disclosed in part"
@@ -6347,6 +6365,7 @@
     "division_id": "ocd-division/country:ca/cd:3530",
     "identifier": 2012037,
     "position": 37,
+    "classification": "mixed",
     "applicant_type": "public",
     "abstract": "Rabies control inspection records for incident occurring on {date removed}.",
     "decision": "disclosed in part"
