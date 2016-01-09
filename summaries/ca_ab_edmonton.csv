@@ -1,12 +1,12 @@
 division_id,identifier,position,abstract,classification,date_accepted,date
-ocd-division/country:ca/csd:4811061,2012-0004,4,Consult,,2012-01-03,2012-01-05
+ocd-division/country:ca/csd:4811061,2012-0004,4,Consult,consult,2012-01-03,2012-01-05
 ocd-division/country:ca/csd:4811061,2012-0002,2,Fire investigation report,general,2011-12-28,2012-01-09
-ocd-division/country:ca/csd:4811061,2012-0007,7,Consult,,2012-01-10,2012-01-10
+ocd-division/country:ca/csd:4811061,2012-0007,7,Consult,consult,2012-01-10,2012-01-10
 ocd-division/country:ca/csd:4811061,2012-0003,3,Patient Care Report,general,2011-12-28,2012-01-12
 ocd-division/country:ca/csd:4811061,2012-0008,8,Patient Care Report,general,2012-01-11,2012-01-12
-ocd-division/country:ca/csd:4811061,2012-0012,12,Consult,,2012-01-12,2012-01-12
+ocd-division/country:ca/csd:4811061,2012-0012,12,Consult,consult,2012-01-12,2012-01-12
 ocd-division/country:ca/csd:4811061,2012-0013,13,Patient Care Report,general,2012-01-16,2012-01-16
-ocd-division/country:ca/csd:4811061,2012-0014,14,Consult ,,2012-01-16,2012-01-16
+ocd-division/country:ca/csd:4811061,2012-0014,14,Consult ,consult,2012-01-16,2012-01-16
 ocd-division/country:ca/csd:4811061,2012-0001,1,Fire investigation report,general,2011-12-28,2012-01-17
 ocd-division/country:ca/csd:4811061,2012-0005,5,Unclaimed cheques,general,2012-01-09,2012-01-19
 ocd-division/country:ca/csd:4811061,2012-0018,18,Fire investigation report,general,2012-01-20,2012-01-24
@@ -14,7 +14,7 @@ ocd-division/country:ca/csd:4811061,2012-0021,21,Chemical Spill Records ,general
 ocd-division/country:ca/csd:4811061,2012-0026,26,Patient Care Report,general,2012-01-25,2012-01-25
 ocd-division/country:ca/csd:4811061,2012-0017,17,Fire investigation report,general,2012-01-20,2012-01-26
 ocd-division/country:ca/csd:4811061,2012-0025,25,Patient Care Report,general,2012-01-25,2012-01-27
-ocd-division/country:ca/csd:4811061,2012-0028,28,Downtown Arena,,2012-01-25,2012-01-27
+ocd-division/country:ca/csd:4811061,2012-0028,28,Downtown Arena,consult,2012-01-25,2012-01-27
 ocd-division/country:ca/csd:4811061,2012-0022,22,Fire investigation report,general,2012-01-24,2012-01-31
 ocd-division/country:ca/csd:4811061,2012-0023,23,Fire investigation report,general,2012-01-24,2012-01-31
 ocd-division/country:ca/csd:4811061,2012-0029,29,Patient Care Report,general,2012-01-27,2012-01-31
@@ -23,7 +23,7 @@ ocd-division/country:ca/csd:4811061,2012-0035,35,Patient Care Report,general,201
 ocd-division/country:ca/csd:4811061,2012-0031,31,Animal control records,general,2012-01-30,2012-02-06
 ocd-division/country:ca/csd:4811061,2012-0030,30,Sewage dumping,general,2012-01-30,2012-02-07
 ocd-division/country:ca/csd:4811061,2012-0009-001,9,Records related to elephant,general,2012-01-11,2012-02-08
-ocd-division/country:ca/csd:4811061,2012-0036,36,Consult ,,2012-01-30,2012-02-09
+ocd-division/country:ca/csd:4811061,2012-0036,36,Consult ,consult,2012-01-30,2012-02-09
 ocd-division/country:ca/csd:4811061,2012-0043,43,Counselling file for named individual,general,2012-02-08,2012-02-09
 ocd-division/country:ca/csd:4811061,2012-0046,46,Patient Care Report,general,2012-01-30,2012-02-14
 ocd-division/country:ca/csd:4811061,2012-0015,15,Notice of investigation,personal,2012-01-17,2012-02-16
@@ -53,7 +53,7 @@ ocd-division/country:ca/csd:4811061,2012-0064,64,Copy of Memorandum Of Understan
 ocd-division/country:ca/csd:4811061,2012-0068,68,Personnel file,personal,2012-03-06,2012-03-15
 ocd-division/country:ca/csd:4811061,2012-0041,41,Dog bite report,general,2012-02-07,2012-03-19
 ocd-division/country:ca/csd:4811061,2012-0075,75,Fire investigation report,general,2012-03-15,2012-03-19
-ocd-division/country:ca/csd:4811061,2012-0080,80,Consult for Bill Hunter Arena,,2012-03-16,2012-03-19
+ocd-division/country:ca/csd:4811061,2012-0080,80,Consult for Bill Hunter Arena,consult,2012-03-16,2012-03-19
 ocd-division/country:ca/csd:4811061,2012-0065,65,Fire investigation report,general,2012-02-28,2012-03-21
 ocd-division/country:ca/csd:4811061,2012-0079,79,Complaints made against RV Storage Business ,general,2012-03-15,2012-03-21
 ocd-division/country:ca/csd:4811061,2012-0061,61,Property inspections,general,2012-02-24,2012-03-22
@@ -149,8 +149,8 @@ ocd-division/country:ca/csd:4811061,2012-0174,174,Fire investigation report,gene
 ocd-division/country:ca/csd:4811061,2012-0176,176,Patient Care Report,general,2012-06-20,2012-06-20
 ocd-division/country:ca/csd:4811061,2012-0177,177,Fire investigation report,general,2012-06-20,2012-06-20
 ocd-division/country:ca/csd:4811061,2012-0141,141,Transit accident/claim file,personal,2012-05-16,2012-06-21
-ocd-division/country:ca/csd:4811061,2012-0167,167,General repeal bylaw,,2012-06-08,2012-06-21
-ocd-division/country:ca/csd:4811061,2012-0171,171,Spill of hydraulic oil,,2012-06-15,2012-06-21
+ocd-division/country:ca/csd:4811061,2012-0167,167,General repeal bylaw,consult,2012-06-08,2012-06-21
+ocd-division/country:ca/csd:4811061,2012-0171,171,Spill of hydraulic oil,consult,2012-06-15,2012-06-21
 ocd-division/country:ca/csd:4811061,2012-0168,168,Patient Care Report,general,2012-06-11,2012-06-22
 ocd-division/country:ca/csd:4811061,2012-0143,143,Geotechnical Assessment Report,general,2012-05-17,2012-06-26
 ocd-division/country:ca/csd:4811061,2012-0173,173,Paper and electronic files from or to named person where the applicant was the subject of the record,personal,2012-05-29,2012-06-28
@@ -209,7 +209,7 @@ ocd-division/country:ca/csd:4811061,2012-0228,228,Accident report,general,2012-0
 ocd-division/country:ca/csd:4811061,2012-0209,209,Fire investigation report,general,2012-07-24,2012-08-17
 ocd-division/country:ca/csd:4811061,2012-0220,220,911 transcript of car accident call,general,2012-08-01,2012-08-17
 ocd-division/country:ca/csd:4811061,2012-0204,204,Fire investigation report,general,2012-07-19,2012-08-18
-ocd-division/country:ca/csd:4811061,2012-0229,229,Property information,,2012-08-14,2012-08-20
+ocd-division/country:ca/csd:4811061,2012-0229,229,Property information,consult,2012-08-14,2012-08-20
 ocd-division/country:ca/csd:4811061,2012-0224,224,Dog bite report,general,2012-08-07,2012-08-21
 ocd-division/country:ca/csd:4811061,2012-0215,215,Contract for Jasper Avenue Road Rehabilitation ,general,2012-07-23,2012-08-22
 ocd-division/country:ca/csd:4811061,2012-0213,213,Tax and licensing records ,general,2012-07-25,2012-08-24
@@ -222,7 +222,7 @@ ocd-division/country:ca/csd:4811061,2012-0243,243,Dog bite report,general,2012-0
 ocd-division/country:ca/csd:4811061,2012-0219,219,Drainage records,general,2012-07-31,2012-09-05
 ocd-division/country:ca/csd:4811061,2012-0249,249,Noise complaint,general,2012-08-31,2012-09-05
 ocd-division/country:ca/csd:4811061,2012-0251,251,Patient Care Report,general,2012-09-05,2012-09-05
-ocd-division/country:ca/csd:4811061,2012-0247,247,Consult of records relating to Housing and Grant Funding,,2012-08-30,2012-09-07
+ocd-division/country:ca/csd:4811061,2012-0247,247,Consult of records relating to Housing and Grant Funding,consult,2012-08-30,2012-09-07
 ocd-division/country:ca/csd:4811061,2012-0237,237,Flood incident records,general,2012-08-23,2012-09-12
 ocd-division/country:ca/csd:4811061,2012-0248,248,Development and Zoning Current Planning File,general,2012-08-31,2012-09-12
 ocd-division/country:ca/csd:4811061,2012-0225,225,Privacy complaint,general,2012-08-10,2012-09-13
@@ -253,7 +253,7 @@ ocd-division/country:ca/csd:4811061,2012-0269,269,Drainage information,general,2
 ocd-division/country:ca/csd:4811061,2012-0284,284,Child Welfare Assessment of a named individual,personal,2012-09-26,2012-10-10
 ocd-division/country:ca/csd:4811061,2012-0096,96,Cultural Society records,general,2012-04-10,2012-10-11
 ocd-division/country:ca/csd:4811061,2012-0259,259,Fire investigation report,general,2012-09-11,2012-10-11
-ocd-division/country:ca/csd:4811061,2012-0312,312,Fire at seniors residence,,2012-10-11,2012-10-11
+ocd-division/country:ca/csd:4811061,2012-0312,312,Fire at seniors residence,consult,2012-10-11,2012-10-11
 ocd-division/country:ca/csd:4811061,2012-0199,199,Employee file,general,2012-07-03,2012-10-12
 ocd-division/country:ca/csd:4811061,2012-0266,266,Phase I Environmental Site Assessment,general,2012-09-20,2012-10-12
 ocd-division/country:ca/csd:4811061,2012-0287,287,Patient Care Report,general,2012-09-26,2012-10-12
@@ -315,7 +315,7 @@ ocd-division/country:ca/csd:4811061,2012-0350,350,Patient Care Report ,general,2
 ocd-division/country:ca/csd:4811061,2012-0351,351,Patient Care Report ,general,2012-11-20,2012-11-21
 ocd-division/country:ca/csd:4811061,2012-0194,194,Construction claims & payments re: LRT,general,2012-07-10,2012-11-22
 ocd-division/country:ca/csd:4811061,2012-0323,323,Fire investigation report,general,2012-10-10,2012-11-23
-ocd-division/country:ca/csd:4811061,2012-0354,354,Property records,,2012-11-19,2012-11-23
+ocd-division/country:ca/csd:4811061,2012-0354,354,Property records,consult,2012-11-19,2012-11-23
 ocd-division/country:ca/csd:4811061,2012-0356,356,Dog licensing information and previous incidents,general,2012-11-22,2012-11-23
 ocd-division/country:ca/csd:4811061,2012-0357,357,Fire investigation report,general,2012-11-22,2012-11-23
 ocd-division/country:ca/csd:4811061,2012-0325,325,Patient Care Report,general,2012-10-19,2012-11-26
@@ -326,7 +326,7 @@ ocd-division/country:ca/csd:4811061,2012-0352,352,Patient Care Report ,general,2
 ocd-division/country:ca/csd:4811061,2012-0344,344,Request for proposal records,general,2012-10-31,2012-11-27
 ocd-division/country:ca/csd:4811061,2012-0340,340,Drainage records,general,2012-10-31,2012-11-28
 ocd-division/country:ca/csd:4811061,2012-0327,327,Fire investigation report,general,2012-10-19,2012-11-29
-ocd-division/country:ca/csd:4811061,2012-0353,353,Expropriation records,,2012-11-19,2012-11-29
+ocd-division/country:ca/csd:4811061,2012-0353,353,Expropriation records,consult,2012-11-19,2012-11-29
 ocd-division/country:ca/csd:4811061,2012-0361,361,Patient Care Report,general,2012-11-22,2012-11-29
 ocd-division/country:ca/csd:4811061,2012-0362,362,Fire investigation report,general,2012-11-23,2012-11-29
 ocd-division/country:ca/csd:4811061,2012-0365,365,Drainage records,general,2012-11-26,2012-11-29
@@ -347,7 +347,7 @@ ocd-division/country:ca/csd:4811061,2012-0279,279,"Environmental contamination, 
 ocd-division/country:ca/csd:4811061,2012-0369,369,Fire investigation report,general,2012-12-03,2012-12-11
 ocd-division/country:ca/csd:4811061,2012-0372,372,Fire investigation report,general,2012-12-06,2012-12-11
 ocd-division/country:ca/csd:4811061,2012-0371,371,Patient care report,general,2012-12-04,2012-12-13
-ocd-division/country:ca/csd:4811061,2012-0386,386,Patient Care Report,,2012-12-12,2012-12-13
+ocd-division/country:ca/csd:4811061,2012-0386,386,Patient Care Report,consult,2012-12-12,2012-12-13
 ocd-division/country:ca/csd:4811061,2012-0337,337,Fire investigation report ,general,2012-10-29,2012-12-14
 ocd-division/country:ca/csd:4811061,2012-0385,385,Fire investigation report,general,2012-12-14,2012-12-14
 ocd-division/country:ca/csd:4811061,2012-0324,324,Consultant contract,general,2012-10-25,2012-12-17
@@ -385,13 +385,13 @@ ocd-division/country:ca/csd:4811061,2013-0010,10,Patient Care Report,general,201
 ocd-division/country:ca/csd:4811061,2013-0018,18,Fire investigation report,general,2013-01-21,2013-01-22
 ocd-division/country:ca/csd:4811061,2012-0348,348,Fire investigation report,general,2012-11-16,2013-01-23
 ocd-division/country:ca/csd:4811061,2013-0001,1,Dog bite report,general,2013-01-02,2013-01-23
-ocd-division/country:ca/csd:4811061,2013-0020,20,Consult on low hazard fireworks,,2013-01-24,2013-01-25
+ocd-division/country:ca/csd:4811061,2013-0020,20,Consult on low hazard fireworks,consult,2013-01-24,2013-01-25
 ocd-division/country:ca/csd:4811061,2013-0034,34,Privacy complaint,,2013-02-06,2013-01-28
 ocd-division/country:ca/csd:4811061,2013-0019,19,Fire investigation report,general,2013-01-22,2013-01-29
 ocd-division/country:ca/csd:4811061,2013-0024,24,Patient Care Report,general,2013-01-29,2013-01-30
 ocd-division/country:ca/csd:4811061,2013-0025,25,Patient Care Report,general,2013-01-29,2013-01-30
 ocd-division/country:ca/csd:4811061,2013-0026,26,Fire investigation report,general,2013-01-30,2013-01-30
-ocd-division/country:ca/csd:4811061,2013-0029,29,Donation agreements ,,2013-01-31,2013-01-31
+ocd-division/country:ca/csd:4811061,2013-0029,29,Donation agreements ,consult,2013-01-31,2013-01-31
 ocd-division/country:ca/csd:4811061,2013-0022,22,Fire investigation report,general,2013-01-29,2013-02-01
 ocd-division/country:ca/csd:4811061,2013-0023,23,Fire investigation report,general,2013-01-29,2013-02-01
 ocd-division/country:ca/csd:4811061,2013-0004,4,Records of tender # 923469,general,2013-01-08,2013-02-05
@@ -408,7 +408,7 @@ ocd-division/country:ca/csd:4811061,2013-0007,7,Personal file,personal,2013-01-1
 ocd-division/country:ca/csd:4811061,2013-0027,27,Video Surveillance,general,2013-01-31,2013-02-14
 ocd-division/country:ca/csd:4811061,2012-0232,232,Fire investigation report,general,2012-08-17,2013-02-15
 ocd-division/country:ca/csd:4811061,2013-0016,16,Records regarding airport taxi services ,general,2013-01-17,2013-02-15
-ocd-division/country:ca/csd:4811061,2013-0046,46,Consult regarding an injury of a named individual,,2013-02-14,2013-02-15
+ocd-division/country:ca/csd:4811061,2013-0046,46,Consult regarding an injury of a named individual,consult,2013-02-14,2013-02-15
 ocd-division/country:ca/csd:4811061,2013-0068,68,Fire investigation report,general,2013-02-07,2013-02-15
 ocd-division/country:ca/csd:4811061,2013-0031,31,Information on 311 ticket,general,2013-02-05,2013-02-19
 ocd-division/country:ca/csd:4811061,2013-0017,17,Personal information of named individual,personal,2013-01-21,2013-02-20
@@ -427,16 +427,16 @@ ocd-division/country:ca/csd:4811061,2013-0039,39,Employee service commendations,
 ocd-division/country:ca/csd:4811061,2013-0040,40,Information on tender #921486,general,2013-02-07,2013-03-05
 ocd-division/country:ca/csd:4811061,2012-0257,257,Workspace Edmonton Privacy Impact Assessment,,2012-09-07,2013-03-06
 ocd-division/country:ca/csd:4811061,2013-0064,64,Fire investigation report,general,2013-03-04,2013-03-06
-ocd-division/country:ca/csd:4811061,2013-0069,69,Municipal Sustainability Initiative funding for downtown arena,,2013-03-05,2013-03-07
+ocd-division/country:ca/csd:4811061,2013-0069,69,Municipal Sustainability Initiative funding for downtown arena,consult,2013-03-05,2013-03-07
 ocd-division/country:ca/csd:4811061,2013-0028,28,Downtown arena and consultants reports,general,2013-01-31,2013-03-08
 ocd-division/country:ca/csd:4811061,2013-0002,2,"Final contract to RFP 921001, Smart Bus Initiative",general,2013-01-04,2013-03-11
 ocd-division/country:ca/csd:4811061,2013-0249,249,Photo radar tender submission,general,2013-09-06,2013-03-11
 ocd-division/country:ca/csd:4811061,2013-0042,42,Personnel file,general,2013-02-13,2013-03-12
-ocd-division/country:ca/csd:4811061,2013-0074,74,Property information,,2013-03-08,2013-03-13
+ocd-division/country:ca/csd:4811061,2013-0074,74,Property information,consult,2013-03-08,2013-03-13
 ocd-division/country:ca/csd:4811061,2013-0065,65,Emails between employees regarding Alberta Cycle building,general,2013-03-04,2013-03-14
-ocd-division/country:ca/csd:4811061,2013-0067,67,Waste and recycling collection services to Edmonton School District No 7,,2013-03-05,2013-03-15
-ocd-division/country:ca/csd:4811061,2013-0082,82,Property records,,2013-03-14,2013-03-15
-ocd-division/country:ca/csd:4811061,2013-0083,83,Use of Municipal Sustainability Initiative funds for arena project,,2013-03-14,2013-03-15
+ocd-division/country:ca/csd:4811061,2013-0067,67,Waste and recycling collection services to Edmonton School District No 7,consult,2013-03-05,2013-03-15
+ocd-division/country:ca/csd:4811061,2013-0082,82,Property records,consult,2013-03-14,2013-03-15
+ocd-division/country:ca/csd:4811061,2013-0083,83,Use of Municipal Sustainability Initiative funds for arena project,consult,2013-03-14,2013-03-15
 ocd-division/country:ca/csd:4811061,2013-0051,51,Fire investigation report,general,2013-02-20,2013-03-18
 ocd-division/country:ca/csd:4811061,2012-0253,253,Fire Rescue records,general,2012-09-04,2013-03-19
 ocd-division/country:ca/csd:4811061,2013-0090,90,Fire Rescue response to the Big Valley Jamboree stage collapse,general,2013-03-12,2013-03-19
@@ -503,7 +503,7 @@ ocd-division/country:ca/csd:4811061,2013-0077,77,Employment records ,general,201
 ocd-division/country:ca/csd:4811061,2013-0126,126,Fire investigation report,general,2013-05-08,2013-05-14
 ocd-division/country:ca/csd:4811061,2013-0130,130,Property records,general,2013-05-09,2013-05-14
 ocd-division/country:ca/csd:4811061,2013-0113,113,Fire investigation report,general,2013-04-23,2013-05-15
-ocd-division/country:ca/csd:4811061,2013-0125,125,Emails regarding Canada Day,,2013-05-08,2013-05-15
+ocd-division/country:ca/csd:4811061,2013-0125,125,Emails regarding Canada Day,consult,2013-05-08,2013-05-15
 ocd-division/country:ca/csd:4811061,2013-0075,75,Employment records ,general,2013-03-11,2013-05-16
 ocd-division/country:ca/csd:4811061,2013-0116,116,Personnel file,general,2013-04-25,2013-05-16
 ocd-division/country:ca/csd:4811061,2013-0117,117,Short term disability file,general,2013-04-25,2013-05-16
@@ -534,7 +534,7 @@ ocd-division/country:ca/csd:4811061,2013-0148,148,Review of 2013-P-0087,,2013-05
 ocd-division/country:ca/csd:4811061,2013-0139,139,Fire investigation report,general,2013-05-22,2013-06-18
 ocd-division/country:ca/csd:4811061,2013-0140,140,Fire investigation report,general,2013-05-23,2013-06-18
 ocd-division/country:ca/csd:4811061,2013-0144,144,Property records,general,2013-05-27,2013-06-18
-ocd-division/country:ca/csd:4811061,2013-0159,159,City trails,,2013-06-10,2013-06-18
+ocd-division/country:ca/csd:4811061,2013-0159,159,City trails,consult,2013-06-10,2013-06-18
 ocd-division/country:ca/csd:4811061,2013-0119,119,Property records,general,2013-04-26,2013-06-19
 ocd-division/country:ca/csd:4811061,2013-0145,145,Fire investigation report,general,2013-05-29,2013-06-19
 ocd-division/country:ca/csd:4811061,2013-0147,147,Patient Care Report ,general,2013-05-31,2013-06-19
@@ -577,8 +577,8 @@ ocd-division/country:ca/csd:4811061,2013-0185,185,Fire investigation report,gene
 ocd-division/country:ca/csd:4811061,2013-0143,143,Southeast to West LRT P3 Business Case,general,2013-05-27,2013-07-25
 ocd-division/country:ca/csd:4811061,2013-0167,167,Development plans,general,2013-06-25,2013-07-25
 ocd-division/country:ca/csd:4811061,2013-0174,174,Fire investigation report,general,2013-07-04,2013-07-25
-ocd-division/country:ca/csd:4811061,2013-0187,187,Financial relief for Whitemud Road houses,,2013-07-12,2013-07-26
-ocd-division/country:ca/csd:4811061,2013-0197,197,Closure of City Centre Airport,,2013-07-18,2013-07-26
+ocd-division/country:ca/csd:4811061,2013-0187,187,Financial relief for Whitemud Road houses,consult,2013-07-12,2013-07-26
+ocd-division/country:ca/csd:4811061,2013-0197,197,Closure of City Centre Airport,consult,2013-07-18,2013-07-26
 ocd-division/country:ca/csd:4811061,2013-0195,195,Property records,general,2013-07-17,2013-07-29
 ocd-division/country:ca/csd:4811061,2013-0198,198,Bylaw complaints,general,2013-07-22,2013-07-29
 ocd-division/country:ca/csd:4811061,2013-0203,203,Patient Care Report,general,2013-07-26,2013-07-29
@@ -653,7 +653,7 @@ ocd-division/country:ca/csd:4811061,2013-0241,241,Fire investigation report,gene
 ocd-division/country:ca/csd:4811061,2013-0268,268,Fire investigation report,general,2013-10-04,2013-10-11
 ocd-division/country:ca/csd:4811061,2013-0271,271,Fire investigation report ,general,2013-10-08,2013-10-11
 ocd-division/country:ca/csd:4811061,2013-0231,231,Northlands master agreement,general,2013-08-23,2013-10-16
-ocd-division/country:ca/csd:4811061,2013-0277,277,Table of contents for all business cases prepared for PPP Canada,,2013-10-09,2013-10-18
+ocd-division/country:ca/csd:4811061,2013-0277,277,Table of contents for all business cases prepared for PPP Canada,consult,2013-10-09,2013-10-18
 ocd-division/country:ca/csd:4811061,2013-0263,263,Property records,general,2013-09-30,2013-10-21
 ocd-division/country:ca/csd:4811061,2013-0265,265,Animal control report ,general,2013-10-02,2013-10-22
 ocd-division/country:ca/csd:4811061,2013-0276,276,Fire investigation report,general,2013-10-16,2013-10-22
@@ -682,7 +682,7 @@ ocd-division/country:ca/csd:4811061,2013-0280,280,Patient Care Report,general,20
 ocd-division/country:ca/csd:4811061,2013-0294,294,Patient Care Report,general,2013-11-01,2013-11-14
 ocd-division/country:ca/csd:4811061,2013-0302,302,Fire investigation report,general,2013-11-06,2013-11-15
 ocd-division/country:ca/csd:4811061,2012-0063-007,63,All records regarding apartment building,general,2013-10-18,2013-11-17
-ocd-division/country:ca/csd:4811061,2013-0300,300,Cyclotron license application by U of A,,2013-11-04,2013-11-18
+ocd-division/country:ca/csd:4811061,2013-0300,300,Cyclotron license application by U of A,consult,2013-11-04,2013-11-18
 ocd-division/country:ca/csd:4811061,2013-0214,214,Property records,general,2013-08-12,2013-11-19
 ocd-division/country:ca/csd:4811061,2013-0253,253,Patient Care Report,general,2013-09-13,2013-11-19
 ocd-division/country:ca/csd:4811061,2013-0254,254,Patient Care Report,general,2013-09-13,2013-11-19
@@ -757,7 +757,7 @@ ocd-division/country:ca/csd:4811061,2014-0016,16,Fire investigation report,gener
 ocd-division/country:ca/csd:4811061,2013-0350,350,LRT safety incidents,general,2013-12-17,2014-01-14
 ocd-division/country:ca/csd:4811061,2014-0017,17,Motor Vehicle Incident Report,general,2014-01-08,2014-01-15
 ocd-division/country:ca/csd:4811061,2014-0019,19,Fire investigation report,general,2014-01-15,2014-01-16
-ocd-division/country:ca/csd:4811061,2014-0022,22,LRT PricewaterhouseCoopers Report,,2014-01-02,2014-01-17
+ocd-division/country:ca/csd:4811061,2014-0022,22,LRT PricewaterhouseCoopers Report,consult,2014-01-02,2014-01-17
 ocd-division/country:ca/csd:4811061,2013-0301,301,Federation of Canadian Municipalities Convention expenses,general,2013-11-04,2014-01-23
 ocd-division/country:ca/csd:4811061,2014-0023,23,Fire investigation report,general,2014-01-15,2014-01-23
 ocd-division/country:ca/csd:4811061,2014-0006,6,Review of 2012-0273 ,,2014-01-06,2014-01-24
@@ -780,7 +780,7 @@ ocd-division/country:ca/csd:4811061,2014-0033,33,Motor Vehicle Incident Report,g
 ocd-division/country:ca/csd:4811061,2014-0021,21,Property inspections,general,2014-01-16,2014-02-07
 ocd-division/country:ca/csd:4811061,2014-0014,14,List of unclaimed cheques,general,2014-01-09,2014-02-10
 ocd-division/country:ca/csd:4811061,2014-0032,32,Employee file,personal,2014-02-03,2014-02-10
-ocd-division/country:ca/csd:4811061,2014-0039,39,Intermodal Facility at 41 Avenue SW/QEII interchange,,2014-01-27,2014-02-10
+ocd-division/country:ca/csd:4811061,2014-0039,39,Intermodal Facility at 41 Avenue SW/QEII interchange,consult,2014-01-27,2014-02-10
 ocd-division/country:ca/csd:4811061,2014-0042,42,Fire investigation report,general,2014-02-10,2014-02-11
 ocd-division/country:ca/csd:4811061,2014-0043,43,Fire investigation report,general,2014-02-10,2014-02-12
 ocd-division/country:ca/csd:4811061,2014-0036,36,Animal Control records,general,2014-02-06,2014-02-13
@@ -790,21 +790,21 @@ ocd-division/country:ca/csd:4811061,2014-0035,35,Patient Care Report,general,201
 ocd-division/country:ca/csd:4811061,2014-0054,54,Negotiation of a property,general,2014-02-13,2014-02-18
 ocd-division/country:ca/csd:4811061,2015-0030,30,Employee file,general,2015-01-27,2014-02-18
 ocd-division/country:ca/csd:4811061,2014-0040,40,Motor Vehicle Incident Report,general,2014-02-07,2014-02-19
-ocd-division/country:ca/csd:4811061,2014-0053,53,Planning Exemption Regulation,,2014-02-18,2014-02-19
+ocd-division/country:ca/csd:4811061,2014-0053,53,Planning Exemption Regulation,consult,2014-02-18,2014-02-19
 ocd-division/country:ca/csd:4811061,2014-0051,51,Fire investigation report,general,2014-02-14,2014-02-20
-ocd-division/country:ca/csd:4811061,2014-0046,46,April 2009 Integrated Planning Agreement,,2014-02-11,2014-02-21
+ocd-division/country:ca/csd:4811061,2014-0046,46,April 2009 Integrated Planning Agreement,consult,2014-02-11,2014-02-21
 ocd-division/country:ca/csd:4811061,2014-0057,57,Fire investigation report,general,2014-02-19,2014-02-24
 ocd-division/country:ca/csd:4811061,2014-0058,58,Fire investigation report,general,2014-02-21,2014-02-25
 ocd-division/country:ca/csd:4811061,2014-0059,59,Patient Care Report,general,2014-02-21,2014-02-25
 ocd-division/country:ca/csd:4811061,2014-0037,37,Employee file,general,2014-02-07,2014-02-26
-ocd-division/country:ca/csd:4811061,2014-0060,60,Directive or correspondence in relation to the Cemeteries Act,,2014-02-13,2014-02-26
+ocd-division/country:ca/csd:4811061,2014-0060,60,Directive or correspondence in relation to the Cemeteries Act,consult,2014-02-13,2014-02-26
 ocd-division/country:ca/csd:4811061,2014-0064,64,Fire investigation report,general,2014-02-26,2014-02-27
 ocd-division/country:ca/csd:4811061,2014-0052,52,Dog bite report,general,2014-02-14,2014-02-28
 ocd-division/country:ca/csd:4811061,2014-0062,62,Fire investigation report,general,2014-02-26,2014-02-28
 ocd-division/country:ca/csd:4811061,2014-0055,55,Fire fighter application,general,2014-02-19,2014-03-04
 ocd-division/country:ca/csd:4811061,2014-0056,56,Arena Press Conference costs,general,2014-02-19,2014-03-05
 ocd-division/country:ca/csd:4811061,2014-0071,71,Animal Control Report,general,2014-02-28,2014-03-05
-ocd-division/country:ca/csd:4811061,2014-0072,72,Statement of Justification for Historical Resources Act Requirements and Final Report,,2014-03-03,2014-03-05
+ocd-division/country:ca/csd:4811061,2014-0072,72,Statement of Justification for Historical Resources Act Requirements and Final Report,consult,2014-03-03,2014-03-05
 ocd-division/country:ca/csd:4811061,2014-0031,31,Employee file,personal,2014-02-03,2014-03-06
 ocd-division/country:ca/csd:4811061,2014-0001,1,Employee file,general,2014-01-03,2014-03-07
 ocd-division/country:ca/csd:4811061,2014-0067,67,Patient Care Report,general,2014-02-27,2014-03-07
@@ -819,7 +819,7 @@ ocd-division/country:ca/csd:4811061,2014-0073,73,Patient Care Report,general,201
 ocd-division/country:ca/csd:4811061,2014-0050,50,Portable Sign permit application,general,2014-02-12,2014-03-13
 ocd-division/country:ca/csd:4811061,2014-0077,77,Fire Inspection Report,general,2014-03-10,2014-03-13
 ocd-division/country:ca/csd:4811061,2014-0048,48,Employee file,general,2014-02-12,2014-03-14
-ocd-division/country:ca/csd:4811061,2014-0083,83,Train whistling records,,2014-03-13,2014-03-14
+ocd-division/country:ca/csd:4811061,2014-0083,83,Train whistling records,consult,2014-03-13,2014-03-14
 ocd-division/country:ca/csd:4811061,2014-0082,82,Environmental records,general,2014-03-13,2014-03-18
 ocd-division/country:ca/csd:4811061,2014-0086,86,Fire investigation report,general,2014-03-14,2014-03-18
 ocd-division/country:ca/csd:4811061,2014-0091,91,Fire investigation report,general,2014-03-14,2014-03-18
@@ -829,7 +829,7 @@ ocd-division/country:ca/csd:4811061,2014-0090,90,Fire investigation report,gener
 ocd-division/country:ca/csd:4811061,2014-0093,93,Fire investigation report,general,2014-03-14,2014-03-19
 ocd-division/country:ca/csd:4811061,2014-0094,94,Law Enforcement Disclosure,general,2014-03-14,2014-03-20
 ocd-division/country:ca/csd:4811061,2014-0095,95,Drainage/flooding records,general,2014-03-06,2014-03-20
-ocd-division/country:ca/csd:4811061,2014-0096,96,Building permit,,2014-03-18,2014-03-20
+ocd-division/country:ca/csd:4811061,2014-0096,96,Building permit,consult,2014-03-18,2014-03-20
 ocd-division/country:ca/csd:4811061,2014-0078,78,Treatment information of an individual,general,2014-03-11,2014-03-21
 ocd-division/country:ca/csd:4811061,2014-0085,85,Fire investigation report,general,2014-03-14,2014-03-21
 ocd-division/country:ca/csd:4811061,2014-0087,87,Fire investigation report,general,2014-03-14,2014-03-21
@@ -906,8 +906,8 @@ ocd-division/country:ca/csd:4811061,2014-0165,165,Animal Control report,general,
 ocd-division/country:ca/csd:4811061,2014-0167,167,Fire Incident Report,general,2014-05-29,2014-06-03
 ocd-division/country:ca/csd:4811061,2014-0168,168,Complete Operator report,personal,2014-05-30,2014-06-04
 ocd-division/country:ca/csd:4811061,2014-0171,171,Fire investigation report,general,2014-06-02,2014-06-04
-ocd-division/country:ca/csd:4811061,2014-0166,166,Property records,,2014-05-27,2014-06-05
-ocd-division/country:ca/csd:4811061,2014-0175,175,Agreements with ICLEI Local Governments for Sustainability,,2014-06-04,2014-06-05
+ocd-division/country:ca/csd:4811061,2014-0166,166,Property records,consult,2014-05-27,2014-06-05
+ocd-division/country:ca/csd:4811061,2014-0175,175,Agreements with ICLEI Local Governments for Sustainability,consult,2014-06-04,2014-06-05
 ocd-division/country:ca/csd:4811061,2014-0151,151,Emails between City employees and a company,general,2014-05-09,2014-06-09
 ocd-division/country:ca/csd:4811061,2014-0157,157,Patient Care Report,general,2014-05-09,2014-06-10
 ocd-division/country:ca/csd:4811061,2014-0154,154,Contracts with the Stewart Group,general,2014-05-12,2014-06-11
@@ -916,12 +916,12 @@ ocd-division/country:ca/csd:4811061,2014-0183,183,Business licence records,gener
 ocd-division/country:ca/csd:4811061,2014-0172,172,Bylaw notices and citations ,general,2014-06-03,2014-06-17
 ocd-division/country:ca/csd:4811061,2014-0162,162,ETS Complete Operator Report,personal,2014-05-21,2014-06-18
 ocd-division/country:ca/csd:4811061,2014-0163,163,Employee file,general,2014-05-26,2014-06-18
-ocd-division/country:ca/csd:4811061,2014-0180,180,Property records,,2014-06-16,2014-06-18
+ocd-division/country:ca/csd:4811061,2014-0180,180,Property records,consult,2014-06-16,2014-06-18
 ocd-division/country:ca/csd:4811061,2014-0182,182,Fire investigation report,general,2014-06-16,2014-06-18
-ocd-division/country:ca/csd:4811061,2014-0186,186,Planning Exemption Regulation,,2014-06-16,2014-06-18
+ocd-division/country:ca/csd:4811061,2014-0186,186,Planning Exemption Regulation,consult,2014-06-16,2014-06-18
 ocd-division/country:ca/csd:4811061,2013-0297,297,Review of 2013-G-0235,,2013-11-04,2014-06-19
 ocd-division/country:ca/csd:4811061,2013-0298,298,Review of 2013-G-0326,,2013-11-04,2014-06-19
-ocd-division/country:ca/csd:4811061,2014-0188,188,Costs of Energy for Change,,2014-06-18,2014-06-19
+ocd-division/country:ca/csd:4811061,2014-0188,188,Costs of Energy for Change,consult,2014-06-18,2014-06-19
 ocd-division/country:ca/csd:4811061,2015-0217,217,Person and property information,general,2015-06-24,2014-06-24
 ocd-division/country:ca/csd:4811061,2014-0159,159,Arena reports ,general,2014-05-16,2014-06-25
 ocd-division/country:ca/csd:4811061,2014-0164,164,Employee file,general,2014-05-27,2014-06-25
@@ -966,8 +966,8 @@ ocd-division/country:ca/csd:4811061,2014-0226,226,Fire investigation report,gene
 ocd-division/country:ca/csd:4811061,2014-0229,229,Fire investigation report,general,2014-07-25,2014-07-29
 ocd-division/country:ca/csd:4811061,2014-0146,146,Molson Crosstown rezoning,general,2014-05-06,2014-07-30
 ocd-division/country:ca/csd:4811061,2014-0217,217,Fire investigation report,general,2014-07-17,2014-07-31
-ocd-division/country:ca/csd:4811061,2014-0230,230,Property records,,2014-07-28,2014-07-31
-ocd-division/country:ca/csd:4811061,2014-0231,231,Renovations of Ross Sheppard High School,,2014-07-29,2014-07-31
+ocd-division/country:ca/csd:4811061,2014-0230,230,Property records,consult,2014-07-28,2014-07-31
+ocd-division/country:ca/csd:4811061,2014-0231,231,Renovations of Ross Sheppard High School,consult,2014-07-29,2014-07-31
 ocd-division/country:ca/csd:4811061,2014-0201,201,Job applications and a letter to the Mayor,personal,2014-07-08,2014-08-07
 ocd-division/country:ca/csd:4811061,2014-0208,208,Respectful workplace complaint,general,2014-07-15,2014-08-07
 ocd-division/country:ca/csd:4811061,2014-0207,207,Respectful workplace complaint,general,2014-07-11,2014-08-12
@@ -1002,7 +1002,7 @@ ocd-division/country:ca/csd:4811061,2014-0210,210,Transit Professional Standards
 ocd-division/country:ca/csd:4811061,2014-0271,271,Fire investigation report,general,2014-08-22,2014-08-27
 ocd-division/country:ca/csd:4811061,2014-0209,209,List of Transit Investigations ,personal,2014-07-16,2014-08-28
 ocd-division/country:ca/csd:4811061,2014-0255,255,Fire investigation report,general,2014-08-14,2014-08-28
-ocd-division/country:ca/csd:4811061,2014-0272,272,2010 car/train collision,,2014-08-28,2014-08-29
+ocd-division/country:ca/csd:4811061,2014-0272,272,2010 car/train collision,consult,2014-08-28,2014-08-29
 ocd-division/country:ca/csd:4811061,2014-0264,264,Bylaw complaint,general,2014-08-20,2014-09-02
 ocd-division/country:ca/csd:4811061,2014-0251,251,Left-hand turns on 111 Ave - 127 Street,general,2014-08-11,2014-09-03
 ocd-division/country:ca/csd:4811061,2014-0233,233,Phase I Site Assessment,general,2014-08-05,2014-09-04
@@ -1010,7 +1010,7 @@ ocd-division/country:ca/csd:4811061,2014-0234,234,Phase I Site Assessment,genera
 ocd-division/country:ca/csd:4811061,2014-0235,235,Phase I Site Assessment,general,2014-08-05,2014-09-04
 ocd-division/country:ca/csd:4811061,2014-0236,236,Phase I Site Assessment,general,2014-08-05,2014-09-04
 ocd-division/country:ca/csd:4811061,2014-0270,270,Property records,general,2014-08-25,2014-09-04
-ocd-division/country:ca/csd:4811061,2014-0278,278,Jasper Place Health and Wellness Centre,,2014-09-04,2014-09-04
+ocd-division/country:ca/csd:4811061,2014-0278,278,Jasper Place Health and Wellness Centre,consult,2014-09-04,2014-09-04
 ocd-division/country:ca/csd:4811061,2014-0232,232,Arena district records,general,2014-07-30,2014-09-05
 ocd-division/country:ca/csd:4811061,2014-0238,238,Documentation of two City employees,personal,2014-08-06,2014-09-05
 ocd-division/country:ca/csd:4811061,2014-0258,258,Fire investigation report,general,2014-08-14,2014-09-05
@@ -1033,8 +1033,8 @@ ocd-division/country:ca/csd:4811061,2014-0275,275,Financial records of the expro
 ocd-division/country:ca/csd:4811061,2014-0276,276,Financial records of the expropriation of a property,general,2014-08-26,2014-09-23
 ocd-division/country:ca/csd:4811061,2014-0294,294,Fire investigation report,general,2014-09-18,2014-09-23
 ocd-division/country:ca/csd:4811061,2014-0295,295,Fire investigation report,general,2014-09-18,2014-09-23
-ocd-division/country:ca/csd:4811061,2014-0298,298,Salvage vehicle,,2014-09-23,2014-09-23
-ocd-division/country:ca/csd:4811061,2014-0299,299,Transportation Safety Board engine whistles,,2014-09-23,2014-09-23
+ocd-division/country:ca/csd:4811061,2014-0298,298,Salvage vehicle,consult,2014-09-23,2014-09-23
+ocd-division/country:ca/csd:4811061,2014-0299,299,Transportation Safety Board engine whistles,consult,2014-09-23,2014-09-23
 ocd-division/country:ca/csd:4811061,2014-0005,5,Review of 2013-0207 ,,2014-01-06,2014-09-24
 ocd-division/country:ca/csd:4811061,2014-0268,268,Tolerance limit on photo radar,general,2014-08-22,2014-09-24
 ocd-division/country:ca/csd:4811061,2014-0273,273,Tender sum of each bid for the Terwillegar Park footbridge and trails,general,2014-08-25,2014-09-24
@@ -1100,9 +1100,9 @@ ocd-division/country:ca/csd:4811061,2014-0351,351,Fire investigation report,gene
 ocd-division/country:ca/csd:4811061,2014-0354,354,Fire investigation report,general,2014-10-31,2014-11-04
 ocd-division/country:ca/csd:4811061,2014-0355,355,Fire investigation report,general,2014-10-31,2014-11-04
 ocd-division/country:ca/csd:4811061,2014-0356,356,Fire investigation report,general,2014-10-31,2014-11-04
-ocd-division/country:ca/csd:4811061,2014-0362,362,Communication regarding a named individual,,2014-11-04,2014-11-04
+ocd-division/country:ca/csd:4811061,2014-0362,362,Communication regarding a named individual,consult,2014-11-04,2014-11-04
 ocd-division/country:ca/csd:4811061,2014-0326,326,Video of a security incident,personal,2014-10-10,2014-11-10
-ocd-division/country:ca/csd:4811061,2014-0368,368,Supernet network management agreement,,2014-11-07,2014-11-10
+ocd-division/country:ca/csd:4811061,2014-0368,368,Supernet network management agreement,consult,2014-11-07,2014-11-10
 ocd-division/country:ca/csd:4811061,2014-0363,363,Fire investigation report,general,2014-11-07,2014-11-12
 ocd-division/country:ca/csd:4811061,2014-0364,364,Fire investigation report,general,2014-11-07,2014-11-12
 ocd-division/country:ca/csd:4811061,2014-0365,365,Fire investigation report,general,2014-11-07,2014-11-12
@@ -1151,13 +1151,13 @@ ocd-division/country:ca/csd:4811061,2014-0381,381,Sewer odour complaints; locati
 ocd-division/country:ca/csd:4811061,2014-0380,380,Risk Management File,personal,2014-11-18,2014-12-17
 ocd-division/country:ca/csd:4811061,2014-0382,382,Fines issued downtown,general,2014-11-17,2014-12-17
 ocd-division/country:ca/csd:4811061,2014-0383,383,Dursban invoices; list of greenhouses,general,2014-11-18,2014-12-17
-ocd-division/country:ca/csd:4811061,2014-0392,392,Communications survey response,,2014-11-27,2014-12-17
+ocd-division/country:ca/csd:4811061,2014-0392,392,Communications survey response,consult,2014-11-27,2014-12-17
 ocd-division/country:ca/csd:4811061,2014-0388,388,Photo radar stats,general,2014-11-24,2014-12-19
 ocd-division/country:ca/csd:4811061,2014-0387,387,Employee file,general,2014-11-21,2014-12-24
 ocd-division/country:ca/csd:4811061,2014-0406,406,Bylaw complaints,general,2014-12-12,2015-01-07
 ocd-division/country:ca/csd:4811061,2014-0407,407,Employee file,personal,2014-12-15,2015-01-07
 ocd-division/country:ca/csd:4811061,2015-0002,2,Fire report,general,2015-01-06,2015-01-07
-ocd-division/country:ca/csd:4811061,2015-0012,12,Property records,,2015-01-05,2015-01-07
+ocd-division/country:ca/csd:4811061,2015-0012,12,Property records,consult,2015-01-05,2015-01-07
 ocd-division/country:ca/csd:4811061,2014-0397,397,Phase 1 Environmental Site Assessment,general,2014-12-08,2015-01-09
 ocd-division/country:ca/csd:4811061,2015-0003,3,Fire report,general,2015-01-06,2015-01-09
 ocd-division/country:ca/csd:4811061,2015-0004,4,Fire report,general,2015-01-06,2015-01-09
@@ -1182,7 +1182,7 @@ ocd-division/country:ca/csd:4811061,2015-0018,18,Fire report,general,2015-01-15,
 ocd-division/country:ca/csd:4811061,2015-0001,1,List of unclaimed cheques,general,2015-01-05,2015-01-22
 ocd-division/country:ca/csd:4811061,2014-0378,378,Preparation of a 2005 surplus school document,general,2014-11-17,2015-01-26
 ocd-division/country:ca/csd:4811061,2015-0031,31,Fire report,general,2015-01-27,2015-01-30
-ocd-division/country:ca/csd:4811061,2015-0032,32,9100 Walterdale Hill,,2015-01-27,2015-01-30
+ocd-division/country:ca/csd:4811061,2015-0032,32,9100 Walterdale Hill,consult,2015-01-27,2015-01-30
 ocd-division/country:ca/csd:4811061,2015-0024,24,Fire report,general,2015-01-26,2015-02-03
 ocd-division/country:ca/csd:4811061,2015-0026,26,Fire report,general,2015-01-26,2015-02-03
 ocd-division/country:ca/csd:4811061,2015-0027,27,Fire report,general,2015-01-26,2015-02-03
@@ -1260,7 +1260,7 @@ ocd-division/country:ca/csd:4811061,2015-0099,99,Arena in-camera reports,general
 ocd-division/country:ca/csd:4811061,2015-0101,101,Privacy complaint,,2015-03-10,
 ocd-division/country:ca/csd:4811061,2015-0103,103,Fire report,general,2015-03-10,2015-03-12
 ocd-division/country:ca/csd:4811061,2015-0108,108,Fire report,general,2015-03-17,2015-03-18
-ocd-division/country:ca/csd:4811061,2015-0113,113,Survey response,,2015-03-16,2015-03-18
+ocd-division/country:ca/csd:4811061,2015-0113,113,Survey response,consult,2015-03-16,2015-03-18
 ocd-division/country:ca/csd:4811061,2015-0114,114,Business Licence Report,general,2015-03-19,2015-03-19
 ocd-division/country:ca/csd:4811061,2015-0109,109,Fire report,general,2015-03-17,2015-03-24
 ocd-division/country:ca/csd:4811061,2015-0110,110,Fire report,general,2015-03-17,2015-03-24

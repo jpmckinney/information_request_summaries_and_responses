@@ -4,6 +4,7 @@
     "identifier": "2012-0004",
     "position": 4,
     "abstract": "Consult",
+    "classification": "consult",
     "date_accepted": "2012-01-03",
     "date": "2012-01-05"
   },
@@ -21,6 +22,7 @@
     "identifier": "2012-0007",
     "position": 7,
     "abstract": "Consult",
+    "classification": "consult",
     "date_accepted": "2012-01-10",
     "date": "2012-01-10"
   },
@@ -47,6 +49,7 @@
     "identifier": "2012-0012",
     "position": 12,
     "abstract": "Consult",
+    "classification": "consult",
     "date_accepted": "2012-01-12",
     "date": "2012-01-12"
   },
@@ -64,6 +67,7 @@
     "identifier": "2012-0014",
     "position": 14,
     "abstract": "Consult ",
+    "classification": "consult",
     "date_accepted": "2012-01-16",
     "date": "2012-01-16"
   },
@@ -135,6 +139,7 @@
     "identifier": "2012-0028",
     "position": 28,
     "abstract": "Downtown Arena",
+    "classification": "consult",
     "date_accepted": "2012-01-25",
     "date": "2012-01-27"
   },
@@ -215,6 +220,7 @@
     "identifier": "2012-0036",
     "position": 36,
     "abstract": "Consult ",
+    "classification": "consult",
     "date_accepted": "2012-01-30",
     "date": "2012-02-09"
   },
@@ -484,6 +490,7 @@
     "identifier": "2012-0080",
     "position": 80,
     "abstract": "Consult for Bill Hunter Arena",
+    "classification": "consult",
     "date_accepted": "2012-03-16",
     "date": "2012-03-19"
   },
@@ -1345,6 +1352,7 @@
     "identifier": "2012-0167",
     "position": 167,
     "abstract": "General repeal bylaw",
+    "classification": "consult",
     "date_accepted": "2012-06-08",
     "date": "2012-06-21"
   },
@@ -1353,6 +1361,7 @@
     "identifier": "2012-0171",
     "position": 171,
     "abstract": "Spill of hydraulic oil",
+    "classification": "consult",
     "date_accepted": "2012-06-15",
     "date": "2012-06-21"
   },
@@ -1882,6 +1891,7 @@
     "identifier": "2012-0229",
     "position": 229,
     "abstract": "Property information",
+    "classification": "consult",
     "date_accepted": "2012-08-14",
     "date": "2012-08-20"
   },
@@ -1998,6 +2008,7 @@
     "identifier": "2012-0247",
     "position": 247,
     "abstract": "Consult of records relating to Housing and Grant Funding",
+    "classification": "consult",
     "date_accepted": "2012-08-30",
     "date": "2012-09-07"
   },
@@ -2274,6 +2285,7 @@
     "identifier": "2012-0312",
     "position": 312,
     "abstract": "Fire at seniors residence",
+    "classification": "consult",
     "date_accepted": "2012-10-11",
     "date": "2012-10-11"
   },
@@ -2831,6 +2843,7 @@
     "identifier": "2012-0354",
     "position": 354,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2012-11-19",
     "date": "2012-11-23"
   },
@@ -2929,6 +2942,7 @@
     "identifier": "2012-0353",
     "position": 353,
     "abstract": "Expropriation records",
+    "classification": "consult",
     "date_accepted": "2012-11-19",
     "date": "2012-11-29"
   },
@@ -3117,6 +3131,7 @@
     "identifier": "2012-0386",
     "position": 386,
     "abstract": "Patient Care Report",
+    "classification": "consult",
     "date_accepted": "2012-12-12",
     "date": "2012-12-13"
   },
@@ -3458,6 +3473,7 @@
     "identifier": "2013-0020",
     "position": 20,
     "abstract": "Consult on low hazard fireworks",
+    "classification": "consult",
     "date_accepted": "2013-01-24",
     "date": "2013-01-25"
   },
@@ -3510,6 +3526,7 @@
     "identifier": "2013-0029",
     "position": 29,
     "abstract": "Donation agreements ",
+    "classification": "consult",
     "date_accepted": "2013-01-31",
     "date": "2013-01-31"
   },
@@ -3662,6 +3679,7 @@
     "identifier": "2013-0046",
     "position": 46,
     "abstract": "Consult regarding an injury of a named individual",
+    "classification": "consult",
     "date_accepted": "2013-02-14",
     "date": "2013-02-15"
   },
@@ -3830,6 +3848,7 @@
     "identifier": "2013-0069",
     "position": 69,
     "abstract": "Municipal Sustainability Initiative funding for downtown arena",
+    "classification": "consult",
     "date_accepted": "2013-03-05",
     "date": "2013-03-07"
   },
@@ -3874,6 +3893,7 @@
     "identifier": "2013-0074",
     "position": 74,
     "abstract": "Property information",
+    "classification": "consult",
     "date_accepted": "2013-03-08",
     "date": "2013-03-13"
   },
@@ -3891,6 +3911,7 @@
     "identifier": "2013-0067",
     "position": 67,
     "abstract": "Waste and recycling collection services to Edmonton School District No 7",
+    "classification": "consult",
     "date_accepted": "2013-03-05",
     "date": "2013-03-15"
   },
@@ -3899,6 +3920,7 @@
     "identifier": "2013-0082",
     "position": 82,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2013-03-14",
     "date": "2013-03-15"
   },
@@ -3907,6 +3929,7 @@
     "identifier": "2013-0083",
     "position": 83,
     "abstract": "Use of Municipal Sustainability Initiative funds for arena project",
+    "classification": "consult",
     "date_accepted": "2013-03-14",
     "date": "2013-03-15"
   },
@@ -4507,6 +4530,7 @@
     "identifier": "2013-0125",
     "position": 125,
     "abstract": "Emails regarding Canada Day",
+    "classification": "consult",
     "date_accepted": "2013-05-08",
     "date": "2013-05-15"
   },
@@ -4782,6 +4806,7 @@
     "identifier": "2013-0159",
     "position": 159,
     "abstract": "City trails",
+    "classification": "consult",
     "date_accepted": "2013-06-10",
     "date": "2013-06-18"
   },
@@ -5163,6 +5188,7 @@
     "identifier": "2013-0187",
     "position": 187,
     "abstract": "Financial relief for Whitemud Road houses",
+    "classification": "consult",
     "date_accepted": "2013-07-12",
     "date": "2013-07-26"
   },
@@ -5171,6 +5197,7 @@
     "identifier": "2013-0197",
     "position": 197,
     "abstract": "Closure of City Centre Airport",
+    "classification": "consult",
     "date_accepted": "2013-07-18",
     "date": "2013-07-26"
   },
@@ -5830,6 +5857,7 @@
     "identifier": "2013-0277",
     "position": 277,
     "abstract": "Table of contents for all business cases prepared for PPP Canada",
+    "classification": "consult",
     "date_accepted": "2013-10-09",
     "date": "2013-10-18"
   },
@@ -6090,6 +6118,7 @@
     "identifier": "2013-0300",
     "position": 300,
     "abstract": "Cyclotron license application by U of A",
+    "classification": "consult",
     "date_accepted": "2013-11-04",
     "date": "2013-11-18"
   },
@@ -6752,6 +6781,7 @@
     "identifier": "2014-0022",
     "position": 22,
     "abstract": "LRT PricewaterhouseCoopers Report",
+    "classification": "consult",
     "date_accepted": "2014-01-02",
     "date": "2014-01-17"
   },
@@ -6957,6 +6987,7 @@
     "identifier": "2014-0039",
     "position": 39,
     "abstract": "Intermodal Facility at 41 Avenue SW/QEII interchange",
+    "classification": "consult",
     "date_accepted": "2014-01-27",
     "date": "2014-02-10"
   },
@@ -7046,6 +7077,7 @@
     "identifier": "2014-0053",
     "position": 53,
     "abstract": "Planning Exemption Regulation",
+    "classification": "consult",
     "date_accepted": "2014-02-18",
     "date": "2014-02-19"
   },
@@ -7063,6 +7095,7 @@
     "identifier": "2014-0046",
     "position": 46,
     "abstract": "April 2009 Integrated Planning Agreement",
+    "classification": "consult",
     "date_accepted": "2014-02-11",
     "date": "2014-02-21"
   },
@@ -7107,6 +7140,7 @@
     "identifier": "2014-0060",
     "position": 60,
     "abstract": "Directive or correspondence in relation to the Cemeteries Act",
+    "classification": "consult",
     "date_accepted": "2014-02-13",
     "date": "2014-02-26"
   },
@@ -7169,6 +7203,7 @@
     "identifier": "2014-0072",
     "position": 72,
     "abstract": "Statement of Justification for Historical Resources Act Requirements and Final Report",
+    "classification": "consult",
     "date_accepted": "2014-03-03",
     "date": "2014-03-05"
   },
@@ -7303,6 +7338,7 @@
     "identifier": "2014-0083",
     "position": 83,
     "abstract": "Train whistling records",
+    "classification": "consult",
     "date_accepted": "2014-03-13",
     "date": "2014-03-14"
   },
@@ -7392,6 +7428,7 @@
     "identifier": "2014-0096",
     "position": 96,
     "abstract": "Building permit",
+    "classification": "consult",
     "date_accepted": "2014-03-18",
     "date": "2014-03-20"
   },
@@ -8081,6 +8118,7 @@
     "identifier": "2014-0166",
     "position": 166,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2014-05-27",
     "date": "2014-06-05"
   },
@@ -8089,6 +8127,7 @@
     "identifier": "2014-0175",
     "position": 175,
     "abstract": "Agreements with ICLEI Local Governments for Sustainability",
+    "classification": "consult",
     "date_accepted": "2014-06-04",
     "date": "2014-06-05"
   },
@@ -8169,6 +8208,7 @@
     "identifier": "2014-0180",
     "position": 180,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2014-06-16",
     "date": "2014-06-18"
   },
@@ -8186,6 +8226,7 @@
     "identifier": "2014-0186",
     "position": 186,
     "abstract": "Planning Exemption Regulation",
+    "classification": "consult",
     "date_accepted": "2014-06-16",
     "date": "2014-06-18"
   },
@@ -8210,6 +8251,7 @@
     "identifier": "2014-0188",
     "position": 188,
     "abstract": "Costs of Energy for Change",
+    "classification": "consult",
     "date_accepted": "2014-06-18",
     "date": "2014-06-19"
   },
@@ -8614,6 +8656,7 @@
     "identifier": "2014-0230",
     "position": 230,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2014-07-28",
     "date": "2014-07-31"
   },
@@ -8622,6 +8665,7 @@
     "identifier": "2014-0231",
     "position": 231,
     "abstract": "Renovations of Ross Sheppard High School",
+    "classification": "consult",
     "date_accepted": "2014-07-29",
     "date": "2014-07-31"
   },
@@ -8934,6 +8978,7 @@
     "identifier": "2014-0272",
     "position": 272,
     "abstract": "2010 car/train collision",
+    "classification": "consult",
     "date_accepted": "2014-08-28",
     "date": "2014-08-29"
   },
@@ -9005,6 +9050,7 @@
     "identifier": "2014-0278",
     "position": 278,
     "abstract": "Jasper Place Health and Wellness Centre",
+    "classification": "consult",
     "date_accepted": "2014-09-04",
     "date": "2014-09-04"
   },
@@ -9211,6 +9257,7 @@
     "identifier": "2014-0298",
     "position": 298,
     "abstract": "Salvage vehicle",
+    "classification": "consult",
     "date_accepted": "2014-09-23",
     "date": "2014-09-23"
   },
@@ -9219,6 +9266,7 @@
     "identifier": "2014-0299",
     "position": 299,
     "abstract": "Transportation Safety Board engine whistles",
+    "classification": "consult",
     "date_accepted": "2014-09-23",
     "date": "2014-09-23"
   },
@@ -9807,6 +9855,7 @@
     "identifier": "2014-0362",
     "position": 362,
     "abstract": "Communication regarding a named individual",
+    "classification": "consult",
     "date_accepted": "2014-11-04",
     "date": "2014-11-04"
   },
@@ -9824,6 +9873,7 @@
     "identifier": "2014-0368",
     "position": 368,
     "abstract": "Supernet network management agreement",
+    "classification": "consult",
     "date_accepted": "2014-11-07",
     "date": "2014-11-10"
   },
@@ -10262,6 +10312,7 @@
     "identifier": "2014-0392",
     "position": 392,
     "abstract": "Communications survey response",
+    "classification": "consult",
     "date_accepted": "2014-11-27",
     "date": "2014-12-17"
   },
@@ -10315,6 +10366,7 @@
     "identifier": "2015-0012",
     "position": 12,
     "abstract": "Property records",
+    "classification": "consult",
     "date_accepted": "2015-01-05",
     "date": "2015-01-07"
   },
@@ -10539,6 +10591,7 @@
     "identifier": "2015-0032",
     "position": 32,
     "abstract": "9100 Walterdale Hill",
+    "classification": "consult",
     "date_accepted": "2015-01-27",
     "date": "2015-01-30"
   },
@@ -11227,6 +11280,7 @@
     "identifier": "2015-0113",
     "position": 113,
     "abstract": "Survey response",
+    "classification": "consult",
     "date_accepted": "2015-03-16",
     "date": "2015-03-18"
   },
