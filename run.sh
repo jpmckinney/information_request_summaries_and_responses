@@ -18,7 +18,21 @@ ruby ca_on_ottawa_scraper.rb
 rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
 rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
 
+# ca: 2 (thin records)
+# ca_bc: 4 (404s)
+# ca_on_burlington: 2 (thin records)
+# ca_on_greater_sudbury: 1 (multiple decisions)
 rake datasets:normalize
-ruby ca_nl_scraper.rb -v -a reconcile
+ruby ca_nl_scraper.rb -v -a reconcile # 1 warning; 6 duplicates; 39 recent, 18 old; 32 not disclosed, 2 disclosed
 rake datasets:validate:values
 rake datasets:validate:datasets
+rake cron:upload
+
+rake ca:federal_identity_program > support/federal_identity_program.yml
+rake ca:abbreviations > support/abbreviations.yml
+rake ca:emails:coordinators_page > support/emails_coordinators_page.yml # 46 warnings
+rake ca:emails:search_page > support/emails_search_page.yml # 13 warnings
+rake ca:emails:compare > support/mismatches.csv
+# rake ca:urls:get > support/urls.yml
+# rake ca:urls:validate
+# rake ca:histogram
