@@ -11,7 +11,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "188.80",
     "date": "2014-04-07",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -25,6 +25,20 @@
     "application_fee": "5.00",
     "date": "2014-04-08",
     "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-228",
+    "position": 228,
+    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property including, but not limited to the particulars of the loss of about February 23, 2015 (Period requested March 2015 ? March 2015)",
+    "organization": "Construction Services, Engineering Services, Water/Wastewater",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-15",
+    "application_fee": "5.00",
+    "unpaid_fees": "30.20",
+    "date": "2015-01-05",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -159,7 +173,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.20",
     "date": "2015-02-17",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -187,7 +201,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "21.30",
     "date": "2015-02-18",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -229,7 +243,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "52.80",
     "date": "2015-03-02",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -257,7 +271,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "16.60",
     "date": "2015-03-09",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -285,7 +299,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "119.60",
     "date": "2015-03-09",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -339,7 +353,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "48.60",
     "date": "2015-03-12",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -652,7 +666,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "25.00",
     "date": "2015-04-16",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -762,7 +776,8 @@
     "date_accepted": "2015-03-02",
     "application_fee": "5.00",
     "unpaid_fees": "57.40",
-    "date": "2015-04-29"
+    "date": "2015-04-29",
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -941,7 +956,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "19.60",
     "date": "2015-06-01",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1162,7 +1177,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "77.00",
     "date": "2015-06-23",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1176,7 +1191,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.40",
     "date": "2015-06-23",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1190,7 +1205,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "46.70",
     "date": "2015-06-29",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1204,7 +1219,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "543.00",
     "date": "2015-07-03",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1322,7 +1337,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "24.50",
     "date": "2015-07-16",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1378,7 +1393,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.40",
     "date": "2015-07-17",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1476,7 +1491,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "196.30",
     "date": "2015-07-21",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1574,7 +1589,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "20.10",
     "date": "2015-07-22",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1791,7 +1806,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "18.90",
     "date": "2015-08-18",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1805,7 +1820,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "31.50",
     "date": "2015-08-19",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1819,7 +1834,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "63.40",
     "date": "2015-08-19",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1833,7 +1848,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "17.40",
     "date": "2015-08-20",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1847,7 +1862,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "32.60",
     "date": "2015-08-21",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1859,8 +1874,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-07-27",
     "application_fee": "5.00",
-    "processing_fee": "385.30",
-    "unpaid_fees": "32.60",
+    "processing_fee": "417.90",
     "date": "2015-08-24",
     "decision": "disclosed in part"
   },
@@ -1889,7 +1903,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "13.70",
     "date": "2015-08-25",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1903,7 +1917,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "11.20",
     "date": "2015-08-26",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1915,7 +1929,8 @@
     "applicant_type": "media",
     "date_accepted": "2015-08-21",
     "application_fee": "5.00",
-    "date": "2015-09-09"
+    "date": "2015-09-09",
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1971,7 +1986,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "15.20",
     "date": "2015-09-14",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1985,7 +2000,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.60",
     "date": "2015-09-16",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2067,7 +2082,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "33.50",
     "date": "2015-09-23",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2179,7 +2194,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "30.20",
     "date": "2015-10-14",
-    "decision": "all disclosed"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2206,7 +2221,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "154.83",
     "date": "2015-10-16",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2218,7 +2233,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-09-21",
     "application_fee": "5.00",
-    "waived_fees": "34.40",
+    "processing_fee": "34.40",
     "date": "2015-10-19",
     "decision": "disclosed in part"
   },
@@ -2232,7 +2247,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-09-21",
     "application_fee": "5.00",
-    "waived_fees": "15.60",
+    "processing_fee": "15.60",
     "date": "2015-10-19",
     "decision": "disclosed in part"
   },
@@ -2583,7 +2598,7 @@
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-203",
     "position": 203,
-    "abstract": "Building services file including and not limited to foundation / weeping tile inspections, footing inspections, framing inspections, HVAC inspections and the name of the inspector(s) for a speciifed property",
+    "abstract": "Building services file including and not limited to foundation / weeping tile inspections, footing inspections, framing inspections, HVAC inspections and the name of the inspector(s) for a specified property",
     "organization": "Building Services",
     "classification": "general",
     "applicant_type": "public",
@@ -2658,7 +2673,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-11-20",
     "application_fee": "5.00",
-    "unpaid_fees": "15.60",
+    "processing_fee": "15.60",
     "date": "2015-12-03",
     "decision": "disclosed in part"
   },
@@ -2688,7 +2703,17 @@
     "application_fee": "5.00",
     "unpaid_fees": "24.60",
     "date": "2015-12-08",
-    "decision": "disclosed in part"
+    "decision": "abandoned"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-206",
+    "position": 206,
+    "abstract": "Environmental Assessment for a specified address.",
+    "organization": "Environmental Assessment",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-11-12"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2774,16 +2799,6 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-206",
-    "position": 206,
-    "abstract": "Environmental Assessment for a specified address.",
-    "organization": "Environmental Assessment",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-11-12"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-212",
     "position": 212,
     "abstract": "All documents, including financial records, related to the I.J. Coady Memorial Arena in Levack from 2009. Including correspondence as well as revenue and expense reports for the arena, audits, and auditor?s reports. Any forensic audits. All documents related to employee dismissals including reports indicating why they were dismissed and their compensation packages ",
@@ -2811,6 +2826,33 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-221",
+    "position": 221,
+    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-02",
+    "unpaid_fees": "40.90",
+    "date": "2015-12-21",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-225",
+    "position": 225,
+    "abstract": "1970-1978 Tax Billing copies or amounts for each year for a specified property",
+    "organization": "Tax",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-09",
+    "application_fee": "5.00",
+    "unpaid_fees": "243.20",
+    "date": "2015-12-22",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-218",
     "position": 218,
     "abstract": "Require all info in regards to a specified property.",
@@ -2832,31 +2874,10 @@
     "classification": "general",
     "applicant_type": "media",
     "date_accepted": "2015-11-30",
-    "application_fee": "5.00"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-221",
-    "position": 221,
-    "abstract": "All addresses in Sudbury that have applied for pool permits since 1985.",
-    "organization": "Building Serivces",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-02",
-    "unpaid_fees": "40.90",
-    "date": "2015-12-21",
+    "application_fee": "5.00",
+    "unpaid_fees": "108.20",
+    "date": "2016-01-04",
     "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-225",
-    "position": 225,
-    "abstract": "1970-1978 Tax Billing copies or amounts for each year for a specified property",
-    "organization": "Tax",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-09",
-    "application_fee": "5.00"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2867,30 +2888,22 @@
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-12-08",
-    "application_fee": "5.00"
+    "application_fee": "5.00",
+    "unpaid_fees": "15.90",
+    "date": "2016-01-05",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
     "identifier": "FOI2015-227",
     "position": 227,
-    "abstract": "Incident report from an injury at the Raymond Plourde Arena in Val Caron on December 4, 2015. ",
+    "abstract": "Incident report from an injury at the Raymond Plourde Arena in Val Caron on a specified date.",
     "organization": "Legal Services, Leisure",
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-12-14",
     "application_fee": "5.00",
     "unpaid_fees": "16.00"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3553005",
-    "identifier": "FOI2015-228",
-    "position": 228,
-    "abstract": "City records regarding the maintenance/construction/work orders/flush records/City water report related to and around a specified property including, but not limited to the particulars of the loss of about February 23, 2015 (Period requested March 2015 ? March 2015)",
-    "organization": "Construction Services, Engineering Services, Water/Wastewater",
-    "classification": "general",
-    "applicant_type": "public",
-    "date_accepted": "2015-12-15",
-    "application_fee": "5.00"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2912,6 +2925,17 @@
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-12-23",
+    "application_fee": "5.00"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3553005",
+    "identifier": "FOI2015-231",
+    "position": 231,
+    "abstract": "The following requests pertain to a specified property:  1) please pull all permits (open or closed) 2) please provide site plan (to scale) 3) please provide a list of variances (if any) 4) please provide any other documents pertaining to a construction history",
+    "organization": "Building Services",
+    "classification": "general",
+    "applicant_type": "public",
+    "date_accepted": "2015-12-31",
     "application_fee": "5.00"
   },
   {
