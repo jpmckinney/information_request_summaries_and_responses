@@ -45,42 +45,6 @@ Validate that the decision and the number of pages agree:
 
     rake datasets:validate:datasets
 
-### Canada
-
-*The following scripts are only relevant to automating informal requests for disclosed records from Canada.*
-
-Get the alternate names of organizations to make corrections:
-
-    rake ca:federal_identity_program > support/federal_identity_program.yml
-
-Get the abbreviations of organizations to match across datasets:
-
-    rake ca:abbreviations > support/abbreviations.yml
-
-Get organizations' emails from the [coordinators page](http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp):
-
-    rake ca:emails:coordinators_page > support/emails_coordinators_page.yml
-
-Get organizations' emails from the [search page](http://open.canada.ca/en/search/ati):
-
-    rake ca:emails:search_page > support/emails_search_page.yml
-
-Compare organizations' emails from different sources:
-
-    rake ca:emails:compare > support/mismatches.csv
-
-Construct the URL of the web form of each summary:
-
-    rake ca:urls:get > support/urls.yml
-
-Compare the constructed URLs to the search page's URLs:
-
-    rake ca:urls:validate
-
-Build a histogram of number of summaries per organization:
-
-    rake ca:histogram
-
 ### British Columbia
 
 **Note:** British Columbia sometimes publishes an incorrect file size. We therefore calculate the correct value.
@@ -131,7 +95,7 @@ Upload the attachments as archives to S3:
 
 * **Halifax:** Download summaries:
 
-    ruby ca_ns_halifax_scraper.rb
+        ruby ca_ns_halifax_scraper.rb
 
 * **Markham:** Download summaries:
 
@@ -143,11 +107,47 @@ Upload the attachments as archives to S3:
 
 * **Toronto:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
 
-    rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
+        rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
 
 * **Waterloo Region:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
 
-    rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
+        rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
+
+### Canada
+
+*The following scripts are only relevant to automating informal requests for disclosed records from Canada.*
+
+Get the alternate names of organizations to make corrections:
+
+    rake ca:federal_identity_program > support/federal_identity_program.yml
+
+Get the abbreviations of organizations to match across datasets:
+
+    rake ca:abbreviations > support/abbreviations.yml
+
+Get organizations' emails from the [coordinators page](http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp):
+
+    rake ca:emails:coordinators_page > support/emails_coordinators_page.yml
+
+Get organizations' emails from the [search page](http://open.canada.ca/en/search/ati):
+
+    rake ca:emails:search_page > support/emails_search_page.yml
+
+Compare organizations' emails from different sources:
+
+    rake ca:emails:compare > support/mismatches.csv
+
+Construct the URL of the web form of each summary:
+
+    rake ca:urls:get > support/urls.yml
+
+Compare the constructed URLs to the search page's URLs:
+
+    rake ca:urls:validate
+
+Build a histogram of number of summaries per organization:
+
+    rake ca:histogram
 
 ## Adding a new jurisdiction
 
