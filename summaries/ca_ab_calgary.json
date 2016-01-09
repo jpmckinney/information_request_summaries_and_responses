@@ -403,7 +403,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-02-05",
     "date": "2015-03-10",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -751,7 +751,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-04-01",
     "date": "2015-04-21",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1032,7 +1032,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-04-08",
     "date": "2015-05-27",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1128,7 +1128,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-05-29",
     "date": "2015-06-10",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1161,7 +1161,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-05-15",
     "date": "2015-06-15",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1259,7 +1259,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-04-14",
     "date": "2015-06-25",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1378,7 +1378,7 @@
     "classification": "personal",
     "date_accepted": "2015-04-14",
     "date": "2015-07-02",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1420,7 +1420,7 @@
     "classification": "personal",
     "date_accepted": "2015-06-25",
     "date": "2015-07-06",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1528,7 +1528,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-06-05",
     "date": "2015-07-13",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1611,7 +1611,7 @@
     "classification": "personal",
     "date_accepted": "2015-07-16",
     "date": "2015-07-17",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1675,7 +1675,7 @@
     "classification": "personal",
     "date_accepted": "2015-07-22",
     "date": "2015-07-23",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1782,7 +1782,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-06-15",
     "date": "2015-08-07",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -1945,7 +1945,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-07-21",
     "date": "2015-08-25",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2066,7 +2066,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-07-06",
     "date": "2015-09-01",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2130,7 +2130,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-08-12",
     "date": "2015-09-09",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2152,7 +2152,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-03-03",
     "date": "2015-09-10",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2257,7 +2257,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-09-10",
     "date": "2015-09-14",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2448,7 +2448,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2459,7 +2459,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2470,7 +2470,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2481,7 +2481,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2492,7 +2492,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2503,7 +2503,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2514,7 +2514,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-08-27",
     "date": "2015-09-28",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2555,7 +2555,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-01",
     "date": "2015-10-01",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2598,7 +2598,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-05",
     "date": "2015-10-07",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2608,7 +2608,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-07",
     "date": "2015-10-07",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2618,7 +2618,7 @@
     "classification": "personal",
     "date_accepted": "2015-09-09",
     "date": "2015-10-08",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2711,7 +2711,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-09-18",
     "date": "2015-10-19",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2741,7 +2741,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-01",
     "date": "2015-10-22",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2762,7 +2762,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-10-13",
     "date": "2015-10-23",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2794,7 +2794,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-19",
     "date": "2015-10-30",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2856,7 +2856,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-30",
     "date": "2015-11-02",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2866,7 +2866,7 @@
     "classification": "personal",
     "date_accepted": "2015-10-30",
     "date": "2015-11-02",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2898,7 +2898,7 @@
     "classification": "personal",
     "date_accepted": "2015-11-05",
     "date": "2015-11-05",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -2930,7 +2930,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-10-28",
     "date": "2015-11-09",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3110,7 +3110,7 @@
     "classification": "general",
     "date_accepted": "2015-11-26",
     "date": "2015-11-26",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3130,7 +3130,7 @@
     "classification": "general",
     "date_accepted": "2015-11-18",
     "date": "2015-12-02",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3226,7 +3226,7 @@
     "classification": "personal",
     "date_accepted": "2015-12-03",
     "date": "2015-12-04",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3236,7 +3236,7 @@
     "classification": "personal",
     "date_accepted": "2015-12-03",
     "date": "2015-12-04",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3378,7 +3378,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-05-27",
     "date": "2015-12-13",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3389,7 +3389,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-11-13",
     "date": "2015-12-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3400,7 +3400,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-11-13",
     "date": "2015-12-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3411,7 +3411,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-11-13",
     "date": "2015-12-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3422,7 +3422,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-11-13",
     "date": "2015-12-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3454,7 +3454,7 @@
     "classification": "personal",
     "date_accepted": "2015-12-14",
     "date": "2015-12-14",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3464,7 +3464,7 @@
     "classification": "personal",
     "date_accepted": "2015-12-14",
     "date": "2015-12-14",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3485,7 +3485,7 @@
     "classification": "personal",
     "date_accepted": "2015-12-15",
     "date": "2015-12-15",
-    "decision": "transferred"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",
@@ -3496,7 +3496,7 @@
     "applicant_type": "business",
     "date_accepted": "2015-11-16",
     "date": "2015-12-18",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:4806016",

@@ -94,13 +94,12 @@
       "description": "The decision as to whether or not to disclose the record or the part thereof",
       "type": "string",
       "enum": [
-        "abandoned",
         "all disclosed",
         "correction",
         "disclosed in part",
+        "discontinued",
         "in progress",
         "nothing disclosed",
-        "transferred",
         "treated informally"
       ]
     },

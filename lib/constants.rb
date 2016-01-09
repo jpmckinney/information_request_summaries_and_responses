@@ -31,11 +31,10 @@ RE_PARENTHETICAL = /\([^)]+\)?/.freeze
 # Empty string, number, date, or exact string.
 RE_INVALID = /\A(?:|=(?:f\d+)?|\d+|[a-z]{3} \d{1,2}|electronic package sent sept28 15|other|request is disregarded|request number|statement of disagreement filed|test disposition)\z/.freeze
 RE_DECISIONS = {
-  'abandoned' => /\b(?:abandon|withdrawn\b)/,
   'correction' => /\bcorrection\b/,
+  'discontinued' => /\b(?:abandon|consult other institution\b|forwarded out\b|transferred\b|withdrawn\b)/,
   'in progress' => /\bin (?:progress|treatment)\b/,
   'treated informally' => /\binformal/,
-  'transferred' => /\b(?:consult other institution|forwarded out|transferred)\b/,
   # This order matters.
   'disclosed in part' => /\b(?:disclosed existing records except\b|part)/,
   'nothing disclosed' => /\A(?:disregarded|dublicate request|nhq release refused)\z|\Aex[ce]|\b(?:all? .*\b(?:ex[ce]|withheld\b)|aucun|available\b|den|inexistant\b|no(?:\b|n existent\b|ne\b|t)|public|unable to process\b)/,

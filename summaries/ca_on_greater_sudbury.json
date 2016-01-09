@@ -11,7 +11,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "188.80",
     "date": "2014-04-07",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -51,7 +51,7 @@
     "date_accepted": "2015-01-06",
     "application_fee": "5.00",
     "date": "2015-01-07",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -64,7 +64,7 @@
     "date_accepted": "2015-01-06",
     "application_fee": "5.00",
     "date": "2015-01-07",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -173,7 +173,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.20",
     "date": "2015-02-17",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -201,7 +201,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "21.30",
     "date": "2015-02-18",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -243,7 +243,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "52.80",
     "date": "2015-03-02",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -271,7 +271,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "119.60",
     "date": "2015-03-09",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -285,7 +285,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "16.60",
     "date": "2015-03-09",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -326,7 +326,7 @@
     "date_accepted": "2015-02-13",
     "application_fee": "5.00",
     "date": "2015-03-12",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -339,7 +339,7 @@
     "date_accepted": "2015-02-19",
     "application_fee": "5.00",
     "date": "2015-03-12",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -353,7 +353,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "48.60",
     "date": "2015-03-12",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -519,7 +519,7 @@
     "date_accepted": "2015-03-31",
     "application_fee": "5.00",
     "date": "2015-04-01",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -584,7 +584,7 @@
     "date_accepted": "2015-04-08",
     "application_fee": "5.00",
     "date": "2015-04-09",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -666,7 +666,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "25.00",
     "date": "2015-04-16",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -777,7 +777,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "57.40",
     "date": "2015-04-29",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -911,7 +911,7 @@
     "classification": "general",
     "applicant_type": "public",
     "date_accepted": "2015-03-03",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -922,7 +922,7 @@
     "classification": "general",
     "applicant_type": "business",
     "date_accepted": "2015-03-04",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -934,7 +934,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-03-26",
     "application_fee": "5.00",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -989,7 +989,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "19.60",
     "date": "2015-06-01",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1003,7 +1003,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "7.70",
     "date": "2015-06-04",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1122,7 +1122,7 @@
     "classification": "general",
     "applicant_type": "media",
     "date_accepted": "2015-05-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1206,7 +1206,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "77.00",
     "date": "2015-06-23",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1220,7 +1220,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.40",
     "date": "2015-06-23",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1248,7 +1248,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "46.70",
     "date": "2015-06-29",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1262,7 +1262,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "543.00",
     "date": "2015-07-03",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1327,7 +1327,7 @@
     "date_accepted": "2015-10-02",
     "application_fee": "5.00",
     "date": "2015-07-10",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1353,7 +1353,7 @@
     "date_accepted": "2015-05-27",
     "application_fee": "5.00",
     "date": "2015-07-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1380,7 +1380,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "24.50",
     "date": "2015-07-16",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1450,7 +1450,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.40",
     "date": "2015-07-17",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1534,7 +1534,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "196.30",
     "date": "2015-07-21",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1632,7 +1632,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "20.10",
     "date": "2015-07-22",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1644,7 +1644,7 @@
     "applicant_type": "public",
     "date_accepted": "2015-07-07",
     "application_fee": "5.00",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1849,7 +1849,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "18.90",
     "date": "2015-08-18",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1863,7 +1863,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "31.50",
     "date": "2015-08-19",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1877,7 +1877,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "63.40",
     "date": "2015-08-19",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1891,7 +1891,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "17.40",
     "date": "2015-08-20",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1905,7 +1905,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "32.60",
     "date": "2015-08-21",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1946,7 +1946,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "13.70",
     "date": "2015-08-25",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1960,7 +1960,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "11.20",
     "date": "2015-08-26",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -1973,7 +1973,7 @@
     "date_accepted": "2015-08-21",
     "application_fee": "5.00",
     "date": "2015-09-09",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2029,7 +2029,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "15.20",
     "date": "2015-09-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2043,7 +2043,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "10.60",
     "date": "2015-09-16",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2125,7 +2125,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "33.50",
     "date": "2015-09-23",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2250,7 +2250,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "30.20",
     "date": "2015-10-14",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2264,7 +2264,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "154.83",
     "date": "2015-10-16",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
@@ -2746,7 +2746,7 @@
     "application_fee": "5.00",
     "unpaid_fees": "24.60",
     "date": "2015-12-08",
-    "decision": "abandoned"
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3553005",
