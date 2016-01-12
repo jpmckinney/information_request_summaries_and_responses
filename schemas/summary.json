@@ -35,7 +35,7 @@
       "type": "string"
     },
     "classification": {
-      "description": "The classification of the request",
+      "description": "The classification of the request. When a government receives a request containing another government's documents, it will 'consult' the other. 'mixed' is a request containing both personal and general records.",
       "type": "string",
       "enum": [
         "consult",
