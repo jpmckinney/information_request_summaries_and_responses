@@ -274,7 +274,7 @@ namespace :datasets do
     desc 'Performs dataset-level validations'
     task :datasets do
       no_pages = [
-        'abandoned',
+        'discontinued',
         'in progress',
         'nothing disclosed',
         'transferred',
@@ -282,6 +282,8 @@ namespace :datasets do
       ]
       messages = [
         'number_of_pages should be equal to zero',
+        # In some cases, the number of pages is correctly zero, because all the
+        # information is in the letter or because the records are a database.
         'number_of_pages should be greater than zero',
       ]
 
