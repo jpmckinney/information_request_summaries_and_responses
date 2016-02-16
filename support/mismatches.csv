@@ -1,7 +1,6 @@
 Org id,Org,Coordinators page,Search page
 acoa-apeca,Atlantic Canada Opportunities Agency,acoa.atip-aiprp.apeca@canada.ca,atip-aiprp@acoa-apeca.gc.ca
 aecl-eacl,Atomic Energy of Canada Limited,jboulais@aecl.ca,boulaisj@aecl.ca
-cannor,Canadian Northern Economic Development Agency,russell.gray@cannor.gc.ca,rachel.messier@cannor.gc.ca
 catsa-acsta,Canadian Air Transport Security Authority,atip@catsa.gc.ca,natalie.sabourin@catsa.gc.ca
 cbc-radio-canada,Canadian Broadcasting Company,atip@cbc.ca,peter.hull@cbc.ca
 cca-cac,Canada Council for the Arts,atip-airprp@canadacouncil.ca,debbie.stenson@canadacouncil.ca
@@ -29,7 +28,7 @@ cstm-mstc,Canada Science and Technology Museums Corporation,atip-aiprp@technomus
 ctc-cct,Canadian Tourism Commission,atip-aiprp@ctc-cct.ca,rahman.raya@ctc-cct.ca
 edc,Export Development Canada,atipteam@edc.ca,bkeen@edc.ca
 elections,Elections Canada,aiprp-atip@elections.ca,andreemarie.delisle@elections.ca
-erc-cee,RCMP External Review Committee,org@erc-cee.gc.ca,jill.gunn@erc-cee.gc.ca
+erc-cee,RCMP External Review Committee,org@erc-cee.gc.ca,jamie.deacon@erc-cee.gc.ca
 fcac-acfc,Financial Consumer Agency of Canada,martin.pacheco@fcac-acfc.gc.ca,pacheco.martin@fcac-acfc.gc.ca
 fcc-fac,Farm Credit Canada,atip_aiprp@fcc-fac.ca,veronica.bosche@fcc-fac.ca
 feddevontario,Federal Economic Development Agency for Southern Ontario,fdo.atip-aiprp.fdo@canada.ca,josee.riopel@feddevontario.gc.ca
@@ -44,7 +43,6 @@ lac-bac,Library and Archives Canada,atipd@bac-lac.gc.ca,blair.isaac@bac-lac.gc.c
 mai,Marine Atlantic Inc.,atip@marine-atlantic.ca,jpenney@marine-atlantic.ca
 mgerc-ceegm,Military Grievances External Review Committee,atip-aiprp@mgerc-ceegm.gc.ca,gauthiery@cfgb-cgfc.gc.ca
 ncc-ccn,National Capital Commission,atip-aiprp@ncc-ccn.ca,judy.benvie@ncc-ccn.ca
-neb-one,National Energy Board,atipoffice-bureauaiprp@neb-one.gc.ca,atipoffice-bureauaiprp@neb-one.gc.ca.
 nfb-onf,National Film Board,atip-aiprp@nfb.ca,p.kallianiotis@onf.ca
 npa-apn,Northern Pipeline Agency Canada,atip-aiprp@nrcan-rncan.gc.ca,aiprp.atip@nrcan-rncan.gc.ca
 nrcan-rncan,Natural Resources Canada,atip-aiprp@nrcan-rncan.gc.ca,aiprp.atip@nrcan-rncan.gc.ca
@@ -61,8 +59,8 @@ ppsc-sppc,Public Prosecution Service of Canada,atip-aiprp@ppsc-sppc.gc.ca,cyril.
 pslrb-crtfp,Public Service Labour Relations Board,atip-aiprp@tribunal.gc.ca,julie.raymond@pslrb-crtfp.gc.ca
 pspib-oirpsp,Public Sector Pension Investment Board,info@investpsp.ca,alefebvre@investpsp.ca
 scc-ccn,Standards Council of Canada,donna.graser@scc.ca,akusy@scc.ca
-sdtc-tddc,Sustainable Development Technology Canada,g.cartwright@sdtc.ca,d.luke@sdtc.ca
-sirc-csars,Security Intelligence Review Committee,info@sirc-csars.gc.ca,kathleen.wood@sirc-csars.gc.ca
+sdtc-tddc,Sustainable Development Technology Canada,m.lyon@sdtc.ca,d.luke@sdtc.ca
+sirc-csars,Security Intelligence Review Committee,info@sirc-csars.gc.ca,stephanie.dion@sirc-csars.gc.ca
 sopf,Ship-source Oil Pollution Fund,info@ssopf.gc.ca,info@sopf.gc.ca
 swc-cfc,Status of Women Canada,atip-aiprp@swc-cfc.gc.ca,anick.perreault@swc-cfc.gc.ca
 tbs-sct,Treasury Board of Canada Secretariat,atip.aiprp@tbs-sct.gc.ca,denise.brennan@tbs-sct.gc.ca
