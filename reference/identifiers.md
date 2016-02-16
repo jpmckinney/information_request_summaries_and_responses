@@ -2,7 +2,7 @@
 
 ## Alberta
 
-## Calgary
+### Calgary
 
 `<YYYY>-<B|C|F|G|P>-<XXXX>[-<ZZZ>]`
 
@@ -12,7 +12,7 @@
 * **G:** General
 * **P:** Personal
 
-## Edmonton
+### Edmonton
 
 `<YYYY>-<XXXX>[-<ZZZ>]`
 
