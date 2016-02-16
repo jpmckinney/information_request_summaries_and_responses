@@ -115,12 +115,13 @@ namespace :datasets do
   task :search do
     query = ENV['query']
 
-    assert('usage: bundle exec rake namara <query>'){query}
+    assert('usage: bundle exec rake datasets:search query=<query>'){query}
 
     ignore = [
       'Cybertech_Systems_&_Software',
       'North_American_Cartographic_Information_Society',
       'OpenDataDC',
+      'Sunlight_Labs',
     ]
     ignore_re = /\AUS(?:[_-]|\z)|\A#{ignore.join('|')}\z/
 
