@@ -3,11 +3,6 @@ namespace :ca_on_toronto do
     Dir[File.join('wip', 'ca_on_toronto', pattern)]
   end
 
-  desc 'Download Excel files'
-  task :download do
-    download_multiple('ca_on_toronto', 'http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD', '//div[@class="panel-body"]//@href')
-  end
-
   desc 'Convert Excel to CSV'
   task :excel_to_csv do
     ca_on_toronto_glob('*.xls*').each do |input|

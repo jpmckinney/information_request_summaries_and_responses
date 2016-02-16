@@ -148,36 +148,69 @@ namespace :datasets do
 
   desc 'Downloads datasets'
   task :download do
-    if ENV['jurisdiction']
-      datasets = DATASET_URLS.slice(ENV['jurisdiction'])
-    else
-      datasets = DATASET_URLS
-    end
-
-    paths = {
-      'wip' => 'wip',
-    }
-    datasets.each do |jurisdiction_code,_|
-      paths[jurisdiction_code] = File.join(paths['wip'], jurisdiction_code)
-    end
-
-    paths.each do |_,path|
-      FileUtils.mkdir_p(path)
-    end
-
-    datasets.each do |jurisdiction_code,url|
-      basename = url_to_basename(url)
-      input = File.join(paths[jurisdiction_code], basename)
-      File.open(input, 'w') do |f|
-        f.write(client.get(url).body)
-      end
-
-      unless File.extname(input) == '.csv'
-        output = input.sub(/\.xlsx?\z/, '.csv')
-        `in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}`
+    def jurisdiction_datasets(list)
+      if ENV['jurisdiction']
+        list.slice(ENV['jurisdiction'])
+      else
+        list
       end
     end
 
+    def setup_paths(jurisdiction_codes)
+      paths = {
+        'wip' => 'wip',
+      }
+      jurisdiction_codes.each do |jurisdiction_code|
+        paths[jurisdiction_code] = File.join(paths['wip'], jurisdiction_code)
+      end
+      paths.each do |_,path|
+        FileUtils.mkdir_p(path)
+      end
+    end
+
+    datasets = jurisdiction_datasets(DATASET_URLS)
+    paths = setup_paths(datasets.keys)
+    datasets.each do |jurisdiction_code,urls|
+      urls.each do |url|
+        basename = url_to_basename(url)
+        input = File.join(paths[jurisdiction_code], basename)
+        begin
+          File.open(input, 'w') do |f|
+            f.write(client.get(url).body)
+          end
+
+          unless File.extname(input) == '.csv'
+            output = input.sub(/\.xlsx?\z/, '.csv')
+            `in2csv #{Shellwords.escape(input)} | csvcut -x > #{Shellwords.escape(output)}`
+          end
+        rescue Faraday::Error => e
+          $stderr.puts "#{e.response[:status]} #{url}"
+        end
+      end
+    end
+
+    datasets = jurisdiction_datasets(DATASET_LISTS)
+    paths = setup_paths(datasets.keys)
+    datasets.each do |jurisdiction_code,options|
+      FileUtils.mkdir_p(File.join('wip', jurisdiction_code))
+      parsed = URI.parse(options[:url])
+      client.get(options[:url]).body.xpath(options[:xpath]).each do |href|
+        path = href.value
+        url = "#{parsed.scheme}://#{parsed.host}"
+        if path[' ']
+          url += URI.escape(path)
+        else
+          url += path
+        end
+        begin
+          File.open(File.join(File.join('wip', jurisdiction_code), File.basename(path)), 'w') do |f|
+            f.write(client.get(url).body)
+          end
+        rescue Faraday::Error => e
+          $stderr.puts "#{e.response[:status]} #{url}"
+        end
+      end
+    end
   end
 
   desc 'Normalizes datasets'
