@@ -16,8 +16,6 @@ ruby ca_ns_halifax_scraper.rb
 ruby ca_on_markham_scraper.rb
 ruby ca_on_markham_scraper.rb -a download --no-cache
 ruby ca_on_ottawa_scraper.rb
-rake ca_on_toronto:excel_to_csv ca_on_toronto:stack
-rake ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
 
 # ca: 2 (thin records)
 # ca_bc: 4 (404s)
@@ -36,11 +34,14 @@ rake datasets:validate:values
 rake datasets:validate:datasets
 rake cron:upload
 
-rake ca:federal_identity_program > support/federal_identity_program.yml
-rake ca:abbreviations > support/abbreviations.yml
-rake ca:emails:coordinators_page > support/emails_coordinators_page.yml # 46 warnings
-rake ca:emails:search_page > support/emails_search_page.yml # 13 warnings
-rake ca:emails:compare > support/mismatches.csv
+# Non-core:
+bundle exec rake ca:federal_identity_program > support/federal_identity_program.yml
+bundle exec rake ca:abbreviations > support/abbreviations.yml
+bundle exec rake ca:emails:coordinators_page > support/emails_coordinators_page.yml # 46 warnings
+bundle exec rake ca:emails:search_page > support/emails_search_page.yml # 13 warnings
+bundle exec rake ca:emails:compare > support/mismatches.csv
+
+# Discontinued:
 # rake ca:urls:get > support/urls.yml
 # rake ca:urls:validate
 # rake ca:histogram

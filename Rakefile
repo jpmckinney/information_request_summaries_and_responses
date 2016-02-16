@@ -28,17 +28,9 @@ def load_yaml(basename)
   YAML.load(File.read(File.join('support', basename)))
 end
 
-def url_to_basename(url)
-  %w(.csv .xls .xlsx).include?(File.extname(url)) ? File.basename(url) : 'data.csv'
-end
-
-def stack_multiple(jurisdiction)
-  inputs = send("#{jurisdiction}_glob", '*.csv').reject{|path| path['data.csv']}.map{|path| Shellwords.escape(path)}.join(' ')
-  `csvstack #{inputs} > #{File.join('wip', jurisdiction, 'data.csv')}`
-end
-
 require_relative 'lib/aws_store'
 require_relative 'lib/constants'
+require_relative 'lib/requests_source'
 require_relative 'lib/templates'
 require_relative 'lib/sort'
 

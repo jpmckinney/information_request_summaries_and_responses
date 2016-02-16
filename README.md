@@ -108,14 +108,6 @@ Upload the attachments as archives to S3:
 
         ruby ca_on_ottawa_scraper.rb
 
-* **Toronto:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
-
-        rake ca_on_toronto:download ca_on_toronto:excel_to_csv ca_on_toronto:stack
-
-* **Waterloo Region:** Download the Excel files, convert the Excel files to CSV files, and stack the CSV files:
-
-        rake ca_on_waterloo_region:download ca_on_waterloo_region:excel_to_csv ca_on_waterloo_region:stack
-
 ### Canada
 
 *The following scripts are only relevant to automating informal requests for disclosed records from Canada.*
