@@ -129,14 +129,12 @@ private
     if %w(.xls .xlsx).include?(File.extname(input)) && filter.call(input)
       output = input.sub(/\.xlsx?\z/, '.csv')
       cmd = "#{command.call(input, output)} > #{Shellwords.escape(output)}"
-      Open3.popen3(cmd) do |stdin,stdout,stderr,wait_thr|
-        message = stderr.read
-        unless message.empty?
-          $stderr.puts "#{input}: #{message}"
-        end
-        if Process::Waiter === wait_thr || wait_thr.value.success?
-          print '.'
-        end
+      stdin, stdout, stderr, status = Open3.capture3(cmd)
+      unless stderr.empty?
+        $stderr.puts "#{input}: #{stderr}"
+      end
+      if status.success?
+        print '.'
       end
     end
   end
