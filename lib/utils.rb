@@ -91,25 +91,22 @@ class Processor < Pupa::Processor
           info("get length of #{path}")
           case file['media_type']
           when 'application/pdf'
-            Open3.popen3("pdfinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
-              if wait_thr.value.success?
-                file['number_of_pages'] = Integer(stdout.read.match(/^Pages: +(\d+)$/)[1])
-              else
-                error("#{path}: #{stderr.read}")
-              end
+            stdin, stdout, stderr, status = Open3.capture3("pdfinfo #{Shellwords.escape(download_store.path(path))}")
+            if status.success?
+              file['number_of_pages'] = Integer(stdout.match(/^Pages: +(\d+)$/)[1])
+            else
+              error("#{path}: #{stderr}")
             end
           when 'image/tiff'
-            Open3.popen3("tiffinfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
-              if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
-                output = stdout.read
-                if output['Subfile Type: multi-page document']
-                  file['number_of_pages'] = Integer(output.scan(/\bPage Number: (\d+)/).flatten.last) + 1
-                else
-                  file['number_of_pages'] = 1
-                end
+            stdin, stdout, stderr, status = Open3.capture3("tiffinfo #{Shellwords.escape(download_store.path(path))}")
+            if status.success?
+              if stdout['Subfile Type: multi-page document']
+                file['number_of_pages'] = Integer(stdout.scan(/\bPage Number: (\d+)/).flatten.last) + 1
               else
-                error("#{path}: #{stderr.read}")
+                file['number_of_pages'] = 1
               end
+            else
+              error("#{path}: #{stderr}")
             end
           when 'application/vnd.ms-excel'
             file['number_of_rows'] = Spreadsheet.open(download_store.path(path)).worksheets.reduce(0) do |memo,sheet|
@@ -126,14 +123,13 @@ class Processor < Pupa::Processor
           when 'text/csv'
             file['number_of_rows'] = CSV.read(download_store.path(path)).size
           when 'audio/mpeg', 'audio/wav', 'video/mp4'
-            Open3.popen3("mediainfo #{Shellwords.escape(download_store.path(path))}") do |stdin,stdout,stderr,wait_thr|
-              if wait_thr.value.success?
-                file['duration'] = stdout.read.match(/^Duration +: (.+)$/)[1].scan(/(\d+)(\w+)/).reduce(0) do |memo,(value,unit)|
-                  memo + Integer(value) * DURATION_UNITS.fetch(unit)
-                end
-              else
-                error("#{path}: #{stderr.read}")
+            stdin, stdout, stderr, status = Open3.capture3("mediainfo #{Shellwords.escape(download_store.path(path))}")
+            if status.success?
+              file['duration'] = stdout.match(/^Duration +: (.+)$/)[1].scan(/(\d+)(\w+)/).reduce(0) do |memo,(value,unit)|
+                memo + Integer(value) * DURATION_UNITS.fetch(unit)
               end
+            else
+              error("#{path}: #{stderr}")
             end
           else
             info("#{path}: can't get number of pages, number of rows or duration")
@@ -149,16 +145,15 @@ class Processor < Pupa::Processor
     if download_store.exist?(path) && file.fetch('media_type') == 'application/pdf'
       unless file.key?('scan')
         info(path)
-        Open3.popen3("pdftotext #{Shellwords.escape(download_store.path(path))} -") do |stdin,stdout,stderr,wait_thr|
-          if Process::Waiter === wait_thr || wait_thr.value.success? # not sure how to handle `Process::Waiter`
-            output = stdout.read.gsub(/\p{Space}+/, ' ')
-            remove.each do |pattern|
-              output.gsub!(pattern, '')
-            end
-            file['scan'] = output.gsub(/\p{Space}+/, ' ').strip.size <= 1000
-          else
-            error("#{path}: #{stderr.read}")
+        stdin, stdout, stderr, status = Open3.capture3("pdftotext #{Shellwords.escape(download_store.path(path))} -")
+        if status.success?
+          output = stdout.gsub(/\p{Space}+/, ' ')
+          remove.each do |pattern|
+            output.gsub!(pattern, '')
           end
+          file['scan'] = output.gsub(/\p{Space}+/, ' ').strip.size <= 1000
+        else
+          error("#{path}: #{stderr}")
         end
       end
     end
