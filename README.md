@@ -196,6 +196,7 @@ Policies:
 * [Criteria for posting summaries of completed access to information requests](http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?section=text&id=18310#appE)
 * [Best Practices for Posting Summaries of Completed Access to Information Requests](http://www.tbs-sct.gc.ca/atip-aiprp/tools/bppscair-pepsdaic-eng.asp)
 * [Best Practice Guidance on Disclosure Logs](https://web.archive.org/web/20091211130521/http://www.foi.gov.uk/guidance/disclosure_logs.pdf)
+* [Australia: Disclosure Log](https://www.oaic.gov.au/freedom-of-information/foi-guidelines/part-14-disclosure-log)
 
 ### Nomenclature
 
