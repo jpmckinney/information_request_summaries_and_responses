@@ -7,7 +7,7 @@ All government bodies in Canada are subject to some freedom of information statu
     brew install media-info libtiff poppler
     sudo PIP_REQUIRE_VIRTUALENV=false pip install csvkit
 
-See also the dependencies of [docsplit](https://documentcloud.github.io/docsplit/) and [pdfshaver](https://github.com/documentcloud/pdfshaver). You may need to use [this Homebrew formula](https://github.com/jpmckinney/homebrew/blob/pdfium/Library/Formula/pdfium.rb) for PDFium (see the [PR](https://github.com/knowtheory/homebrew/pull/1)).
+See also the dependencies of [docsplit](https://documentcloud.github.io/docsplit/) and [pdfshaver](https://github.com/documentcloud/pdfshaver). You may need to use [this Homebrew formula](https://github.com/jpmckinney/homebrew/blob/pdfium/Library/Formula/pdfium.rb) for PDFium (see [PR](https://github.com/knowtheory/homebrew/pull/1)).
 
 ## Scripts
 
@@ -15,21 +15,21 @@ The following scripts should be run in order to collect the dataset.
 
 Download the single-file sources to the `wip/` directory:
 
-    rake datasets:download
+    PYTHONWARNINGS=ignore bundle exec rake datasets:download
 
 Or, download one jurisdiction:
 
-    jurisdiction=ca rake datasets:download
+    jurisdiction=ca bundle exec rake datasets:download
 
 Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), and [municipal](#municipalities) scripts to download the multiple-file sources.
 
 Normalize the summaries to the `summaries` directory:
 
-    rake datasets:normalize
+    bundle exec rake datasets:normalize
 
 Or, normalize one jurisdiction:
 
-    jurisdiction=ca rake datasets:normalize
+    jurisdiction=ca bundle exec rake datasets:normalize
 
 Reconcile NL's scraped data with its open data, rewriting its files in the `summaries` directory:
 
@@ -37,11 +37,11 @@ Reconcile NL's scraped data with its open data, rewriting its files in the `summ
 
 Validate values according to jurisdiction-specific rules:
 
-    rake datasets:validate:values
+    bundle exec rake datasets:validate:values
 
 Validate that the decision and the number of pages agree:
 
-    rake datasets:validate:datasets
+    bundle exec rake datasets:validate:datasets
 
 To find additional sources, search for datasets across multiple catalogs with Namara.io:
 

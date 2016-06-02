@@ -91,14 +91,14 @@ class Processor < Pupa::Processor
           info("get length of #{path}")
           case file['media_type']
           when 'application/pdf'
-            stdin, stdout, stderr, status = Open3.capture3("pdfinfo #{Shellwords.escape(download_store.path(path))}")
+            stdout, stderr, status = Open3.capture3("pdfinfo #{Shellwords.escape(download_store.path(path))}")
             if status.success?
               file['number_of_pages'] = Integer(stdout.match(/^Pages: +(\d+)$/)[1])
             else
               error("#{path}: #{stderr}")
             end
           when 'image/tiff'
-            stdin, stdout, stderr, status = Open3.capture3("tiffinfo #{Shellwords.escape(download_store.path(path))}")
+            stdout, stderr, status = Open3.capture3("tiffinfo #{Shellwords.escape(download_store.path(path))}")
             if status.success?
               if stdout['Subfile Type: multi-page document']
                 file['number_of_pages'] = Integer(stdout.scan(/\bPage Number: (\d+)/).flatten.last) + 1
@@ -123,7 +123,7 @@ class Processor < Pupa::Processor
           when 'text/csv'
             file['number_of_rows'] = CSV.read(download_store.path(path)).size
           when 'audio/mpeg', 'audio/wav', 'video/mp4'
-            stdin, stdout, stderr, status = Open3.capture3("mediainfo #{Shellwords.escape(download_store.path(path))}")
+            stdout, stderr, status = Open3.capture3("mediainfo #{Shellwords.escape(download_store.path(path))}")
             if status.success?
               file['duration'] = stdout.match(/^Duration +: (.+)$/)[1].scan(/(\d+)(\w+)/).reduce(0) do |memo,(value,unit)|
                 memo + Integer(value) * DURATION_UNITS.fetch(unit)
@@ -145,7 +145,7 @@ class Processor < Pupa::Processor
     if download_store.exist?(path) && file.fetch('media_type') == 'application/pdf'
       unless file.key?('scan')
         info(path)
-        stdin, stdout, stderr, status = Open3.capture3("pdftotext #{Shellwords.escape(download_store.path(path))} -")
+        stdout, stderr, status = Open3.capture3("pdftotext #{Shellwords.escape(download_store.path(path))} -")
         if status.success?
           output = stdout.gsub(/\p{Space}+/, ' ')
           remove.each do |pattern|

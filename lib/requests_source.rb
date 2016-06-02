@@ -41,6 +41,8 @@ class RequestsSource
   attr_accessor :xpath
   # @return [Array<String>] a list of download URLs
   attr_accessor :download_urls
+  # @return [String] a character encoding
+  attr_accessor :encoding
   # @return [Proc] a method to filter out non-data files
   attr_accessor :filter
   # @return [Proc] a method to return the command to transform a file
@@ -129,7 +131,7 @@ private
     if %w(.xls .xlsx).include?(File.extname(input)) && filter.call(input)
       output = input.sub(/\.xlsx?\z/, '.csv')
       cmd = "#{command.call(input, output)} > #{Shellwords.escape(output)}"
-      stdin, stdout, stderr, status = Open3.capture3(cmd)
+      stdout, stderr, status = Open3.capture3(cmd)
       unless stderr.empty?
         $stderr.puts "#{input}: #{stderr}"
       end
@@ -141,8 +143,19 @@ private
 
   # Stacks CSV files.
   def stack
+    arguments = ''
+
+    if encoding
+      arguments << " -e #{encoding}"
+    end
+
     inputs = Dir[File.join(directory, '*.csv')].reject { |path| path['data.csv'] }.map { |path| Shellwords.escape(path) }.join(' ')
-    `csvstack #{inputs} > #{File.join(directory, 'data.csv')}`
+    command = "csvstack#{arguments} #{inputs} > #{Shellwords.escape(File.join(directory, 'data.csv'))}"
+    success = system(command)
+
+    unless success
+      puts command
+    end
   end
 
   # Returns the local basename for a URL.
@@ -153,7 +166,7 @@ private
     if %w(.csv .xls .xlsx .doc).include?(File.extname(parsed.path))
       File.basename(parsed.path)
     else
-      'data.csv'
+      'input.csv'
     end
   end
 end
@@ -183,8 +196,9 @@ end
   jurisdiction_code: 'ca_nl',
   source_url: 'http://opendata.gov.nl.ca/public/opendata/page/?page-id=datasetdetails&id=222',
   download_urls: [
-    'http://opendata.gov.nl.ca/public/opendata/filedownload/?file-id=4383',
+    'http://opendata.gov.nl.ca/public/opendata/filedownload/?file-id=6864',
   ],
+  encoding: 'iso-8859-1',
 }, {
   jurisdiction_code: 'ca_on_burlington',
   source_url: 'http://cob.burlington.opendata.arcgis.com/datasets/ee3ccd488aef46c7b1dca1fc1062f3e5_0',
