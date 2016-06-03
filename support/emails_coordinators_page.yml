@@ -18,7 +18,7 @@ ccc: trybkin@ccc.ca
 cdc-ccl: danie.cousineau@cdc-ccl.gc.ca
 cdev: atip-aiprp@cdev.gc.ca
 cdic-sadc: atip-aiprp@cdic.ca
-ceaa-acee: louise.guillemette@ceaa-acee.gc.ca
+ceaa-acee: atip-aiprp@ceaa-acee.gc.ca
 ced-dec: dec.aiprp-atip.ced@canada.ca
 ceifb-ofaec: phil.charko@ceifb-ofaec.ca
 ceria-acire: ecatip-ecaiprp@ec.gc.ca
@@ -45,10 +45,10 @@ csec-cstc: atip-aiprp@cse-cst.gc.ca
 csis-scrs: atip-aiprp@smtp.gc.ca
 csps-efpc: atip-aiprp@csps-efpc.gc.ca
 cstm-mstc: atip-aiprp@technomuses.ca
-cta-otc: otc.aiprp-atip@otc-cta.gc.ca
+cta-otc: otc.aiprp-atip.cta@otc-cta.gc.ca
 ctc-cct: atip-aiprp@ctc-cct.ca
 dcc-cdc: alison.lawford@dcc-cdc.gc.ca
-dfatd-maecd: dcp@international.gc.ca
+dfatd-maecd: 
 dfo-mpo: atip-laiprp@dfo-mpo.gc.ca
 dnd-mdn: atip-aiprp@forces.gc.ca
 ec: ecatip-ecaiprp@ec.gc.ca
@@ -66,7 +66,7 @@ fpcc-cpac: atip-aiprp@agr.gc.ca
 glpa-apgl: kpecore@glpa-apgl.com
 hc-sc: atip-aiprp@hc-sc.gc.ca
 hrtc-tdpc: atip-aiprp@tribunal.gc.ca
-ic: ic.atip-aiprp.ic@canada.ca
+ic: ic.atip-aiprpa.ic@canada.ca
 idrc-crdi: atip-aiprp@idrc.ca
 infc: sylvie.plourde@infc.gc.ca
 innovation: atip-aiprp@innovation.ca
@@ -78,16 +78,16 @@ mai: atip@marine-atlantic.ca
 mgerc-ceegm: atip-aiprp@mgerc-ceegm.gc.ca
 mint-monnaie: atip@mint.ca
 mpa-apm: wellsv@port-montreal.com
-mpcc-cppm: sylvain.roy@mpcc-cppm.gc.ca
+mpcc-cppm: elsy.chakkalakal@mpcc-cppm.gc.ca
 nbc-ccbn: paule.veilleux@ccbn-nbc.gc.ca
 ncc-ccn: atip-aiprp@ncc-ccn.ca
 ndcfo-odnfc: ombudsman-atip-aiprp-dndcf@forces.gc.ca
 neb-one: atipoffice-bureauaiprp@neb-one.gc.ca
 nfb-onf: atip-aiprp@nfb.ca
-ngc-mbac: jpeckham@gallery.ca
-npa-apn: atip-aiprp@nrcan-rncan.gc.ca
+ngc-mbac: msymonds@gallery.ca
+npa-apn: nrcan.atip-aiprp.rncan@canada.ca
 nrc-cnrc: atip-aiprp@nrc-cnrc.gc.ca
-nrcan-rncan: atip-aiprp@nrcan-rncan.gc.ca
+nrcan-rncan: nrcan.atip-aiprp.rncan@canada.ca
 oag-bvg: atip-aiprp@oag-bvg.gc.ca
 oci-bec: org@oci-bec.gc.ca
 ocl-cal: atip-aiprp@ocl-cal.gc.ca
