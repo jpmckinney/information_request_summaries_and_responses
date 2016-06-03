@@ -183,7 +183,7 @@ end
   source_url: 'http://www.calgary.ca/CA/City-Clerks/Pages/Freedom-of-Information-and-Protection-of-Privacy/Freedom-of-Information-and-Protection-of-Privacy.aspx',
   xpath: '//div[@class="cocis-rte-Element-DIV-Sidebar"]//@href',
   command: ->(input, output) {
-    # Note: Calgary's 2016 XLSX file is not a ZIP file. You must open it in Excel and save it as CSV.
+    # Note: Calgary's 2016 XLSX file is not a ZIP file. You must open it in Excel, re-save it, and call in2csv and csvstack manually.
     "in2csv #{Shellwords.escape(input)} | csvcut -x | grep -v b,c,d,e,f,g,h,i,j"
   },
 }, {

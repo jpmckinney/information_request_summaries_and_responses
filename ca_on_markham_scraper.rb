@@ -41,7 +41,7 @@ class Markham < Processor
         division_id: 'ocd-division/country:ca/csd:3519036',
         identifier: identifier,
         position: Integer(identifier.match(/\A\d{2}-0*(\d+)\z/)[1]),
-        abstract: sanitizer.sanitize(tds[1].inner_html).to_s.gsub(/>\s+</, '><').strip,
+        abstract: sanitizer.sanitize(tds[1].inner_html).to_s.gsub(/>\s+/, '>').strip,
         date: period,
         documents: documents,
       }))

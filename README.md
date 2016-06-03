@@ -132,6 +132,10 @@ Compare organizations' emails from different sources:
 
     bundle exec rake ca:emails:compare > support/mismatches.csv
 
+Build a histogram of number of summaries per organization:
+
+    bundle exec rake ca:histogram
+
 Construct the URL of the web form of each summary:
 
     bundle exec rake ca:urls:get > support/urls.yml
@@ -139,10 +143,6 @@ Construct the URL of the web form of each summary:
 Compare the constructed URLs to the search page's URLs:
 
     bundle exec rake ca:urls:validate
-
-Build a histogram of number of summaries per organization:
-
-    bundle exec rake ca:histogram
 
 ## Adding a new jurisdiction
 

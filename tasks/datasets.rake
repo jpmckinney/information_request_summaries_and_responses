@@ -168,7 +168,14 @@ namespace :datasets do
     end
 
     templates.each do |jurisdiction_code,template|
-      records = sort_records(records_from_source(jurisdiction_code, template))
+      records = records_from_source(jurisdiction_code, template)
+
+      sort_key = SORT_KEYS[jurisdiction_code]
+      if sort_key
+        records = records.sort_by { |record| record.fetch(sort_key) }
+      else
+        records = sort_records(records)
+      end
 
       # Write the records.
       FileUtils.mkdir_p('summaries')
