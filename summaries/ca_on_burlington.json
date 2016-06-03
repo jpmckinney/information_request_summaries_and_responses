@@ -2,109 +2,109 @@
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 1,
-    "organization": "Building",
+    "organization": "Capital Works",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "applicant_type": "business",
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 2,
     "organization": "Building",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
+    "applicant_type": "business",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 3,
-    "organization": "Building",
+    "organization": "Parking",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 4,
-    "organization": "Halton Region",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 5,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 6,
-    "organization": "Various",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 7,
-    "organization": "Building, Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 8,
-    "organization": "Roads and Parks Maintenance",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 9,
-    "organization": "Engineering",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
+    "date": "2015",
     "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 10,
-    "organization": "Building and By-law ",
+    "position": 4,
+    "organization": "Building, various staff, Council and Mayor, Animal Control",
+    "classification": "personal",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "discontinued"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 5,
+    "organization": "Committee of Adjustment, Planning",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 6,
+    "organization": "Clerks, City Manager, General Managers, Halton Region",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "discontinued"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 7,
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 8,
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 9,
+    "organization": "Planning, Zoning",
+    "classification": "general",
+    "applicant_type": "business",
+    "date": "2015",
+    "decision": "discontinued"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 10,
+    "organization": "Planning",
+    "classification": "general",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 11,
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 12,
-    "organization": "Building",
+    "organization": "Building, Animal Control",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 12,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
@@ -112,35 +112,35 @@
     "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 14,
-    "organization": "Fire",
+    "organization": "Planning, Zoning, Procurement, Capital Works",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
+    "applicant_type": "business",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 15,
-    "organization": "Fire",
+    "organization": "Planning, Committee of Adjustment",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
+    "date": "2015",
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 16,
-    "organization": "Fire",
+    "organization": "Fire Department",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
@@ -148,205 +148,186 @@
     "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 18,
-    "organization": "Fire",
+    "organization": "Parking",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 19,
-    "organization": "Fire",
+    "organization": "Mayor, staff, Building, Capital Works",
     "classification": "personal",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
+    "date": "2015",
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 20,
     "organization": "Building",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "all disclosed"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 21,
-    "organization": "Fire",
-    "classification": "general",
+    "organization": "Building, By-Law Enforcement, Animal Control",
+    "classification": "personal",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 22,
-    "organization": "Finance, Clerks",
+    "organization": "Building, By-Law Enforcement",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 23,
-    "organization": "Animal Control",
+    "organization": "Planning",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 24,
-    "organization": "Animal Control",
+    "organization": "Clerks, Finance",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
+    "applicant_type": "media",
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 25,
-    "organization": "Building",
+    "organization": "Building, Planning, Fire",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2012",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 26,
-    "organization": "Various",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 27,
-    "organization": "Roads and Parks Maintenance",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "discontinued"
+    "date": "2015",
+    "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 28,
-    "organization": "Various",
-    "classification": "personal",
+    "organization": "Building, Zoning",
+    "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 29,
-    "organization": "Planning Building Engineering",
+    "organization": "Building",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "discontinued"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 30,
-    "organization": "Procurement ",
+    "organization": "Building, Zoning",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "discontinued"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 31,
-    "organization": "Planning Building Engineering",
+    "organization": "Committee of Adjustment",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 32,
-    "organization": "Building",
+    "organization": "Finance, Capital Works, Legal Services",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
+    "applicant_type": "media",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 33,
-    "organization": "Planning Building Engineering",
+    "organization": "Building, By-Law Enforcement",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 34,
-    "organization": "Fire",
+    "organization": "Animal Control",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "all disclosed"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 35,
-    "organization": "Procurement ",
+    "organization": "Building, By-Law Enforcement",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 36,
-    "organization": "Roads and Parks Maintenance",
+    "organization": "Building, By-Law enforcement",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 37,
-    "organization": "Animal Control",
+    "organization": "Building",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
+    "applicant_type": "business",
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 38,
-    "organization": "Animal Control",
+    "organization": "Capital Works",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "disclosed in part"
+    "date": "2015"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 39,
     "organization": "Building",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
+    "applicant_type": "public",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
@@ -354,721 +335,196 @@
     "position": 40,
     "organization": "Building",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "all disclosed"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 41,
-    "organization": "Halton Region",
+    "organization": "Building",
     "classification": "general",
-    "applicant_type": "business",
-    "date": "2012",
-    "decision": "discontinued"
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 42,
-    "organization": "Clerks",
+    "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
-    "decision": "discontinued"
+    "date": "2015",
+    "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 43,
-    "organization": "By-law enforcement",
+    "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2012",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 44,
-    "organization": "Halton Region",
+    "organization": "Legal Services",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2012",
-    "decision": "nothing disclosed"
+    "date": "2015",
+    "decision": "discontinued"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
     "position": 45,
-    "organization": "Clerks - Council",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2012",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 1,
-    "organization": "AMANDA - Planning and Building",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 2,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 3,
-    "organization": "Burlington Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 4,
-    "organization": "Burlington Fire",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2013",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 5,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 6,
-    "organization": "Burlington Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 7,
-    "organization": "Building, Planning",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 8,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 9,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 10,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 11,
-    "organization": "Burlington Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 12,
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 13,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 14,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 15,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 16,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 17,
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 18,
-    "organization": "By-law enforcement",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 19,
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 20,
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 21,
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 22,
-    "organization": "Procurement ",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 23,
     "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 24,
-    "organization": "Licensing and Permits",
+    "position": 46,
+    "organization": "Capital Works",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2013",
-    "decision": "nothing disclosed"
+    "date": "2015",
+    "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 25,
-    "organization": "Clerks",
-    "classification": "general",
-    "applicant_type": "media",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 26,
+    "position": 47,
     "organization": "Animal Control",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2013",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 27,
-    "organization": "Engineering",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 28,
-    "organization": "Engineering",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 29,
-    "organization": "Transportation, Transit",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 30,
-    "organization": "Animal Control",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 31,
-    "organization": "Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 32,
-    "organization": "Building, Licensing",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 33,
-    "organization": "Fire",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 34,
-    "organization": "Clerks, HR",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2013"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 35,
-    "organization": "Burlington Museums",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 36,
-    "organization": "Roads and Parks Maintenance",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 37,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2013",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 1,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 2,
-    "organization": "Animal Control",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 3,
-    "organization": "Building, Fire",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 4,
-    "organization": "By-law enforcement",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 5,
-    "organization": "Building, Licensing",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 6,
-    "organization": "Procurement",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2014",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 7,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 8,
-    "organization": "Planning and Building",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 9,
-    "organization": "Animal Control",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 10,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 11,
+    "position": 48,
     "organization": "Building",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2014",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 12,
-    "organization": "Planning",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 13,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 14,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 15,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2014",
+    "date": "2015",
     "decision": "nothing disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 16,
-    "organization": "Procurement Services",
-    "classification": "general",
-    "applicant_type": "business",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 17,
+    "position": 49,
     "organization": "Building, Fire",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2014",
+    "date": "2015",
+    "decision": "nothing disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 50,
+    "organization": "RPM, Capital Works, Procurement",
+    "classification": "general",
+    "applicant_type": "business",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 18,
+    "position": 51,
+    "organization": "Planning, Building, Legal, Capital Works, HR, Sr. Mgmt., Council members & staff",
+    "classification": "general",
+    "applicant_type": "business",
+    "date": "2015",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 52,
+    "organization": "Buidling, Fire, Committee of Adjustment",
+    "classification": "general",
+    "applicant_type": "business",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 53,
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 54,
     "organization": "Transportation",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 19,
-    "organization": "Parks and Recreation",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 20,
-    "organization": "All",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 21,
-    "organization": "Finance",
-    "classification": "general",
-    "applicant_type": "organization",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 22,
-    "organization": "Finance, Clerks",
-    "classification": "general",
-    "applicant_type": "organization",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 23,
+    "position": 55,
     "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "disclosed in part"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 56,
+    "organization": "Building",
+    "classification": "general",
+    "applicant_type": "public",
+    "date": "2015",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:3524002",
+    "position": 57,
+    "organization": "Building, Engineering, Legal",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 24,
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
+    "date": "2015",
     "decision": "disclosed in part"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 25,
-    "organization": "Halton Region",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 26,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 27,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 28,
-    "organization": "Transportation",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "discontinued"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 29,
-    "organization": "Clerks",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 30,
-    "organization": "Planning and Building, Animal Control",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 31,
-    "organization": "Licensing",
+    "position": 58,
+    "organization": "Forwarded to Region of Halton",
     "classification": "general",
     "applicant_type": "business",
-    "date": "2014",
-    "decision": "disclosed in part"
+    "date": "2015"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 32,
-    "organization": "Engineering, Finance",
+    "position": 59,
+    "organization": "Building ",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
+    "applicant_type": "business",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 33,
-    "organization": "Parking, Transportation",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 34,
-    "organization": "Transit",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 35,
-    "organization": "Transit",
-    "classification": "personal",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "all disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 36,
-    "organization": "Parks and Recreation",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "nothing disclosed"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 37,
+    "position": 60,
     "organization": "Building",
     "classification": "general",
     "applicant_type": "public",
-    "date": "2014",
+    "date": "2015",
     "decision": "all disclosed"
   },
   {
     "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 38,
-    "organization": "Roads and Parks Maintenance",
+    "position": 61,
+    "organization": "Building, Capital Works, Planning",
     "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
-    "decision": "disclosed in part"
-  },
-  {
-    "division_id": "ocd-division/country:ca/csd:3524002",
-    "position": 39,
-    "organization": "Building",
-    "classification": "general",
-    "applicant_type": "public",
-    "date": "2014",
+    "applicant_type": "business",
+    "date": "2015",
     "decision": "all disclosed"
   }
 ]
