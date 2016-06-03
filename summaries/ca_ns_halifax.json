@@ -496,6 +496,33 @@
   },
   {
     "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-395",
+    "position": 395,
+    "abstract": "Database of calls to 311 line between the dates of January 1, 2010 and December 2, 2015.",
+    "date": "2015-01",
+    "decision": "all disclosed",
+    "number_of_pages": 8
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-396",
+    "position": 396,
+    "abstract": "Database of all accidents, collisions and incidents involving vehicles leased, owned or driven by the city and its employees or contractors between the dates of January 1, 2010 and December 2, 2015.",
+    "date": "2015-01",
+    "decision": "all disclosed",
+    "number_of_pages": 9
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-400",
+    "position": 400,
+    "abstract": "Records in relation to staff report considering the donair as the official food of HRM.",
+    "date": "2015-01",
+    "decision": "disclosed in part",
+    "number_of_pages": 186
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
     "identifier": "AR-15-012",
     "position": 12,
     "abstract": "All communications (reports, lessons learned, briefs, memos, emails etc.) between City staff and Halifax Water relating to Lake Major Dam evacuation order and associated repairs (December 10, 2014 - January 19, 2015).",
@@ -761,5 +788,201 @@
     "date": "2015-08",
     "decision": "all disclosed",
     "number_of_pages": 43
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-228",
+    "position": 228,
+    "abstract": "A list of all unclaimed cheques issued by HRM between January 1, 2014 and December 31st, 2014 and still outstanding as of July 1st, 2015, including 1) cheque number, 2) cheque date, 3) amount, 4) beneficiary name (excluding individual names).",
+    "date": "2015-09",
+    "decision": "all disclosed",
+    "number_of_pages": 2
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-237",
+    "position": 237,
+    "abstract": "A dataset (in any format) of all calls for service made to the municipality's non-emergency 311 call centre from January 1, 2015 to July 20, 2015.",
+    "date": "2015-09",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-239",
+    "position": 239,
+    "abstract": "Any written or electronic communications since April 2, 2014 from or to the office of the CAO, regarding Phase 1 of the HRM Human Resources service review.",
+    "date": "2015-09",
+    "decision": "disclosed in part",
+    "number_of_pages": 121
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-244",
+    "position": 244,
+    "abstract": "Records in relation to the bike lane on Hollis Street.",
+    "date": "2015-09",
+    "decision": "disclosed in part",
+    "number_of_pages": 36
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-238",
+    "position": 238,
+    "abstract": "Any documentation or communication submitted from external parties to HRM regarding Phase 2 or 3 of the HRM Human Resources service review.",
+    "date": "2015-10",
+    "decision": "disclosed in part",
+    "number_of_pages": 258
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-288",
+    "position": 288,
+    "abstract": "1) Annual volume of recycled materials collected by HRM and sold on the market for the past 3 years, 2) Revenue received by HRM for recycled materials, 3) name of all companies that have purchased recycled materials from HRM and 4) volume required to sell and/or ship recycled materials.",
+    "date": "2015-10",
+    "decision": "disclosed in part",
+    "number_of_pages": 4
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-316",
+    "position": 316,
+    "abstract": "Reports or documents pertaining to the amount of garbage, compost and recycling collected in the city of Halifax between August 1st to September 30th, 2014 and August 1st to September 30th, 2015.",
+    "date": "2015-10",
+    "decision": "disclosed in part",
+    "number_of_pages": 1
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-319",
+    "position": 319,
+    "abstract": "A list of Councillors who took paid and/or unpaid leave of absence during the period of September 1, 2014 to January 31, 2015 and the dates of such leave of absence.",
+    "date": "2015-10",
+    "decision": "nothing disclosed",
+    "number_of_pages": 1
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-329",
+    "position": 329,
+    "abstract": "Records of all parking tickets issued in downtown Halifax between April and September 2015 for both meter violations and for parking past a posted time limit.",
+    "date": "2015-10",
+    "decision": "all disclosed"
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-321",
+    "position": 321,
+    "abstract": "Any form of communication between HRM and Slide the City for the time period of September 27, 2014 to September 27, 2015.",
+    "date": "2015-11",
+    "decision": "disclosed in part",
+    "number_of_pages": 83
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-333",
+    "position": 333,
+    "abstract": "All documentation of money spent to build and maintain the Halifax Emera Oval for 2014-2015, all documentation of money spent on equipment for 2014-2015 and staff, as well as documentation of money the Halifax Emera Oval profited for 2014-2015.",
+    "date": "2015-11",
+    "decision": "all disclosed",
+    "number_of_pages": 6
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-334",
+    "position": 334,
+    "abstract": "All records, memos and reports pertaining to overtime costs for road construction projects between January 1, 2014 and September 30, 2015.",
+    "date": "2015-11",
+    "decision": "disclosed in part",
+    "number_of_pages": 1
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-343",
+    "position": 343,
+    "abstract": "A breakdown of Halifax Transit overtime by position and division. A breakdown of union and non-union overtime costs and reasons behind above salary pays.",
+    "date": "2015-11",
+    "decision": "disclosed in part",
+    "number_of_pages": 1
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-348",
+    "position": 348,
+    "abstract": "Work related emails between/involving Mayor Mike Savage, Councillor Matt Whitman and legal department staff regarding unanimous Supreme Court of Canada ruling on prayers recited at municipal council sessions.",
+    "date": "2015-11",
+    "decision": "disclosed in part",
+    "number_of_pages": 21
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-354",
+    "position": 354,
+    "abstract": "All bills, invoices and receipts for costs related to Heads Up Halifax campaign in 2014 and 2015.",
+    "date": "2015-12",
+    "decision": "disclosed in part",
+    "number_of_pages": 64
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-375",
+    "position": 375,
+    "abstract": "Records relating to 2015 Federal Government announcement (funding for projects for First Responders) at Fire Station 2 involving Defense Minister Julian Fantino.",
+    "date": "2015-12",
+    "decision": "disclosed in part",
+    "number_of_pages": 31
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-376",
+    "position": 376,
+    "abstract": "Records relating to CAO Richard Butts airfare expenses.",
+    "date": "2015-12",
+    "decision": "disclosed in part",
+    "number_of_pages": 16
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-393",
+    "position": 393,
+    "abstract": "Homeward Bound Pound's statistics - total number of cats and dogs impounded, killed, adopted and returned to owner for the following years: 2013, 2014, 2015 YTD.",
+    "date": "2015-12",
+    "decision": "all disclosed",
+    "number_of_pages": 1
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-15-397",
+    "position": 397,
+    "abstract": "Electronic copies of quarterly statements, annual budgets and annual reports for the Otter Lake Waste Processing and Disposal Facility and the Household Hazardous Waste Facility between the dates of January 1, 2010 and December 2, 2015.",
+    "date": "2015-12",
+    "decision": "disclosed in part",
+    "number_of_pages": 465
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-16-034",
+    "position": 34,
+    "abstract": "Names, phone numbers, fax numbers, email addresses and digital photos of all employees under HRM umbrella.",
+    "date": "2016-03",
+    "decision": "disclosed in part",
+    "number_of_pages": 42
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-16-065",
+    "position": 65,
+    "abstract": "Records in relation to encroachment fees paid to HRM from 2010/11 to present.",
+    "date": "2016-03",
+    "decision": "disclosed in part",
+    "number_of_pages": 10
+  },
+  {
+    "division_id": "ocd-division/country:ca/csd:1209034",
+    "identifier": "AR-16-074",
+    "position": 74,
+    "abstract": "Amount of fuel used monthly by Halifax Transit buses and ferries and cost of fuel monthly for buses and ferries from 2013 to 2016.",
+    "date": "2016-03",
+    "decision": "all disclosed",
+    "number_of_pages": 10
   }
 ]
