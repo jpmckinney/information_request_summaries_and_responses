@@ -212,14 +212,14 @@ END
 
       # Report any rows to delete from `missing.csv`.
       if missing.any?
-        $stderr.puts "Unneeded rows:"
+        $stderr.puts "Delete these rows from missing.csv:"
         $stderr.puts missing.values
         $stderr.puts missing.size
       end
 
       # Report any organizations from the coordinators page match no organizations in `abbreviations.yml`.
       if unmatched.any?
-        $stderr.puts "Unmatched organizations:"
+        $stderr.puts "Organizations from coordinators page without matches in abbreviations.yml:"
         $stderr.puts YAML.dump(unmatched)
         $stderr.puts unmatched.size
       end
