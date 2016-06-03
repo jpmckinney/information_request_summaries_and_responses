@@ -17,7 +17,7 @@ Mongo::Logger.logger.level = Logger::WARN
 SafeYAML::OPTIONS[:default_mode] = :safe
 
 def assert(message)
-  raise message unless yield
+  $stderr.puts message unless yield
 end
 
 def client

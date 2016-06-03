@@ -176,7 +176,7 @@ end
   jurisdiction_code: 'ca',
   source_url: 'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c',
   download_urls: [
-    'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv',
+    'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv',
   ],
 }, {
   jurisdiction_code: 'ca_ab_calgary',

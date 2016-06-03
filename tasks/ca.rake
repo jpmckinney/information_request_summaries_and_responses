@@ -6,47 +6,55 @@ namespace :ca do
 
   # #ca_normalize
   def ca_disposition?(text)
-    CA_DISPOSITIONS.include?(text.downcase.squeeze(' ').strip)
+    CA_DISPOSITIONS.include?(text.downcase.
+      gsub(RE_PARENTHETICAL, '').
+      gsub(/[\p{Punct}￼]/, ' '). # special character
+      gsub(/\p{Space}+/, ' ').strip)
   end
 
   def ca_normalize(data)
     rows = []
 
-    corrections = CA_CORRECTIONS.invert
-
     row_number = 1
-    CSV.parse(data, headers: true) do |row|
+    CSV.parse(data, headers: true, header_converters: ->(h) { CA_HEADERS.fetch(h, h) }) do |row|
       row_number += 1
 
       # The informal request URLs don't make this correction.
-      if row['French Summary / Sommaire de la demande en français'] && ca_disposition?(row['French Summary / Sommaire de la demande en français'].split(' / ', 2)[0])
-        row['French Summary / Sommaire de la demande en français'], row['Disposition'] = row['Disposition'], row['French Summary / Sommaire de la demande en français']
+      if row['abstract_fr'] && ca_disposition?(row['abstract_fr'].split(' / ', 2)[0])
+        row['abstract_fr'], row['decision'] = row['decision'], row['abstract_fr']
       end
-      if row['Disposition'] && row['Disposition'][/\A\d+\z/] && row['Number of Pages / Nombre de pages'] == '0'
-        row['Number of Pages / Nombre de pages'], row['Disposition'] = row['Disposition'], nil
+      if row['decision'] && row['decision'][/\A\d+\z/] && row['number_of_pages'] == '0'
+        row['number_of_pages'], row['decision'] = row['decision'], nil
       end
 
-      assert("#{row_number}: expected '/' or '|' in Disposition: #{row['Disposition']}"){
-        row['Disposition'].nil? || row['Disposition'][/\A=(?:F\d+)?\z/] || row['Disposition'][%r{[/|]}] || ca_disposition?(row['Disposition'])
+      assert("#{row_number}: expected '/' or '|' in decision: #{row['decision'].inspect}"){
+        row['decision'].nil? || row['decision'][%r{[/|]}] || ca_disposition?(row['decision']) || normalize_decision(row['decision']).nil?
       }
-      assert("#{row_number}: expected '|' or '-' in Org: #{row['Org']}"){
-        row['Org'][/ [|-] /]
+      assert("#{row_number}: expected '|' or '-' in organization: #{row['organization']}"){
+        row['organization'][/ [|-] /]
       }
 
-      organization = row.fetch('Org').split(/ [|-] /)[0]
-      organization = corrections.fetch(organization, organization)
-
-      rows << {
-        'Year / Année' => Integer(row.fetch('Year / Année')),
-        'Month / Mois (1-12)' => Integer(row.fetch('Month / Mois (1-12)')),
-        'Request Number / Numero de la demande' => row.fetch('Request Number / Numero de la demande'),
-        'English Summary / Sommaire de la demande en anglais' => row.fetch('English Summary / Sommaire de la demande en anglais'),
-        'French Summary / Sommaire de la demande en français' => row.fetch('French Summary / Sommaire de la demande en français'),
-        'Disposition' => row.fetch('Disposition').to_s.split(%r{ / })[0],
-        'Number of Pages / Nombre de pages' => Integer(row['Number of Pages / Nombre de pages']),
-        'Org id' => row.fetch('Org id'),
-        'Org' => organization,
+      record = {
+        'year' => Integer(row.fetch('year')),
+        'month' => Integer(row.fetch('month')),
       }
+
+      if row.size > 4
+        record.merge!({
+          'identifier' => row.fetch('identifier'),
+          'abstract_en' => row.fetch('abstract_en'),
+          'abstract_fr' => row.fetch('abstract_fr'),
+          'decision' => row.fetch('decision').to_s.split(%r{ / })[0],
+          'number_of_pages' => Integer(row['number_of_pages']),
+        })
+      end
+
+      record.merge!({
+        'organization_id' => row.fetch('organization_id'),
+        'organization' => row.fetch('organization').split(/ [|-] /)[0],
+      })
+
+      rows << record
     end
 
     rows
@@ -73,13 +81,13 @@ namespace :ca do
     output = {}
 
     urls = [
-      'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv',
-      'http://open.canada.ca/vl/dataset/ati/resource/91a195c7-6985-4185-a357-b067b347333c/download/atinone.csv',
+      'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv',
+      'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/87c909bf-650e-4410-9899-a0665628e0d7/download/atinil.csv',
     ]
     urls.each do |url|
-      CSV.parse(client.get(url).body.force_encoding('utf-8'), headers: true) do |row|
-        id = row.fetch('Org id')
-        value = row.fetch('Org').split(/ [|-] /)[0].strip
+      ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
+        id = row.fetch('organization_id')
+        value = row.fetch('organization').split(/ [|-] /)[0].strip
         if output.key?(id)
           assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
         else
@@ -95,10 +103,10 @@ namespace :ca do
   task :histogram do
     counts = Hash.new(0)
 
-    url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
-    CSV.parse(client.get(url).body, headers: true) do |row|
-      if Integer(row['Number of Pages / Nombre de pages']).nonzero?
-        counts[row.fetch('Org id')] += 1
+    url = 'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv'
+    ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
+      if Integer(row['number_of_pages']).nonzero?
+        counts[row.fetch('organization_id')] += 1
       end
     end
 
@@ -145,15 +153,20 @@ END
         # If the contact point is the same for the child and the parent.
         else
           { 'Canada Employment Insurance Commission' => 'Employment and Social Development Canada',
-            'International Centre for Human Rights and Democratic Development (see Foreign Affairs and International Trade)' => 'Foreign Affairs, Trade and Development Canada',
+            'Canadian International Development Agency (see Global Affairs Canada )' => 'Foreign Affairs, Trade and Development Canada',
+            'National Round Table on the Environment and the Economy (see Environment and Climate Change Canada)' => 'Environment Canada',
+            'International Centre for Human Rights and Democratic Development (see Global Affairs Canada )' => 'Foreign Affairs, Trade and Development Canada',
+            'Passport Canada (see Immigration, Refugees and Citizenship Canada)' => 'Citizenship and Immigration Canada',
           }.fetch(string, string[/\((?:formerly|[Ss]ee)? *([^)]+)/, 1].to_s)
         end
       end
 
       corrections = load_yaml('federal_identity_program.yml').merge({
         # Web => CSV
-        'Civilian Review and Complaints Commission for the Royal Canadian Mounted Police' => 'Commission for Public Complaints Against the RCMP',
+        'Canada Science and Technology Museums Corporation' => 'Canada Science and Technology Museum',
+        'Civilian Review and Complaints Commission for the Royal Canadian Mounted Police' => 'Civilian Review and Complaints Commission for the RCMP',
         'Federal Public Service Health Care Plan Administration Authority' => 'Public Service Health Care Plan',
+        'Global Affairs Canada (formely Foreign Affairs, Trade and Development Canada)' => 'Foreign Affairs, Trade and Development Canada',
         'National Defence and the Canadian Armed Forces' => 'National Defence',
         'Office of the Administrator of the Ship-source Oil Pollution Fund' => 'Ship-source Oil Pollution Fund',
         'Office of the Ombudsman National Defence and Canadian Forces' => 'National Defence and Canadian Forces Ombudsman',
@@ -219,17 +232,17 @@ END
 
       # Report any organizations from the coordinators page match no organizations in `abbreviations.yml`.
       if unmatched.any?
-        $stderr.puts "Organizations from coordinators page without matches in abbreviations.yml:"
+        $stderr.puts "If abbreviations.yml matches, add to `corrections`. If the contact point is shared, add to `parent`:"
         $stderr.puts YAML.dump(unmatched)
         $stderr.puts unmatched.size
       end
 
       # Report non-exact organization name matches for review.
-      mapping.reject!{|to,from| from == to}
+      mapping.reject!{|from,to| from == to}
       if mapping.any?
         $stderr.puts 'Name matches (for review):'
-        mapping.each do |to,from|
-          $stderr.puts '%-60s %s' % [from, to]
+        mapping.each do |from,to|
+          $stderr.puts '%-125s %s' % [from, to]
         end
         $stderr.puts mapping.size
       end
@@ -239,8 +252,6 @@ END
 
     desc 'Print emails from the search page'
     task :search_page do
-      corrections = CA_CORRECTIONS
-
       output = {}
       xpath = '//a[@title="Contact this organization about this ATI Request."]/@href'
 
@@ -266,7 +277,7 @@ END
 
         if href
           name = a.xpath('./text()').text.strip
-          id = names.fetch(corrections.fetch(name, name))
+          id = names.fetch(name)
           value = ca_normalize_email(href.value.match(/email=([^&]+)/)[1])
           if output[id]
             assert("#{output[id]} expected for #{id}, got\n#{value}"){output[id] == value}
@@ -287,7 +298,7 @@ END
       coordinators_page = load_yaml('emails_coordinators_page.yml')
       search_page = load_yaml('emails_search_page.yml')
 
-      puts CSV.generate_line(['Org id', 'Org', 'Coordinators page', 'Search page'])
+      puts CSV.generate_line(['organization_id', 'organization', 'coordinators_page_email', 'search_page_email'])
       coordinators_page.each do |id,email_coordinators_page|
         name = abbreviations.fetch(id)
         email_search_page = search_page.fetch(id)
@@ -305,22 +316,22 @@ END
 
       emails = load_yaml('emails_search_page.yml')
 
-      url = 'http://open.canada.ca/vl/dataset/ati/resource/eed0bba1-5fdf-4dfa-9aa8-bb548156b612/download/atisummaries.csv'
+      url = 'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv'
       ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
-        organization = row.fetch('Org')
-        number = row['Request Number / Numero de la demande']
-        pages = row.fetch('Number of Pages / Nombre de pages')
+        organization = row.fetch('organization')
+        number = row['identifier']
+        pages = row.fetch('number_of_pages')
 
         params = {
           org: organization,
           req_num: number,
-          disp: row.fetch('Disposition'),
-          year: row.fetch('Year / Année'),
-          month: Date.new(2000, row.fetch('Month / Mois (1-12)'), 1).strftime('%B'),
+          disp: row.fetch('decision'),
+          year: row.fetch('year'),
+          month: Date.new(2000, row.fetch('month'), 1).strftime('%B'),
           pages: pages,
-          req_sum: row.fetch('English Summary / Sommaire de la demande en anglais'),
+          req_sum: row.fetch('abstract_en'),
           req_pages: pages,
-          email: emails.fetch(row.fetch('Org id')),
+          email: emails.fetch(row.fetch('organization_id')),
         }
 
         query = params.map do |key,value|

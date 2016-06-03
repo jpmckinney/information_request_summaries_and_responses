@@ -1,4 +1,4 @@
-Org id,Org,Coordinators page,Search page
+organization_id,organization,coordinators_page_email,search_page_email
 acoa-apeca,Atlantic Canada Opportunities Agency,acoa.atip-aiprp.apeca@canada.ca,atip-aiprp@acoa-apeca.gc.ca
 aecl-eacl,Atomic Energy of Canada Limited,jboulais@aecl.ca,boulaisj@aecl.ca
 catsa-acsta,Canadian Air Transport Security Authority,atip@catsa.gc.ca,natalie.sabourin@catsa.gc.ca
@@ -7,7 +7,7 @@ cca-cac,Canada Council for the Arts,atip-airprp@canadacouncil.ca,debbie.stenson@
 cdc-ccl,Canadian Dairy Commission,danie.cousineau@cdc-ccl.gc.ca,joanne.burelle@cdc-ccl.gc.ca
 cdev,Canada Development Investment Corporation,atip-aiprp@cdev.gc.ca,dianne.robinson@cdev.gc.ca
 cdic-sadc,Canada Deposit Insurance Corporation,atip-aiprp@cdic.ca,cricher@cdic.ca
-ceaa-acee,Canadian Environmental Assessment Agency,louise.guillemette@ceaa-acee.gc.ca,marie-michelle.gauthier@ceaa-acee.gc.ca
+ceaa-acee,Canadian Environmental Assessment Agency,atip-aiprp@ceaa-acee.gc.ca,marie-michelle.gauthier@ceaa-acee.gc.ca
 ced-dec,Canada Economic Development for Quebec Regions,dec.aiprp-atip.ced@canada.ca,stephane.bordeleau@dec-ced.gc.ca
 cfia-acia,Canadian Food Inspection Agency,atip-cfia-aiprp@inspection.gc.ca,nathalie.campeau@inspection.gc.ca
 cgc-ccg,Canadian Grain Commission,atip-aiprp@grainscanada.gc.ca,cari.miller@grainscanada.gc.ca
@@ -19,12 +19,12 @@ cmhc-schl,Canada Mortgage and Housing Corporation,atip-aiprp@cmhc-schl.gc.ca,ati
 cmhr-mcdp,Canadian Museum for Human Rights,atip@museumforhumanrights.ca,lisanne.lambert@museumforhumanrights.ca
 cmip-mciq,Canadian Museum of Immigration at Pier 21,atip-aiprp@pier21.ca,jtramble@pier21.ca
 cnsc-ccsn,Canadian Nuclear Safety Commission,nicholle.holbrook@canada.ca,atip-aiprp@cnsc-ccsn.gc.ca
-cpc-cpp,Commission for Public Complaints Against the RCMP,atip.aiprp@crcc-ccetp.gc.ca,rochelle.boudreau@cpc-cpp.gc.ca
+cpc-cpp,Civilian Review and Complaints Commission for the RCMP,atip.aiprp@crcc-ccetp.gc.ca,rochelle.boudreau@cpc-cpp.gc.ca
 cra-arc,Canada Revenue Agency,atip-aiprp@cra-arc.gc.ca,int-rec-g@cra-arc.gc.ca
 crtc,Canadian Radio-television and Telecommunications Commission,celine.paquette@crtc.gc.ca,mathieu.labine@crtc.gc.ca
 csa-asc,Canadian Space Agency,asc.aiprp-atip.csa@canada.ca,aiprp-atip@asc-csa.gc.ca
 csps-efpc,Canada School of Public Service,atip-aiprp@csps-efpc.gc.ca,jennifer.thorne@csps-efpc.gc.ca
-cstm-mstc,Canada Science and Technology Museums Corporation,atip-aiprp@technomuses.ca,mhorth@technomuses.ca
+cstm-mstc,Canada Science and Technology Museum,atip-aiprp@technomuses.ca,mhorth@technomuses.ca
 ctc-cct,Canadian Tourism Commission,atip-aiprp@ctc-cct.ca,rahman.raya@ctc-cct.ca
 edc,Export Development Canada,atipteam@edc.ca,bkeen@edc.ca
 elections,Elections Canada,aiprp-atip@elections.ca,andreemarie.delisle@elections.ca
@@ -34,19 +34,19 @@ fcc-fac,Farm Credit Canada,atip_aiprp@fcc-fac.ca,veronica.bosche@fcc-fac.ca
 feddevontario,Federal Economic Development Agency for Southern Ontario,fdo.atip-aiprp.fdo@canada.ca,josee.riopel@feddevontario.gc.ca
 fntc-cfpn,First Nations Tax Commission,atip@fntc.ca,bmcgregor@fntc.ca
 fpcc-cpac,Farm Products Council of Canada,atip-aiprp@agr.gc.ca,lise.leduc@agr.gc.ca
-ic,Industry Canada,ic.atip-aiprp.ic@canada.ca,atip-aiprp@ic.gc.ca
+ic,Industry Canada,ic.atip-aiprpa.ic@canada.ca,atip-aiprp@ic.gc.ca
 idrc-crdi,International Development Research Centre,atip-aiprp@idrc.ca,yhenry@idrc.ca
 innovation,Canada Foundation for Innovation,atip-aiprp@innovation.ca,manon.harvey@innovation.ca
 irb-cisr,Immigration and Refugee Board of Canada,atip@irb-cisr.gc.ca,eric.villemaire@irb-cisr.gc.ca
 jccbi-pjcci,Jacques Cartier and Champlain Bridges Incorporated,atip-aiprp@pjcci.ca,slefebvre@pjcci.ca
-lac-bac,Library and Archives Canada,atipd@bac-lac.gc.ca,blair.isaac@bac-lac.gc.ca
+lac-bac,Library and Archives Canada,atipd@bac-lac.gc.ca,bac.aiprpdp-atippr.lac@canada.ca
 mai,Marine Atlantic Inc.,atip@marine-atlantic.ca,jpenney@marine-atlantic.ca
 mgerc-ceegm,Military Grievances External Review Committee,atip-aiprp@mgerc-ceegm.gc.ca,gauthiery@cfgb-cgfc.gc.ca
-ncc-ccn,National Capital Commission,atip-aiprp@ncc-ccn.ca,judy.benvie@ncc-ccn.ca
-nfb-onf,National Film Board,atip-aiprp@nfb.ca,p.kallianiotis@onf.ca
-npa-apn,Northern Pipeline Agency Canada,atip-aiprp@nrcan-rncan.gc.ca,aiprp.atip@nrcan-rncan.gc.ca
-nrcan-rncan,Natural Resources Canada,atip-aiprp@nrcan-rncan.gc.ca,aiprp.atip@nrcan-rncan.gc.ca
-oag-bvg,Office of the Auditor General of Canada,atip-aiprp@oag-bvg.gc.ca,robert.mcneil@oag-bvg.gc.ca
+mpcc-cppm,Military Police Complaints Commission of Canada,elsy.chakkalakal@mpcc-cppm.gc.ca,sylvain.roy@mpcc-cppm.gc.ca
+ncc-ccn,National Capital Commission,atip-aiprp@ncc-ccn.ca,atip@ncc-ccn.ca
+ngc-mbac,National Gallery of Canada,msymonds@gallery.ca,jpeckham@gallery.ca
+npa-apn,Northern Pipeline Agency Canada,nrcan.atip-aiprp.rncan@canada.ca,aiprp.atip@nrcan-rncan.gc.ca
+nrcan-rncan,Natural Resources Canada,nrcan.atip-aiprp.rncan@canada.ca,aiprp.atip@nrcan-rncan.gc.ca
 oci-bec,The Correctional Investigator Canada,org@oci-bec.gc.ca,manuel.marques@oci-bec.gc.ca
 ocol-clo,Office of the Commissioner of Official Languages,atip-aiprp@ocol-clo.gc.ca,mathieu.labine@ocol-clo.gc.ca
 oic-ci,Office of the Information Commissioner of Canada,atip-services-aiprp@ci-oic.gc.ca,mario.perrier@oic-ci.gc.ca
@@ -58,7 +58,6 @@ pmprb-cepmb,Patented Medicine Prices Review Board Canada,guillaume.couillard@pmp
 ppsc-sppc,Public Prosecution Service of Canada,atip-aiprp@ppsc-sppc.gc.ca,cyril.mcintyre@ppsc-sppc.gc.ca
 pslrb-crtfp,Public Service Labour Relations Board,atip-aiprp@tribunal.gc.ca,julie.raymond@pslrb-crtfp.gc.ca
 pspib-oirpsp,Public Sector Pension Investment Board,info@investpsp.ca,alefebvre@investpsp.ca
-scc-ccn,Standards Council of Canada,donna.graser@scc.ca,akusy@scc.ca
 sdtc-tddc,Sustainable Development Technology Canada,m.lyon@sdtc.ca,d.luke@sdtc.ca
 sirc-csars,Security Intelligence Review Committee,info@sirc-csars.gc.ca,stephanie.dion@sirc-csars.gc.ca
 sopf,Ship-source Oil Pollution Fund,info@ssopf.gc.ca,info@sopf.gc.ca
@@ -66,5 +65,4 @@ swc-cfc,Status of Women Canada,atip-aiprp@swc-cfc.gc.ca,anick.perreault@swc-cfc.
 tbs-sct,Treasury Board of Canada Secretariat,atip.aiprp@tbs-sct.gc.ca,denise.brennan@tbs-sct.gc.ca
 tf,Telefilm Canada,atip-aiprp@telefilm.ca,odesses@telefilm.gc.ca
 tsb-bst,Transportation Safety Board of Canada,atip.aiprp@bst-tsb.gc.ca,patrizia.huot@bst-tsb.gc.ca
-viarail,VIA Rail Canada Inc.,jean-francois_legault@viarail.ca,yves_siciliano@viarail.ca
-wd-deo,Western Economic Diversification Canada,atip-aiprp@wd-deo.gc.ca,cathy.matthews@wd-deo.gc.ca
+viarail,VIA Rail Canada Inc.,jean-francois_legault@viarail.ca,atip@viarail.ca

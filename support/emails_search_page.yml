@@ -10,7 +10,7 @@ bc: atip-aiprp@bankofcanada.ca
 bdc: atip-aiprp@bdc.ca
 cannor: russell.gray@cannor.gc.ca
 catsa-acsta: natalie.sabourin@catsa.gc.ca
-cb-cda: nancy.laframboise@cb-cda.gc.ca
+cb-cda: 
 cbc-radio-canada: peter.hull@cbc.ca
 cbsa-asfc: atip-aiprp@cbsa-asfc.gc.ca
 cca-cac: debbie.stenson@canadacouncil.ca
@@ -28,7 +28,7 @@ chrc-ccdp: ginette.bastien@chrc-ccdp.gc.ca
 cic: atip-aiprp@cic.gc.ca
 cirb-ccri: remi.gardiner@cirb-ccri.gc.ca
 citt-tcce: gillian.burnett@citt-tcce.gc.ca
-clcl-sicl: gbarker@clc.ca
+clcl-sicl: 
 cmc-mcc: gordon.butler@civilization.ca
 cmhc-schl: atip-aiprp@cmhc.ca
 cmhr-mcdp: lisanne.lambert@museumforhumanrights.ca
@@ -45,7 +45,7 @@ csec-cstc: atip-aiprp@cse-cst.gc.ca
 csis-scrs: atip-aiprp@smtp.gc.ca
 csps-efpc: jennifer.thorne@csps-efpc.gc.ca
 cstm-mstc: mhorth@technomuses.ca
-cta-otc: otc.aiprp-atip@otc-cta.gc.ca
+cta-otc: otc.aiprp-atip.cta@otc-cta.gc.ca
 ctc-cct: rahman.raya@ctc-cct.ca
 dcc-cdc: alison.lawford@dcc-cdc.gc.ca
 dfatd-maecd: dcp@international.gc.ca
@@ -73,22 +73,22 @@ innovation: manon.harvey@innovation.ca
 irb-cisr: eric.villemaire@irb-cisr.gc.ca
 jccbi-pjcci: slefebvre@pjcci.ca
 jus: atip-aiprp-justicecanada@justice.gc.ca
-lac-bac: blair.isaac@bac-lac.gc.ca
+lac-bac: bac.aiprpdp-atippr.lac@canada.ca
 mai: jpenney@marine-atlantic.ca
 mgerc-ceegm: gauthiery@cfgb-cgfc.gc.ca
 mint-monnaie: atip@mint.ca
 mpa-apm: wellsv@port-montreal.com
 mpcc-cppm: sylvain.roy@mpcc-cppm.gc.ca
 nbc-ccbn: 
-ncc-ccn: judy.benvie@ncc-ccn.ca
+ncc-ccn: atip@ncc-ccn.ca
 ndcfo-odnfc: ombudsman-atip-aiprp-dndcf@forces.gc.ca
 neb-one: atipoffice-bureauaiprp@neb-one.gc.ca
-nfb-onf: p.kallianiotis@onf.ca
+nfb-onf: atip-aiprp@nfb.ca
 ngc-mbac: jpeckham@gallery.ca
 npa-apn: aiprp.atip@nrcan-rncan.gc.ca
 nrc-cnrc: atip-aiprp@nrc-cnrc.gc.ca
 nrcan-rncan: aiprp.atip@nrcan-rncan.gc.ca
-oag-bvg: robert.mcneil@oag-bvg.gc.ca
+oag-bvg: 
 oci-bec: manuel.marques@oci-bec.gc.ca
 ocl-cal: atip-aiprp@ocl-cal.gc.ca
 ocol-clo: mathieu.labine@ocol-clo.gc.ca
@@ -108,7 +108,7 @@ ppsc-sppc: cyril.mcintyre@ppsc-sppc.gc.ca
 ps-sp: atip-aiprp@ps-sp.gc.ca
 psc-cfp: cfp.aiprp-atip.psc@cfp-psc.gc.ca
 psdptc-tpfdc: 
-pshcp-rssfp: atip-aiprp@pshcp.ca
+pshcp-rssfp: 
 psi: pkeays@portsi.com
 psic-ispc: duquette.france@psic-ispc.gc.ca
 pslrb-crtfp: julie.raymond@pslrb-crtfp.gc.ca
@@ -117,7 +117,7 @@ ptr: forcier@porttr.com
 pwgsc-tpsgc: aiprp.atip@tpsgc-pwgsc.gc.ca
 rcmp-grc: atipb@rcmp-grc.gc.ca
 ri: 
-scc-ccn: akusy@scc.ca
+scc-ccn: 
 sct-trp: 
 sdtc-tddc: d.luke@sdtc.ca
 sibc-cpivml: 
@@ -132,10 +132,10 @@ tbs-sct: denise.brennan@tbs-sct.gc.ca
 tc: atip/aiprp@tc.gc.ca
 tf: odesses@telefilm.gc.ca
 tsb-bst: patrizia.huot@bst-tsb.gc.ca
-vac-acc: atip-aiprp@vac-acc.gc.ca
+vac-acc: 
 vfpa-apvf: accesstoinformation@portmetrovancouver.com
-viarail: yves_siciliano@viarail.ca
+viarail: atip@viarail.ca
 vrab-tacra: vrab.vrabatip-tacraaiprp.tacra@vrab-tacra.gc.ca
-wd-deo: cathy.matthews@wd-deo.gc.ca
-yesab-oeesy: yesab@yesab.ca
+wd-deo: atip-aiprp@wd-deo.gc.ca
+yesab-oeesy: 
 ysrb-odsy: 

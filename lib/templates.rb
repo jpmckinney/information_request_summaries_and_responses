@@ -58,20 +58,20 @@ end
 TEMPLATES = {
   'ca' => {
     'division_id' => 'ocd-division/country:ca',
-    'identifier' => '/Request Number ~1 Numero de la demande',
-    'organization' => '/Org',
+    'identifier' => '/identifier',
+    'organization' => '/organization',
     'date' => lambda{|data|
-      year = Integer(JsonPointer.new(data, '/Year ~1 Année').value)
-      month = Integer(JsonPointer.new(data, '/Month ~1 Mois (1-12)').value)
+      year = Integer(JsonPointer.new(data, '/year').value)
+      month = Integer(JsonPointer.new(data, '/month').value)
       ['date', Date.new(year, month, 1).strftime('%Y-%m')]
     },
     'abstract' => lambda{|data|
-      en = JsonPointer.new(data, '/English Summary ~1 Sommaire de la demande en anglais').value
-      fr = JsonPointer.new(data, '/French Summary ~1 Sommaire de la demande en français').value
+      en = JsonPointer.new(data, '/abstract_en').value
+      fr = JsonPointer.new(data, '/abstract_fr').value
       ['abstract', en || fr]
     },
-    'decision' => '/Disposition',
-    'number_of_pages' => integer_formatter('number_of_pages', '/Number of Pages ~1 Nombre de pages'),
+    'decision' => '/decision',
+    'number_of_pages' => integer_formatter('number_of_pages', '/number_of_pages'),
   },
   'ca_ab_calgary' => {
     'division_id' => 'ocd-division/country:ca/csd:4806016',
