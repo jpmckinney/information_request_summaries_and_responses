@@ -14,14 +14,14 @@ class Markham < Processor
     url = 'http://www.markham.ca/wps/portal/Markham/MunicipalGovernment/AboutMunicipalGovernment/RecordAccessPrivacy/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOJN_N2dnX3CLAKNgkwMDDw9XcJM_VwCDS0CTPQLsh0VAZHUQpY!/'
     table = get(url).xpath('//table[@cellpadding=5][not(@summary)]')
 
-    trs = table.xpath('./tr')
+    trs = table.xpath('.//tr')
     match = trs[0].text.match(/Activity Report for the period (\S+) – (\S+) (\d+)/)
     year = Integer(match[3])
     period = [1, 2].map{|group| "#{Date.new(year, Date.strptime(match[group], '%B').month, 1).strftime('%Y-%m-%d')}"}.join('/')
 
     trs.drop(2).each do |tr|
       tds = tr.xpath('./td')
-      identifier = tds[0].text
+      identifier = tds[0].text.strip
 
       documents = []
       { 'p' => 'order',
