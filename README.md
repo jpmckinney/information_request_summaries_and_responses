@@ -114,35 +114,35 @@ Upload the attachments as archives to S3:
 
 Get the alternate names of organizations to make corrections:
 
-    rake ca:federal_identity_program > support/federal_identity_program.yml
+    bundle exec rake ca:federal_identity_program > support/federal_identity_program.yml
 
 Get the abbreviations of organizations to match across datasets:
 
-    rake ca:abbreviations > support/abbreviations.yml
+    bundle exec rake ca:abbreviations > support/abbreviations.yml
 
 Get organizations' emails from the [coordinators page](http://www.tbs-sct.gc.ca/hgw-cgf/oversight-surveillance/atip-aiprp/coord-eng.asp):
 
-    rake ca:emails:coordinators_page > support/emails_coordinators_page.yml
+    bundle exec rake ca:emails:coordinators_page > support/emails_coordinators_page.yml
 
 Get organizations' emails from the [search page](http://open.canada.ca/en/search/ati):
 
-    rake ca:emails:search_page > support/emails_search_page.yml
+    bundle exec rake ca:emails:search_page > support/emails_search_page.yml
 
 Compare organizations' emails from different sources:
 
-    rake ca:emails:compare > support/mismatches.csv
+    bundle exec rake ca:emails:compare > support/mismatches.csv
 
 Construct the URL of the web form of each summary:
 
-    rake ca:urls:get > support/urls.yml
+    bundle exec rake ca:urls:get > support/urls.yml
 
 Compare the constructed URLs to the search page's URLs:
 
-    rake ca:urls:validate
+    bundle exec rake ca:urls:validate
 
 Build a histogram of number of summaries per organization:
 
-    rake ca:histogram
+    bundle exec rake ca:histogram
 
 ## Adding a new jurisdiction
 
