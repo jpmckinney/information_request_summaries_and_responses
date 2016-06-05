@@ -161,7 +161,7 @@ TEMPLATES = {
     },
     'position' => lambda{|data|
       v = JsonPointer.new(data, '/Request Number').value
-      ['position', Integer(v.strip.match(%r{\A[A-Z]{2,5}/(\d{1,2})/\d{4}\z})[1])]
+      ['position', Integer(v.strip.match(%r{\A[A-Z]{2,5}/(\d{1,3})/\d{4}(?: ?\(FES\))?\z})[1])]
     },
     'abstract' => '/Summary of Request',
     'organization' => '/Department',
