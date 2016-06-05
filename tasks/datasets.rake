@@ -204,7 +204,7 @@ namespace :datasets do
         'ca_ab_calgary' => ['identifier', /\A\d{4}-[BCFGP]-\d{4}(?:-\d{3})?\z/],
         'ca_ab_edmonton' => ['identifier', /\A\d{4}-\d{4}(?:-\d{3})?\z/],
         'ca_bc' => ['identifier', /\A[A-Z]{3}-\d{4}-\d{5}\z/],
-        'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,2}/\d{4}\z}],
+        'ca_nl' => ['identifier', %r{\A(?:#{ca_nl_identifiers.join('|')})/\d{1,3}/\d{4}\z}],
         'ca_ns_halifax' => ['identifier', /\AAR-\d{2}-\d{3}\z/],
         'ca_on_burlington' => ['position', /\A\d{1,2}\z/],
         'ca_on_greater_sudbury' => ['identifier', /\AFOI\d{4}-\d{1,3}\z/],

@@ -1,6 +1,7 @@
 identifier,title,alternate_title
 AES,Advanced Education and Skills,
 BTCRD,"Business, Tourism, Culture and Rural Development",
+CCEE,Office of Climate Change and Energy Efficiency,Climate Change and Energy Efficiency
 CYFS,"Child, Youth and Family Services",
 EC,Executive Council,
 EDU,Education,Education and Early Childhood Development
@@ -9,18 +10,21 @@ FA,Fisheries and Aquaculture,
 FIN,Finance,
 HCS,Health and Community Services,
 HRS,Human Resource Secretariat,
-IAAS,Intergovernmental and Aboriginal Affairs Secretariat,
+IAAS,Intergovernmental and Aboriginal Affairs Secretariat,Intergovernmental and Aboriginal Affairs
 IBRD,"Innovation, Business and Rural Development",
+IGA,Intergovernmental Affairs Secretariat,
 JPS,Justice and Public Safety,
 JUS,Justice,Justice and Public Safety
 LAAO,Labrador and Aboriginal Affairs Office,
 LAO,Labrador Affairs Office,
 MIGA,Municipal and Intergovernmental Affairs,
 MPA,Municipal Affairs,
+MA,Municipal Affairs,
 NR,Natural Resources,
 OCIO,Office of the Chief Information Officer,
 OPE,Office of Public Engagement,
-PRE,Premier's Office,
+PB,Fire and Emergency Services,
+PRE,Premier's Office,The Office of the Premier
 SNL,Service NL,
 SWSD,"Seniors, Wellness and Social Development",
 TCR,"Tourism, Culture and Recreation",
