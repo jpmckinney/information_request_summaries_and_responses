@@ -147,7 +147,7 @@ Compare the constructed URLs to the search page's URLs:
 ## Adding a new jurisdiction
 
 * If the source is a single CSV or Excel file:
-    * Add the source URL and data URL to `DATASET_URLS`
+    * Configure the source in `requests_source.rb`
     * Run `rake datasets:download`
     * Inspect the data in `wip`, and add an entry to `TEMPLATES`
 * If the source is an HTML file:
