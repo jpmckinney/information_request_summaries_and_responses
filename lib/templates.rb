@@ -201,11 +201,11 @@ TEMPLATES = {
   'ca_on_greater_sudbury' => {
     'division_id' => 'ocd-division/country:ca/csd:3553005',
     'identifier' => lambda{|data|
-      v = JsonPointer.new(data, '/FILE_NUMBER').value
+      v = JsonPointer.new(data, "/\uFEFFFILE_NUMBER").value
       ['identifier', v.gsub(' ', '')]
     },
     'position' => lambda{|data|
-      v = JsonPointer.new(data, '/FILE_NUMBER').value
+      v = JsonPointer.new(data, "/\uFEFFFILE_NUMBER").value
       ['position', Integer(v.gsub(' ', '').match(/\AFOI\d{4}-(\d{1,3})\z/)[1])]
     },
     'abstract' => '/PUBLIC_DESCRIPTION',
@@ -217,7 +217,7 @@ TEMPLATES = {
     'processing_fee' => decimal_formatter('processing_fee', '/ADDITION_FEES_COLLECTED'),
     'waived_fees' => decimal_formatter('waived_fees', "/TOTAL_AMOUNT\n_OF_FEES_WAIVED"),
     'unpaid_fees' => decimal_formatter('unpaid_fees', '/ FEES_AMOUNT_NOT_PAID '),
-    'date' => date_formatter('date', '/NOTICE_OF_DECISION_SENT', ['%m/%d/%Y', '%d/%m/%Y']),
+    'date' => date_formatter('date', '/NOTICE_OF_DECISION_SENT', ['%m/%d/%Y', '%m/%d%Y', '%d/%m/%Y']),
     'decision' => lambda{|data|
       v = [
         '1_ALL_INFORMATION_DISCLOSED',

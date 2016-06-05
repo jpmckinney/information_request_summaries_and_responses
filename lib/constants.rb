@@ -46,6 +46,7 @@ APPLICANT_TYPES = {
 
   'association' => 'organization',
   'association/group' => 'organization',
+  'association/ group' => 'organization',
   'interest group' => 'organization',
   'organization/interest group' => 'organization',
   'political party' => 'organization',
