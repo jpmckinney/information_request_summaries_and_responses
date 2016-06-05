@@ -54,6 +54,9 @@ def mapping_formatter(property, path, map = {})
   }
 end
 
+SORT_KEYS = {
+  'ca_ab_edmonton' => 'identifier',
+}
 # The order of the keys should be the same as in the schema.
 TEMPLATES = {
   'ca' => {
@@ -62,7 +65,7 @@ TEMPLATES = {
     'organization' => '/organization',
     'date' => lambda{|data|
       year = Integer(JsonPointer.new(data, '/year').value)
-      month = Integer(JsonPointer.new(data, '/month').value)
+      month = [Integer(JsonPointer.new(data, '/month').value), 1].max # 0 occurs
       ['date', Date.new(year, month, 1).strftime('%Y-%m')]
     },
     'abstract' => lambda{|data|
@@ -100,12 +103,7 @@ TEMPLATES = {
       end
       ['classification', v]
     },
-    'applicant_type' => mapping_formatter('applicant_type', '/Request Source', {
-      'academic/researcher' => 'academia',
-      'business/commercial' => 'business',
-      'general public' => 'public',
-      'organization/interest group' => 'organization',
-    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/Request Source', APPLICANT_TYPES),
     'date_accepted' => date_formatter('date_accepted', '/Date Received', ['%Y-%m-%d', '%m-%d-%Y']),
     'date' => date_formatter('date', '/Date Completed', ['%Y-%m-%d', '%m-%d-%Y', '%Y-%m%d']),
     'decision' => '/Disclosure Decision',
@@ -118,11 +116,7 @@ TEMPLATES = {
       ['position', Integer(v.match(/\A\d{4}-0*(\d+)(?:-\d{3})?\z/)[1])]
     },
     'abstract' => '/Request Summary',
-    'classification' => mapping_formatter('classification', '/Request Type', {
-      'consult' => 'consult',
-      'general (continuing)' => 'general',
-      'investigation' => nil, # review, privacy complaint
-    }),
+    'classification' => mapping_formatter('classification', '/Request Type', CLASSIFICATIONS),
     'date_accepted' => date_formatter('date_accepted', '/Date Received', ['%B %d %Y']),
     'date' => date_formatter('date', '/Closed Date', ['%B %d %Y']),
   },
@@ -133,15 +127,7 @@ TEMPLATES = {
     'position' => '/position',
     'abstract' => '/abstract',
     'organization' => '/organization',
-    'applicant_type' => mapping_formatter('applicant_type', '/applicant_type', {
-      'individual' => 'public',
-      'interest group' => 'organization',
-      'law firm' => 'business',
-      'other governments' => 'government',
-      'other public body' => 'government',
-      'political party' => 'organization',
-      'researcher' => 'academia',
-    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/applicant_type', APPLICANT_TYPES),
     'processing_fee' => '/processing_fee',
     'date' => '/date',
     'url' => lambda{|data|
@@ -205,19 +191,11 @@ TEMPLATES = {
   },
   'ca_on_burlington' => {
     'division_id' => 'ocd-division/country:ca/csd:3524002',
-    'position' => integer_formatter('position', '/No.'),
-    'organization' => '/Dept Contact',
-    'classification' => mapping_formatter('classification', '/Request Type', {
-      'general records' => 'general',
-      'personal information' => 'personal',
-    }),
-    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
-      'association/group' => 'organization',
-      'business' => 'business',
-      'individual/public' => 'public',
-      'media' => 'media',
-    }),
-    'date' => '/Year',
+    'position' => integer_formatter('position', '/No'),
+    'organization' => '/Dept_Contact',
+    'classification' => mapping_formatter('classification', '/Request_Tyoe', CLASSIFICATIONS),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', APPLICANT_TYPES),
+    'date' => "/\uFEFFYear",
     'decision' => '/Decision',
   },
   'ca_on_greater_sudbury' => {
@@ -233,11 +211,7 @@ TEMPLATES = {
     'abstract' => '/PUBLIC_DESCRIPTION',
     'organization' => '/DEPARTMENT',
     'classification' => mapping_formatter('classification', '/PERSONAL_OR_GENERAL'),
-    'applicant_type' => mapping_formatter('applicant_type', '/SOURCE_OF_REQUESTS', {
-      'agent' => nil,
-      'individual' => 'public',
-      'individual by agent' => 'public',
-    }),
+    'applicant_type' => mapping_formatter('applicant_type', '/SOURCE_OF_REQUESTS', APPLICANT_TYPES),
     'date_accepted' => date_formatter('date_accepted', '/DATE_RECEIVED', ['%m/%d/%Y']),
     'application_fee' => decimal_formatter('application_fee', '/APPLICATION_FEES_COLLECTED'),
     'processing_fee' => decimal_formatter('processing_fee', '/ADDITION_FEES_COLLECTED'),
@@ -280,25 +254,11 @@ TEMPLATES = {
     'identifier' => '/Request_Number',
     'position' => lambda{|data|
       v = JsonPointer.new(data, '/Request_Number').value
-      ['position', v.strip.empty? ? nil : Integer(v.match(/\A(?:AG|AP|COR|PHI)-\d{4}-0*(\d+)\z/)[1])]
+      ['position', v.nil? || v.strip.empty? ? nil : Integer(v.match(/\A(?:AG|AP|COR|PHI)-\d{4}-0*(\d+)\z/)[1])]
     },
     'abstract' => '/Summary',
-    'classification' => mapping_formatter('classification', '/Request_Type', {
-      'general records' => 'general',
-      'personal information' => 'personal',
-      'personal health information' => 'personal',
-      'correction of personal information' => 'personal',
-    }),
-    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
-      'academic/researcher' => 'academia',
-      'association' => 'organization',
-      'fire reports' => nil,
-      'formal' => nil,
-      'individual by agent' => 'public',
-      'other' => nil,
-      'researcher' => 'academia',
-      'sensitive' => nil,
-    }),
+    'classification' => mapping_formatter('classification', '/Request_Type', CLASSIFICATIONS),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', APPLICANT_TYPES),
     'date_accepted' => date_formatter('date_accepted', '/Date_Complete_Received', ['%Y-%m-%d', '%B %e, %Y']),
     'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d', '%B %e, %Y']),
     'decision' => '/Name',
@@ -311,20 +271,8 @@ TEMPLATES = {
       v = JsonPointer.new(data, '/Request Number').value
       ['position', Integer(v.match(/0*(\d{1,3})\z/)[1])]
     },
-    'classification' => mapping_formatter('classification', '/Request Type', {
-      'correction' => 'personal',
-      'general information' => 'general',
-      'general records' => 'general',
-      'personal health information' => 'personal',
-      'personal health information/general informaiton' => 'mixed',
-      'personal health information/general information' => 'mixed',
-      'personal information' => 'personal',
-      'personal information/general information' => 'mixed',
-    }),
-    'applicant_type' => mapping_formatter('applicant_type', '/Source', {
-      'individual by agent' => 'public',
-      'business by agent' => 'business',
-    }),
+    'classification' => mapping_formatter('classification', '/Request Type', CLASSIFICATIONS),
+    'applicant_type' => mapping_formatter('applicant_type', '/Source', APPLICANT_TYPES),
     'abstract' => '/Summary of Request',
     'decision' => '/Decision',
   },
