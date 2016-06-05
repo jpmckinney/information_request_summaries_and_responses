@@ -226,6 +226,9 @@ end
   jurisdiction_code: 'ca_on_waterloo_region',
   source_url: 'http://www.regionofwaterloo.ca/en/regionalGovernment/Freedom_of_Information_Requests.asp',
   xpath: '//table[@class="datatable"]//ul//@href',
+  command: ->(input, output) {
+    "in2csv #{Shellwords.escape(input)} | grep -v a,b,c,d,e,f,g,h"
+  },
 }].map do |attributes|
   RequestsSource.new(attributes)
 end
