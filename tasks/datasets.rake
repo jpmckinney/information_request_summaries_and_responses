@@ -114,8 +114,11 @@ namespace :datasets do
   desc 'Searches Namara.io for datasets'
   task :search do
     query = ENV['query']
+    username = ENV['username']
+    password = ENV['password']
 
-    assert('usage: bundle exec rake datasets:search query=<query>'){query}
+    assert('usage: bundle exec rake datasets:search query=<query> username=<username> password=<password>'){query && username && password}
+    exit unless query && username && password
 
     ignore = [
       'Cybertech_Systems_&_Software',
@@ -127,10 +130,14 @@ namespace :datasets do
 
     page = 1
     begin
-      response = client.get do |request|
-        request.url "https://api.namara.io/v0/data_sets?search[query]=#{CGI.escape(query)}&search[page]=#{page}"
-        request.headers['Accept'] = 'application/json'
-      end
+      response = client.post('https://api.namara.io/users/sign_in', {
+        user: {
+          email: username,
+          password: password,
+        },
+      })
+
+      response = client.get("https://api.namara.io/v0/data_sets?search[query]=#{CGI.escape(query)}&search[page]=#{page}", {}, {'Accept' => 'application/json'})
       response.body['data_sets'].each do |dataset|
         key = dataset['source']['key']
         if key[/\ACA\b/]

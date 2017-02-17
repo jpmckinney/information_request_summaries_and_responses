@@ -5,6 +5,7 @@ require 'erb'
 require 'open-uri'
 require 'open3'
 
+require 'faraday-cookie_jar'
 require 'fog'
 require 'nokogiri'
 require 'pupa'
