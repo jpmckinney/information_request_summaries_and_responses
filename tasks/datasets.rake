@@ -122,6 +122,7 @@ namespace :datasets do
 
     ignore = [
       'Cybertech_Systems_&_Software',
+      'Jersey_City_Community',
       'North_American_Cartographic_Information_Society',
       'OpenDataDC',
       'Sunlight_Labs',
@@ -142,7 +143,7 @@ namespace :datasets do
         key = dataset['source']['key']
         if key[/\ACA\b/]
           dataset['data_set_metas'].each_with_index do |meta,index|
-            url = meta['page_url'] || dataset['data_resources'][index].fetch('url')
+            url = meta['page_url'] || dataset['data_resources'][index] && dataset['data_resources'][index]['url']
             puts "#{meta.fetch('title')[0, 60].ljust(60)} #{url}"
           end
         elsif !key[ignore_re]
