@@ -159,6 +159,14 @@ class NL < Processor
     end
   end
 
+  def overview
+    CSV.generate_line(['id', 'title', 'url', 'tags', 'text'])
+    collection.find(division_id: DIVISION_ID).no_cursor_timeout.each do |response|
+      # TODO
+      Docsplit::TextExtractor.new.extract([], {})
+    end
+  end
+
   def reconcile
     # Identifiers may change year from one system to another, and not always in
     # the same direction. It's unclear which is correct.
@@ -192,7 +200,7 @@ class NL < Processor
       else
         # Ignore calculated attributes.
         response = response.except('_id', '_type', 'created_at', 'updated_at')
-        identifiers = response['identifier'].strip.scan(%r{[A-Z]{2,5}/\d{1,2}/\d{4}})
+        identifiers = response['identifier'].strip.scan(%r{[A-Z]{2,5}/\d{1,3}/\d{4}})
 
         identifiers.each do |identifier|
           key = identifier[0..-2]
@@ -389,4 +397,5 @@ runner.add_action(name: 'download', description: 'Download responses')
 runner.add_action(name: 'compress', description: 'Compress responses')
 runner.add_action(name: 'upload', description: 'Upload responses as ZIP archives')
 runner.add_action(name: 'reconcile', description: 'Merge CSV data')
+runner.add_action(name: 'overview', description: 'Produce a CSV to upload to Overview')
 runner.run(ARGV)
