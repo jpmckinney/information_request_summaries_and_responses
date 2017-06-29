@@ -2,7 +2,7 @@ require 'csv'
 require 'digest/sha1'
 require 'open3'
 
-require 'docsplit'
+# require 'docsplit'
 require 'fog'
 require 'nokogiri'
 require 'oxcelix'

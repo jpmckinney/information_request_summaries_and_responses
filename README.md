@@ -19,7 +19,7 @@ Download the single-file sources to the `wip/` directory:
 
 Or, download one jurisdiction:
 
-    jurisdiction=ca bundle exec rake datasets:download
+    bundle exec rake datasets:download jurisdiction=ca
 
 Run the [British Columbia](#british-columbia), [Newfoundland and Labrador](#newfoundland-and-labrador), and [municipal](#municipalities) scripts to download the multiple-file sources.
 
@@ -29,7 +29,7 @@ Normalize the summaries to the `summaries` directory:
 
 Or, normalize one jurisdiction:
 
-    jurisdiction=ca bundle exec rake datasets:normalize
+    bundle exec rake datasets:normalize jurisdiction=ca
 
 Reconcile NL's scraped data with its open data, rewriting its files in the `summaries` directory:
 
@@ -45,7 +45,7 @@ Validate that the decision and the number of pages agree:
 
 To find additional sources, search for datasets across multiple catalogs with Namara.io:
 
-    query="freedom of information" rake datasets:search
+    rake datasets:search query="freedom of information"
 
 ### British Columbia
 
@@ -173,6 +173,7 @@ This project does not publish all data elements published by jurisdictions, prim
 * Edmonton: status
 * Burlington: exemptions, time to complete
 * Greater Sudbury: status, time to complete, notice of extension, notice to affected party, exemptions, appeal number
+* Toronto: exemptions
 
 ## Reference
 

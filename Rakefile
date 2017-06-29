@@ -22,7 +22,7 @@ def assert(message)
 end
 
 def client
-  @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 604800, level: 'WARN') # 1 week
+  @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 604800, level: 'WARN', faraday_options: {follow_redirects: {}}) # 1 week
 end
 
 def load_yaml(basename)

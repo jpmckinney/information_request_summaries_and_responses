@@ -261,7 +261,9 @@ TEMPLATES = {
     'applicant_type' => mapping_formatter('applicant_type', '/Source', APPLICANT_TYPES),
     'date_accepted' => date_formatter('date_accepted', '/Date_Complete_Received', ['%Y-%m-%d', '%B %e, %Y']),
     'date' => date_formatter('date', '/Decision_Communicated', ['%d-%m-%Y', '%Y-%m-%d', '%B %e, %Y']),
-    'decision' => '/Name',
+    'decision' => lambda{|data|
+      ['decision', JsonPointer.new(data, '/Disposition').value || JsonPointer.new(data, '/Name').value]
+    },
     'number_of_pages' => integer_formatter('number_of_pages', '/Number_of_Pages_Released'),
   },
   'ca_on_waterloo_region' => {

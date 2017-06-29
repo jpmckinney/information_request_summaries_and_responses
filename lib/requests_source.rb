@@ -27,7 +27,7 @@ class RequestsSource
     #
     # @return [Pupa::Processor::Client.new] an HTTP client
     def client
-      @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 604800, level: 'WARN') # 1 week
+      @client ||= Pupa::Processor::Client.new(cache_dir: '_cache', expires_in: 604800, level: 'WARN', faraday_options: {follow_redirects: {}}) # 1 week
     end
   end
 
@@ -176,17 +176,18 @@ end
   jurisdiction_code: 'ca',
   source_url: 'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c',
   download_urls: [
-    'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv',
+    'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati.csv',
   ],
 }, {
-  jurisdiction_code: 'ca_ab_calgary',
-  source_url: 'http://www.calgary.ca/CA/City-Clerks/Pages/Freedom-of-Information-and-Protection-of-Privacy/Freedom-of-Information-and-Protection-of-Privacy.aspx',
-  xpath: '//div[@class="cocis-rte-Element-DIV-Sidebar"]//@href',
-  command: ->(input, output) {
-    # Note: Calgary's 2016 XLSX file is not a ZIP file. You must open it in Excel, re-save it, and call in2csv and csvstack manually.
-    "in2csv #{Shellwords.escape(input)} | csvcut -x | grep -v b,c,d,e,f,g,h,i,j"
-  },
-}, {
+# 2017-06-28 Emailed opendata@calgary.ca to re-publish dataset.
+#   jurisdiction_code: 'ca_ab_calgary',
+#   source_url: 'http://www.calgary.ca/CA/City-Clerks/Pages/Freedom-of-Information-and-Protection-of-Privacy/Freedom-of-Information-and-Protection-of-Privacy.aspx',
+#   xpath: '//div[@class="cocis-rte-Element-DIV-Sidebar"]//@href',
+#   command: ->(input, output) {
+#     # Note: Calgary's 2016 XLSX file is not a ZIP file. You must open it in Excel, re-save it, and call in2csv and csvstack manually.
+#     "in2csv #{Shellwords.escape(input)} | csvcut -x | grep -v b,c,d,e,f,g,h,i,j"
+#   },
+# }, {
   jurisdiction_code: 'ca_ab_edmonton',
   source_url: 'https://data.edmonton.ca/City-Administration/FOIP-Requests/u2wt-gn9w',
   download_urls: [
@@ -207,10 +208,11 @@ end
   ],
 }, {
   jurisdiction_code: 'ca_on_greater_sudbury',
-  source_url: 'http://opendata.greatersudbury.ca/datasets/ef090ab4ce104baabadeb4f6d3f0b807_0', # http://opendata.greatersudbury.ca/datasets/2fcda89184b0436b8dd05f5dd2f31bad_0
+  source_url: 'http://opendata.greatersudbury.ca/datasets/ef090ab4ce104baabadeb4f6d3f0b807_0',
   download_urls: [
     'http://opendata.greatersudbury.ca/datasets/ef090ab4ce104baabadeb4f6d3f0b807_0.csv',
-    'http://opendata.greatersudbury.ca/datasets/2fcda89184b0436b8dd05f5dd2f31bad_0.csv',
+    'http://opendata.greatersudbury.ca/datasets/2a9c88dd22a246ffae1f6e78be595fed_0.csv',
+    'http://opendata.greatersudbury.ca/datasets/1c7474e2de9c462a8c32812d6d9ada26_0.csv',
   ],
 }, {
   jurisdiction_code: 'ca_on_toronto',
@@ -218,8 +220,8 @@ end
   xpath: '//div[@class="panel-body"]//@href',
   filter: ->(input) { !input['_Readme.xls'] },
   command: ->(input, output) {
-    # The files from 2011 contain two extra columns.
-    arguments = input['2011'] ? ' -C Jacket_Number,Exemption' : ''
+    # The file from 2011 contain an extra column.
+    arguments = input['2011'] ? ' -C Exemption' : ''
     "in2csv #{Shellwords.escape(input)} | csvcut -x #{arguments}"
   },
 }, {

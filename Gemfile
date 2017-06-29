@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
 
 gem 'faraday-cookie_jar'
 gem 'nokogiri'
@@ -19,5 +18,5 @@ gem 'fog'
 gem 'rubyzip'
 
 # To prepare the CSV to upload to Overview.
-gem 'docsplit', git: 'https://github.com/documentcloud/docsplit.git', branch: 'pdfshaver'
-gem 'pdfshaver'
+# gem 'docsplit', git: 'https://github.com/documentcloud/docsplit.git', branch: 'pdfshaver'
+# gem 'pdfshaver'

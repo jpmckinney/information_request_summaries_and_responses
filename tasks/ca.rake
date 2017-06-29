@@ -81,8 +81,8 @@ namespace :ca do
     output = {}
 
     urls = [
-      'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv',
-      'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/87c909bf-650e-4410-9899-a0665628e0d7/download/atinil.csv',
+      'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati.csv',
+      'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/5a1386a5-ba69-4725-8338-2f26004d7382/download/ati-nil.csv',
     ]
     urls.each do |url|
       ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
@@ -103,7 +103,7 @@ namespace :ca do
   task :histogram do
     counts = Hash.new(0)
 
-    url = 'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv'
+    url = 'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati.csv'
     ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
       if Integer(row['number_of_pages']).nonzero?
         counts[row.fetch('organization_id')] += 1
@@ -316,7 +316,7 @@ END
 
       emails = load_yaml('emails_search_page.yml')
 
-      url = 'http://open.canada.ca/vl/dataset/cab4eb87-d35e-4fda-bfbb-76d6d9a58abc/resource/ce9aa05b-e288-4de9-945c-dbb4e2ffa5b7/download/ati.csv'
+      url = 'http://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati.csv'
       ca_normalize(client.get(url).body.force_encoding('utf-8')).each do |row|
         organization = row.fetch('organization')
         number = row['identifier']
