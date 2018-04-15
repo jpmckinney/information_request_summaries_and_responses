@@ -114,11 +114,10 @@ namespace :datasets do
   desc 'Searches Namara.io for datasets'
   task :search do
     query = ENV['query']
-    username = ENV['username']
-    password = ENV['password']
+    api_key = ENV['api_key']
 
-    assert('usage: bundle exec rake datasets:search query=<query> username=<username> password=<password>'){query && username && password}
-    exit unless query && username && password
+    assert('usage: bundle exec rake datasets:search query=<query> api_key=<api_key>'){query && api_key}
+    exit unless query && api_key
 
     ignore = [
       'Cybertech_Systems_&_Software',
@@ -126,25 +125,21 @@ namespace :datasets do
       'North_American_Cartographic_Information_Society',
       'OpenDataDC',
       'Sunlight_Labs',
+      'ThinkData_Works',
     ]
     ignore_re = /\AUS(?:[_-]|\z)|\A#{ignore.join('|')}\z/
 
+    datasets = {}
     page = 1
     begin
-      response = client.post('https://api.namara.io/users/sign_in', {
-        user: {
-          email: username,
-          password: password,
-        },
-      })
-
-      response = client.get("https://api.namara.io/v0/data_sets?search[query]=#{CGI.escape(query)}&search[page]=#{page}", {}, {'Accept' => 'application/json'})
+      response = client.get("https://api.namara.io/v0/data_sets?search[query]=#{CGI.escape(query)}&search[page]=#{page}&api_key=#{api_key}", {}, {'Accept' => 'application/json'})
       response.body['data_sets'].each do |dataset|
         key = dataset['source']['key']
         if key[/\ACA\b/]
-          dataset['data_set_metas'].each_with_index do |meta,index|
-            url = meta['page_url'] || dataset['data_resources'][index] && dataset['data_resources'][index]['url']
-            puts "#{meta.fetch('title')[0, 60].ljust(60)} #{url}"
+          url = dataset['source']['url']
+          datasets[url] ||= []
+          dataset['data_set_metas'].each do |meta|
+            datasets[url] << meta.fetch('title')[0, 60].ljust(60)
           end
         elsif !key[ignore_re]
           p key
@@ -152,6 +147,14 @@ namespace :datasets do
       end
       page += 1
     end until response.body['data_sets'].empty?
+
+    datasets.each do |url,titles|
+      puts url
+      titles.each do |title|
+        puts "- #{title}"
+      end
+      puts
+    end
   end
 
   desc 'Downloads datasets'
